@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15 06:08",
+  "updatedAt": "2026-11-15 07:06",
   "schedules": [
     {
       "port": "평택",
@@ -406,6 +406,13 @@
       "callSign": "-",
       "station": "JANG - LNG1",
       "time": "11-15 08:30"
+    },
+    {
+      "port": "인천",
+      "vessel": "SKY TIARA",
+      "callSign": "-",
+      "station": "HJIT3 - NPPS",
+      "time": "11-15 09:00"
     },
     {
       "port": "인천",
