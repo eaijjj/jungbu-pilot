@@ -339,8 +339,9 @@
       scheduleBody.innerHTML = filtered
         .map((item) => {
           // VesselFinder 지도 메인 URL에 ?name= 파라미터를 붙여 지도에서 해당 선박으로 바로 확대 포커스
-          const searchTarget = (item.callSign && item.callSign !== "-") ? item.callSign : item.vessel;
-          const vfUrl = ["https://vesselfinder.com", "name=" + encodeURIComponent(searchTarget)].join("?");
+                    const searchTarget = item.vessel || item.callSign;
+          const vfUrl = "https://vesselfinder.com" + encodeURIComponent(searchTarget);
+
           return (
             "<tr>" +
               "<td><span class='badge badge-" + item.port + "'>" + item.port + "</span></td>" +
