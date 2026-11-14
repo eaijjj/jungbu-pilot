@@ -14,10 +14,9 @@ HEADERS = {
 
 def fetch_pyeongtaek():
     results = []
-    today_ymd = datetime.now(KST).strftime("%Y%m%d")
     try:
-        # 평택: 기본 GET 및 날짜 파라미터 조회 병행
-        url = f"http://ptpilot.co.kr{today_ymd}"
+        # 평택은 기본 GET 요청으로 오늘/내일 스케줄이 모두 조회됨
+        url = "http://ptpilot.co.kr"
         res = requests.get(url, headers=HEADERS, timeout=15)
         res.encoding = "utf-8"
         soup = BeautifulSoup(res.text, "html.parser")
@@ -28,9 +27,11 @@ def fetch_pyeongtaek():
                 date_idx = next((i for i, v in enumerate(cells) if re.match(r"^\d{2}-\d{2}$", v)), -1)
                 time_idx = next((i for i, v in enumerate(cells) if re.match(r"^\d{2}:\d{2}$", v)), -1)
                 if date_idx != -1 and time_idx != -1 and len(cells) > time_idx + 4:
-                    vessel = cells[time_idx + 2]
-                    from_pt = cells[time_idx + 3]
-                    to_pt = cells[time_idx + 4]
+                    # 긴특 칸 유무에 따라 선박명 위치 판별 (긴특 칸이 비어있으면 바로 다음 칸이 선명)
+                    offset = 1 if cells[time_idx + 1] == "" or len(cells[time_idx + 1]) > 3 else 2
+                    vessel = cells[time_idx + offset]
+                    from_pt = cells[time_idx + offset + 1]
+                    to_pt = cells[time_idx + offset + 2]
                     call_sign = cells[-1] if re.match(r"^[A-Z0-9]{4,8}$", cells[-1]) else "-"
                     results.append({
                         "port": "평택",
@@ -39,20 +40,18 @@ def fetch_pyeongtaek():
                         "station": f"{from_pt} → {to_pt}",
                         "time": f"{cells[date_idx]} {cells[time_idx]}"
                     })
-        if not results:
-            print("평택 HTML 일부:", soup.get_text(" ", strip=True)[:300])
     except Exception as e:
         print("평택 수집 오류:", e)
     return results
 
 def fetch_incheon():
     results = []
-    today_ymd = datetime.now(KST).strftime("%Y-%m-%d")
     today_md = datetime.now(KST).strftime("%m-%d")
     try:
+        # 인천은 기본 GET 요청으로 오늘 스케줄 조회
         url = "http://incheonpilot.com"
-        res = requests.post(url, data={"sdate": today_ymd}, headers=HEADERS, timeout=15)
-        res.encoding = "euc-kr"
+        res = requests.get(url, headers=HEADERS, timeout=15)
+        res.encoding = res.apparent_encoding
         soup = BeautifulSoup(res.text, "html.parser")
         
         for tr in soup.find_all("tr"):
@@ -69,20 +68,17 @@ def fetch_incheon():
                         "station": route,
                         "time": f"{today_md} {cells[time_idx]}"
                     })
-        if not results:
-            print("인천 HTML 일부:", soup.get_text(" ", strip=True)[:300])
     except Exception as e:
         print("인천 수집 오류:", e)
     return results
 
 def fetch_daesan():
     results = []
-    today_str = datetime.now(KST).strftime("%Y/%m/%d")
     today_md = datetime.now(KST).strftime("%m-%d")
     try:
-        # 반드시 www.ds-pilot.co.kr 사용 (리다이렉트 방지를 위해 allow_redirects=False 후 처리)
+        # www. 없는 도메인으로 리다이렉트되는 것을 차단하고 www.ds-pilot.co.kr 직접 호출
         url = "http://ds-pilot.co.kr"
-        res = requests.get(url, headers=HEADERS, timeout=15)
+        res = requests.get(url, headers=HEADERS, timeout=15, allow_redirects=False)
         res.encoding = "utf-8"
         soup = BeautifulSoup(res.text, "html.parser")
         
@@ -100,7 +96,7 @@ def fetch_daesan():
                             "time": f"{today_md} {cells[time_idx]}"
                         })
         if not results:
-            print("대산 HTML 일부:", soup.get_text(" ", strip=True)[:300])
+            print("대산 상태코드:", res.status_code, "응답 일부:", soup.get_text(" ", strip=True)[:200])
     except Exception as e:
         print("대산 수집 오류:", e)
     return results
