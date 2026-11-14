@@ -314,27 +314,23 @@
     const tabButtons = document.querySelectorAll(".tab-btn");
 
     // 초기 데이터 로드 함수
+       // 초기 데이터 로드 함수
     async function init() {
-      // 추후 실제 data.json 파일을 사용할 때는 아래 주석을 해제하여 사용합니다.
-      /*
       try {
         const res = await fetch('./data.json?t=' + new Date().getTime());
         const data = await res.json();
-        allSchedules = data.schedules;
+        allSchedules = data.schedules || [];
         lastUpdatedEl.textContent = `업데이트: ${data.updatedAt}`;
       } catch (e) {
         console.error("데이터 로드 실패:", e);
+        allSchedules = [];
       }
-      */
-
-      // 현재는 샘플 데이터 적용
-      allSchedules = sampleData.schedules;
-      lastUpdatedEl.textContent = `업데이트: ${sampleData.updatedAt}`;
 
       // 시간순 정렬
       allSchedules.sort((a, b) => a.time.localeCompare(b.time));
       renderTable();
     }
+
 
     // 화면 렌더링 함수
     function renderTable() {
