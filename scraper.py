@@ -26,7 +26,7 @@ def scrape_all():
         )
         page = context.new_page()
 
-        # 1. 평택당진도선사회 (긴특 칸 유무에 따른 선명 밀림 완벽 보정)
+        # 1. 평택당진도선사회
         try:
             page.goto("http://ptpilot.co.kr", timeout=25000, wait_until="domcontentloaded")
             page.wait_for_timeout(1000)
@@ -41,7 +41,6 @@ def scrape_all():
                         date_idx = next((i for i, v in enumerate(cells) if re.match(r"^\d{2}-\d{2}$", v)), -1)
                         time_idx = next((i for i, v in enumerate(cells) if re.match(r"^\d{2}:\d{2}$", v)), -1)
                         if date_idx != -1 and time_idx != -1 and len(cells) > time_idx + 3:
-                            # 긴특 칸: 비어있거나(''), 영문 대문자 2글자 이상 선박명이 아닌 짧은 한글/숫자 코드('가', '특', '가특', '협특', '저', '특2' 등)
                             next_val = cells[time_idx + 1]
                             is_remark = (next_val == "") or (len(next_val) <= 3 and not re.match(r"^[A-Z]{2,3}$", next_val))
                             offset = 2 if is_remark else 1
@@ -63,7 +62,7 @@ def scrape_all():
         except Exception as e:
             print("평택 오류:", e)
 
-        # 2. 인천항도선사회
+        # 2. 인천항도선사회 (cells.isdigit() 수정 완료)
         try:
             page.goto("http://incheonpilot.com", timeout=25000, wait_until="domcontentloaded")
             page.wait_for_timeout(1000)
@@ -90,18 +89,13 @@ def scrape_all():
         except Exception as e:
             print("인천 오류:", e)
 
-        # 3. 대산항도선사회 (레이어 팝업 제거 후 전체 스케줄 추출)
+        # 3. 대산항도선사회
         try:
             page.goto("http://ds-pilot.co.kr", timeout=25000, wait_until="domcontentloaded")
             page.wait_for_timeout(1000)
             page.evaluate("location.href = '/forecast/status'")
             page.wait_for_timeout(3000)
-
-            # 팝업 닫기 및 숨겨진 팝업 레이어 제거
-            page.evaluate("""
-                document.querySelectorAll('[id*="popup"], .popup, .layer_pop').forEach(el => el.remove());
-            """)
-            page.wait_for_timeout(1000)
+            page.evaluate("document.querySelectorAll('[id*=\"popup\"], .popup, .layer_pop').forEach(el => el.remove());")
 
             ds_count = 0
             for frame in page.frames:
