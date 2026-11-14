@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15 07:06",
+  "updatedAt": "2026-11-15 08:04",
   "schedules": [
     {
       "port": "평택",
@@ -423,13 +423,6 @@
     },
     {
       "port": "인천",
-      "vessel": "SM GOSEONG",
-      "callSign": "-",
-      "station": "YHD3 - DONG",
-      "time": "11-15 12:00"
-    },
-    {
-      "port": "인천",
       "vessel": "ZL KUN",
       "callSign": "-",
       "station": "N43 - PAL",
@@ -444,10 +437,10 @@
     },
     {
       "port": "인천",
-      "vessel": "PEDHOULAS TRADER",
+      "vessel": "SM GOSEONG",
       "callSign": "-",
-      "station": "YHD1 - DONG",
-      "time": "11-15 13:00"
+      "station": "YHD3 - DONG",
+      "time": "11-15 13:30"
     },
     {
       "port": "인천",
@@ -455,6 +448,13 @@
       "callSign": "-",
       "station": "PAL - N53",
       "time": "11-15 13:30"
+    },
+    {
+      "port": "인천",
+      "vessel": "PEDHOULAS TRADER",
+      "callSign": "-",
+      "station": "YHD1 - DONG",
+      "time": "11-15 14:30"
     },
     {
       "port": "인천",
