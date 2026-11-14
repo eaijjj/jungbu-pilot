@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>서해 중부 통합 도선 스케줄 (인천·평택)</title>
+  <title>서해 중부 통합 도선 스케줄 (인천·평택·대산)</title>
   <style>
     :root {
       --bg-color: #f4f6f9;
@@ -264,7 +264,7 @@
         <tbody id="scheduleBody"></tbody>
       </table>
       <div id="emptyState" class="empty-state" style="display: none;">
-        조건에 맞는 도선 스케줄이 없습니다.
+        현재 시각 기준 표시할 도선 스케줄이 없습니다.
       </div>
     </div>
   </div>
@@ -280,13 +280,29 @@
     const searchInput = document.getElementById("searchInput");
     const tabButtons = document.querySelectorAll(".tab-btn");
 
+    // "MM-DD HH:MM" 문자열을 현재 연도 기준 Date 객체로 변환
+    function parseScheduleTime(timeStr) {
+      const now = new Date();
+      const parts = timeStr.trim().split(" ");
+      if (parts.length !== 2) return null;
+      const [md, hm] = parts;
+      const [month, day] = md.split("-").map(Number);
+      const [hour, minute] = hm.split(":").map(Number);
+      if (!month || !day || isNaN(hour) || isNaN(minute)) return null;
+
+      let year = now.getFullYear();
+      // 연말(12월)에 내년 1월 스케줄이 뜰 경우 연도 보정
+      if (now.getMonth() === 11 && month === 1) year += 1;
+      return new Date(year, month - 1, day, hour, minute, 0);
+    }
+
     async function init() {
       try {
         const res = await fetch('./data.json?t=' + new Date().getTime());
         if (!res.ok) throw new Error("HTTP " + res.status);
         const data = await res.json();
         allSchedules = data.schedules || [];
-        lastUpdatedEl.textContent = "업데이트: " + (data.updatedAt || "-");
+        lastUpdatedEl.textContent = "업데이트: " + (data.updatedAt || "-") + " (1시간 전~이후 표시)";
       } catch (e) {
         console.error("데이터 로드 실패:", e);
         lastUpdatedEl.textContent = "업데이트: 데이터 로드 실패";
@@ -298,18 +314,16 @@
     }
 
     function renderTable() {
-      if (currentPort === "대산") {
-        const hasDaesan = allSchedules.some((item) => item.port === "대산");
-        if (!hasDaesan) {
-          scheduleBody.innerHTML = "";
-          emptyState.innerHTML = "대산항도선사회는 회원 로그인 후 스케줄 열람이 가능하여 자동 수집이 제한됩니다.<br><a href='http://ds-pilot.co.kr' target='_blank' style='color:#1d4ed8; font-weight:600;'>대산항도선사회 공식 페이지 바로가기 →</a>";
-          emptyState.style.display = "block";
-          return;
-        }
-      }
-
+      const now = new Date();
+      const oneHourAgo = new Date(now.getTime() - 60 * 60 * 1000);
       const keyword = searchKeyword.toLowerCase();
+
       const filtered = allSchedules.filter((item) => {
+        // 1. 현재 시각 기준 1시간 전 ~ 이후 스케줄만 필터링
+        const itemDate = parseScheduleTime(item.time);
+        if (itemDate && itemDate < oneHourAgo) return false;
+
+        // 2. 항구 및 검색어 필터링
         const matchPort = currentPort === "ALL" || item.port === currentPort;
         const matchSearch =
           !keyword ||
@@ -321,7 +335,6 @@
 
       if (filtered.length === 0) {
         scheduleBody.innerHTML = "";
-        emptyState.textContent = "조건에 맞는 도선 스케줄이 없습니다.";
         emptyState.style.display = "block";
         return;
       }
@@ -330,7 +343,7 @@
       scheduleBody.innerHTML = filtered
         .map((item) => {
           const searchTarget = (item.callSign && item.callSign !== "-") ? item.callSign : item.vessel;
-          const vfUrl = "https://vesselfinder.com" + encodeURIComponent(searchTarget);
+          const vfUrl = ["https://vesselfinder.com", "name=" + encodeURIComponent(searchTarget)].join("?");
           return (
             "<tr>" +
               "<td><span class='badge badge-" + item.port + "'>" + item.port + "</span></td>" +
