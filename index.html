@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>서해 중부 통합 도선 스케줄 (인천·평택·대산)</title>
+  <style>
+    :root {
+      --bg-color: #f4f6f9;
+      --card-bg: #ffffff;
+      --text-main: #1f2937;
+      --text-sub: #6b7280;
+      --border-color: #e5e7eb;
+      --primary: #1d4ed8;
+      --incheon-bg: #dbeafe;
+      --incheon-text: #1e40af;
+      --pyeongtaek-bg: #dcfce7;
+      --pyeongtaek-text: #166534;
+      --daesan-bg: #ffedd5;
+      --daesan-text: #9a3412;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Pretendard", sans-serif;
+    }
+
+    body {
+      background-color: var(--bg-color);
+      color: var(--text-main);
+      padding: 16px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    /* 헤더 영역 */
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 16px;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    h1 {
+      font-size: 1.25rem;
+      font-weight: 700;
+    }
+
+    .update-info {
+      font-size: 0.8rem;
+      color: var(--text-sub);
+    }
+
+    /* 컨트롤 영역 (항구 탭 + 검색창) */
+    .controls {
+      background: var(--card-bg);
+      padding: 12px;
+      border-radius: 12px;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+      margin-bottom: 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .tabs {
+      display: flex;
+      gap: 6px;
+      overflow-x: auto;
+    }
+
+    .tab-btn {
+      flex: 1;
+      padding: 8px 12px;
+      border: 1px solid var(--border-color);
+      background: #fff;
+      border-radius: 8px;
+      font-size: 0.9rem;
+      font-weight: 600;
+      color: var(--text-sub);
+      cursor: pointer;
+      transition: all 0.15s;
+      white-space: nowrap;
+    }
+
+    .tab-btn.active {
+      background: var(--primary);
+      color: #fff;
+      border-color: var(--primary);
+    }
+
+    .search-box {
+      display: flex;
+      gap: 8px;
+    }
+
+    .search-box input {
+      flex: 1;
+      padding: 10px 12px;
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      font-size: 0.95rem;
+      outline: none;
+    }
+
+    .search-box input:focus {
+      border-color: var(--primary);
+    }
+
+    /* 테이블 / 카드 리스트 영역 */
+    .table-wrapper {
+      background: var(--card-bg);
+      border-radius: 12px;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+      overflow: hidden;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+    }
+
+    th {
+      background: #f9fafb;
+      padding: 12px 14px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--text-sub);
+      border-bottom: 1px solid var(--border-color);
+    }
+
+    td {
+      padding: 12px 14px;
+      font-size: 0.92rem;
+      border-bottom: 1px solid var(--border-color);
+      vertical-align: middle;
+    }
+
+    tr:last-child td {
+      border-bottom: none;
+    }
+
+    /* 항구 배지 스타일 */
+    .badge {
+      display: inline-block;
+      padding: 4px 8px;
+      border-radius: 6px;
+      font-size: 0.78rem;
+      font-weight: 700;
+    }
+
+    .badge-인천 { background: var(--incheon-bg); color: var(--incheon-text); }
+    .badge-평택 { background: var(--pyeongtaek-bg); color: var(--pyeongtaek-text); }
+    .badge-대산 { background: var(--daesan-bg); color: var(--daesan-text); }
+
+    .vessel-name {
+      font-weight: 700;
+      color: var(--text-main);
+    }
+
+    .call-sign {
+      font-family: monospace;
+      font-size: 0.88rem;
+      color: var(--text-sub);
+    }
+
+    .pilot-time {
+      font-weight: 600;
+      color: #111827;
+    }
+
+    /* 외부 AIS 위치 링크 버튼 */
+    .ais-link {
+      display: inline-block;
+      padding: 6px 10px;
+      background: #eff6ff;
+      color: var(--primary);
+      text-decoration: none;
+      border-radius: 6px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      white-space: nowrap;
+    }
+
+    .ais-link:hover {
+      background: #dbeafe;
+    }
+
+    .empty-state {
+      text-align: center;
+      padding: 40px 16px;
+      color: var(--text-sub);
+      font-size: 0.95rem;
+    }
+
+    /* 모바일 반응형 처리 (640px 이하에서는 카드 형태로 변환) */
+    @media (max-width: 640px) {
+      thead {
+        display: none;
+      }
+
+      table, tbody, tr, td {
+        display: block;
+        width: 100%;
+      }
+
+      tr {
+        padding: 14px;
+        border-bottom: 1px solid var(--border-color);
+        position: relative;
+      }
+
+      td {
+        padding: 3px 0;
+        border: none;
+      }
+
+      /* 모바일 카드 내부 배치 */
+      .cell-header {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        margin-bottom: 4px;
+      }
+
+      .cell-sub {
+        font-size: 0.85rem;
+        color: var(--text-sub);
+      }
+
+      .cell-action {
+        position: absolute;
+        right: 14px;
+        top: 14px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>⚓ 통합 도선 스케줄 (인천·평택·대산)</h1>
+      <span class="update-info" id="lastUpdated">업데이트: -</span>
+    </header>
+
+    <div class="controls">
+      <div class="tabs" id="portTabs">
+        <button class="tab-btn active" data-port="ALL">전체</button>
+        <button class="tab-btn" data-port="인천">인천</button>
+        <button class="tab-btn" data-port="평택">평택</button>
+        <button class="tab-btn" data-port="대산">대산</button>
+      </div>
+      <div class="search-box">
+        <input
+          type="text"
+          id="searchInput"
+          placeholder="선박명 또는 콜사인(Call Sign) 검색..."
+        />
+      </div>
+    </div>
+
+    <div class="table-wrapper">
+      <table>
+        <thead>
+          <tr>
+            <th>항구</th>
+            <th>선박명</th>
+            <th>콜사인</th>
+            <th>도선점</th>
+            <th>도선시간</th>
+            <th>실시간 위치</th>
+          </tr>
+        </thead>
+        <tbody id="scheduleBody">
+          <!-- 자바스크립트로 데이터가 채워집니다 -->
+        </tbody>
+      </table>
+      <div id="emptyState" class="empty-state" style="display: none;">
+        조건에 맞는 도선 스케줄이 없습니다.
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // 1. 샘플 데이터 (추후 Python 크롤러가 생성한 data.json 파일로 대체할 부분입니다)
+    const sampleData = {
+      updatedAt: "2026-11-14 19:40",
+      schedules: [
+        { port: "인천", vessel: "HYUNDAI BRAVE", callSign: "D5AA2", station: "팔미도", time: "11-14 20:30" },
+        { port: "평택", vessel: "PAN STAR", callSign: "3FXY9", station: "입파도", time: "11-14 21:00" },
+        { port: "대산", vessel: "SK ENERGY", callSign: "DSQZ4", station: "대산도선점", time: "11-14 21:15" },
+        { port: "인천", vessel: "MSC OSCAR", callSign: "3FIZ6", station: "장안서", time: "11-14 22:00" },
+        { port: "대산", vessel: "HANWHA TOTAL", callSign: "9V8812", station: "대산도선점", time: "11-14 23:10" },
+        { port: "평택", vessel: "POSCO DREAM", callSign: "D7LM1", station: "입파도", time: "11-15 00:30" }
+      ]
+    };
+
+    let currentPort = "ALL";
+    let searchKeyword = "";
+    let allSchedules = [];
+
+    const scheduleBody = document.getElementById("scheduleBody");
+    const emptyState = document.getElementById("emptyState");
+    const lastUpdatedEl = document.getElementById("lastUpdated");
+    const searchInput = document.getElementById("searchInput");
+    const tabButtons = document.querySelectorAll(".tab-btn");
+
+    // 초기 데이터 로드 함수
+    async function init() {
+      // 추후 실제 data.json 파일을 사용할 때는 아래 주석을 해제하여 사용합니다.
+      /*
+      try {
+        const res = await fetch('./data.json?t=' + new Date().getTime());
+        const data = await res.json();
+        allSchedules = data.schedules;
+        lastUpdatedEl.textContent = `업데이트: ${data.updatedAt}`;
+      } catch (e) {
+        console.error("데이터 로드 실패:", e);
+      }
+      */
+
+      // 현재는 샘플 데이터 적용
+      allSchedules = sampleData.schedules;
+      lastUpdatedEl.textContent = `업데이트: ${sampleData.updatedAt}`;
+
+      // 시간순 정렬
+      allSchedules.sort((a, b) => a.time.localeCompare(b.time));
+      renderTable();
+    }
+
+    // 화면 렌더링 함수
+    function renderTable() {
+      const filtered = allSchedules.filter((item) => {
+        const matchPort = currentPort === "ALL" || item.port === currentPort;
+        const keyword = searchKeyword.trim().toLowerCase();
+        const matchSearch =
+          !keyword ||
+          item.vessel.toLowerCase().includes(keyword) ||
+          item.callSign.toLowerCase().includes(keyword);
+        return matchPort && matchSearch;
+      });
+
+      scheduleBody.innerHTML = "";
+
+      if (filtered.length === 0) {
+        emptyState.style.display = "block";
+        return;
+      }
+
+      emptyState.style.display = "none";
+
+      filtered.forEach((item) => {
+        // VesselFinder 검색 링크 생성 (콜사인 기준)
+        const vfUrl = `https://vesselfinder.com{encodeURIComponent(item.callSign)}`;
+
+        const tr = document.createElement("tr");
+        const isMobile = window.innerWidth <= 640;
+
+        if (isMobile) {
+          // 모바일 카드형 레이아웃
+          tr.innerHTML = `
+            <td class="cell-header">
+              <span class="badge badge-${item.port}">${item.port}</span>
+              <span class="vessel-name">${item.vessel}</span>
+            </td>
+            <td class="cell-sub">콜사인: <span class="call-sign">${item.callSign}</span> · 도선점: ${item.station}</td>
+            <td class="pilot-time">⏰ ${item.time}</td>
+            <td class="cell-action">
+              <a href="${vfUrl}" target="_blank" rel="noopener noreferrer" class="ais-link">위치보기 ↗</a>
+            </td>
+          `;
+        } else {
+          // PC 테이블형 레이아웃
+          tr.innerHTML = `
+            <td><span class="badge badge-${item.port}">${item.port}</span></td>
+            <td class="vessel-name">${item.vessel}</td>
+            <td class="call-sign">${item.callSign}</td>
+            <td>${item.station}</td>
+            <td class="pilot-time">${item.time}</td>
+            <td>
