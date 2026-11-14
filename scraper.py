@@ -53,7 +53,7 @@ def scrape_all():
         except Exception as e:
             print("평택 오류:", e)
 
-        # 2. 인천항도선사회 (인덱스 오타 완전 제거)
+        # 2. 인천항도선사회 (인덱스 기호 없이 time_idx == 2 조건으로 안전 추출)
         try:
             page.goto("http://incheonpilot.com", timeout=25000, wait_until="domcontentloaded")
             page.wait_for_timeout(1000)
@@ -64,18 +64,21 @@ def scrape_all():
             for frame in page.frames:
                 for r in frame.locator("tr").all():
                     cells = [c.inner_text().strip() for c in r.locator("td").all()]
-                    if len(cells) >= 6 and re.match(r"^\d+$", cells):
+                    if len(cells) >= 8:
                         time_idx = next((i for i, v in enumerate(cells) if re.match(r"^\d{2}:\d{2}$", v)), -1)
-                        if time_idx != -1 and len(cells) > time_idx + 2:
-                            route = next((v for v in cells[time_idx+2:time_idx+5] if "-" in v), cells[time_idx + 2])
-                            all_data.append({
-                                "port": "인천",
-                                "vessel": cells[time_idx + 1],
-                                "callSign": "-",
-                                "station": route,
-                                "time": f"{today_md} {cells[time_idx]}"
-                            })
-                            ic_count += 1
+                        # 인천 표 구조: No(0), 도선사(1), 시간(2), 선명(3), 갑문/구간...
+                        if time_idx == 2 and len(cells) > 5:
+                            vessel = cells[3]
+                            route = next((v for v in cells[4:7] if "-" in v), cells[4])
+                            if vessel and vessel != "선명":
+                                all_data.append({
+                                    "port": "인천",
+                                    "vessel": vessel,
+                                    "callSign": "-",
+                                    "station": route,
+                                    "time": f"{today_md} {cells[2]}"
+                                })
+                                ic_count += 1
             print(f"인천 수집: {ic_count}건")
         except Exception as e:
             print("인천 오류:", e)
