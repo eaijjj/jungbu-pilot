@@ -1,4 +1,12 @@
 {
-  "updatedAt": "2026-11-14 21:21",
-  "schedules": []
+  "updatedAt": "2026-11-14 21:27",
+  "schedules": [
+    {
+      "port": "대산",
+      "vessel": "일몰시각",
+      "callSign": "-",
+      "station": "17:26",
+      "time": "11-14 07:11"
+    }
+  ]
 }
