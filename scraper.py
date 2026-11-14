@@ -6,23 +6,6 @@ from playwright.sync_api import sync_playwright
 
 KST = timezone(timedelta(hours=9))
 
-def dump_sample_rows(page, port_name):
-    print(f"=== [{port_name}] 페이지 진단 시작 (URL: {page.url}) ===")
-    for f_idx, frame in enumerate(page.frames):
-        try:
-            rows = frame.locator("tr").all()
-            valid_rows = []
-            for r in rows:
-                cells = [c.inner_text().strip().replace("\n", " ") for c in r.locator("td, th").all()]
-                if len(cells) >= 4 and any(":" in c for c in cells):
-                    valid_rows.append(cells)
-            if valid_rows:
-                print(f"  -> 프레임[{f_idx}] ({frame.url[:40]}): 시간 포함 행 {len(valid_rows)}개 발견")
-                for sample in valid_rows[:3]:
-                    print(f"     샘플: {sample}")
-        except Exception:
-            pass
-
 def scrape_all():
     all_data = []
     today_md = datetime.now(KST).strftime("%m-%d")
@@ -43,11 +26,14 @@ def scrape_all():
         )
         page = context.new_page()
 
-        # 1. 평택당진도선사회
+        # 1. 평택당진도선사회 (메인 접속 후 '도선예보' 클릭)
         try:
-            page.goto("http://ptpilot.co.kr", timeout=25000, wait_until="networkidle")
-            page.wait_for_timeout(2000)
-            dump_sample_rows(page, "평택")
+            page.goto("http://www.ptpilot.co.kr/", timeout=25000, wait_until="domcontentloaded")
+            page.wait_for_timeout(1500)
+            page.locator("a:has-text('도선예보'), a:has-text('예보현황조회')").first.click()
+            page.wait_for_timeout(2500)
+
+            pt_count = 0
             for frame in page.frames:
                 for r in frame.locator("tr").all():
                     cells = [c.inner_text().strip() for c in r.locator("td").all()]
@@ -63,14 +49,19 @@ def scrape_all():
                                 "station": f"{cells[time_idx + offset + 1]} → {cells[time_idx + offset + 2]}",
                                 "time": f"{cells[date_idx]} {cells[time_idx]}"
                             })
+                            pt_count += 1
+            print(f"평택 수집: {pt_count}건 (이동 URL: {page.url})")
         except Exception as e:
             print("평택 오류:", e)
 
-        # 2. 인천항도선사회
+        # 2. 인천항도선사회 (메인 접속 후 '도선예보현황' 클릭)
         try:
-            page.goto("http://incheonpilot.com", timeout=25000, wait_until="networkidle")
-            page.wait_for_timeout(2000)
-            dump_sample_rows(page, "인천")
+            page.goto("http://www.incheonpilot.com/", timeout=25000, wait_until="domcontentloaded")
+            page.wait_for_timeout(1500)
+            page.locator("a:has-text('도선예보현황'), a:has-text('예보현황조회')").first.click()
+            page.wait_for_timeout(2500)
+
+            ic_count = 0
             for frame in page.frames:
                 for r in frame.locator("tr").all():
                     cells = [c.inner_text().strip() for c in r.locator("td").all()]
@@ -85,14 +76,34 @@ def scrape_all():
                                 "station": route,
                                 "time": f"{today_md} {cells[time_idx]}"
                             })
+                            ic_count += 1
+            print(f"인천 수집: {ic_count}건 (이동 URL: {page.url})")
         except Exception as e:
             print("인천 오류:", e)
 
-        # 3. 대산항도선사회
+        # 3. 대산항도선사회 (메인 접속 후 '도선예보현황' 클릭)
         try:
-            page.goto("http://ds-pilot.co.kr", timeout=25000, wait_until="networkidle")
-            page.wait_for_timeout(2000)
-            dump_sample_rows(page, "대산")
+            page.goto("http://www.ds-pilot.co.kr/", timeout=25000, wait_until="domcontentloaded")
+            page.wait_for_timeout(1500)
+            page.locator("a:has-text('도선예보현황'), a:has-text('도선예보')").first.click()
+            page.wait_for_timeout(2500)
+
+            ds_count = 0
+            for frame in page.frames:
+                for r in frame.locator("tr").all():
+                    cells = [c.inner_text().strip() for c in r.locator("td").all()]
+                    if len(cells) >= 5:
+                        time_idx = next((i for i, v in enumerate(cells) if re.match(r"^\d{2}:\d{2}$", v)), -1)
+                        if time_idx != -1 and len(cells) > time_idx + 2 and not cells[time_idx + 1].isdigit():
+                            all_data.append({
+                                "port": "대산",
+                                "vessel": cells[time_idx + 1],
+                                "callSign": "-",
+                                "station": cells[time_idx + 2],
+                                "time": f"{today_md} {cells[time_idx]}"
+                            })
+                            ds_count += 1
+            print(f"대산 수집: {ds_count}건 (이동 URL: {page.url})")
         except Exception as e:
             print("대산 오류:", e)
 
