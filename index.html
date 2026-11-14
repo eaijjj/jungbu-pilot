@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>서해 중부 통합 도선 스케줄 (인천·평택·대산)</title>
+  <title>서해 중부 통합 도선 스케줄 (인천·평택)</title>
   <style>
     :root {
       --bg-color: #f4f6f9;
@@ -194,6 +194,7 @@
       padding: 40px 16px;
       color: var(--text-sub);
       font-size: 0.95rem;
+      line-height: 1.6;
     }
 
     @media (max-width: 640px) {
@@ -285,7 +286,7 @@
         if (!res.ok) throw new Error("HTTP " + res.status);
         const data = await res.json();
         allSchedules = data.schedules || [];
-        lastUpdatedEl.textContent = `업데이트: ${data.updatedAt || '-'}`;
+        lastUpdatedEl.textContent = "업데이트: " + (data.updatedAt || "-");
       } catch (e) {
         console.error("데이터 로드 실패:", e);
         lastUpdatedEl.textContent = "업데이트: 데이터 로드 실패";
@@ -297,6 +298,16 @@
     }
 
     function renderTable() {
+      if (currentPort === "대산") {
+        const hasDaesan = allSchedules.some((item) => item.port === "대산");
+        if (!hasDaesan) {
+          scheduleBody.innerHTML = "";
+          emptyState.innerHTML = "대산항도선사회는 회원 로그인 후 스케줄 열람이 가능하여 자동 수집이 제한됩니다.<br><a href='http://ds-pilot.co.kr' target='_blank' style='color:#1d4ed8; font-weight:600;'>대산항도선사회 공식 페이지 바로가기 →</a>";
+          emptyState.style.display = "block";
+          return;
+        }
+      }
+
       const keyword = searchKeyword.toLowerCase();
       const filtered = allSchedules.filter((item) => {
         const matchPort = currentPort === "ALL" || item.port === currentPort;
@@ -310,6 +321,7 @@
 
       if (filtered.length === 0) {
         scheduleBody.innerHTML = "";
+        emptyState.textContent = "조건에 맞는 도선 스케줄이 없습니다.";
         emptyState.style.display = "block";
         return;
       }
@@ -317,20 +329,20 @@
       emptyState.style.display = "none";
       scheduleBody.innerHTML = filtered
         .map((item) => {
-          const query = encodeURIComponent(item.callSign && item.callSign !== "-" ? item.callSign : item.vessel);
-          const vfUrl = `https://vesselfinder.com{query}`;
-          return `
-            <tr>
-              <td><span class="badge badge-${item.port}">${item.port}</span></td>
-              <td class="vessel-name">${item.vessel}</td>
-              <td class="call-sign">${item.callSign || "-"}</td>
-              <td>${item.station}</td>
-              <td class="pilot-time">${item.time}</td>
-              <td class="cell-action">
-                <a href="${vfUrl}" target="_blank" rel="noopener noreferrer" class="ais-link">📍 위치추적</a>
-              </td>
-            </tr>
-          `;
+          const searchTarget = (item.callSign && item.callSign !== "-") ? item.callSign : item.vessel;
+          const vfUrl = "https://vesselfinder.com" + encodeURIComponent(searchTarget);
+          return (
+            "<tr>" +
+              "<td><span class='badge badge-" + item.port + "'>" + item.port + "</span></td>" +
+              "<td class='vessel-name'>" + item.vessel + "</td>" +
+              "<td class='call-sign'>" + (item.callSign || "-") + "</td>" +
+              "<td>" + item.station + "</td>" +
+              "<td class='pilot-time'>" + item.time + "</td>" +
+              "<td class='cell-action'>" +
+                "<a href='" + vfUrl + "' target='_blank' rel='noopener noreferrer' class='ais-link'>📍 위치추적</a>" +
+              "</td>" +
+            "</tr>"
+          );
         })
         .join("");
     }
