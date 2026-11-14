@@ -1,180 +1,12 @@
 {
-  "updatedAt": "2026-11-14 23:37",
+  "updatedAt": "2026-11-15 00:30",
   "schedules": [
     {
       "port": "평택",
-      "vessel": "YONG MOON OTS 1",
-      "callSign": "V2EE9",
-      "station": "IPA → GD9",
-      "time": "11-14 05:30"
-    },
-    {
-      "port": "평택",
-      "vessel": "YONG MOON OTS 1",
-      "callSign": "D7ME",
-      "station": "IPA → GD9",
-      "time": "11-14 05:30"
-    },
-    {
-      "port": "평택",
-      "vessel": "GLOVIS CARDINAL",
-      "callSign": "D7GV",
-      "station": "IPA → E4",
-      "time": "11-14 05:30"
-    },
-    {
-      "port": "평택",
-      "vessel": "ARGENT HIBISCUS",
-      "callSign": "V7B3165",
-      "station": "KHO → IPA",
-      "time": "11-14 06:00"
-    },
-    {
-      "port": "평택",
-      "vessel": "GINGA MAYA",
-      "callSign": "S6US5",
-      "station": "IPA → E12",
-      "time": "11-14 07:30"
-    },
-    {
-      "port": "평택",
-      "vessel": "HANYU FREESIA",
-      "callSign": "5LPG3",
-      "station": "IPA → E10",
-      "time": "11-14 08:00"
-    },
-    {
-      "port": "평택",
-      "vessel": "BW MINDORO",
-      "callSign": "MAKR9",
-      "station": "SK → JANG",
-      "time": "11-14 08:30"
-    },
-    {
-      "port": "평택",
-      "vessel": "DL DIAMOND",
-      "callSign": "DSPQ4",
-      "station": "IPA → E9",
-      "time": "11-14 09:00"
-    },
-    {
-      "port": "평택",
-      "vessel": "MIDSHINE",
-      "callSign": "D6A3121",
-      "station": "IPA → E12",
-      "time": "11-14 09:00"
-    },
-    {
-      "port": "평택",
-      "vessel": "뉴글로벌",
-      "callSign": "DSQH9",
-      "station": "E10 → IPA",
-      "time": "11-14 09:00"
-    },
-    {
-      "port": "평택",
-      "vessel": "NEW GRAND PEACE",
-      "callSign": "H3OX",
-      "station": "IPA → IFT2",
-      "time": "11-14 09:30"
-    },
-    {
-      "port": "평택",
-      "vessel": "YUE XIANG",
-      "callSign": "S9A3339",
-      "station": "HD9 → IPA",
-      "time": "11-14 11:00"
-    },
-    {
-      "port": "평택",
-      "vessel": "SHAO YUN",
-      "callSign": "BPOB2",
-      "station": "E6 → IPA",
-      "time": "11-14 11:00"
-    },
-    {
-      "port": "평택",
-      "vessel": "MODERN LINK",
-      "callSign": "V7B3362",
-      "station": "IPA → E1",
-      "time": "11-14 14:30"
-    },
-    {
-      "port": "평택",
-      "vessel": "FOREVER WIN",
-      "callSign": "VREH6",
-      "station": "IPA → W5",
-      "time": "11-14 15:30"
-    },
-    {
-      "port": "평택",
-      "vessel": "GLOVIS SONIC",
-      "callSign": "D7QT",
-      "station": "E1 → IPA",
-      "time": "11-14 15:30"
-    },
-    {
-      "port": "평택",
-      "vessel": "SITC MOJI",
-      "callSign": "VRKS5",
-      "station": "E8 → IPA",
-      "time": "11-14 16:30"
-    },
-    {
-      "port": "평택",
-      "vessel": "HANYU FREESIA",
-      "callSign": "5LPG3",
-      "station": "E10 → IPA",
-      "time": "11-14 16:30"
-    },
-    {
-      "port": "평택",
-      "vessel": "DONG CHANG",
-      "callSign": "C6KI4",
-      "station": "W6 → IPA",
-      "time": "11-14 17:00"
-    },
-    {
-      "port": "평택",
-      "vessel": "CADWELL",
-      "callSign": "5LTO2",
-      "station": "E2 → IPA",
-      "time": "11-14 19:00"
-    },
-    {
-      "port": "평택",
-      "vessel": "MORNING CAPO",
-      "callSign": "V7CB4",
-      "station": "E5 → E2",
-      "time": "11-14 20:00"
-    },
-    {
-      "port": "평택",
-      "vessel": "ASIAN EMPIRE",
-      "callSign": "D7ML",
-      "station": "E3 → IPA",
-      "time": "11-14 20:30"
-    },
-    {
-      "port": "평택",
-      "vessel": "MORNING CHRISTINA",
-      "callSign": "D7OZ",
-      "station": "IPA → E3",
-      "time": "11-14 21:00"
-    },
-    {
-      "port": "평택",
-      "vessel": "MODERN LINK",
-      "callSign": "V7B3362",
-      "station": "E1 → IPA",
-      "time": "11-14 21:00"
-    },
-    {
-      "port": "평택",
-      "vessel": "GLOVIS CARDINAL",
-      "callSign": "D7GV",
-      "station": "E4 → IPA",
-      "time": "11-14 21:00"
+      "vessel": "AS PIA",
+      "callSign": "V7A6811",
+      "station": "IPA → E7",
+      "time": "11-15 04:30"
     },
     {
       "port": "평택",
@@ -373,200 +205,340 @@
       "time": "11-15 23:30"
     },
     {
-      "port": "인천",
-      "vessel": "RUN FENG",
-      "callSign": "-",
-      "station": "23 - PAL",
-      "time": "11-14 01:00"
+      "port": "평택",
+      "vessel": "ROYAL TERN",
+      "callSign": "V7B2995",
+      "station": "IPA → E5",
+      "time": "11-16 05:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "XIN QUN DAO",
+      "callSign": "H3OI",
+      "station": "IPA → E15",
+      "time": "11-16 05:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "DING HENG 21",
+      "callSign": "BOZP7",
+      "station": "IPA → KHO",
+      "time": "11-16 05:30"
+    },
+    {
+      "port": "평택",
+      "vessel": "ATLANTIC PIONEER",
+      "callSign": "9V7919",
+      "station": "IPA → E16",
+      "time": "11-16 05:30"
+    },
+    {
+      "port": "평택",
+      "vessel": "OKIMOTO",
+      "callSign": "V3NJ2",
+      "station": "IPA → W4",
+      "time": "11-16 06:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "AL SADAF",
+      "callSign": "5LPF8",
+      "station": "JANG → LNG2",
+      "time": "11-16 06:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "XIN TAI PING",
+      "callSign": "BSDU",
+      "station": "E8 → IPA",
+      "time": "11-16 06:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "CELSIUS GENEVA",
+      "callSign": "V7A6157",
+      "station": "LNG2 → JANG",
+      "time": "11-16 07:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "LAN HA",
+      "callSign": "3WPD",
+      "station": "IPA → W6",
+      "time": "11-16 08:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "OCEAN BLUE WHALE",
+      "callSign": "D5MO4",
+      "station": "IPA → E15",
+      "time": "11-16 09:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "JIUYANG BONANZA",
+      "callSign": "V7A6811",
+      "station": "IPA → E1",
+      "time": "11-16 12:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "LAZULITE ACE",
+      "callSign": "5LZF2",
+      "station": "IPA → E3",
+      "time": "11-16 16:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "ARC HONOR",
+      "callSign": "WAHI",
+      "station": "E4 → IPA",
+      "time": "11-16 16:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "MIDSHINE",
+      "callSign": "D6A3121",
+      "station": "E12 → IPA",
+      "time": "11-16 17:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "GLOVIS COSMOS",
+      "callSign": "D7HT",
+      "station": "IPA → E4",
+      "time": "11-16 18:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "OCEAN BLUE WHALE",
+      "callSign": "D5MO4",
+      "station": "E15 → IPA",
+      "time": "11-16 20:30"
+    },
+    {
+      "port": "평택",
+      "vessel": "JIUYANG BONANZA",
+      "callSign": "V7A6811",
+      "station": "E1 → IPA",
+      "time": "11-16 21:00"
     },
     {
       "port": "인천",
-      "vessel": "VIOLET RAY",
+      "vessel": "INDIGO PEARL",
       "callSign": "-",
-      "station": "JANG - PAL",
-      "time": "11-14 02:00"
+      "station": "36 - PAL",
+      "time": "11-15 01:00"
     },
     {
       "port": "인천",
-      "vessel": "PES ALIOTH",
+      "vessel": "PAN MAJESTY",
       "callSign": "-",
-      "station": "NIPT2 - PAL",
-      "time": "11-14 02:10"
-    },
-    {
-      "port": "인천",
-      "vessel": "A ROKKO",
-      "callSign": "-",
-      "station": "HJIT2 - NPPS",
-      "time": "11-14 03:00"
-    },
-    {
-      "port": "인천",
-      "vessel": "VIOLET RAY",
-      "callSign": "-",
-      "station": "PAL - 52",
-      "time": "11-14 03:30"
-    },
-    {
-      "port": "인천",
-      "vessel": "KMTC SINGAPORE",
-      "callSign": "-",
-      "station": "PAL - ICT1",
-      "time": "11-14 04:00"
-    },
-    {
-      "port": "인천",
-      "vessel": "HARMONY 1",
-      "callSign": "-",
-      "station": "PAL - N13",
-      "time": "11-14 04:30"
-    },
-    {
-      "port": "인천",
-      "vessel": "SITC GUANGXI",
-      "callSign": "-",
-      "station": "NPPS - HJIT2",
-      "time": "11-14 06:00"
-    },
-    {
-      "port": "인천",
-      "vessel": "LUMINARA",
-      "callSign": "-",
-      "station": "PAL - NIPT10",
-      "time": "11-14 06:10"
-    },
-    {
-      "port": "인천",
-      "vessel": "MEGA PIONEER",
-      "callSign": "-",
-      "station": "JAK - KIST",
-      "time": "11-14 06:30"
-    },
-    {
-      "port": "인천",
-      "vessel": "YA LU JIANG",
-      "callSign": "-",
-      "station": "SNCT1 - NPPS",
-      "time": "11-14 07:00"
-    },
-    {
-      "port": "인천",
-      "vessel": "PACIFIC SHENZHEN",
-      "callSign": "-",
-      "station": "ICT2 - PAL",
-      "time": "11-14 07:00"
-    },
-    {
-      "port": "인천",
-      "vessel": "XIN XIANG XUE LAN",
-      "callSign": "-",
-      "station": "PAL - NIPT5",
-      "time": "11-14 09:50"
-    },
-    {
-      "port": "인천",
-      "vessel": "HYUNDAI OCEANPIA",
-      "callSign": "-",
-      "station": "LNG1 - DONG",
-      "time": "11-14 10:30"
-    },
-    {
-      "port": "인천",
-      "vessel": "SKY TIARA",
-      "callSign": "-",
-      "station": "NPPS - HJIT3",
-      "time": "11-14 10:30"
-    },
-    {
-      "port": "인천",
-      "vessel": "HMM HARVEST",
-      "callSign": "-",
-      "station": "SNCT2 - 취소",
-      "time": "11-14 11:30"
-    },
-    {
-      "port": "인천",
-      "vessel": "HMM HARVEST",
-      "callSign": "-",
-      "station": "SNCT2 - 취소",
-      "time": "11-14 12:30"
-    },
-    {
-      "port": "인천",
-      "vessel": "HARMONY YUN GANG",
-      "callSign": "-",
-      "station": "NIPT1 - PAL",
-      "time": "11-14 16:20"
-    },
-    {
-      "port": "인천",
-      "vessel": "HMM HARVEST",
-      "callSign": "-",
-      "station": "SNCT2 - NPPS",
-      "time": "11-14 17:00"
-    },
-    {
-      "port": "인천",
-      "vessel": "KOREA VENUS",
-      "callSign": "-",
-      "station": "PAL - GS-HD",
-      "time": "11-14 17:10"
-    },
-    {
-      "port": "인천",
-      "vessel": "VIOLET RAY",
-      "callSign": "-",
-      "station": "52 - DONG",
-      "time": "11-14 18:00"
-    },
-    {
-      "port": "인천",
-      "vessel": "NEW GOLDEN BRIDGE 5",
-      "callSign": "-",
-      "station": "NIPT4 - PAL",
-      "time": "11-14 18:30"
-    },
-    {
-      "port": "인천",
-      "vessel": "XIN XIANG XUE LAN",
-      "callSign": "-",
-      "station": "NIPT5 - PAL",
-      "time": "11-14 18:40"
-    },
-    {
-      "port": "인천",
-      "vessel": "KMTC SINGAPORE",
-      "callSign": "-",
-      "station": "ICT1 - PAL",
-      "time": "11-14 19:00"
-    },
-    {
-      "port": "인천",
-      "vessel": "LUMINARA",
-      "callSign": "-",
-      "station": "NIPT10 - PAL",
-      "time": "11-14 20:00"
+      "station": "PAL - 73",
+      "time": "11-15 03:30"
     },
     {
       "port": "인천",
       "vessel": "HE YUAN 1",
       "callSign": "-",
-      "station": "PAL - ICT2",
-      "time": "11-14 21:00"
+      "station": "ICT2 - PAL",
+      "time": "11-15 03:30"
     },
     {
       "port": "인천",
-      "vessel": "MERATUS TOMINI",
+      "vessel": "SITC GUANGXI",
       "callSign": "-",
-      "station": "HJIT1 - NPPS",
-      "time": "11-14 22:30"
+      "station": "HJIT2 - NPPS",
+      "time": "11-15 04:00"
+    },
+    {
+      "port": "인천",
+      "vessel": "HAFNIA LOTTE",
+      "callSign": "-",
+      "station": "JANG - SKI 3",
+      "time": "11-15 05:00"
+    },
+    {
+      "port": "인천",
+      "vessel": "SKY TIARA",
+      "callSign": "-",
+      "station": "HJIT3 - NPPS",
+      "time": "11-15 05:30"
+    },
+    {
+      "port": "인천",
+      "vessel": "EVER CERTAIN",
+      "callSign": "-",
+      "station": "PAL - ICT1",
+      "time": "11-15 06:30"
     },
     {
       "port": "인천",
       "vessel": "XIN TAI PING",
       "callSign": "-",
-      "station": "NPPS - HJIT1",
-      "time": "11-14 22:30"
+      "station": "HJIT1 - NPPS",
+      "time": "11-15 07:00"
+    },
+    {
+      "port": "인천",
+      "vessel": "삼성2호",
+      "callSign": "-",
+      "station": "PAL - N31",
+      "time": "11-15 07:00"
+    },
+    {
+      "port": "인천",
+      "vessel": "SUNNY LILAC",
+      "callSign": "-",
+      "station": "NPPS - SNCT2",
+      "time": "11-15 08:00"
+    },
+    {
+      "port": "인천",
+      "vessel": "SOONI",
+      "callSign": "-",
+      "station": "JAK - KGPT",
+      "time": "11-15 08:00"
+    },
+    {
+      "port": "인천",
+      "vessel": "DIAMOND GAS CRYSTAL",
+      "callSign": "-",
+      "station": "JANG - LNG1",
+      "time": "11-15 08:30"
+    },
+    {
+      "port": "인천",
+      "vessel": "FREE WAY",
+      "callSign": "-",
+      "station": "PAL - E1CT",
+      "time": "11-15 11:00"
+    },
+    {
+      "port": "인천",
+      "vessel": "SM GOSEONG",
+      "callSign": "-",
+      "station": "YHD3 - DONG",
+      "time": "11-15 12:00"
+    },
+    {
+      "port": "인천",
+      "vessel": "ZL KUN",
+      "callSign": "-",
+      "station": "N43 - PAL",
+      "time": "11-15 12:00"
+    },
+    {
+      "port": "인천",
+      "vessel": "CONSISTENCE",
+      "callSign": "-",
+      "station": "NPPS - HJIT2",
+      "time": "11-15 12:30"
+    },
+    {
+      "port": "인천",
+      "vessel": "PEDHOULAS TRADER",
+      "callSign": "-",
+      "station": "YHD1 - DONG",
+      "time": "11-15 13:00"
+    },
+    {
+      "port": "인천",
+      "vessel": "RICH FORCE",
+      "callSign": "-",
+      "station": "PAL - N53",
+      "time": "11-15 13:30"
+    },
+    {
+      "port": "인천",
+      "vessel": "NEW MOMENTUM",
+      "callSign": "-",
+      "station": "72 - DONG",
+      "time": "11-15 15:00"
+    },
+    {
+      "port": "인천",
+      "vessel": "YU AN",
+      "callSign": "-",
+      "station": "PAL - N44",
+      "time": "11-15 15:30"
+    },
+    {
+      "port": "인천",
+      "vessel": "AKIMOTO",
+      "callSign": "-",
+      "station": "W4 - PAL",
+      "time": "11-15 16:00"
+    },
+    {
+      "port": "인천",
+      "vessel": "FREE WAY",
+      "callSign": "-",
+      "station": "E1CT - PAL",
+      "time": "11-15 16:00"
+    },
+    {
+      "port": "인천",
+      "vessel": "STARSHIP AQUILA",
+      "callSign": "-",
+      "station": "NPPS - SNCT1",
+      "time": "11-15 18:00"
+    },
+    {
+      "port": "인천",
+      "vessel": "SM TOKYO",
+      "callSign": "-",
+      "station": "NPPS - HJIT3",
+      "time": "11-15 18:00"
+    },
+    {
+      "port": "인천",
+      "vessel": "EVER CERTAIN",
+      "callSign": "-",
+      "station": "ICT1 - PAL",
+      "time": "11-15 18:00"
+    },
+    {
+      "port": "인천",
+      "vessel": "HL SAMCHEONPO",
+      "callSign": "-",
+      "station": "JANG - YHD1",
+      "time": "11-15 19:00"
+    },
+    {
+      "port": "인천",
+      "vessel": "GLOVIS CONDOR",
+      "callSign": "-",
+      "station": "JANG - PAL",
+      "time": "11-15 21:00"
+    },
+    {
+      "port": "인천",
+      "vessel": "SUNNY LILAC",
+      "callSign": "-",
+      "station": "SNCT2 - NPPS",
+      "time": "11-15 21:00"
+    },
+    {
+      "port": "인천",
+      "vessel": "KMTC OSAKA",
+      "callSign": "-",
+      "station": "PAL - ICT1",
+      "time": "11-15 21:00"
+    },
+    {
+      "port": "인천",
+      "vessel": "PES ALIOTH",
+      "callSign": "-",
+      "station": "PAL - NIPT4",
+      "time": "11-15 22:00"
+    },
+    {
+      "port": "인천",
+      "vessel": "GLOVIS CONDOR",
+      "callSign": "-",
+      "station": "PAL - 52",
+      "time": "11-15 22:30"
     }
   ]
 }
