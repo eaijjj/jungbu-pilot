@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15 02:10",
+  "updatedAt": "2026-11-15 03:02",
   "schedules": [
     {
       "port": "평택",
@@ -349,7 +349,7 @@
       "vessel": "HE YUAN 1",
       "callSign": "-",
       "station": "ICT2 - PAL",
-      "time": "11-15 04:00"
+      "time": "11-15 04:30"
     },
     {
       "port": "인천",
