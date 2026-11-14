@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-14 22:45",
+  "updatedAt": "2026-11-14 23:37",
   "schedules": [
     {
       "port": "평택",
@@ -227,13 +227,6 @@
     },
     {
       "port": "평택",
-      "vessel": "WOORI SUN",
-      "callSign": "5VIP5",
-      "station": "HD7 → IPA",
-      "time": "11-15 07:30"
-    },
-    {
-      "port": "평택",
       "vessel": "ARC HONOR",
       "callSign": "WAHI",
       "station": "IPA → E2",
@@ -272,6 +265,13 @@
       "vessel": "XIN TAI PING",
       "callSign": "BSDU",
       "station": "IPA → E8",
+      "time": "11-15 13:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "WOORI SUN",
+      "callSign": "5VIP5",
+      "station": "HD7 → IPA",
       "time": "11-15 13:00"
     },
     {
