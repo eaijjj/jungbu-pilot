@@ -1,6 +1,5 @@
 import json
 import re
-import socket
 from datetime import datetime, timezone, timedelta
 from playwright.sync_api import sync_playwright
 
@@ -10,16 +9,8 @@ def scrape_all():
     all_data = []
     today_md = datetime.now(KST).strftime("%m-%d")
 
-    try:
-        ds_ip = socket.gethostbyname("www.ds-pilot.co.kr")
-    except Exception:
-        ds_ip = "127.0.0.1"
-
     with sync_playwright() as p:
-        browser = p.chromium.launch(
-            headless=True,
-            args=[f"--host-resolver-rules=MAP ds-pilot.co.kr {ds_ip}"]
-        )
+        browser = p.chromium.launch(headless=True)
         context = browser.new_context(
             user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             ignore_https_errors=True
@@ -62,7 +53,7 @@ def scrape_all():
         except Exception as e:
             print("평택 오류:", e)
 
-        # 2. 인천항도선사회 (cells.isdigit() 수정 완료)
+        # 2. 인천항도선사회 (인덱스 오타 완전 제거)
         try:
             page.goto("http://incheonpilot.com", timeout=25000, wait_until="domcontentloaded")
             page.wait_for_timeout(1000)
@@ -73,7 +64,7 @@ def scrape_all():
             for frame in page.frames:
                 for r in frame.locator("tr").all():
                     cells = [c.inner_text().strip() for c in r.locator("td").all()]
-                    if len(cells) >= 6 and cells.isdigit():
+                    if len(cells) >= 6 and re.match(r"^\d+$", cells):
                         time_idx = next((i for i, v in enumerate(cells) if re.match(r"^\d{2}:\d{2}$", v)), -1)
                         if time_idx != -1 and len(cells) > time_idx + 2:
                             route = next((v for v in cells[time_idx+2:time_idx+5] if "-" in v), cells[time_idx + 2])
@@ -88,37 +79,6 @@ def scrape_all():
             print(f"인천 수집: {ic_count}건")
         except Exception as e:
             print("인천 오류:", e)
-
-        # 3. 대산항도선사회
-        try:
-            page.goto("http://ds-pilot.co.kr", timeout=25000, wait_until="domcontentloaded")
-            page.wait_for_timeout(1000)
-            page.evaluate("location.href = '/forecast/status'")
-            page.wait_for_timeout(3000)
-            page.evaluate("document.querySelectorAll('[id*=\"popup\"], .popup, .layer_pop').forEach(el => el.remove());")
-
-            ds_count = 0
-            for frame in page.frames:
-                for r in frame.locator("tr").all():
-                    cells = [c.inner_text().strip().replace("\n", " ") for c in r.locator("td").all()]
-                    row_text = " ".join(cells)
-                    if len(cells) >= 5 and not any(k in row_text for k in ["평택항", "대산항", "태안항", "보령항", "학암포", "야간할증", "도선선"]):
-                        time_idx = next((i for i, v in enumerate(cells) if re.match(r"^\d{2}:\d{2}$", v)), -1)
-                        if time_idx != -1 and len(cells) > time_idx + 2:
-                            vessel = cells[time_idx + 1]
-                            station = cells[time_idx + 2]
-                            if vessel and not vessel.isdigit():
-                                all_data.append({
-                                    "port": "대산",
-                                    "vessel": vessel,
-                                    "callSign": "-",
-                                    "station": station,
-                                    "time": f"{today_md} {cells[time_idx]}"
-                                })
-                                ds_count += 1
-            print(f"대산 수집: {ds_count}건")
-        except Exception as e:
-            print("대산 오류:", e)
 
         browser.close()
 
