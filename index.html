@@ -280,7 +280,6 @@
     const searchInput = document.getElementById("searchInput");
     const tabButtons = document.querySelectorAll(".tab-btn");
 
-    // "MM-DD HH:MM" 문자열을 현재 연도 기준 Date 객체로 변환
     function parseScheduleTime(timeStr) {
       const now = new Date();
       const parts = timeStr.trim().split(" ");
@@ -291,7 +290,6 @@
       if (!month || !day || isNaN(hour) || isNaN(minute)) return null;
 
       let year = now.getFullYear();
-      // 연말(12월)에 내년 1월 스케줄이 뜰 경우 연도 보정
       if (now.getMonth() === 11 && month === 1) year += 1;
       return new Date(year, month - 1, day, hour, minute, 0);
     }
@@ -319,11 +317,9 @@
       const keyword = searchKeyword.toLowerCase();
 
       const filtered = allSchedules.filter((item) => {
-        // 1. 현재 시각 기준 1시간 전 ~ 이후 스케줄만 필터링
         const itemDate = parseScheduleTime(item.time);
         if (itemDate && itemDate < oneHourAgo) return false;
 
-        // 2. 항구 및 검색어 필터링
         const matchPort = currentPort === "ALL" || item.port === currentPort;
         const matchSearch =
           !keyword ||
@@ -342,6 +338,7 @@
       emptyState.style.display = "none";
       scheduleBody.innerHTML = filtered
         .map((item) => {
+          // VesselFinder 지도 메인 URL에 ?name= 파라미터를 붙여 지도에서 해당 선박으로 바로 확대 포커스
           const searchTarget = (item.callSign && item.callSign !== "-") ? item.callSign : item.vessel;
           const vfUrl = ["https://vesselfinder.com", "name=" + encodeURIComponent(searchTarget)].join("?");
           return (
