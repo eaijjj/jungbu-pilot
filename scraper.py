@@ -1,5 +1,6 @@
 import json
 import re
+import socket
 from datetime import datetime, timezone, timedelta
 from playwright.sync_api import sync_playwright
 
@@ -9,8 +10,17 @@ def scrape_all():
     all_data = []
     today_md = datetime.now(KST).strftime("%m-%d")
 
+    # www.ds-pilot.co.kr의 IP를 조회하여 www 없는 도메인 리다이렉트 DNS 오류 방지
+    try:
+        ds_ip = socket.gethostbyname("www.ds-pilot.co.kr")
+    except Exception:
+        ds_ip = "127.0.0.1"
+
     with sync_playwright() as p:
-        browser = p.chromium.launch(headless=True)
+        browser = p.chromium.launch(
+            headless=True,
+            args=[f"--host-resolver-rules=MAP ds-pilot.co.kr {ds_ip}"]
+        )
         context = browser.new_context(
             user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             ignore_https_errors=True
@@ -19,7 +29,8 @@ def scrape_all():
 
         # 1. 평택당진도선사회
         try:
-            page.goto("http://ptpilot.co.kr", timeout=20000, wait_until="networkidle")
+            page.goto("http://ptpilot.co.kr", timeout=25000, wait_until="domcontentloaded")
+            page.wait_for_timeout(2000)
             rows = page.locator("table tr").all()
             pt_count = 0
             for r in rows:
@@ -47,7 +58,8 @@ def scrape_all():
 
         # 2. 인천항도선사회
         try:
-            page.goto("http://incheonpilot.com", timeout=20000, wait_until="networkidle")
+            page.goto("http://incheonpilot.com", timeout=25000, wait_until="domcontentloaded")
+            page.wait_for_timeout(2000)
             rows = page.locator("table tr").all()
             ic_count = 0
             for r in rows:
@@ -69,9 +81,10 @@ def scrape_all():
         except Exception as e:
             print("인천 오류:", e)
 
-        # 3. 대산항도선사회 (HTTPS 우선 접속)
+        # 3. 대산항도선사회
         try:
-            page.goto("https://ds-pilot.co.kr", timeout=20000, wait_until="networkidle")
+            page.goto("http://ds-pilot.co.kr", timeout=25000, wait_until="domcontentloaded")
+            page.wait_for_timeout(2000)
             rows = page.locator("table tr").all()
             ds_count = 0
             for r in rows:
