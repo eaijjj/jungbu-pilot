@@ -26,12 +26,12 @@ def scrape_all():
         )
         page = context.new_page()
 
-        # 1. 평택당진도선사회 (메인 세션 획득 후 /forecast/1 이동)
+        # 1. 평택당진도선사회
         try:
-            page.goto("http://www.ptpilot.co.kr/", timeout=25000, wait_until="domcontentloaded")
-            page.wait_for_timeout(1500)
-            page.goto("http://ptpilot.co.kr", timeout=25000, wait_until="networkidle")
-            page.wait_for_timeout(2000)
+            page.goto("http://ptpilot.co.kr", timeout=25000, wait_until="domcontentloaded")
+            page.wait_for_timeout(1000)
+            page.evaluate("location.href = '/forecast/1'")
+            page.wait_for_timeout(3000)
 
             pt_count = 0
             for frame in page.frames:
@@ -54,18 +54,18 @@ def scrape_all():
         except Exception as e:
             print("평택 오류:", e)
 
-        # 2. 인천항도선사회 (메인 세션 획득 후 숨겨진 도선예보현황 링크 강제 클릭)
+        # 2. 인천항도선사회
         try:
             page.goto("http://incheonpilot.com", timeout=25000, wait_until="domcontentloaded")
-            page.wait_for_timeout(1500)
-            page.locator("a[href*='pilot04_01.asp']").first.click(force=True)
-            page.wait_for_timeout(2500)
+            page.wait_for_timeout(1000)
+            page.evaluate("location.href = '/pilot/pilot04_01.asp'")
+            page.wait_for_timeout(3000)
 
             ic_count = 0
             for frame in page.frames:
                 for r in frame.locator("tr").all():
                     cells = [c.inner_text().strip() for c in r.locator("td").all()]
-                    if len(cells) >= 6 and cells.isdigit():
+                    if len(cells) >= 6 and cells[0].isdigit():
                         time_idx = next((i for i, v in enumerate(cells) if re.match(r"^\d{2}:\d{2}$", v)), -1)
                         if time_idx != -1 and len(cells) > time_idx + 2:
                             route = next((v for v in cells[time_idx+2:time_idx+5] if "-" in v), cells[time_idx + 2])
@@ -81,19 +81,18 @@ def scrape_all():
         except Exception as e:
             print("인천 오류:", e)
 
-        # 3. 대산항도선사회 (메인 세션 획득 후 도선예보현황 클릭 및 실제 선박 행 필터링)
+        # 3. 대산항도선사회
         try:
-            page.goto("http://www.ds-pilot.co.kr/", timeout=25000, wait_until="domcontentloaded")
-            page.wait_for_timeout(1500)
-            page.locator("a[href*='forecast/status']").first.click(force=True)
-            page.wait_for_timeout(2500)
+            page.goto("http://ds-pilot.co.kr", timeout=25000, wait_until="domcontentloaded")
+            page.wait_for_timeout(1000)
+            page.evaluate("location.href = '/forecast/status'")
+            page.wait_for_timeout(3000)
 
             ds_count = 0
             for frame in page.frames:
                 for r in frame.locator("tr").all():
                     cells = [c.inner_text().strip() for c in r.locator("td").all()]
-                    # 대산 조석표(4칸~9칸) 제외하고 실제 선박 스케줄 표만 추출
-                    if len(cells) >= 6 and cells.isdigit():
+                    if len(cells) >= 6 and cells[0].isdigit():
                         time_idx = next((i for i, v in enumerate(cells) if re.match(r"^\d{2}:\d{2}$", v)), -1)
                         if time_idx != -1 and len(cells) > time_idx + 2:
                             all_data.append({
