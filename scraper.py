@@ -82,40 +82,41 @@ def scrape_all():
             print(f"인천 수집: {ic_count}건")
         except Exception as e:
             print("인천 오류:", e)
-                # 3. 대산항도선사회
-        try:
-            page.goto("http://www.ds-pilot.co.kr/forecast/status", timeout=25000, wait_until="domcontentloaded")
-            page.wait_for_timeout(3000)
+         # 3. 대산항도선사회 (오늘 + 내일)
+        ds_count = 0
+        for day_add in (0, 1):
+            try:
+                d = datetime.now(KST) + timedelta(days=day_add)
+                ds_url = "http://www.ds-pilot.co.kr/forecast/status?DT_S=" + d.strftime("%Y%%2F%m%%2F%d")
+                page.goto(ds_url, timeout=25000, wait_until="domcontentloaded")
+                page.wait_for_timeout(3000)
 
-            ds_count = 0
-            for frame in page.frames:
-                for r in frame.locator("tr").all():
-                    cells = [c.inner_text().strip() for c in r.locator("td").all()]
-                    if len(cells) < 10:
-                        continue
-                    date_idx = next((i for i, v in enumerate(cells) if re.match(r"^\d{4}/\d{2}/\d{2}$", v)), -1)
-                    time_idx = next((i for i, v in enumerate(cells) if re.match(r"^\d{2}:\d{2}$", v)), -1)
-                    if date_idx == -1 or time_idx == -1 or len(cells) <= time_idx + 3:
-                        continue
+                for frame in page.frames:
+                    for r in frame.locator("tr").all():
+                        cells = [c.inner_text().strip() for c in r.locator("td").all()]
+                        if len(cells) < 10:
+                            continue
+                        date_idx = next((i for i, v in enumerate(cells) if re.match(r"^\d{4}/\d{2}/\d{2}$", v)), -1)
+                        time_idx = next((i for i, v in enumerate(cells) if re.match(r"^\d{2}:\d{2}$", v)), -1)
+                        if date_idx == -1 or time_idx == -1 or len(cells) <= time_idx + 3:
+                            continue
 
-                    vessel = cells[time_idx - 1]
-                    from_pt = cells[time_idx + 1]
-                    to_pt = cells[time_idx + 2]
-                    call_sign = cells[time_idx + 3] if re.match(r"^[A-Z0-9]{4,8}$", cells[time_idx + 3]) else "-"
-                    md = cells[date_idx][5:].replace("/", "-")
+                        vessel = cells[time_idx - 1]
+                        from_pt = cells[time_idx + 1]
+                        to_pt = cells[time_idx + 2]
+                        call_sign = cells[time_idx + 3] if re.match(r"^[A-Z0-9]{4,8}$", cells[time_idx + 3]) else "-"
+                        md = cells[date_idx][5:].replace("/", "-")
 
-                    if vessel:
-                        all_data.append({
-                            "port": "대산",
-                            "vessel": vessel,
-                            "callSign": call_sign,
-                            "station": f"{from_pt} → {to_pt}",
-                            "time": f"{md} {cells[time_idx]}"
-                        })
-                        ds_count += 1
-            print(f"대산 수집: {ds_count}건")
-        except Exception as e:
-            print("대산 오류:", e)
+                        if vessel:
+                            all_data.append({
+                                "port": "대산",
+                                "vessel": vessel,
+                                "callSign": call_sign,
+                                "station": f"{from_pt} → {to_pt}",
+                                "time": f"{md} {cells[time_idx]}"
+                            })
+                            ds_count += 1
+            except Exception as        
         browser.close()
 
     print(f"총 수집 건수: {len(all_data)}건")
