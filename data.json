@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15 16:59",
+  "updatedAt": "2026-11-15 17:51",
   "schedules": [
     {
       "port": "평택",
@@ -591,13 +591,6 @@
     },
     {
       "port": "인천",
-      "vessel": "PES ALIOTH",
-      "callSign": "-",
-      "station": "PAL - NIPT4",
-      "time": "11-15 22:00"
-    },
-    {
-      "port": "인천",
       "vessel": "GLOVIS CONDOR",
       "callSign": "-",
       "station": "PAL - 52",
@@ -836,13 +829,6 @@
     },
     {
       "port": "대산",
-      "vessel": "BUENA LUNA",
-      "callSign": "3FTH3",
-      "station": "PS3 → WAA-2 MDK",
-      "time": "11-16 08:00"
-    },
-    {
-      "port": "대산",
       "vessel": "XIA HUAI",
       "callSign": "BPKD2",
       "station": "PS3 → WAA-04",
@@ -861,6 +847,13 @@
       "callSign": "D7JU",
       "station": "MDS-34 → WAA-03",
       "time": "11-16 08:00"
+    },
+    {
+      "port": "대산",
+      "vessel": "BUENA LUNA",
+      "callSign": "3FTH3",
+      "station": "PS3 → WAA-2 MDK",
+      "time": "11-16 08:45"
     },
     {
       "port": "대산",
