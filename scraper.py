@@ -119,6 +119,19 @@ def scrape_all():
         browser.close()
 
     print(f"총 수집 건수: {len(all_data)}건")
+                # 인천: 시간이 거꾸로 가면(23:30 → 00:30) 다음날로 처리
+        day_offset = 0
+        prev = ""
+        for item in all_data:
+            if item["port"] != "인천":
+                continue
+            hm = item["time"].split(" ")[1]
+            if prev and hm < prev:
+                day_offset += 1
+            prev = hm
+            if day_offset:
+                d = datetime.now(KST) + timedelta(days=day_offset)
+                item["time"] = d.strftime("%m-%d") + " " + hm
     output = {
         "updatedAt": datetime.now(KST).strftime("%Y-%m-%d %H:%M"),
         "schedules": all_data
