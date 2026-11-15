@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15 19:38",
+  "updatedAt": "2026-11-15 20:33",
   "schedules": [
     {
       "port": "평택",
@@ -181,7 +181,7 @@
       "vessel": "AS PIA",
       "callSign": "V2EE9",
       "station": "E7 → IPA",
-      "time": "11-15 23:30"
+      "time": "11-15 23:00"
     },
     {
       "port": "평택",
@@ -290,17 +290,17 @@
     },
     {
       "port": "평택",
+      "vessel": "JIUYANG BONANZA",
+      "callSign": "V7A6811",
+      "station": "IPA → E1",
+      "time": "11-16 09:30"
+    },
+    {
+      "port": "평택",
       "vessel": "LAN HA",
       "callSign": "3WPD",
       "station": "IPA → W6",
       "time": "11-16 11:30"
-    },
-    {
-      "port": "평택",
-      "vessel": "JIUYANG BONANZA",
-      "callSign": "V7A6811",
-      "station": "IPA → E1",
-      "time": "11-16 12:00"
     },
     {
       "port": "평택",
@@ -353,13 +353,6 @@
     },
     {
       "port": "평택",
-      "vessel": "LAZULITE ACE",
-      "callSign": "5LZF2",
-      "station": "IPA → E3",
-      "time": "11-16 18:00"
-    },
-    {
-      "port": "평택",
       "vessel": "OCEAN BLUE WHALE",
       "callSign": "D5MO4",
       "station": "E15 → IPA",
@@ -370,6 +363,13 @@
       "vessel": "DING HENG 21",
       "callSign": "BOZP7",
       "station": "KHO → A",
+      "time": "11-16 21:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "LAZULITE ACE",
+      "callSign": "5LZF2",
+      "station": "IPA → E3",
       "time": "11-16 21:00"
     },
     {
