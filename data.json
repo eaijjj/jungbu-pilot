@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15 13:48",
+  "updatedAt": "2026-11-15 14:46",
   "schedules": [
     {
       "port": "평택",
@@ -244,7 +244,7 @@
       "vessel": "HAFNIA TOURMALINE",
       "callSign": "V7RA3",
       "station": "IPA → W1",
-      "time": "11-16 05:30"
+      "time": "11-16 06:00"
     },
     {
       "port": "평택",
@@ -549,16 +549,16 @@
     },
     {
       "port": "인천",
-      "vessel": "EVER CERTAIN",
-      "callSign": "-",
-      "station": "ICT1 - PAL",
-      "time": "11-15 17:00"
-    },
-    {
-      "port": "인천",
       "vessel": "STARSHIP AQUILA",
       "callSign": "-",
       "station": "NPPS - SNCT1",
+      "time": "11-15 18:00"
+    },
+    {
+      "port": "인천",
+      "vessel": "EVER CERTAIN",
+      "callSign": "-",
+      "station": "ICT1 - PAL",
       "time": "11-15 18:00"
     },
     {
@@ -787,9 +787,16 @@
     },
     {
       "port": "대산",
-      "vessel": "SKY WINNER",
-      "callSign": "D7JU",
-      "station": "MDS-34 → WAA-03",
+      "vessel": "BW POLARIS",
+      "callSign": "V7A4941",
+      "station": "PS2 → MDS-31",
+      "time": "11-16 07:00"
+    },
+    {
+      "port": "대산",
+      "vessel": "NO.7 HANA",
+      "callSign": "D7FM",
+      "station": "MDH-24 → PS3",
       "time": "11-16 08:00"
     },
     {
@@ -801,8 +808,36 @@
     },
     {
       "port": "대산",
-      "vessel": "SJ ASIA",
-      "callSign": "D7MD",
+      "vessel": "BUENA LUNA",
+      "callSign": "3FTH3",
+      "station": "PS3 → WAA-2 MDK",
+      "time": "11-16 08:00"
+    },
+    {
+      "port": "대산",
+      "vessel": "ORIENTAL LEADER",
+      "callSign": "DSRL5",
+      "station": "MDT-61 → PS4",
+      "time": "11-16 08:00"
+    },
+    {
+      "port": "대산",
+      "vessel": "SKY WINNER",
+      "callSign": "D7JU",
+      "station": "MDS-34 → WAA-03",
+      "time": "11-16 08:00"
+    },
+    {
+      "port": "대산",
+      "vessel": "ORIENTAL LEADER",
+      "callSign": "DSRL5",
+      "station": "PS4 → PS3",
+      "time": "11-16 09:00"
+    },
+    {
+      "port": "대산",
+      "vessel": "SIX SEVEN",
+      "callSign": "V7B2890",
       "station": "PS3 → PS4",
       "time": "11-16 11:00"
     },
@@ -815,24 +850,10 @@
     },
     {
       "port": "대산",
-      "vessel": "SIX SEVEN",
-      "callSign": "V7B2890",
-      "station": "PS3 → PS4",
-      "time": "11-16 11:00"
-    },
-    {
-      "port": "대산",
-      "vessel": "SIX SEVEN",
-      "callSign": "V7B2890",
-      "station": "PS4 → MDT-61",
-      "time": "11-16 12:00"
-    },
-    {
-      "port": "대산",
       "vessel": "SJ ASIA",
       "callSign": "D7MD",
-      "station": "PS4 → MDT-62",
-      "time": "11-16 12:00"
+      "station": "PS3 → PS4",
+      "time": "11-16 11:15"
     },
     {
       "port": "대산",
@@ -843,10 +864,24 @@
     },
     {
       "port": "대산",
+      "vessel": "SIX SEVEN",
+      "callSign": "V7B2890",
+      "station": "PS4 → MDT-61",
+      "time": "11-16 12:00"
+    },
+    {
+      "port": "대산",
       "vessel": "SKY WINNER",
       "callSign": "D7JU",
       "station": "WAA-03 → PS2",
       "time": "11-16 12:00"
+    },
+    {
+      "port": "대산",
+      "vessel": "SJ ASIA",
+      "callSign": "D7MD",
+      "station": "PS4 → MDT-62",
+      "time": "11-16 12:15"
     },
     {
       "port": "대산",
@@ -864,10 +899,31 @@
     },
     {
       "port": "대산",
+      "vessel": "FPMC P IDEAL",
+      "callSign": "D5AW2",
+      "station": "PS2 → MDS-36",
+      "time": "11-16 13:30"
+    },
+    {
+      "port": "대산",
+      "vessel": "BAI LU ZUO",
+      "callSign": "VRJL7",
+      "station": "MDS-36 → PS2",
+      "time": "11-16 14:00"
+    },
+    {
+      "port": "대산",
       "vessel": "JN SIRIUS",
       "callSign": "S6TO4",
       "station": "MDK-18 → WAA-4 MDK",
       "time": "11-16 14:00"
+    },
+    {
+      "port": "대산",
+      "vessel": "GRAND WINNER 6",
+      "callSign": "5LYM2",
+      "station": "PS2 → WAA-09",
+      "time": "11-16 16:00"
     },
     {
       "port": "대산",
@@ -878,10 +934,31 @@
     },
     {
       "port": "대산",
+      "vessel": "CORAL PALMATA",
+      "callSign": "D5DN6",
+      "station": "PS2 → MDK-19",
+      "time": "11-16 18:00"
+    },
+    {
+      "port": "대산",
+      "vessel": "BUENA LUNA",
+      "callSign": "3FTH3",
+      "station": "WAA-2 MDK → MDK-12",
+      "time": "11-16 18:30"
+    },
+    {
+      "port": "대산",
       "vessel": "XIA HUAI",
       "callSign": "BPKD2",
       "station": "WAA-04 → MDS-32",
       "time": "11-16 18:30"
+    },
+    {
+      "port": "대산",
+      "vessel": "EXCELLENCE",
+      "callSign": "D673181",
+      "station": "PS3 → MB2-01",
+      "time": "11-16 19:30"
     },
     {
       "port": "대산",
