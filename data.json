@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15 15:53",
+  "updatedAt": "2026-11-15 16:59",
   "schedules": [
     {
       "port": "평택",
@@ -178,17 +178,17 @@
     },
     {
       "port": "평택",
-      "vessel": "YONG MOON OTS 1",
-      "callSign": "D7ME",
-      "station": "GD9 → IPA",
-      "time": "11-15 23:30"
-    },
-    {
-      "port": "평택",
       "vessel": "AS PIA",
       "callSign": "V2EE9",
       "station": "E7 → IPA",
       "time": "11-15 23:30"
+    },
+    {
+      "port": "평택",
+      "vessel": "YONG MOON OTS 1",
+      "callSign": "D7ME",
+      "station": "GD9 → IPA",
+      "time": "11-16 01:00"
     },
     {
       "port": "평택",
@@ -811,7 +811,7 @@
       "vessel": "ETERNAL SUNSHINE",
       "callSign": "D5SO3",
       "station": "PS2-2 → MDN-11",
-      "time": "11-16 07:00"
+      "time": "11-16 07:15"
     },
     {
       "port": "대산",
@@ -941,13 +941,6 @@
     },
     {
       "port": "대산",
-      "vessel": "DS VEGA",
-      "callSign": "D7BX",
-      "station": "WAA-05 → MDS-37",
-      "time": "11-16 13:30"
-    },
-    {
-      "port": "대산",
       "vessel": "FPMC P IDEAL",
       "callSign": "D5AW2",
       "station": "PS2 → MDS-36",
@@ -973,6 +966,13 @@
       "callSign": "BPIQ8",
       "station": "MDH-23 → PS3",
       "time": "11-16 14:00"
+    },
+    {
+      "port": "대산",
+      "vessel": "DS VEGA",
+      "callSign": "D7BX",
+      "station": "WAA-05 → MDS-37",
+      "time": "11-16 14:30"
     },
     {
       "port": "대산",
