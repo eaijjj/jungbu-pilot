@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16 00:32",
+  "updatedAt": "2026-11-16 01:34",
   "schedules": [
     {
       "port": "평택",
@@ -349,14 +349,7 @@
       "vessel": "HUADONG PEARL 8",
       "callSign": "-",
       "station": "PAL - NIPT5",
-      "time": "11-16 09:00"
-    },
-    {
-      "port": "인천",
-      "vessel": "PES ALIOTH",
-      "callSign": "-",
-      "station": "NIPT4 - NIPT3",
-      "time": "11-16 10:00"
+      "time": "11-16 09:50"
     },
     {
       "port": "인천",
@@ -384,6 +377,13 @@
       "vessel": "FORTUNE KAREN",
       "callSign": "-",
       "station": "PAL - N-HOB",
+      "time": "11-16 10:30"
+    },
+    {
+      "port": "인천",
+      "vessel": "PES ALIOTH",
+      "callSign": "-",
+      "station": "NIPT4 - NIPT3",
       "time": "11-16 10:30"
     },
     {
