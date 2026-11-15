@@ -5,6 +5,7 @@ from playwright.sync_api import sync_playwright
 
 KST = timezone(timedelta(hours=9))
 
+
 def scrape_all():
     all_data = []
     today_md = datetime.now(KST).strftime("%m-%d")
@@ -53,7 +54,7 @@ def scrape_all():
         except Exception as e:
             print("평택 오류:", e)
 
-        # 2. 인천항도선사회 (인덱스 기호 없이 time_idx == 2 조건으로 안전 추출)
+        # 2. 인천항도선사회
         try:
             page.goto("http://incheonpilot.com", timeout=25000, wait_until="domcontentloaded")
             page.wait_for_timeout(1000)
@@ -66,7 +67,6 @@ def scrape_all():
                     cells = [c.inner_text().strip() for c in r.locator("td").all()]
                     if len(cells) >= 8:
                         time_idx = next((i for i, v in enumerate(cells) if re.match(r"^\d{2}:\d{2}$", v)), -1)
-                        # 인천 표 구조: No(0), 도선사(1), 시간(2), 선명(3), 갑문/구간...
                         if time_idx == 2 and len(cells) > 5:
                             vessel = cells[3]
                             route = next((v for v in cells[4:7] if "-" in v), cells[4])
@@ -82,7 +82,8 @@ def scrape_all():
             print(f"인천 수집: {ic_count}건")
         except Exception as e:
             print("인천 오류:", e)
-         # 3. 대산항도선사회 (오늘 + 내일)
+
+        # 3. 대산항도선사회 (오늘 + 내일)
         ds_count = 0
         for day_add in (0, 1):
             try:
@@ -116,25 +117,27 @@ def scrape_all():
                                 "time": f"{md} {cells[time_idx]}"
                             })
                             ds_count += 1
-            except Exception as e:  
-                                print("대산 오류:", e)
-                print(f"대산 수집: {ds_count}건")
+            except Exception as e:
+                print("대산 오류:", e)
+        print(f"대산 수집: {ds_count}건")
+
         browser.close()
 
+    # 인천: 시간이 거꾸로 가면(23:30 → 00:30) 다음날로 처리
+    day_offset = 0
+    prev = ""
+    for item in all_data:
+        if item["port"] != "인천":
+            continue
+        hm = item["time"].split(" ")[1]
+        if prev and hm < prev:
+            day_offset += 1
+        prev = hm
+        if day_offset:
+            nd = datetime.now(KST) + timedelta(days=day_offset)
+            item["time"] = nd.strftime("%m-%d") + " " + hm
+
     print(f"총 수집 건수: {len(all_data)}건")
-                # 인천: 시간이 거꾸로 가면(23:30 → 00:30) 다음날로 처리
-        day_offset = 0
-        prev = ""
-        for item in all_data:
-            if item["port"] != "인천":
-                continue
-            hm = item["time"].split(" ")[1]
-            if prev and hm < prev:
-                day_offset += 1
-            prev = hm
-            if day_offset:
-                d = datetime.now(KST) + timedelta(days=day_offset)
-                item["time"] = d.strftime("%m-%d") + " " + hm
     output = {
         "updatedAt": datetime.now(KST).strftime("%Y-%m-%d %H:%M"),
         "schedules": all_data
@@ -142,6 +145,7 @@ def scrape_all():
 
     with open("data.json", "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
+
 
 if __name__ == "__main__":
     scrape_all()
