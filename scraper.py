@@ -116,7 +116,9 @@ def scrape_all():
                                 "time": f"{md} {cells[time_idx]}"
                             })
                             ds_count += 1
-            except Exception as        
+            except Exception as e:  
+                                print("대산 오류:", e)
+                print(f"대산 수집: {ds_count}건")
         browser.close()
 
     print(f"총 수집 건수: {len(all_data)}건")
