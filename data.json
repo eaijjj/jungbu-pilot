@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15 09:00",
+  "updatedAt": "2026-11-15 10:42",
   "schedules": [
     {
       "port": "평택",
@@ -80,13 +80,6 @@
     },
     {
       "port": "평택",
-      "vessel": "ST STELLA",
-      "callSign": "D7OY",
-      "station": "HD11 → IPA",
-      "time": "11-15 12:00"
-    },
-    {
-      "port": "평택",
       "vessel": "DL DIAMOND",
       "callSign": "DSPQ4",
       "station": "E9 → IPA",
@@ -108,10 +101,10 @@
     },
     {
       "port": "평택",
-      "vessel": "TY LUCKY",
-      "callSign": "3E6932",
-      "station": "IPA → GD9",
-      "time": "11-15 16:00"
+      "vessel": "ST STELLA",
+      "callSign": "D7OY",
+      "station": "HD11 → IPA",
+      "time": "11-15 15:00"
     },
     {
       "port": "평택",
@@ -119,13 +112,6 @@
       "callSign": "3EHZ9",
       "station": "E15 → IPA",
       "time": "11-15 16:00"
-    },
-    {
-      "port": "평택",
-      "vessel": "NEW HONOR",
-      "callSign": "HPCI",
-      "station": "JANG → HD6",
-      "time": "11-15 17:00"
     },
     {
       "port": "평택",
@@ -220,6 +206,20 @@
     },
     {
       "port": "평택",
+      "vessel": "NEW HONOR",
+      "callSign": "HPCI",
+      "station": "JANG → HD6",
+      "time": "11-16 05:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "TY LUCKY",
+      "callSign": "3E6932",
+      "station": "IPA → GD9",
+      "time": "11-16 05:30"
+    },
+    {
+      "port": "평택",
       "vessel": "DING HENG 21",
       "callSign": "BOZP7",
       "station": "IPA → KHO",
@@ -230,6 +230,13 @@
       "vessel": "ATLANTIC PIONEER",
       "callSign": "9V7919",
       "station": "IPA → E16",
+      "time": "11-16 05:30"
+    },
+    {
+      "port": "평택",
+      "vessel": "HAFNIA TOURMALINE",
+      "callSign": "V7RA3",
+      "station": "IPA → W1",
       "time": "11-16 05:30"
     },
     {
@@ -269,6 +276,13 @@
     },
     {
       "port": "평택",
+      "vessel": "HYUNDAI DANGJIN",
+      "callSign": "D5BZ8",
+      "station": "HD4 → JANG",
+      "time": "11-16 08:30"
+    },
+    {
+      "port": "평택",
       "vessel": "OCEAN BLUE WHALE",
       "callSign": "D5MO4",
       "station": "IPA → E15",
@@ -283,13 +297,6 @@
     },
     {
       "port": "평택",
-      "vessel": "LAZULITE ACE",
-      "callSign": "5LZF2",
-      "station": "IPA → E3",
-      "time": "11-16 16:00"
-    },
-    {
-      "port": "평택",
       "vessel": "ARC HONOR",
       "callSign": "WAHI",
       "station": "E4 → IPA",
@@ -297,10 +304,31 @@
     },
     {
       "port": "평택",
+      "vessel": "KOREA VISION",
+      "callSign": "D7KV",
+      "station": "IPA → SK",
+      "time": "11-16 17:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "ASIAN GRACE",
+      "callSign": "D8AG",
+      "station": "IPA → E10",
+      "time": "11-16 17:00"
+    },
+    {
+      "port": "평택",
       "vessel": "MIDSHINE",
       "callSign": "D6A3121",
       "station": "E12 → IPA",
       "time": "11-16 17:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "LAZULITE ACE",
+      "callSign": "5LZF2",
+      "station": "IPA → E3",
+      "time": "11-16 18:00"
     },
     {
       "port": "평택",
@@ -315,6 +343,13 @@
       "callSign": "D5MO4",
       "station": "E15 → IPA",
       "time": "11-16 20:30"
+    },
+    {
+      "port": "평택",
+      "vessel": "DING HENG 21",
+      "callSign": "BOZP7",
+      "station": "KHO → A",
+      "time": "11-16 21:00"
     },
     {
       "port": "평택",
@@ -419,14 +454,14 @@
       "vessel": "FREE WAY",
       "callSign": "-",
       "station": "PAL - E1CT",
-      "time": "11-15 10:30"
+      "time": "11-15 10:00"
     },
     {
       "port": "인천",
       "vessel": "ZL KUN",
       "callSign": "-",
       "station": "N43 - PAL",
-      "time": "11-15 12:00"
+      "time": "11-15 11:00"
     },
     {
       "port": "인천",
@@ -479,6 +514,13 @@
     },
     {
       "port": "인천",
+      "vessel": "SM TOKYO",
+      "callSign": "-",
+      "station": "NPPS - HJIT3",
+      "time": "11-15 17:00"
+    },
+    {
+      "port": "인천",
       "vessel": "NEW MOMENTUM",
       "callSign": "-",
       "station": "72 - DONG",
@@ -489,13 +531,6 @@
       "vessel": "STARSHIP AQUILA",
       "callSign": "-",
       "station": "NPPS - SNCT1",
-      "time": "11-15 18:00"
-    },
-    {
-      "port": "인천",
-      "vessel": "SM TOKYO",
-      "callSign": "-",
-      "station": "NPPS - HJIT3",
       "time": "11-15 18:00"
     },
     {
