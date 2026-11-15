@@ -284,9 +284,14 @@
       const now = new Date();
       const parts = timeStr.trim().split(" ");
       if (parts.length !== 2) return null;
-      const [md, hm] = parts;
-      const [month, day] = md.split("-").map(Number);
-      const [hour, minute] = hm.split(":").map(Number);
+      const md = parts[0];
+      const hm = parts[1];
+      const mdParts = md.split("-").map(Number);
+      const hmParts = hm.split(":").map(Number);
+      const month = mdParts[0];
+      const day = mdParts[1];
+      const hour = hmParts[0];
+      const minute = hmParts[1];
       if (!month || !day || isNaN(hour) || isNaN(minute)) return null;
 
       let year = now.getFullYear();
@@ -296,7 +301,7 @@
 
     async function init() {
       try {
-        const res = await fetch('./data.json?t=' + new Date().getTime());
+        const res = await fetch("./data.json?t=" + new Date().getTime());
         if (!res.ok) throw new Error("HTTP " + res.status);
         const data = await res.json();
         allSchedules = data.schedules || [];
@@ -307,7 +312,9 @@
         allSchedules = [];
       }
 
-      allSchedules.sort((a, b) => a.time.localeCompare(b.time));
+      allSchedules.sort(function (a, b) {
+        return a.time.localeCompare(b.time);
+      });
       renderTable();
     }
 
@@ -317,7 +324,7 @@
       const limit = new Date(now.getTime() + 24 * 60 * 60 * 1000);
       const keyword = searchKeyword.toLowerCase();
 
-      const filtered = allSchedules.filter((item) => {
+      const filtered = allSchedules.filter(function (item) {
         const itemDate = parseScheduleTime(item.time);
         if (itemDate && itemDate < oneHourAgo) return false;
         if (itemDate && itemDate > limit) return false;
@@ -339,12 +346,9 @@
 
       emptyState.style.display = "none";
       scheduleBody.innerHTML = filtered
-        .map((item) => {
-          // VesselFinder 지도 메인 URL에 ?name= 파라미터를 붙여 지도에서 해당 선박으로 바로 확대 포커스
-                              const searchTarget = item.vessel || item.callSign;
-          const qMark = String.fromCharCode(63);
-          const vfUrl = "const vfUrl = "https://www.vesselfinder.com/vessels?name=" + encodeURIComponent(searchTarget);
-
+        .map(function (item) {
+          const searchTarget = item.vessel || item.callSign;
+          const vfUrl = "https://www.vesselfinder.com/vessels?name=" + encodeURIComponent(searchTarget);
 
           return (
             "<tr>" +
@@ -362,16 +366,18 @@
         .join("");
     }
 
-    tabButtons.forEach((btn) => {
-      btn.addEventListener("click", () => {
-        tabButtons.forEach((b) => b.classList.remove("active"));
+    tabButtons.forEach(function (btn) {
+      btn.addEventListener("click", function () {
+        tabButtons.forEach(function (b) {
+          b.classList.remove("active");
+        });
         btn.classList.add("active");
         currentPort = btn.dataset.port;
         renderTable();
       });
     });
 
-    searchInput.addEventListener("input", (e) => {
+    searchInput.addEventListener("input", function (e) {
       searchKeyword = e.target.value.trim();
       renderTable();
     });
