@@ -27,7 +27,7 @@ jobs:
 
       - name: Run scraper
         run: python scraper.py
-
+             python debug.py
       - name: Commit and push updated data
         run: |
           git config --global user.name "github-actions[bot]"
