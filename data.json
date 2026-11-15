@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15 10:42",
+  "updatedAt": "2026-11-15 11:30",
   "schedules": [
     {
       "port": "평택",
@@ -129,13 +129,6 @@
     },
     {
       "port": "평택",
-      "vessel": "KEN VOYAGER",
-      "callSign": "3FXQ7",
-      "station": "W4 → IPA",
-      "time": "11-15 17:00"
-    },
-    {
-      "port": "평택",
       "vessel": "TEN JUPITER",
       "callSign": "3E8470",
       "station": "E16 → IPA",
@@ -153,6 +146,13 @@
       "vessel": "GLOBAL ARC",
       "callSign": "3FNJ6",
       "station": "IPA → W7",
+      "time": "11-15 19:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "KEN VOYAGER",
+      "callSign": "3FXQ7",
+      "station": "W4 → IPA",
       "time": "11-15 19:00"
     },
     {
@@ -269,13 +269,6 @@
     },
     {
       "port": "평택",
-      "vessel": "LAN HA",
-      "callSign": "3WPD",
-      "station": "IPA → W6",
-      "time": "11-16 08:00"
-    },
-    {
-      "port": "평택",
       "vessel": "HYUNDAI DANGJIN",
       "callSign": "D5BZ8",
       "station": "HD4 → JANG",
@@ -290,10 +283,24 @@
     },
     {
       "port": "평택",
+      "vessel": "LAN HA",
+      "callSign": "3WPD",
+      "station": "IPA → W6",
+      "time": "11-16 11:30"
+    },
+    {
+      "port": "평택",
       "vessel": "JIUYANG BONANZA",
       "callSign": "V7A6811",
       "station": "IPA → E1",
       "time": "11-16 12:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "GLOVIS COSMOS",
+      "callSign": "D7HT",
+      "station": "IPA → E4",
+      "time": "11-16 15:00"
     },
     {
       "port": "평택",
@@ -328,13 +335,6 @@
       "vessel": "LAZULITE ACE",
       "callSign": "5LZF2",
       "station": "IPA → E3",
-      "time": "11-16 18:00"
-    },
-    {
-      "port": "평택",
-      "vessel": "GLOVIS COSMOS",
-      "callSign": "D7HT",
-      "station": "IPA → E4",
       "time": "11-16 18:00"
     },
     {
@@ -496,7 +496,7 @@
       "vessel": "YU AN",
       "callSign": "-",
       "station": "PAL - N44",
-      "time": "11-15 15:30"
+      "time": "11-15 15:00"
     },
     {
       "port": "인천",
@@ -556,17 +556,17 @@
     },
     {
       "port": "인천",
-      "vessel": "SUNNY LILAC",
-      "callSign": "-",
-      "station": "SNCT2 - NPPS",
-      "time": "11-15 21:00"
-    },
-    {
-      "port": "인천",
       "vessel": "KMTC OSAKA",
       "callSign": "-",
       "station": "PAL - ICT1",
       "time": "11-15 21:00"
+    },
+    {
+      "port": "인천",
+      "vessel": "SUNNY LILAC",
+      "callSign": "-",
+      "station": "SNCT2 - NPPS",
+      "time": "11-15 22:00"
     },
     {
       "port": "인천",
