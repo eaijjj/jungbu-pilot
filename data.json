@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15 11:44",
+  "updatedAt": "2026-11-15 11:48",
   "schedules": [
     {
       "port": "평택",
@@ -581,6 +581,174 @@
       "callSign": "-",
       "station": "PAL - 52",
       "time": "11-15 22:30"
+    },
+    {
+      "port": "대산",
+      "vessel": "BUENA ALBA",
+      "callSign": "3FOE8",
+      "station": "MDK-11 → PS3",
+      "time": "11-15 06:00"
+    },
+    {
+      "port": "대산",
+      "vessel": "HUA CHI",
+      "callSign": "BPGD",
+      "station": "MDK-15 → WAA-9 MDK",
+      "time": "11-15 06:00"
+    },
+    {
+      "port": "대산",
+      "vessel": "BAI LU ZUO",
+      "callSign": "VRJL7",
+      "station": "PS2 → MDS-36",
+      "time": "11-15 06:30"
+    },
+    {
+      "port": "대산",
+      "vessel": "SKY WINNER",
+      "callSign": "D7JU",
+      "station": "WAA-04 → MDS-34",
+      "time": "11-15 06:30"
+    },
+    {
+      "port": "대산",
+      "vessel": "KINAROS",
+      "callSign": "5LPY4",
+      "station": "MDS-36 → WAA-10",
+      "time": "11-15 07:00"
+    },
+    {
+      "port": "대산",
+      "vessel": "XIA HUAI",
+      "callSign": "BPKD2",
+      "station": "MDS-32 → WAA-05",
+      "time": "11-15 07:30"
+    },
+    {
+      "port": "대산",
+      "vessel": "OC GRANDE",
+      "callSign": "V7EX8",
+      "station": "MDK-14 → PS2",
+      "time": "11-15 08:00"
+    },
+    {
+      "port": "대산",
+      "vessel": "ANTONIS I. ANGELICOUSSIS",
+      "callSign": "SVDQ2",
+      "station": "SPM-01 → PS2",
+      "time": "11-15 10:00"
+    },
+    {
+      "port": "대산",
+      "vessel": "HUA NAN 5",
+      "callSign": "BOVQ2",
+      "station": "PS3 → MDH-25",
+      "time": "11-15 12:30"
+    },
+    {
+      "port": "대산",
+      "vessel": "MORNING HOPE",
+      "callSign": "3EIT4",
+      "station": "MDH-25 → PS3",
+      "time": "11-15 12:30"
+    },
+    {
+      "port": "대산",
+      "vessel": "XIA HUAI",
+      "callSign": "BPKD2",
+      "station": "WAA-05 → PS3",
+      "time": "11-15 12:45"
+    },
+    {
+      "port": "대산",
+      "vessel": "CORAL ALICIA",
+      "callSign": "PCPA",
+      "station": "MDS-33 → PS3",
+      "time": "11-15 13:00"
+    },
+    {
+      "port": "대산",
+      "vessel": "TORM GLORIA",
+      "callSign": "9V9634",
+      "station": "MDH-21 → PS2",
+      "time": "11-15 13:30"
+    },
+    {
+      "port": "대산",
+      "vessel": "SAN RAMON VOYAGER",
+      "callSign": "V7A6442",
+      "station": "MDN-11 → PS2",
+      "time": "11-15 14:00"
+    },
+    {
+      "port": "대산",
+      "vessel": "HUA CHI",
+      "callSign": "BPGD",
+      "station": "WAA-9 MDK → PS2",
+      "time": "11-15 16:00"
+    },
+    {
+      "port": "대산",
+      "vessel": "DING HENG 5",
+      "callSign": "BPIQ8",
+      "station": "PS3 → MDH-23",
+      "time": "11-15 18:00"
+    },
+    {
+      "port": "대산",
+      "vessel": "NO.7 HANA",
+      "callSign": "D7FM",
+      "station": "PS3 → MDH-24",
+      "time": "11-15 19:00"
+    },
+    {
+      "port": "대산",
+      "vessel": "POLARIS",
+      "callSign": "DSQN4",
+      "station": "WAA-05 → MDS-37",
+      "time": "11-15 19:30"
+    },
+    {
+      "port": "대산",
+      "vessel": "SUNNY LILAC",
+      "callSign": "3E5038",
+      "station": "PS3 → MB3-01",
+      "time": "11-16 00:00"
+    },
+    {
+      "port": "대산",
+      "vessel": "RICSEA",
+      "callSign": "V7QL4",
+      "station": "MDA-01 → PS1",
+      "time": "11-15 08:30"
+    },
+    {
+      "port": "대산",
+      "vessel": "SEA GRACE",
+      "callSign": "V7A5958",
+      "station": "MDB-42 → B.WAA-02",
+      "time": "11-15 11:00"
+    },
+    {
+      "port": "대산",
+      "vessel": "SEA GRACE",
+      "callSign": "V7A5958",
+      "station": "B.WAA-02 → MDB-42",
+      "time": "11-15 11:30"
+    },
+    {
+      "port": "대산",
+      "vessel": "ASIA ENERGY",
+      "callSign": "C6AX4",
+      "station": "MDA-52 → PS1",
+      "time": "11-15 11:30"
+    },
+    {
+      "port": "대산",
+      "vessel": "XIA HUAI",
+      "callSign": "BPKD2",
+      "station": "MDS-32 → WAA-05",
+      "time": "11-15 12:45"
     }
   ]
 }
