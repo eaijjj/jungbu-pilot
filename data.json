@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15 12:08",
+  "updatedAt": "2026-11-15 12:34",
   "schedules": [
     {
       "port": "평택",
@@ -269,6 +269,13 @@
     },
     {
       "port": "평택",
+      "vessel": "RIZHAO ORIENT",
+      "callSign": "HOAG",
+      "station": "IPA → E14",
+      "time": "11-16 07:30"
+    },
+    {
+      "port": "평택",
       "vessel": "HYUNDAI DANGJIN",
       "callSign": "D5BZ8",
       "station": "HD4 → JANG",
@@ -308,6 +315,13 @@
       "callSign": "WAHI",
       "station": "E4 → IPA",
       "time": "11-16 16:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "RIZHAO ORIENT",
+      "callSign": "HOAG",
+      "station": "E14 → IPA",
+      "time": "11-16 16:30"
     },
     {
       "port": "평택",
@@ -528,16 +542,16 @@
     },
     {
       "port": "인천",
-      "vessel": "STARSHIP AQUILA",
-      "callSign": "-",
-      "station": "NPPS - SNCT1",
-      "time": "11-15 18:00"
-    },
-    {
-      "port": "인천",
       "vessel": "EVER CERTAIN",
       "callSign": "-",
       "station": "ICT1 - PAL",
+      "time": "11-15 17:00"
+    },
+    {
+      "port": "인천",
+      "vessel": "STARSHIP AQUILA",
+      "callSign": "-",
+      "station": "NPPS - SNCT1",
       "time": "11-15 18:00"
     },
     {
@@ -556,16 +570,16 @@
     },
     {
       "port": "인천",
-      "vessel": "KMTC OSAKA",
-      "callSign": "-",
-      "station": "PAL - ICT1",
-      "time": "11-15 21:00"
-    },
-    {
-      "port": "인천",
       "vessel": "SUNNY LILAC",
       "callSign": "-",
       "station": "SNCT2 - NPPS",
+      "time": "11-15 22:00"
+    },
+    {
+      "port": "인천",
+      "vessel": "KMTC OSAKA",
+      "callSign": "-",
+      "station": "PAL - ICT1",
       "time": "11-15 22:00"
     },
     {
@@ -710,13 +724,6 @@
     },
     {
       "port": "대산",
-      "vessel": "SUNNY LILAC",
-      "callSign": "3E5038",
-      "station": "PS3 → MB3-01",
-      "time": "11-16 00:00"
-    },
-    {
-      "port": "대산",
       "vessel": "RICSEA",
       "callSign": "V7QL4",
       "station": "MDA-01 → PS1",
@@ -749,6 +756,13 @@
       "callSign": "BPKD2",
       "station": "MDS-32 → WAA-05",
       "time": "11-15 12:45"
+    },
+    {
+      "port": "대산",
+      "vessel": "SUNNY LILAC",
+      "callSign": "3E5038",
+      "station": "PS3 → MB3-01",
+      "time": "11-16 00:00"
     },
     {
       "port": "대산",
