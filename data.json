@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15 18:40",
+  "updatedAt": "2026-11-15 19:38",
   "schedules": [
     {
       "port": "평택",
@@ -584,16 +584,16 @@
     },
     {
       "port": "인천",
-      "vessel": "KMTC OSAKA",
-      "callSign": "-",
-      "station": "PAL - ICT1",
-      "time": "11-15 22:00"
-    },
-    {
-      "port": "인천",
       "vessel": "GLOVIS CONDOR",
       "callSign": "-",
       "station": "PAL - 52",
+      "time": "11-15 22:30"
+    },
+    {
+      "port": "인천",
+      "vessel": "KMTC OSAKA",
+      "callSign": "-",
+      "station": "PAL - ICT1",
       "time": "11-15 22:30"
     },
     {
