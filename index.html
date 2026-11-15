@@ -4,7 +4,9 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>서해 중부 통합 도선 스케줄 (인천·평택·대산)</title>
-    <link rel="manifest" href="manifest.json" />
+  <link rel="manifest" href="manifest.json" />
+  <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+  <meta name="theme-color" content="#1d4ed8" />
   <style>
     :root {
       --bg-color: #f4f6f9;
@@ -198,6 +200,91 @@
       line-height: 1.6;
     }
 
+    /* ===== 요약 보기 ===== */
+    .summary-note {
+      display: none;
+      font-size: 0.78rem;
+      color: var(--text-sub);
+      margin-bottom: 8px;
+      line-height: 1.5;
+    }
+
+    .summary-grid {
+      display: none;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 12px;
+      align-items: start;
+    }
+
+    .sum-col {
+      background: var(--card-bg);
+      border-radius: 12px;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+      overflow: hidden;
+    }
+
+    .sum-head {
+      padding: 10px 12px;
+      font-size: 0.95rem;
+      font-weight: 700;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .sum-head small {
+      font-size: 0.75rem;
+      font-weight: 600;
+      opacity: 0.8;
+    }
+
+    .sum-head-인천 { background: var(--incheon-bg); color: var(--incheon-text); }
+    .sum-head-평택 { background: var(--pyeongtaek-bg); color: var(--pyeongtaek-text); }
+    .sum-head-대산 { background: var(--daesan-bg); color: var(--daesan-text); }
+
+    .sum-item {
+      padding: 8px 12px;
+      border-top: 1px solid var(--border-color);
+    }
+
+    .sum-line1 {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 8px;
+    }
+
+    .sum-vessel {
+      font-weight: 700;
+      font-size: 0.9rem;
+      word-break: break-word;
+    }
+
+    .sum-time {
+      font-weight: 600;
+      font-size: 0.85rem;
+      white-space: nowrap;
+    }
+
+    .sum-station {
+      font-size: 0.78rem;
+      color: var(--text-sub);
+      margin-top: 2px;
+      word-break: break-word;
+    }
+
+    .sum-empty {
+      padding: 16px 12px;
+      font-size: 0.85rem;
+      color: var(--text-sub);
+    }
+
+    @media (max-width: 700px) {
+      .summary-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
     @media (max-width: 640px) {
       thead {
         display: none;
@@ -217,6 +304,11 @@
       td {
         padding: 3px 0;
         border: none;
+      }
+
+      /* 폭이 좁으면 콜사인은 숨김 */
+      .call-sign {
+        display: none;
       }
 
       .cell-action {
@@ -240,6 +332,7 @@
         <button class="tab-btn" data-port="인천">인천</button>
         <button class="tab-btn" data-port="평택">평택</button>
         <button class="tab-btn" data-port="대산">대산</button>
+        <button class="tab-btn" data-port="SUMMARY">요약</button>
       </div>
       <div class="search-box">
         <input
@@ -250,7 +343,7 @@
       </div>
     </div>
 
-    <div class="table-wrapper">
+    <div class="table-wrapper" id="tableWrapper">
       <table>
         <thead>
           <tr>
@@ -268,18 +361,41 @@
         현재 시각 기준 표시할 도선 스케줄이 없습니다.
       </div>
     </div>
+
+    <div class="summary-note" id="summaryNote">
+      대산은 전체 표시 / 평택은 JANG→, IPA→ 로 시작 / 인천은 JANG, PAL, NPPS 로 시작하는 도선점만 표시합니다.
+    </div>
+    <div class="summary-grid" id="summaryWrap"></div>
   </div>
 
   <script>
+    // ===== 요약 화면 표시 규칙 =====
+    // 항구별로 도선점이 아래 글자로 "시작"하는 선박만 요약에 표시합니다.
+    // 규칙이 없는 항구(대산)는 전부 표시합니다. 영문 대소문자와 띄어쓰기는 무시합니다.
+    const SUMMARY_RULES = {
+      "평택": ["JANG→", "IPA→"],
+      "인천": ["JANG", "PAL", "NPPS"]
+    };
+
     let currentPort = "ALL";
     let searchKeyword = "";
     let allSchedules = [];
 
     const scheduleBody = document.getElementById("scheduleBody");
+    const tableWrapper = document.getElementById("tableWrapper");
+    const summaryWrap = document.getElementById("summaryWrap");
+    const summaryNote = document.getElementById("summaryNote");
     const emptyState = document.getElementById("emptyState");
     const lastUpdatedEl = document.getElementById("lastUpdated");
     const searchInput = document.getElementById("searchInput");
     const tabButtons = document.querySelectorAll(".tab-btn");
+
+    function esc(s) {
+      return String(s == null ? "" : s)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;");
+    }
 
     function parseScheduleTime(timeStr) {
       const now = new Date();
@@ -298,6 +414,46 @@
       let year = now.getFullYear();
       if (now.getMonth() === 11 && month === 1) year += 1;
       return new Date(year, month - 1, day, hour, minute, 0);
+    }
+
+    // 요약 화면에 보여줄 선박인지 판단
+    function matchesSummaryRule(item) {
+      const rules = SUMMARY_RULES[item.port];
+      if (!rules) return true;
+      const st = String(item.station || "").toUpperCase().replace(/\s+/g, "");
+      return rules.some(function (prefix) {
+        return st.indexOf(prefix.toUpperCase().replace(/\s+/g, "")) === 0;
+      });
+    }
+
+    function shortTime(timeStr) {
+      const parts = String(timeStr).trim().split(" ");
+      if (parts.length !== 2) return timeStr;
+      const now = new Date();
+      const todayMd =
+        String(now.getMonth() + 1).padStart(2, "0") + "-" + String(now.getDate()).padStart(2, "0");
+      return parts[0] === todayMd ? parts[1] : parts[0] + " " + parts[1];
+    }
+
+    function getFiltered(portFilter) {
+      const now = new Date();
+      const oneHourAgo = new Date(now.getTime() - 60 * 60 * 1000);
+      const limit = new Date(now.getTime() + 24 * 60 * 60 * 1000);
+      const keyword = searchKeyword.toLowerCase();
+
+      return allSchedules.filter(function (item) {
+        const itemDate = parseScheduleTime(item.time);
+        if (itemDate && itemDate < oneHourAgo) return false;
+        if (itemDate && itemDate > limit) return false;
+
+        const matchPort = portFilter === "ALL" || item.port === portFilter;
+        const matchSearch =
+          !keyword ||
+          (item.vessel && item.vessel.toLowerCase().includes(keyword)) ||
+          (item.callSign && item.callSign.toLowerCase().includes(keyword)) ||
+          (item.station && item.station.toLowerCase().includes(keyword));
+        return matchPort && matchSearch;
+      });
     }
 
     async function init() {
@@ -319,25 +475,51 @@
       renderTable();
     }
 
+    function renderSummary() {
+      const ports = ["인천", "평택", "대산"];
+      summaryWrap.innerHTML = ports
+        .map(function (port) {
+          const items = getFiltered(port).filter(matchesSummaryRule);
+          let body = "";
+          if (items.length === 0) {
+            body = "<div class='sum-empty'>표시할 스케줄이 없습니다.</div>";
+          } else {
+            body = items
+              .map(function (item) {
+                return (
+                  "<div class='sum-item'>" +
+                    "<div class='sum-line1'>" +
+                      "<span class='sum-vessel'>" + esc(item.vessel) + "</span>" +
+                      "<span class='sum-time'>" + esc(shortTime(item.time)) + "</span>" +
+                    "</div>" +
+                    "<div class='sum-station'>" + esc(item.station) + "</div>" +
+                  "</div>"
+                );
+              })
+              .join("");
+          }
+          return (
+            "<div class='sum-col'>" +
+              "<div class='sum-head sum-head-" + port + "'>" + port + "<small>" + items.length + "건</small></div>" +
+              body +
+            "</div>"
+          );
+        })
+        .join("");
+    }
+
     function renderTable() {
-      const now = new Date();
-      const oneHourAgo = new Date(now.getTime() - 60 * 60 * 1000);
-      const limit = new Date(now.getTime() + 24 * 60 * 60 * 1000);
-      const keyword = searchKeyword.toLowerCase();
+      const isSummary = currentPort === "SUMMARY";
+      tableWrapper.style.display = isSummary ? "none" : "block";
+      summaryWrap.style.display = isSummary ? "grid" : "none";
+      summaryNote.style.display = isSummary ? "block" : "none";
 
-      const filtered = allSchedules.filter(function (item) {
-        const itemDate = parseScheduleTime(item.time);
-        if (itemDate && itemDate < oneHourAgo) return false;
-        if (itemDate && itemDate > limit) return false;
+      if (isSummary) {
+        renderSummary();
+        return;
+      }
 
-        const matchPort = currentPort === "ALL" || item.port === currentPort;
-        const matchSearch =
-          !keyword ||
-          (item.vessel && item.vessel.toLowerCase().includes(keyword)) ||
-          (item.callSign && item.callSign.toLowerCase().includes(keyword)) ||
-          (item.station && item.station.toLowerCase().includes(keyword));
-        return matchPort && matchSearch;
-      });
+      const filtered = getFiltered(currentPort);
 
       if (filtered.length === 0) {
         scheduleBody.innerHTML = "";
@@ -354,10 +536,10 @@
           return (
             "<tr>" +
               "<td><span class='badge badge-" + item.port + "'>" + item.port + "</span></td>" +
-              "<td class='vessel-name'>" + item.vessel + "</td>" +
-              "<td class='call-sign'>" + (item.callSign || "-") + "</td>" +
-              "<td>" + item.station + "</td>" +
-              "<td class='pilot-time'>" + item.time + "</td>" +
+              "<td class='vessel-name'>" + esc(item.vessel) + "</td>" +
+              "<td class='call-sign'>" + esc(item.callSign || "-") + "</td>" +
+              "<td>" + esc(item.station) + "</td>" +
+              "<td class='pilot-time'>" + esc(item.time) + "</td>" +
               "<td class='cell-action'>" +
                 "<a href='" + vfUrl + "' target='_blank' rel='noopener noreferrer' class='ais-link'>📍 위치추적</a>" +
               "</td>" +
