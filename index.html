@@ -200,7 +200,7 @@
       line-height: 1.6;
     }
 
-    /* ===== 요약 보기 ===== */
+    /* ===== 요약 보기 (컴퓨터: 3칸 나란히) ===== */
     .summary-note {
       display: none;
       font-size: 0.78rem;
@@ -279,6 +279,99 @@
       color: var(--text-sub);
     }
 
+    /* ===== 요약 보기 (폰: 시간대별 표) ===== */
+    .tl-grid {
+      display: grid;
+      grid-template-columns: 38px 1fr 1fr 1fr;
+      background: var(--card-bg);
+      border-radius: 12px;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+      overflow: clip;
+    }
+
+    .tl-head {
+      position: sticky;
+      top: 0;
+      z-index: 2;
+      padding: 8px 2px;
+      font-size: 0.8rem;
+      font-weight: 700;
+      text-align: center;
+    }
+
+    .tl-head small {
+      display: block;
+      font-size: 0.65rem;
+      font-weight: 600;
+      opacity: 0.8;
+    }
+
+    .tl-head-time {
+      background: #f3f4f6;
+      color: var(--text-sub);
+    }
+
+    .tl-date {
+      grid-column: 1 / -1;
+      padding: 4px 10px;
+      background: #eef2ff;
+      color: #3730a3;
+      font-size: 0.75rem;
+      font-weight: 700;
+      border-top: 1px solid var(--border-color);
+    }
+
+    .tl-hour {
+      padding: 6px 2px;
+      font-size: 0.75rem;
+      font-weight: 700;
+      text-align: center;
+      color: var(--text-sub);
+      background: #f9fafb;
+      border-top: 1px solid var(--border-color);
+    }
+
+    .tl-cell {
+      padding: 5px 5px;
+      border-top: 1px solid var(--border-color);
+      border-left: 1px solid var(--border-color);
+      min-width: 0;
+    }
+
+    .tl-item + .tl-item {
+      margin-top: 5px;
+      padding-top: 5px;
+      border-top: 1px dashed var(--border-color);
+    }
+
+    .tl-min {
+      font-size: 0.68rem;
+      font-weight: 700;
+      color: var(--text-sub);
+    }
+
+    .tl-name {
+      font-size: 0.74rem;
+      font-weight: 700;
+      line-height: 1.25;
+      word-break: break-word;
+    }
+
+    .tl-st {
+      font-size: 0.64rem;
+      color: var(--text-sub);
+      line-height: 1.25;
+      word-break: break-word;
+    }
+
+    .tl-empty {
+      grid-column: 1 / -1;
+      padding: 24px 12px;
+      text-align: center;
+      font-size: 0.85rem;
+      color: var(--text-sub);
+    }
+
     @media (max-width: 700px) {
       .summary-grid {
         grid-template-columns: 1fr;
@@ -326,6 +419,7 @@
       <span class="update-info" id="lastUpdated">업데이트: 불러오는 중...</span>
     </header>
 
+    <div class="controls">
       <div class="tabs" id="portTabs">
         <button class="tab-btn active" data-port="SUMMARY">요약</button>
         <button class="tab-btn" data-port="ALL">전체</button>
@@ -389,11 +483,20 @@
     const searchInput = document.getElementById("searchInput");
     const tabButtons = document.querySelectorAll(".tab-btn");
 
+    function isNarrow() {
+      return window.matchMedia("(max-width: 700px)").matches;
+    }
+    let lastNarrow = isNarrow();
+
     function esc(s) {
       return String(s == null ? "" : s)
         .replace(/&/g, "&amp;")
         .replace(/</g, "&lt;")
         .replace(/>/g, "&gt;");
+    }
+
+    function pad2(n) {
+      return String(n).padStart(2, "0");
     }
 
     function parseScheduleTime(timeStr) {
@@ -429,8 +532,7 @@
       const parts = String(timeStr).trim().split(" ");
       if (parts.length !== 2) return timeStr;
       const now = new Date();
-      const todayMd =
-        String(now.getMonth() + 1).padStart(2, "0") + "-" + String(now.getDate()).padStart(2, "0");
+      const todayMd = pad2(now.getMonth() + 1) + "-" + pad2(now.getDate());
       return parts[0] === todayMd ? parts[1] : parts[0] + " " + parts[1];
     }
 
@@ -474,7 +576,8 @@
       renderTable();
     }
 
-    function renderSummary() {
+    // ===== 요약: 컴퓨터용 (3칸 나란히) =====
+    function renderSummaryColumns() {
       const ports = ["인천", "평택", "대산"];
       summaryWrap.innerHTML = ports
         .map(function (port) {
@@ -505,6 +608,81 @@
           );
         })
         .join("");
+    }
+
+    // ===== 요약: 폰용 (시간대별 표, 가로 = 항구) =====
+    function renderSummaryTimeline() {
+      const ports = ["인천", "평택", "대산"];
+      const now = new Date();
+      const tomorrow = new Date(now.getTime() + 24 * 60 * 60 * 1000);
+      const todayMd = pad2(now.getMonth() + 1) + "-" + pad2(now.getDate());
+      const tomorrowMd = pad2(tomorrow.getMonth() + 1) + "-" + pad2(tomorrow.getDate());
+
+      const counts = {};
+      const groups = {};
+      const order = [];
+
+      ports.forEach(function (port) {
+        const items = getFiltered(port).filter(matchesSummaryRule);
+        counts[port] = items.length;
+        items.forEach(function (item) {
+          const parts = String(item.time).trim().split(" ");
+          if (parts.length !== 2) return;
+          const hm = parts[1].split(":");
+          const key = parts[0] + " " + hm[0];
+          if (!groups[key]) {
+            groups[key] = { date: parts[0], hour: hm[0], cells: { "인천": [], "평택": [], "대산": [] } };
+            order.push(key);
+          }
+          groups[key].cells[port].push({ item: item, min: hm[1] });
+        });
+      });
+
+      order.sort();
+
+      let html = "<div class='tl-grid'>";
+      html += "<div class='tl-head tl-head-time'>시</div>";
+      ports.forEach(function (port) {
+        html += "<div class='tl-head sum-head-" + port + "'>" + port + "<small>" + counts[port] + "건</small></div>";
+      });
+
+      if (order.length === 0) {
+        html += "<div class='tl-empty'>표시할 스케줄이 없습니다.</div>";
+      }
+
+      let lastDate = todayMd;
+      order.forEach(function (key) {
+        const g = groups[key];
+        if (g.date !== lastDate) {
+          html += "<div class='tl-date'>" + esc(g.date) + (g.date === tomorrowMd ? " (내일)" : "") + "</div>";
+          lastDate = g.date;
+        }
+        html += "<div class='tl-hour'>" + esc(g.hour) + "시</div>";
+        ports.forEach(function (port) {
+          const list = g.cells[port];
+          html += "<div class='tl-cell'>";
+          list.forEach(function (c) {
+            html +=
+              "<div class='tl-item'>" +
+                "<div class='tl-min'>:" + esc(c.min) + "</div>" +
+                "<div class='tl-name'>" + esc(c.item.vessel) + "</div>" +
+                "<div class='tl-st'>" + esc(c.item.station) + "</div>" +
+              "</div>";
+          });
+          html += "</div>";
+        });
+      });
+
+      html += "</div>";
+      summaryWrap.innerHTML = html;
+    }
+
+    function renderSummary() {
+      if (isNarrow()) {
+        renderSummaryTimeline();
+      } else {
+        renderSummaryColumns();
+      }
     }
 
     function renderTable() {
@@ -562,6 +740,15 @@
     searchInput.addEventListener("input", function (e) {
       searchKeyword = e.target.value.trim();
       renderTable();
+    });
+
+    // 화면 폭이 좁음/넓음으로 바뀔 때만 다시 그리기 (폰 회전 등)
+    window.addEventListener("resize", function () {
+      const nowNarrow = isNarrow();
+      if (nowNarrow !== lastNarrow) {
+        lastNarrow = nowNarrow;
+        if (currentPort === "SUMMARY") renderTable();
+      }
     });
 
     init();
