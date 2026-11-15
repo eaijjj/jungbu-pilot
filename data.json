@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16 03:08",
+  "updatedAt": "2026-11-16 04:16",
   "schedules": [
     {
       "port": "평택",
@@ -94,13 +94,6 @@
     },
     {
       "port": "평택",
-      "vessel": "HYUNDAI DANGJIN",
-      "callSign": "D5BZ8",
-      "station": "HD4 → JANG",
-      "time": "11-16 08:30"
-    },
-    {
-      "port": "평택",
       "vessel": "OCEAN BLUE WHALE",
       "callSign": "D5MO4",
       "station": "IPA → E15",
@@ -126,6 +119,13 @@
       "callSign": "V3IP",
       "station": "IPA → HD9",
       "time": "11-16 12:30"
+    },
+    {
+      "port": "평택",
+      "vessel": "HYUNDAI DANGJIN",
+      "callSign": "D5BZ8",
+      "station": "HD4 → JANG",
+      "time": "11-16 13:30"
     },
     {
       "port": "평택",
