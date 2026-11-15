@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16 01:34",
+  "updatedAt": "2026-11-16 02:29",
   "schedules": [
     {
       "port": "평택",
@@ -297,13 +297,6 @@
     },
     {
       "port": "인천",
-      "vessel": "KNIGHTSHIP",
-      "callSign": "-",
-      "station": "JANG - YHD3",
-      "time": "11-16 07:00"
-    },
-    {
-      "port": "인천",
       "vessel": "STARSHIP AQUILA",
       "callSign": "-",
       "station": "SNCT1 - NPPS",
@@ -356,14 +349,14 @@
       "vessel": "AN DONG 68",
       "callSign": "-",
       "station": "NPPS - SNCT3",
-      "time": "11-16 10:30"
+      "time": "11-16 10:00"
     },
     {
       "port": "인천",
       "vessel": "MSC BERN Ⅴ",
       "callSign": "-",
       "station": "PAL - ICT2",
-      "time": "11-16 10:30"
+      "time": "11-16 10:00"
     },
     {
       "port": "인천",
@@ -469,6 +462,13 @@
       "callSign": "-",
       "station": "NIPT4 - PAL",
       "time": "11-16 18:30"
+    },
+    {
+      "port": "인천",
+      "vessel": "KNIGHTSHIP",
+      "callSign": "-",
+      "station": "JANG - YHD3",
+      "time": "11-16 19:30"
     },
     {
       "port": "인천",
