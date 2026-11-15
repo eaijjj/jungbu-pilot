@@ -59,7 +59,29 @@
       font-size: 0.85rem;
       color: var(--text-sub);
     }
+    .header-right {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
 
+    .refresh-btn {
+      padding: 6px 10px;
+      border: 1px solid var(--border-color);
+      background: #fff;
+      color: var(--primary);
+      border-radius: 8px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      cursor: pointer;
+      white-space: nowrap;
+    }
+
+    .refresh-btn:disabled {
+      opacity: 0.5;
+      cursor: default;
+    }
     .controls {
       background: var(--card-bg);
       padding: 12px;
@@ -416,7 +438,10 @@
   <div class="container">
     <header>
       <h1>⚓ 통합 도선 스케줄 (인천·평택·대산)</h1>
-      <span class="update-info" id="lastUpdated">업데이트: 불러오는 중...</span>
+      <div class="header-right">
+        <span class="update-info" id="lastUpdated">업데이트: 불러오는 중...</span>
+        <button class="refresh-btn" id="refreshBtn" type="button">🔄 새로고침</button>
+      </div>
     </header>
 
     <div class="controls">
@@ -664,7 +689,7 @@
           list.forEach(function (c) {
             html +=
               "<div class='tl-item'>" +
-                "<div class='tl-min'>:" + esc(c.min) + "</div>" +
+                "<div class='tl-min'>" + esc(c.min) + "분</div>" +
                 "<div class='tl-name'>" + esc(c.item.vessel) + "</div>" +
                 "<div class='tl-st'>" + esc(c.item.station) + "</div>" +
               "</div>";
@@ -749,6 +774,14 @@
         lastNarrow = nowNarrow;
         if (currentPort === "SUMMARY") renderTable();
       }
+    });
+
+    const refreshBtn = document.getElementById("refreshBtn");
+    refreshBtn.addEventListener("click", async function () {
+      refreshBtn.disabled = true;
+      lastUpdatedEl.textContent = "업데이트: 불러오는 중...";
+      await init();
+      refreshBtn.disabled = false;
     });
 
     init();
