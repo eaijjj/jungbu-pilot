@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15 11:30",
+  "updatedAt": "2026-11-15 11:41",
   "schedules": [
     {
       "port": "평택",
@@ -108,13 +108,6 @@
     },
     {
       "port": "평택",
-      "vessel": "KMTC OSAKA",
-      "callSign": "3EHZ9",
-      "station": "E15 → IPA",
-      "time": "11-15 16:00"
-    },
-    {
-      "port": "평택",
       "vessel": "YONG MOON OTS 1",
       "callSign": "D7ME",
       "station": "GD9 → IPA",
@@ -126,6 +119,13 @@
       "callSign": "H3OX",
       "station": "IFT2 → IPA",
       "time": "11-15 17:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "KMTC OSAKA",
+      "callSign": "3EHZ9",
+      "station": "E15 → IPA",
+      "time": "11-15 18:00"
     },
     {
       "port": "평택",
