@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16 06:09",
+  "updatedAt": "2026-11-16 07:07",
   "schedules": [
     {
       "port": "평택",
@@ -466,6 +466,13 @@
     {
       "port": "인천",
       "vessel": "KNIGHTSHIP",
+      "callSign": "-",
+      "station": "JANG - YHD3",
+      "time": "11-16 19:30"
+    },
+    {
+      "port": "인천",
+      "vessel": "SKYTHIA",
       "callSign": "-",
       "station": "JANG - YHD3",
       "time": "11-16 19:30"
