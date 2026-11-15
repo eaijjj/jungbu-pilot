@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15 20:33",
+  "updatedAt": "2026-11-15 21:40",
   "schedules": [
     {
       "port": "평택",
@@ -178,17 +178,17 @@
     },
     {
       "port": "평택",
-      "vessel": "AS PIA",
-      "callSign": "V2EE9",
-      "station": "E7 → IPA",
+      "vessel": "YONG MOON OTS 1",
+      "callSign": "D7ME",
+      "station": "GD9 → IPA",
       "time": "11-15 23:00"
     },
     {
       "port": "평택",
-      "vessel": "YONG MOON OTS 1",
-      "callSign": "D7ME",
-      "station": "GD9 → IPA",
-      "time": "11-16 01:00"
+      "vessel": "AS PIA",
+      "callSign": "V2EE9",
+      "station": "E7 → IPA",
+      "time": "11-15 23:00"
     },
     {
       "port": "평택",
@@ -363,13 +363,6 @@
       "vessel": "DING HENG 21",
       "callSign": "BOZP7",
       "station": "KHO → A",
-      "time": "11-16 21:00"
-    },
-    {
-      "port": "평택",
-      "vessel": "LAZULITE ACE",
-      "callSign": "5LZF2",
-      "station": "IPA → E3",
       "time": "11-16 21:00"
     },
     {
