@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15 11:51",
+  "updatedAt": "2026-11-15 12:08",
   "schedules": [
     {
       "port": "평택",
@@ -685,7 +685,7 @@
       "vessel": "HUA CHI",
       "callSign": "BPGD",
       "station": "WAA-9 MDK → PS2",
-      "time": "11-15 16:00"
+      "time": "11-15 15:00"
     },
     {
       "port": "대산",
@@ -749,6 +749,41 @@
       "callSign": "BPKD2",
       "station": "MDS-32 → WAA-05",
       "time": "11-15 12:45"
+    },
+    {
+      "port": "대산",
+      "vessel": "DL DIAMOND",
+      "callSign": "DSPQ4",
+      "station": "PS3 → MDK-14",
+      "time": "11-16 05:30"
+    },
+    {
+      "port": "대산",
+      "vessel": "SKY WINNER",
+      "callSign": "D7JU",
+      "station": "MDS-34 → WAA-03",
+      "time": "11-16 08:00"
+    },
+    {
+      "port": "대산",
+      "vessel": "SKY WINNER",
+      "callSign": "D7JU",
+      "station": "WAA-03 → PS2",
+      "time": "11-16 12:00"
+    },
+    {
+      "port": "대산",
+      "vessel": "DL DIAMOND",
+      "callSign": "DSPQ4",
+      "station": "MDK-14 → PS3",
+      "time": "11-16 21:30"
+    },
+    {
+      "port": "대산",
+      "vessel": "SESTAO KNUTSEN",
+      "callSign": "ECBK",
+      "station": "PS1 → MDA-52",
+      "time": "11-16 10:30"
     }
   ]
 }
