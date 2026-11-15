@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15 17:51",
+  "updatedAt": "2026-11-15 18:40",
   "schedules": [
     {
       "port": "평택",
@@ -160,21 +160,21 @@
       "vessel": "MORNING CAPO",
       "callSign": "V7CB4",
       "station": "E1 → E2",
-      "time": "11-15 21:00"
+      "time": "11-15 20:30"
     },
     {
       "port": "평택",
       "vessel": "ARC HONOR",
       "callSign": "WAHI",
       "station": "E2 → E4",
-      "time": "11-15 21:00"
+      "time": "11-15 20:30"
     },
     {
       "port": "평택",
       "vessel": "MORNING CHRISTINA",
       "callSign": "D7OZ",
       "station": "E3 → IPA",
-      "time": "11-15 21:00"
+      "time": "11-15 20:30"
     },
     {
       "port": "평택",
