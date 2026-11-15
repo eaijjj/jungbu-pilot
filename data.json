@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15 08:04",
+  "updatedAt": "2026-11-15 09:00",
   "schedules": [
     {
       "port": "평택",
@@ -419,7 +419,7 @@
       "vessel": "FREE WAY",
       "callSign": "-",
       "station": "PAL - E1CT",
-      "time": "11-15 11:00"
+      "time": "11-15 10:30"
     },
     {
       "port": "인천",
@@ -458,13 +458,6 @@
     },
     {
       "port": "인천",
-      "vessel": "NEW MOMENTUM",
-      "callSign": "-",
-      "station": "72 - DONG",
-      "time": "11-15 15:00"
-    },
-    {
-      "port": "인천",
       "vessel": "YU AN",
       "callSign": "-",
       "station": "PAL - N44",
@@ -483,6 +476,13 @@
       "callSign": "-",
       "station": "E1CT - PAL",
       "time": "11-15 16:00"
+    },
+    {
+      "port": "인천",
+      "vessel": "NEW MOMENTUM",
+      "callSign": "-",
+      "station": "72 - DONG",
+      "time": "11-15 17:00"
     },
     {
       "port": "인천",
