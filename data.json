@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16 20:00",
+  "updatedAt": "2026-11-16 20:45",
   "errors": {},
   "schedules": [
     {
@@ -651,7 +651,7 @@
       "vessel": "MAERSK NUSSFJORD",
       "callSign": "-",
       "station": "HJIT2 - NPPS",
-      "time": "11-16 22:30"
+      "time": "11-16 23:00"
     },
     {
       "port": "인천",
