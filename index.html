@@ -82,6 +82,29 @@
       opacity: 0.5;
       cursor: default;
     }
+
+    /* 원본 사이트 오류 경고 */
+    .error-banner {
+      display: none;
+      background: #fef2f2;
+      border: 1px solid #fecaca;
+      border-left: 4px solid #dc2626;
+      color: #991b1b;
+      border-radius: 10px;
+      padding: 10px 12px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      line-height: 1.5;
+      margin-bottom: 12px;
+    }
+
+    .error-banner .eb-detail {
+      display: block;
+      margin-top: 2px;
+      font-size: 0.76rem;
+      font-weight: 500;
+      opacity: 0.85;
+    }
     .controls {
       background: var(--card-bg);
       padding: 12px;
@@ -444,6 +467,8 @@
       </div>
     </header>
 
+    <div class="error-banner" id="errorBanner"></div>
+
     <div class="controls">
       <div class="tabs" id="portTabs">
         <button class="tab-btn active" data-port="SUMMARY">요약</button>
@@ -505,6 +530,7 @@
     const summaryNote = document.getElementById("summaryNote");
     const emptyState = document.getElementById("emptyState");
     const lastUpdatedEl = document.getElementById("lastUpdated");
+    const errorBanner = document.getElementById("errorBanner");
     const searchInput = document.getElementById("searchInput");
     const tabButtons = document.querySelectorAll(".tab-btn");
 
@@ -582,12 +608,47 @@
       });
     }
 
+    // 원본 사이트 수집 실패 표시 (data.errors)
+    function renderErrors(errorsMap) {
+      const ports = Object.keys(errorsMap || {});
+      if (ports.length === 0) {
+        errorBanner.style.display = "none";
+        errorBanner.innerHTML = "";
+        return;
+      }
+
+      const names = ports
+        .map(function (port) {
+          const hasRows = allSchedules.some(function (s) {
+            return s.port === port;
+          });
+          return port + (hasRows ? " (직전 정상 데이터 표시 중)" : "");
+        })
+        .join(", ");
+
+      const details = ports
+        .map(function (port) {
+          return port + ": " + esc(errorsMap[port]);
+        })
+        .join(" · ");
+
+      errorBanner.innerHTML =
+        "⚠️ 원본 사이트 오류: " +
+        esc(names) +
+        "<span class='eb-detail'>" +
+        esc(details) +
+        "</span>";
+      errorBanner.style.display = "block";
+    }
+
     async function init() {
+      let errorsMap = {};
       try {
         const res = await fetch("./data.json?t=" + new Date().getTime());
         if (!res.ok) throw new Error("HTTP " + res.status);
         const data = await res.json();
         allSchedules = data.schedules || [];
+        errorsMap = data.errors || {};
         lastUpdatedEl.textContent = "업데이트: " + (data.updatedAt || "-") + " (1시간 전~24시간 후 표시)";
       } catch (e) {
         console.error("데이터 로드 실패:", e);
@@ -598,6 +659,7 @@
       allSchedules.sort(function (a, b) {
         return a.time.localeCompare(b.time);
       });
+      renderErrors(errorsMap);
       renderTable();
     }
 
