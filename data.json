@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-16 11:50",
+  "updatedAt": "2026-11-16 13:00",
   "schedules": [
     {
       "port": "평택",
       "vessel": "XIN TAI PING",
-      "callSign": "H3OX",
+      "callSign": "V7B3189",
       "station": "E8 → IPA",
       "time": "11-16 03:00"
     },
@@ -276,10 +276,24 @@
     },
     {
       "port": "평택",
+      "vessel": "GRAND CHOICE",
+      "callSign": "V7B3189",
+      "station": "IPA → E4",
+      "time": "11-17 14:30"
+    },
+    {
+      "port": "평택",
       "vessel": "ASIAN GRACE",
       "callSign": "D8AG",
       "station": "E10 → IPA",
       "time": "11-17 15:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "GLOVIS COSMOS",
+      "callSign": "D7HT",
+      "station": "E4 → E1",
+      "time": "11-17 15:30"
     },
     {
       "port": "평택",
@@ -290,10 +304,38 @@
     },
     {
       "port": "평택",
+      "vessel": "MORNING CAPO",
+      "callSign": "V7CB4",
+      "station": "E2 → E5",
+      "time": "11-17 16:30"
+    },
+    {
+      "port": "평택",
+      "vessel": "ROYAL TERN",
+      "callSign": "V7B2995",
+      "station": "E5 → E2",
+      "time": "11-17 16:30"
+    },
+    {
+      "port": "평택",
       "vessel": "NEW GRAND PEACE",
       "callSign": "H3OX",
       "station": "IFT2 → IPA",
       "time": "11-17 18:30"
+    },
+    {
+      "port": "평택",
+      "vessel": "GLOVIS COSMOS",
+      "callSign": "D7HT",
+      "station": "E1 → E4",
+      "time": "11-17 21:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "GRAND CHOICE",
+      "callSign": "V7B3189",
+      "station": "E4 → IPA",
+      "time": "11-17 21:00"
     },
     {
       "port": "인천",
