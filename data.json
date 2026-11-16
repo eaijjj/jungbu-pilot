@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-16 17:27",
+  "updatedAt": "2026-11-16 19:23",
   "schedules": [
     {
       "port": "평택",
       "vessel": "XIN TAI PING",
-      "callSign": "V7B3362",
+      "callSign": "3E6932",
       "station": "E8 → IPA",
       "time": "11-16 03:00"
     },
@@ -202,7 +202,7 @@
       "vessel": "DING HENG 21",
       "callSign": "BOZP7",
       "station": "A → IPA",
-      "time": "11-17 05:00"
+      "time": "11-17 05:30"
     },
     {
       "port": "평택",
@@ -216,13 +216,6 @@
       "vessel": "GOLDEN BEIJING",
       "callSign": "CQ2793",
       "station": "JANG → HD4",
-      "time": "11-17 06:00"
-    },
-    {
-      "port": "평택",
-      "vessel": "XIN QUN DAO",
-      "callSign": "H3OI",
-      "station": "E15 → IPA",
       "time": "11-17 06:00"
     },
     {
@@ -258,6 +251,13 @@
       "vessel": "SM EAGLE",
       "callSign": "3EMX3",
       "station": "JANG → LNG2",
+      "time": "11-17 07:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "XIN QUN DAO",
+      "callSign": "H3OI",
+      "station": "E15 → IPA",
       "time": "11-17 07:00"
     },
     {
@@ -399,6 +399,13 @@
       "callSign": "V7B3362",
       "station": "IPA → E1",
       "time": "11-17 23:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "TY LUCKY",
+      "callSign": "3E6932",
+      "station": "GD9 → IPA",
+      "time": "11-17 23:30"
     },
     {
       "port": "인천",
