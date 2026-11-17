@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17 14:29",
+  "updatedAt": "2026-11-17 15:33",
   "errors": {},
   "schedules": [
     {
@@ -221,13 +221,6 @@
     },
     {
       "port": "평택",
-      "vessel": "V GLOBAL",
-      "callSign": "9LS2364",
-      "station": "HD11 → IPA",
-      "time": "11-18 01:00"
-    },
-    {
-      "port": "평택",
       "vessel": "NING HUA 418",
       "callSign": "BUPA",
       "station": "W1 → IPA",
@@ -270,17 +263,10 @@
     },
     {
       "port": "평택",
-      "vessel": "HUI LONG 17",
-      "callSign": "BOYP9",
-      "station": "IPA → E12",
-      "time": "11-18 09:00"
-    },
-    {
-      "port": "평택",
       "vessel": "HAFNIA TOURMALINE",
       "callSign": "V7RA3",
       "station": "KHO → IPA",
-      "time": "11-18 09:00"
+      "time": "11-18 08:00"
     },
     {
       "port": "평택",
@@ -295,6 +281,13 @@
       "callSign": "D5MO4",
       "station": "IPA → E15",
       "time": "11-18 10:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "HUI LONG 17",
+      "callSign": "BOYP9",
+      "station": "IPA → E12",
+      "time": "11-18 10:30"
     },
     {
       "port": "평택",
@@ -350,6 +343,13 @@
       "vessel": "RIZHAO ORIENT",
       "callSign": "HOAG",
       "station": "IPA → E14",
+      "time": "11-18 14:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "HUI NING",
+      "callSign": "6YXY8",
+      "station": "IPA → E16",
       "time": "11-18 14:00"
     },
     {
@@ -550,17 +550,10 @@
     },
     {
       "port": "인천",
-      "vessel": "APJ PRITI 2",
-      "callSign": "-",
-      "station": "LEN - 51",
-      "time": "11-17 22:30"
-    },
-    {
-      "port": "인천",
       "vessel": "SWIFT ARROW",
       "callSign": "-",
       "station": "PAL - 60",
-      "time": "11-17 23:30"
+      "time": "11-17 22:30"
     },
     {
       "port": "대산",
@@ -718,13 +711,6 @@
     },
     {
       "port": "대산",
-      "vessel": "EAGLE HAMILTON",
-      "callSign": "2CWB2",
-      "station": "MDK-15 → WAA-10 MDK",
-      "time": "11-17 19:30"
-    },
-    {
-      "port": "대산",
       "vessel": "ETERNAL SUNSHINE",
       "callSign": "D5SO3",
       "station": "WAA-08 → PS2",
@@ -771,6 +757,48 @@
       "callSign": "5LYM2",
       "station": "MDS-37 → WAA-09",
       "time": "11-17 19:30"
+    },
+    {
+      "port": "대산",
+      "vessel": "EAGLE HAMILTON",
+      "callSign": "2CWB2",
+      "station": "MDK-15 → WAA-10 MDK",
+      "time": "11-17 19:30"
+    },
+    {
+      "port": "대산",
+      "vessel": "CORAL PALMATA",
+      "callSign": "D5DN6",
+      "station": "MDK-19 → PS2",
+      "time": "11-18 05:30"
+    },
+    {
+      "port": "대산",
+      "vessel": "FPMC P IDEAL",
+      "callSign": "D5AW2",
+      "station": "MDS-36 → WAA-09",
+      "time": "11-18 06:00"
+    },
+    {
+      "port": "대산",
+      "vessel": "FORTUNE KAREN",
+      "callSign": "D8BU",
+      "station": "MDK-14 → PS2",
+      "time": "11-18 10:00"
+    },
+    {
+      "port": "대산",
+      "vessel": "GRAND WINNER 6",
+      "callSign": "5LYM2",
+      "station": "MDS-37 → PS2",
+      "time": "11-18 13:00"
+    },
+    {
+      "port": "대산",
+      "vessel": "FPMC P IDEAL",
+      "callSign": "D5AW2",
+      "station": "WAA-09 → PS2",
+      "time": "11-18 15:00"
     },
     {
       "port": "대산",
