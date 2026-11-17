@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17 13:27",
+  "updatedAt": "2026-11-17 14:29",
   "errors": {},
   "schedules": [
     {
@@ -109,13 +109,6 @@
     },
     {
       "port": "평택",
-      "vessel": "TONG CHENG",
-      "callSign": "BSTO",
-      "station": "E16 → SGM",
-      "time": "11-17 12:00"
-    },
-    {
-      "port": "평택",
       "vessel": "LAZULITE ACE",
       "callSign": "5LZF2",
       "station": "IPA → E3",
@@ -134,6 +127,13 @@
       "callSign": "9V7049",
       "station": "W4 → IPA",
       "time": "11-17 12:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "TONG CHENG",
+      "callSign": "BSTO",
+      "station": "E16 → SGM",
+      "time": "11-17 12:30"
     },
     {
       "port": "평택",
@@ -182,7 +182,7 @@
       "vessel": "TY LUCKY",
       "callSign": "3E6932",
       "station": "GD9 → IPA",
-      "time": "11-17 17:30"
+      "time": "11-17 17:00"
     },
     {
       "port": "평택",
@@ -483,21 +483,21 @@
       "vessel": "HARMONY YUN GANG",
       "callSign": "-",
       "station": "PAL - NIPT1",
-      "time": "11-17 15:30"
+      "time": "11-17 15:40"
     },
     {
       "port": "인천",
       "vessel": "YU BANG 228",
       "callSign": "-",
       "station": "PAL - N53",
-      "time": "11-17 15:30"
+      "time": "11-17 15:40"
     },
     {
       "port": "인천",
       "vessel": "YA LU JIANG",
       "callSign": "-",
       "station": "NPPS - SNCT2",
-      "time": "11-17 16:00"
+      "time": "11-17 15:50"
     },
     {
       "port": "인천",
@@ -519,13 +519,6 @@
       "callSign": "-",
       "station": "NIPT5 - PAL",
       "time": "11-17 18:30"
-    },
-    {
-      "port": "인천",
-      "vessel": "APJ PRITI 2",
-      "callSign": "-",
-      "station": "JANG - LEN",
-      "time": "11-17 20:00"
     },
     {
       "port": "인천",
@@ -778,6 +771,13 @@
       "callSign": "5LYM2",
       "station": "MDS-37 → WAA-09",
       "time": "11-17 19:30"
+    },
+    {
+      "port": "대산",
+      "vessel": "TONG SHUN",
+      "callSign": "3EHX4",
+      "station": "B.WAA-02 → MDB-43",
+      "time": "11-18 08:00"
     }
   ]
 }
