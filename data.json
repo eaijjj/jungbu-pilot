@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17 20:46",
+  "updatedAt": "2026-11-17 21:55",
   "errors": {},
   "schedules": [
     {
@@ -291,13 +291,6 @@
     },
     {
       "port": "평택",
-      "vessel": "SUNNY KALMIA",
-      "callSign": "3E8980",
-      "station": "IPA → E8",
-      "time": "11-18 12:00"
-    },
-    {
-      "port": "평택",
       "vessel": "ATLANTIC PIONEER",
       "callSign": "9V7919",
       "station": "E16 → IPA",
@@ -309,6 +302,13 @@
       "callSign": "5BKB4",
       "station": "W8 → JANG",
       "time": "11-18 12:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "SUNNY KALMIA",
+      "callSign": "3E8980",
+      "station": "IPA → E8",
+      "time": "11-18 13:00"
     },
     {
       "port": "평택",
@@ -567,7 +567,7 @@
       "vessel": "HONOR PROSPER",
       "callSign": "-",
       "station": "SNCT3 - NPPS",
-      "time": "11-17 23:00"
+      "time": "11-17 23:30"
     },
     {
       "port": "대산",
