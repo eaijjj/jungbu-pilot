@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18 03:52",
+  "updatedAt": "2026-11-18 04:58",
   "errors": {},
   "schedules": [
     {
@@ -273,20 +273,20 @@
       "vessel": "BEI JIANG",
       "callSign": "-",
       "station": "PAL - KICT",
-      "time": "11-18 05:30"
-    },
-    {
-      "port": "인천",
-      "vessel": "KOTA NASRAT",
-      "callSign": "-",
-      "station": "NPPS - HJIT2",
-      "time": "11-18 06:00"
+      "time": "11-18 05:40"
     },
     {
       "port": "인천",
       "vessel": "PANCON HARMONY",
       "callSign": "-",
       "station": "PAL - E1CT",
+      "time": "11-18 05:50"
+    },
+    {
+      "port": "인천",
+      "vessel": "KOTA NASRAT",
+      "callSign": "-",
+      "station": "NPPS - HJIT2",
       "time": "11-18 06:00"
     },
     {
