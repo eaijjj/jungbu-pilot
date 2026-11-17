@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17 17:17",
+  "updatedAt": "2026-11-17 18:32",
   "errors": {},
   "schedules": [
     {
@@ -214,13 +214,6 @@
     },
     {
       "port": "평택",
-      "vessel": "MODERN LINK",
-      "callSign": "V7B3362",
-      "station": "IPA → E1",
-      "time": "11-17 23:30"
-    },
-    {
-      "port": "평택",
       "vessel": "KOREA VISION",
       "callSign": "D7KV",
       "station": "SK → IPA",
@@ -231,13 +224,6 @@
       "vessel": "GLOBAL ENTERPRISE",
       "callSign": "D7MQ",
       "station": "JANG → HD5",
-      "time": "11-18 07:00"
-    },
-    {
-      "port": "평택",
-      "vessel": "NING HUA 418",
-      "callSign": "BUPA",
-      "station": "W1 → IPA",
       "time": "11-18 07:00"
     },
     {
@@ -256,10 +242,31 @@
     },
     {
       "port": "평택",
+      "vessel": "NING HUA 418",
+      "callSign": "BUPA",
+      "station": "W1 → IPA",
+      "time": "11-18 08:00"
+    },
+    {
+      "port": "평택",
       "vessel": "SM EAGLE",
       "callSign": "3EMX3",
       "station": "LNG2 → JANG",
       "time": "11-18 08:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "MODERN LINK",
+      "callSign": "V7B3362",
+      "station": "IPA → E1",
+      "time": "11-18 08:30"
+    },
+    {
+      "port": "평택",
+      "vessel": "GRAND CHOICE",
+      "callSign": "V7B3189",
+      "station": "IPA → E5",
+      "time": "11-18 10:30"
     },
     {
       "port": "평택",
@@ -274,13 +281,6 @@
       "callSign": "D5MO4",
       "station": "IPA → E15",
       "time": "11-18 11:00"
-    },
-    {
-      "port": "평택",
-      "vessel": "MODERN LINK",
-      "callSign": "V7B3362",
-      "station": "E1 → E5",
-      "time": "11-18 11:30"
     },
     {
       "port": "평택",
@@ -314,7 +314,7 @@
       "port": "평택",
       "vessel": "TEN JUPITER",
       "callSign": "3E8470",
-      "station": "IPA → E16",
+      "station": "IPA → E15",
       "time": "11-18 13:00"
     },
     {
@@ -326,10 +326,10 @@
     },
     {
       "port": "평택",
-      "vessel": "GRAND CHOICE",
-      "callSign": "V7B3189",
-      "station": "IPA → E4",
-      "time": "11-18 14:30"
+      "vessel": "TIAN HAI PING ZE",
+      "callSign": "BOPY4",
+      "station": "IPA → E16",
+      "time": "11-18 14:00"
     },
     {
       "port": "평택",
@@ -340,9 +340,9 @@
     },
     {
       "port": "평택",
-      "vessel": "TIAN HAI PING ZE",
-      "callSign": "BOPY4",
-      "station": "IPA → E16",
+      "vessel": "LAZULITE ACE",
+      "callSign": "5LZF2",
+      "station": "E3 → IPA",
       "time": "11-18 15:00"
     },
     {
@@ -361,9 +361,9 @@
     },
     {
       "port": "평택",
-      "vessel": "LAZULITE ACE",
-      "callSign": "5LZF2",
-      "station": "E3 → IPA",
+      "vessel": "MODERN LINK",
+      "callSign": "V7B3362",
+      "station": "E1 → E4",
       "time": "11-18 16:00"
     },
     {
@@ -532,7 +532,7 @@
       "vessel": "XIN XIANG XUE LAN",
       "callSign": "-",
       "station": "NIPT5 - PAL",
-      "time": "11-17 18:30"
+      "time": "11-17 18:20"
     },
     {
       "port": "인천",
@@ -550,13 +550,6 @@
     },
     {
       "port": "인천",
-      "vessel": "HONOR PROSPER",
-      "callSign": "-",
-      "station": "SNCT3 - NPPS",
-      "time": "11-17 22:00"
-    },
-    {
-      "port": "인천",
       "vessel": "PANCON GLORY",
       "callSign": "-",
       "station": "E1CT - PAL",
@@ -568,6 +561,13 @@
       "callSign": "-",
       "station": "PAL - 60",
       "time": "11-17 22:30"
+    },
+    {
+      "port": "인천",
+      "vessel": "HONOR PROSPER",
+      "callSign": "-",
+      "station": "SNCT3 - NPPS",
+      "time": "11-17 23:00"
     },
     {
       "port": "대산",
