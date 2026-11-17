@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18 07:47",
+  "updatedAt": "2026-11-18 08:44",
   "errors": {},
   "schedules": [
     {
@@ -88,24 +88,17 @@
     },
     {
       "port": "평택",
-      "vessel": "TROODOS SUN",
-      "callSign": "5BKB4",
-      "station": "W8 → JANG",
-      "time": "11-18 12:00"
+      "vessel": "TEN JUPITER",
+      "callSign": "3E8470",
+      "station": "IPA → E15",
+      "time": "11-18 13:00"
     },
     {
       "port": "평택",
       "vessel": "SUNNY KALMIA",
       "callSign": "3E8980",
       "station": "IPA → E8",
-      "time": "11-18 13:00"
-    },
-    {
-      "port": "평택",
-      "vessel": "TEN JUPITER",
-      "callSign": "3E8470",
-      "station": "IPA → E15",
-      "time": "11-18 13:00"
+      "time": "11-18 13:30"
     },
     {
       "port": "평택",
@@ -134,6 +127,13 @@
       "callSign": "3E2719",
       "station": "IPA → W6",
       "time": "11-18 14:30"
+    },
+    {
+      "port": "평택",
+      "vessel": "TROODOS SUN",
+      "callSign": "5BKB4",
+      "station": "W8 → JANG",
+      "time": "11-18 15:00"
     },
     {
       "port": "평택",
@@ -172,13 +172,6 @@
     },
     {
       "port": "평택",
-      "vessel": "SITC SENDAI",
-      "callSign": "VRSC3",
-      "station": "IPA → E7",
-      "time": "11-18 17:30"
-    },
-    {
-      "port": "평택",
       "vessel": "VW PEACE",
       "callSign": "C6JS8",
       "station": "IPA → E12",
@@ -214,17 +207,24 @@
     },
     {
       "port": "평택",
-      "vessel": "SD GLORIA",
-      "callSign": "HOKX",
-      "station": "IPA → W2",
+      "vessel": "SITC SENDAI",
+      "callSign": "VRSC3",
+      "station": "IPA → E7",
+      "time": "11-19 08:30"
+    },
+    {
+      "port": "평택",
+      "vessel": "ZHE WU 188",
+      "callSign": "BPON2",
+      "station": "IPA → HD6",
       "time": "11-19 10:00"
     },
     {
       "port": "평택",
-      "vessel": "SITC SENDAI",
-      "callSign": "VRSC3",
-      "station": "E7 → IPA",
-      "time": "11-19 17:00"
+      "vessel": "SD GLORIA",
+      "callSign": "HOKX",
+      "station": "IPA → W2",
+      "time": "11-19 10:00"
     },
     {
       "port": "평택",
@@ -368,10 +368,17 @@
     },
     {
       "port": "인천",
+      "vessel": "PAN IRIS",
+      "callSign": "-",
+      "station": "YHD2 - DONG",
+      "time": "11-18 12:00"
+    },
+    {
+      "port": "인천",
       "vessel": "STARSHIP JUPITER",
       "callSign": "-",
       "station": "NPPS - HJIT3",
-      "time": "11-18 11:30"
+      "time": "11-18 12:30"
     },
     {
       "port": "인천",
@@ -385,13 +392,13 @@
       "vessel": "FORTUNE KAREN",
       "callSign": "-",
       "station": "PAL - N-HOB",
-      "time": "11-18 14:30"
+      "time": "11-18 14:50"
     },
     {
       "port": "인천",
-      "vessel": "PAN IRIS",
+      "vessel": "HE YUAN 1",
       "callSign": "-",
-      "station": "YHD2 - DONG",
+      "station": "PAL - ICT1",
       "time": "11-18 15:30"
     },
     {
@@ -400,13 +407,6 @@
       "callSign": "-",
       "station": "E1CT - PAL",
       "time": "11-18 16:00"
-    },
-    {
-      "port": "인천",
-      "vessel": "HE YUAN 1",
-      "callSign": "-",
-      "station": "PAL - ICT1",
-      "time": "11-18 16:30"
     },
     {
       "port": "인천",
@@ -553,7 +553,7 @@
       "vessel": "FPMC P IDEAL",
       "callSign": "D5AW2",
       "station": "WAA-09 → PS2",
-      "time": "11-18 08:00"
+      "time": "11-18 08:30"
     },
     {
       "port": "대산",
