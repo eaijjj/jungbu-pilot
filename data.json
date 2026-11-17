@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18 02:34",
+  "updatedAt": "2026-11-18 03:52",
   "errors": {},
   "schedules": [
     {
@@ -483,14 +483,14 @@
       "vessel": "KOTA NASRAT",
       "callSign": "-",
       "station": "HJIT2 - NPPS",
-      "time": "11-18 21:00"
+      "time": "11-18 20:00"
     },
     {
       "port": "인천",
       "vessel": "AS NARA",
       "callSign": "-",
       "station": "NPPS - HJIT2",
-      "time": "11-18 21:00"
+      "time": "11-18 20:00"
     },
     {
       "port": "인천",
