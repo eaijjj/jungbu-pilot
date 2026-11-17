@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18 01:29",
+  "updatedAt": "2026-11-18 02:34",
   "errors": {},
   "schedules": [
     {
@@ -312,16 +312,16 @@
     },
     {
       "port": "인천",
-      "vessel": "APJ PRITI 2",
+      "vessel": "HUADONG PEARL 8",
       "callSign": "-",
-      "station": "PAL - 51",
+      "station": "PAL - NIPT5",
       "time": "11-18 09:00"
     },
     {
       "port": "인천",
-      "vessel": "HUADONG PEARL 8",
+      "vessel": "PACIFIC SOPHIA",
       "callSign": "-",
-      "station": "PAL - NIPT5",
+      "station": "PAL - 72",
       "time": "11-18 09:00"
     },
     {
@@ -480,13 +480,6 @@
     },
     {
       "port": "인천",
-      "vessel": "PACIFIC SOPHIA",
-      "callSign": "-",
-      "station": "JANG - LEN",
-      "time": "11-18 20:30"
-    },
-    {
-      "port": "인천",
       "vessel": "KOTA NASRAT",
       "callSign": "-",
       "station": "HJIT2 - NPPS",
@@ -529,9 +522,9 @@
     },
     {
       "port": "인천",
-      "vessel": "PACIFIC SOPHIA",
+      "vessel": "APJ PRITI 2",
       "callSign": "-",
-      "station": "LEN - 72",
+      "station": "PAL - 51",
       "time": "11-18 23:00"
     },
     {
