@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18 06:47",
+  "updatedAt": "2026-11-18 07:47",
   "errors": {},
   "schedules": [
     {
@@ -137,13 +137,6 @@
     },
     {
       "port": "평택",
-      "vessel": "LAZULITE ACE",
-      "callSign": "5LZF2",
-      "station": "E3 → IPA",
-      "time": "11-18 15:00"
-    },
-    {
-      "port": "평택",
       "vessel": "GLOVIS COSMOS",
       "callSign": "D7HT",
       "station": "E4 → IPA",
@@ -161,6 +154,13 @@
       "vessel": "MODERN LINK",
       "callSign": "V7B3362",
       "station": "E1 → E4",
+      "time": "11-18 16:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "LAZULITE ACE",
+      "callSign": "5LZF2",
+      "station": "E3 → IPA",
       "time": "11-18 16:00"
     },
     {
@@ -343,7 +343,7 @@
       "vessel": "NEW GOLDEN BRIDGE 5",
       "callSign": "-",
       "station": "PAL - NIPT4",
-      "time": "11-18 09:50"
+      "time": "11-18 10:40"
     },
     {
       "port": "인천",
@@ -375,13 +375,6 @@
     },
     {
       "port": "인천",
-      "vessel": "PAN IRIS",
-      "callSign": "-",
-      "station": "YHD2 - DONG",
-      "time": "11-18 12:00"
-    },
-    {
-      "port": "인천",
       "vessel": "JIAHONG",
       "callSign": "-",
       "station": "43 - PAL",
@@ -393,6 +386,13 @@
       "callSign": "-",
       "station": "PAL - N-HOB",
       "time": "11-18 14:30"
+    },
+    {
+      "port": "인천",
+      "vessel": "PAN IRIS",
+      "callSign": "-",
+      "station": "YHD2 - DONG",
+      "time": "11-18 15:30"
     },
     {
       "port": "인천",
@@ -550,6 +550,13 @@
     },
     {
       "port": "대산",
+      "vessel": "FPMC P IDEAL",
+      "callSign": "D5AW2",
+      "station": "WAA-09 → PS2",
+      "time": "11-18 08:00"
+    },
+    {
+      "port": "대산",
       "vessel": "HONG JUN",
       "callSign": "D5PK4",
       "station": "MDT-51 → WAQ-01",
@@ -575,13 +582,6 @@
       "callSign": "5LYM2",
       "station": "MDS-37 → PS2",
       "time": "11-18 12:00"
-    },
-    {
-      "port": "대산",
-      "vessel": "FPMC P IDEAL",
-      "callSign": "D5AW2",
-      "station": "WAA-09 → PS2",
-      "time": "11-18 13:00"
     },
     {
       "port": "대산",
