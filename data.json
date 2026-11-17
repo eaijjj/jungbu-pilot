@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17 08:37",
+  "updatedAt": "2026-11-17 09:52",
   "errors": {},
   "schedules": [
     {
@@ -151,13 +151,6 @@
     },
     {
       "port": "평택",
-      "vessel": "LAN HAIFANG ZHOU",
-      "callSign": "3E7175",
-      "station": "IPA → GD9",
-      "time": "11-17 16:00"
-    },
-    {
-      "port": "평택",
       "vessel": "MORNING CAPO",
       "callSign": "V7CB4",
       "station": "E2 → E5",
@@ -168,6 +161,13 @@
       "vessel": "ROYAL TERN",
       "callSign": "V7B2995",
       "station": "E5 → E2",
+      "time": "11-17 16:30"
+    },
+    {
+      "port": "평택",
+      "vessel": "LAN HAIFANG ZHOU",
+      "callSign": "3E7175",
+      "station": "IPA → GD9",
       "time": "11-17 16:30"
     },
     {
@@ -183,13 +183,6 @@
       "callSign": "H3OX",
       "station": "IFT2 → IPA",
       "time": "11-17 18:30"
-    },
-    {
-      "port": "평택",
-      "vessel": "INTRANS TINA",
-      "callSign": "-",
-      "station": "IPA → HD8",
-      "time": "11-17 19:30"
     },
     {
       "port": "평택",
@@ -249,10 +242,31 @@
     },
     {
       "port": "평택",
+      "vessel": "KOREA VISION",
+      "callSign": "D7KV",
+      "station": "SK → IPA",
+      "time": "11-18 07:00"
+    },
+    {
+      "port": "평택",
       "vessel": "SM EAGLE",
       "callSign": "3EMX3",
       "station": "LNG2 → JANG",
       "time": "11-18 07:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "INTRANS TINA",
+      "callSign": "-",
+      "station": "IPA → HD8",
+      "time": "11-18 08:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "HUI LONG 17",
+      "callSign": "BOYP9",
+      "station": "IPA → E12",
+      "time": "11-18 09:00"
     },
     {
       "port": "평택",
@@ -274,6 +288,13 @@
       "callSign": "9V7919",
       "station": "E16 → IPA",
       "time": "11-18 12:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "GLOBAL ARC",
+      "callSign": "3FNJ6",
+      "station": "W7 → IPA",
+      "time": "11-18 17:00"
     },
     {
       "port": "평택",
@@ -368,10 +389,10 @@
     },
     {
       "port": "인천",
-      "vessel": "YU AN",
+      "vessel": "SOONI",
       "callSign": "-",
-      "station": "N44 - PAL",
-      "time": "11-17 13:00"
+      "station": "KGPT - JAK",
+      "time": "11-17 15:00"
     },
     {
       "port": "인천",
@@ -382,16 +403,16 @@
     },
     {
       "port": "인천",
-      "vessel": "SOONI",
+      "vessel": "YA LU JIANG",
       "callSign": "-",
-      "station": "KGPT - JAK",
+      "station": "NPPS - SNCT2",
       "time": "11-17 16:00"
     },
     {
       "port": "인천",
-      "vessel": "YA LU JIANG",
+      "vessel": "YU AN",
       "callSign": "-",
-      "station": "NPPS - SNCT2",
+      "station": "N44 - PAL",
       "time": "11-17 16:00"
     },
     {
@@ -400,13 +421,6 @@
       "callSign": "-",
       "station": "44 - PAL",
       "time": "11-17 16:30"
-    },
-    {
-      "port": "인천",
-      "vessel": "YU BANG 228",
-      "callSign": "-",
-      "station": "PAL - N53",
-      "time": "11-17 17:00"
     },
     {
       "port": "인천",
@@ -592,17 +606,10 @@
     },
     {
       "port": "대산",
-      "vessel": "FPMC P IDEAL",
-      "callSign": "D5AW2",
-      "station": "MDS-36 → WAA-10",
-      "time": "11-17 15:00"
-    },
-    {
-      "port": "대산",
       "vessel": "C.GRACE",
       "callSign": "5LAJ2",
       "station": "SPM-01 → WAA-11 MDK",
-      "time": "11-17 15:30"
+      "time": "11-17 15:00"
     },
     {
       "port": "대산",
@@ -630,13 +637,6 @@
       "vessel": "EAGLE HAMILTON",
       "callSign": "2CWB2",
       "station": "MDK-15 → WAA-10 MDK",
-      "time": "11-17 19:30"
-    },
-    {
-      "port": "대산",
-      "vessel": "GRAND WINNER 6",
-      "callSign": "5LYM2",
-      "station": "MDS-37 → WAA-09",
       "time": "11-17 19:30"
     },
     {
@@ -673,6 +673,20 @@
       "callSign": "VRIU4",
       "station": "MDB-43 → PS1",
       "time": "11-17 16:00"
+    },
+    {
+      "port": "대산",
+      "vessel": "FPMC P IDEAL",
+      "callSign": "D5AW2",
+      "station": "MDS-36 → WAA-10",
+      "time": "11-17 15:00"
+    },
+    {
+      "port": "대산",
+      "vessel": "GRAND WINNER 6",
+      "callSign": "5LYM2",
+      "station": "MDS-37 → WAA-09",
+      "time": "11-17 19:30"
     }
   ]
 }
