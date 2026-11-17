@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-11-17 11:05",
+  "updatedAt": "2026-11-17 12:18",
   "errors": {},
   "schedules": [
     {
       "port": "평택",
       "vessel": "DING HENG 21",
-      "callSign": "D5MO4",
+      "callSign": "HOAG",
       "station": "A → IPA",
       "time": "11-17 05:30"
     },
@@ -270,10 +270,38 @@
     },
     {
       "port": "평택",
+      "vessel": "GRAND CHOICE",
+      "callSign": "V7B3189",
+      "station": "IPA → E5",
+      "time": "11-18 10:00"
+    },
+    {
+      "port": "평택",
       "vessel": "OCEAN BLUE WHALE",
       "callSign": "D5MO4",
       "station": "IPA → E15",
       "time": "11-18 10:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "MORNING CAPO",
+      "callSign": "V7CB4",
+      "station": "E5 → IPA",
+      "time": "11-18 11:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "MODERN LINK",
+      "callSign": "V7B3362",
+      "station": "E1 → E4",
+      "time": "11-18 11:30"
+    },
+    {
+      "port": "평택",
+      "vessel": "GLOVIS COSMOS",
+      "callSign": "D7HT",
+      "station": "E4 → IPA",
+      "time": "11-18 11:30"
     },
     {
       "port": "평택",
@@ -284,6 +312,41 @@
     },
     {
       "port": "평택",
+      "vessel": "TROODOS SUN",
+      "callSign": "5BKB4",
+      "station": "W8 → JANG",
+      "time": "11-18 12:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "TEN JUPITER",
+      "callSign": "3E8470",
+      "station": "IPA → E16",
+      "time": "11-18 13:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "RIZHAO ORIENT",
+      "callSign": "HOAG",
+      "station": "IPA → E14",
+      "time": "11-18 14:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "LAZULITE ACE",
+      "callSign": "5LZF2",
+      "station": "E3 → IPA",
+      "time": "11-18 14:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "GLOBAL ARC",
+      "callSign": "3FNJ6",
+      "station": "W7 → IPA",
+      "time": "11-18 15:30"
+    },
+    {
+      "port": "평택",
       "vessel": "GAIN OCEAN",
       "callSign": "3E2719",
       "station": "IPA → W6",
@@ -291,17 +354,17 @@
     },
     {
       "port": "평택",
-      "vessel": "GLOBAL ARC",
-      "callSign": "3FNJ6",
-      "station": "W7 → IPA",
-      "time": "11-18 17:00"
-    },
-    {
-      "port": "평택",
       "vessel": "OCEAN BLUE WHALE",
       "callSign": "D5MO4",
       "station": "E15 → IPA",
       "time": "11-18 20:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "RIZHAO ORIENT",
+      "callSign": "HOAG",
+      "station": "E14 → IPA",
+      "time": "11-18 22:30"
     },
     {
       "port": "인천",
@@ -679,14 +742,14 @@
       "vessel": "SESTAO KNUTSEN",
       "callSign": "ECBK",
       "station": "MDA-52 → PS1",
-      "time": "11-17 13:00"
+      "time": "11-17 12:30"
     },
     {
       "port": "대산",
       "vessel": "GREAT HOPE",
       "callSign": "VRIU4",
       "station": "MDB-43 → PS1",
-      "time": "11-17 16:00"
+      "time": "11-17 15:30"
     },
     {
       "port": "대산",
