@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17 12:18",
+  "updatedAt": "2026-11-17 13:27",
   "errors": {},
   "schedules": [
     {
@@ -76,8 +76,15 @@
       "port": "평택",
       "vessel": "TONG CHENG",
       "callSign": "BSTO",
-      "station": "SGM → SGM",
+      "station": "SGM → E16",
       "time": "11-17 08:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "TONG CHENG",
+      "callSign": "BSTO",
+      "station": "E16 → E16",
+      "time": "11-17 09:00"
     },
     {
       "port": "평택",
@@ -99,6 +106,13 @@
       "callSign": "V3NJ2",
       "station": "IPA → W4",
       "time": "11-17 11:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "TONG CHENG",
+      "callSign": "BSTO",
+      "station": "E16 → SGM",
+      "time": "11-17 12:00"
     },
     {
       "port": "평택",
@@ -302,6 +316,13 @@
       "callSign": "D7HT",
       "station": "E4 → IPA",
       "time": "11-18 11:30"
+    },
+    {
+      "port": "평택",
+      "vessel": "SUNNY KALMIA",
+      "callSign": "3E8980",
+      "station": "IPA → E8",
+      "time": "11-18 12:00"
     },
     {
       "port": "평택",
@@ -536,13 +557,6 @@
     },
     {
       "port": "인천",
-      "vessel": "PANCON HARMONY",
-      "callSign": "-",
-      "station": "PAL - E1CT",
-      "time": "11-17 22:00"
-    },
-    {
-      "port": "인천",
       "vessel": "APJ PRITI 2",
       "callSign": "-",
       "station": "LEN - 51",
@@ -700,7 +714,7 @@
       "vessel": "CONSISTENCE",
       "callSign": "V7A4450",
       "station": "MB3-01 → PS3",
-      "time": "11-17 17:00"
+      "time": "11-17 16:00"
     },
     {
       "port": "대산",
