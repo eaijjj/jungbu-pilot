@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18 12:23",
+  "updatedAt": "2026-11-18 13:29",
   "errors": {},
   "schedules": [
     {
@@ -158,13 +158,6 @@
     },
     {
       "port": "평택",
-      "vessel": "GLOBAL ARC",
-      "callSign": "3FNJ6",
-      "station": "W7 → IPA",
-      "time": "11-18 21:00"
-    },
-    {
-      "port": "평택",
       "vessel": "OCEAN BLUE WHALE",
       "callSign": "D5MO4",
       "station": "E15 → IPA",
@@ -182,6 +175,13 @@
       "vessel": "RIZHAO ORIENT",
       "callSign": "HOAG",
       "station": "E14 → IPA",
+      "time": "11-19 07:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "GLOBAL ARC",
+      "callSign": "3FNJ6",
+      "station": "W7 → IPA",
       "time": "11-19 07:00"
     },
     {
@@ -221,6 +221,13 @@
     },
     {
       "port": "평택",
+      "vessel": "XIN SHENG SHENG 3",
+      "callSign": "3E2716",
+      "station": "IPA → W4",
+      "time": "11-19 11:00"
+    },
+    {
+      "port": "평택",
       "vessel": "LAN HAIFANG ZHOU",
       "callSign": "3E7175",
       "station": "GD9 → IPA",
@@ -232,6 +239,20 @@
       "callSign": "3E8470",
       "station": "E15 → IPA",
       "time": "11-19 13:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "LAN HA",
+      "callSign": "3WPD",
+      "station": "W6 → IPA",
+      "time": "11-19 15:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "MODERN LINK",
+      "callSign": "V7B3362",
+      "station": "E4 → E1",
+      "time": "11-19 16:00"
     },
     {
       "port": "평택",
@@ -434,7 +455,21 @@
       "vessel": "SCORPIO 67",
       "callSign": "-",
       "station": "PAL - N11",
-      "time": "11-18 16:30"
+      "time": "11-18 16:40"
+    },
+    {
+      "port": "인천",
+      "vessel": "WESTERN HIGHWAY",
+      "callSign": "-",
+      "station": "52 - PAL",
+      "time": "11-18 17:00"
+    },
+    {
+      "port": "인천",
+      "vessel": "SJ HOPE",
+      "callSign": "-",
+      "station": "SOD1 - PAL",
+      "time": "11-18 17:00"
     },
     {
       "port": "인천",
@@ -452,23 +487,9 @@
     },
     {
       "port": "인천",
-      "vessel": "WESTERN HIGHWAY",
-      "callSign": "-",
-      "station": "52 - PAL",
-      "time": "11-18 18:00"
-    },
-    {
-      "port": "인천",
       "vessel": "NEW GOLDEN BRIDGE 5",
       "callSign": "-",
       "station": "NIPT4 - PAL",
-      "time": "11-18 18:30"
-    },
-    {
-      "port": "인천",
-      "vessel": "SJ HOPE",
-      "callSign": "-",
-      "station": "SOD1 - PAL",
       "time": "11-18 18:30"
     },
     {
@@ -508,13 +529,6 @@
     },
     {
       "port": "인천",
-      "vessel": "UDE PROSPER",
-      "callSign": "-",
-      "station": "PAL - N42",
-      "time": "11-18 22:00"
-    },
-    {
-      "port": "인천",
       "vessel": "PES ALIOTH",
       "callSign": "-",
       "station": "NIPT4 - PAL",
@@ -522,16 +536,16 @@
     },
     {
       "port": "인천",
-      "vessel": "KAI PING",
+      "vessel": "APJ PRITI 2",
       "callSign": "-",
-      "station": "NPPS - HJIT1",
+      "station": "PAL - 51",
       "time": "11-18 23:00"
     },
     {
       "port": "인천",
-      "vessel": "APJ PRITI 2",
+      "vessel": "UDE PROSPER",
       "callSign": "-",
-      "station": "PAL - 51",
+      "station": "PAL - N42",
       "time": "11-18 23:00"
     },
     {
