@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-11-18 09:58",
+  "updatedAt": "2026-11-18 11:15",
   "errors": {},
   "schedules": [
     {
       "port": "평택",
       "vessel": "KOREA VISION",
-      "callSign": "C6JS8",
+      "callSign": "H3OX",
       "station": "SK → IPA",
       "time": "11-18 05:30"
     },
@@ -123,17 +123,17 @@
     },
     {
       "port": "평택",
+      "vessel": "LAZULITE ACE",
+      "callSign": "5LZF2",
+      "station": "E3 → IPA",
+      "time": "11-18 14:00"
+    },
+    {
+      "port": "평택",
       "vessel": "GAIN OCEAN",
       "callSign": "3E2719",
       "station": "IPA → W6",
       "time": "11-18 14:30"
-    },
-    {
-      "port": "평택",
-      "vessel": "TROODOS SUN",
-      "callSign": "5BKB4",
-      "station": "W8 → JANG",
-      "time": "11-18 15:00"
     },
     {
       "port": "평택",
@@ -147,13 +147,6 @@
       "vessel": "MODERN LINK",
       "callSign": "V7B3362",
       "station": "E1 → E4",
-      "time": "11-18 16:00"
-    },
-    {
-      "port": "평택",
-      "vessel": "LAZULITE ACE",
-      "callSign": "5LZF2",
-      "station": "E3 → IPA",
       "time": "11-18 16:00"
     },
     {
@@ -193,10 +186,10 @@
     },
     {
       "port": "평택",
-      "vessel": "TEN JUPITER",
-      "callSign": "3E8470",
-      "station": "E15 → IPA",
-      "time": "11-19 05:00"
+      "vessel": "TROODOS SUN",
+      "callSign": "5BKB4",
+      "station": "W8 → JANG",
+      "time": "11-19 07:00"
     },
     {
       "port": "평택",
@@ -204,6 +197,13 @@
       "callSign": "VRSC3",
       "station": "IPA → E7",
       "time": "11-19 08:30"
+    },
+    {
+      "port": "평택",
+      "vessel": "NEW GRAND PEACE",
+      "callSign": "H3OX",
+      "station": "IPA → IFT2",
+      "time": "11-19 09:00"
     },
     {
       "port": "평택",
@@ -218,6 +218,20 @@
       "callSign": "HOKX",
       "station": "IPA → W2",
       "time": "11-19 10:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "LAN HAIFANG ZHOU",
+      "callSign": "3E7175",
+      "station": "GD9 → IPA",
+      "time": "11-19 12:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "TEN JUPITER",
+      "callSign": "3E8470",
+      "station": "E15 → IPA",
+      "time": "11-19 13:00"
     },
     {
       "port": "평택",
@@ -239,6 +253,13 @@
       "callSign": "C6JS8",
       "station": "IPA → E12",
       "time": "11-19 18:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "NEW GRAND PEACE",
+      "callSign": "H3OX",
+      "station": "IFT2 → IPA",
+      "time": "11-19 18:30"
     },
     {
       "port": "인천",
@@ -466,24 +487,24 @@
     },
     {
       "port": "인천",
-      "vessel": "FU LONG",
-      "callSign": "-",
-      "station": "PAL - N43",
-      "time": "11-18 19:00"
-    },
-    {
-      "port": "인천",
       "vessel": "KOTA NASRAT",
       "callSign": "-",
       "station": "HJIT2 - NPPS",
-      "time": "11-18 20:00"
+      "time": "11-18 19:00"
     },
     {
       "port": "인천",
       "vessel": "AS NARA",
       "callSign": "-",
       "station": "NPPS - HJIT2",
-      "time": "11-18 20:00"
+      "time": "11-18 19:00"
+    },
+    {
+      "port": "인천",
+      "vessel": "FU LONG",
+      "callSign": "-",
+      "station": "PAL - N43",
+      "time": "11-18 19:00"
     },
     {
       "port": "인천",
