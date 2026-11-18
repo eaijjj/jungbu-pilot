@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19 06:46",
+  "updatedAt": "2026-11-19 07:46",
   "errors": {
     "대산": "원본 사이트 응답 오류 (자료 없음)"
   },
@@ -78,7 +78,7 @@
       "port": "평택",
       "vessel": "ZHE WU 188",
       "callSign": "BPON2",
-      "station": "IPA → HD6",
+      "station": "IPA → HD7",
       "time": "11-19 10:00"
     },
     {
@@ -86,13 +86,6 @@
       "vessel": "SD GLORIA",
       "callSign": "HOKX",
       "station": "IPA → W2",
-      "time": "11-19 10:00"
-    },
-    {
-      "port": "평택",
-      "vessel": "NEW HONOR",
-      "callSign": "HPCI",
-      "station": "HD6 → JANG",
       "time": "11-19 10:00"
     },
     {
@@ -128,6 +121,13 @@
       "vessel": "HUI NING",
       "callSign": "6YXY8",
       "station": "IPA → E16",
+      "time": "11-19 14:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "NEW HONOR",
+      "callSign": "HPCI",
+      "station": "HD6 → JANG",
       "time": "11-19 14:00"
     },
     {
@@ -286,13 +286,6 @@
     },
     {
       "port": "인천",
-      "vessel": "XIN XIANG XUE LAN",
-      "callSign": "-",
-      "station": "PAL - NIPT5",
-      "time": "11-19 08:30"
-    },
-    {
-      "port": "인천",
       "vessel": "UDE PROSPER",
       "callSign": "-",
       "station": "PAL - N42",
@@ -300,24 +293,17 @@
     },
     {
       "port": "인천",
+      "vessel": "XIN XIANG XUE LAN",
+      "callSign": "-",
+      "station": "PAL - NIPT5",
+      "time": "11-19 09:10"
+    },
+    {
+      "port": "인천",
       "vessel": "AFRICAN LUNDE",
       "callSign": "-",
       "station": "PAL - 62",
       "time": "11-19 09:30"
-    },
-    {
-      "port": "인천",
-      "vessel": "KOREA VENUS",
-      "callSign": "-",
-      "station": "PAL - GS-HD",
-      "time": "11-19 10:00"
-    },
-    {
-      "port": "인천",
-      "vessel": "STARSHIP JUPITER",
-      "callSign": "-",
-      "station": "HJIT3 - NPPS",
-      "time": "11-19 12:00"
     },
     {
       "port": "인천",
@@ -342,6 +328,13 @@
     },
     {
       "port": "인천",
+      "vessel": "KOREA VENUS",
+      "callSign": "-",
+      "station": "PAL - GS-HD",
+      "time": "11-19 12:00"
+    },
+    {
+      "port": "인천",
       "vessel": "SKY RAINBOW",
       "callSign": "-",
       "station": "NPPS - HJIT3",
@@ -360,6 +353,13 @@
       "callSign": "-",
       "station": "PAL - SOD1",
       "time": "11-19 17:30"
+    },
+    {
+      "port": "인천",
+      "vessel": "STARSHIP JUPITER",
+      "callSign": "-",
+      "station": "HJIT3 - NPPS",
+      "time": "11-19 18:00"
     },
     {
       "port": "인천",
