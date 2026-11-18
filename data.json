@@ -1,20 +1,13 @@
 {
-  "updatedAt": "2026-11-18 14:34",
+  "updatedAt": "2026-11-18 16:03",
   "errors": {},
   "schedules": [
     {
       "port": "평택",
-      "vessel": "KOREA VISION",
+      "vessel": "GLOBAL ENTERPRISE",
       "callSign": "H3OX",
-      "station": "SK → IPA",
-      "time": "11-18 05:30"
-    },
-    {
-      "port": "평택",
-      "vessel": "KOREA VISION",
-      "callSign": "D7KV",
-      "station": "SK → IPA",
-      "time": "11-18 05:30"
+      "station": "JANG → HD5",
+      "time": "11-18 07:00"
     },
     {
       "port": "평택",
@@ -49,13 +42,6 @@
       "vessel": "GRAND CHOICE",
       "callSign": "V7B3189",
       "station": "IPA → E5",
-      "time": "11-18 10:30"
-    },
-    {
-      "port": "평택",
-      "vessel": "HUI LONG 17",
-      "callSign": "BOYP9",
-      "station": "IPA → E12",
       "time": "11-18 10:30"
     },
     {
@@ -123,13 +109,6 @@
     },
     {
       "port": "평택",
-      "vessel": "GAIN OCEAN",
-      "callSign": "3E2719",
-      "station": "IPA → W6",
-      "time": "11-18 14:30"
-    },
-    {
-      "port": "평택",
       "vessel": "MODERN LINK",
       "callSign": "V7B3362",
       "station": "E1 → E4",
@@ -144,16 +123,9 @@
     },
     {
       "port": "평택",
-      "vessel": "V GLOBAL",
-      "callSign": "9LS2364",
-      "station": "HD11 → IPA",
-      "time": "11-18 17:00"
-    },
-    {
-      "port": "평택",
       "vessel": "OCEAN BLUE WHALE",
       "callSign": "D5MO4",
-      "station": "E15 → IPA",
+      "station": "E15 → JANG",
       "time": "11-18 22:00"
     },
     {
@@ -161,7 +133,7 @@
       "vessel": "SUNNY KALMIA",
       "callSign": "3E8980",
       "station": "E8 → IPA",
-      "time": "11-19 02:00"
+      "time": "11-19 07:00"
     },
     {
       "port": "평택",
@@ -228,6 +200,13 @@
     },
     {
       "port": "평택",
+      "vessel": "NEW HONOR",
+      "callSign": "HPCI",
+      "station": "HD6 → JANG",
+      "time": "11-19 10:00"
+    },
+    {
+      "port": "평택",
       "vessel": "DORIS",
       "callSign": "TJM5036",
       "station": "IPA → W4",
@@ -256,6 +235,13 @@
     },
     {
       "port": "평택",
+      "vessel": "HUI NING",
+      "callSign": "6YXY8",
+      "station": "IPA → E16",
+      "time": "11-19 14:00"
+    },
+    {
+      "port": "평택",
       "vessel": "LAN HA",
       "callSign": "3WPD",
       "station": "W6 → IPA",
@@ -270,6 +256,13 @@
     },
     {
       "port": "평택",
+      "vessel": "TIAN HAI PING ZE",
+      "callSign": "BOPY4",
+      "station": "E16 → IPA",
+      "time": "11-19 16:00"
+    },
+    {
+      "port": "평택",
       "vessel": "GUO SHUN 23",
       "callSign": "V3NM8",
       "station": "E12 → IPA",
@@ -277,16 +270,16 @@
     },
     {
       "port": "평택",
-      "vessel": "HUI LONG 17",
-      "callSign": "BOYP9",
-      "station": "E12 → IPA",
-      "time": "11-19 17:30"
-    },
-    {
-      "port": "평택",
       "vessel": "VW PEACE",
       "callSign": "C6JS8",
       "station": "IPA → E12",
+      "time": "11-19 18:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "FOREVER WIN",
+      "callSign": "VREH6",
+      "station": "W5 → IPA",
       "time": "11-19 18:00"
     },
     {
@@ -504,7 +497,7 @@
       "vessel": "KOTA NASRAT",
       "callSign": "-",
       "station": "HJIT2 - NPPS",
-      "time": "11-18 18:30"
+      "time": "11-18 18:10"
     },
     {
       "port": "인천",
@@ -512,6 +505,13 @@
       "callSign": "-",
       "station": "NIPT4 - PAL",
       "time": "11-18 18:30"
+    },
+    {
+      "port": "인천",
+      "vessel": "FU LONG",
+      "callSign": "-",
+      "station": "PAL - N43",
+      "time": "11-18 18:40"
     },
     {
       "port": "인천",
@@ -529,13 +529,6 @@
     },
     {
       "port": "인천",
-      "vessel": "FU LONG",
-      "callSign": "-",
-      "station": "PAL - N43",
-      "time": "11-18 19:00"
-    },
-    {
-      "port": "인천",
       "vessel": "HUADONG PEARL 8",
       "callSign": "-",
       "station": "NIPT5 - PAL",
@@ -547,13 +540,6 @@
       "callSign": "-",
       "station": "NIPT4 - PAL",
       "time": "11-18 22:00"
-    },
-    {
-      "port": "인천",
-      "vessel": "APJ PRITI 2",
-      "callSign": "-",
-      "station": "PAL - 51",
-      "time": "11-18 23:00"
     },
     {
       "port": "인천",
