@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19 07:46",
+  "updatedAt": "2026-11-19 08:45",
   "errors": {
     "대산": "원본 사이트 응답 오류 (자료 없음)"
   },
@@ -209,6 +209,13 @@
     },
     {
       "port": "평택",
+      "vessel": "ANSAC REVERENCE",
+      "callSign": "3E8369",
+      "station": "IPA → W7",
+      "time": "11-20 09:00"
+    },
+    {
+      "port": "평택",
       "vessel": "HUI LONG 17",
       "callSign": "BOYP9",
       "station": "IPA → E12",
@@ -227,6 +234,20 @@
       "callSign": "D5MO4",
       "station": "IPA → E15",
       "time": "11-20 11:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "CL HYAKU",
+      "callSign": "3E4125",
+      "station": "IPA → W9",
+      "time": "11-20 11:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "NEW BOUNDARY",
+      "callSign": "3EYA9",
+      "station": "W9 → IPA",
+      "time": "11-20 12:00"
     },
     {
       "port": "평택",
@@ -296,7 +317,7 @@
       "vessel": "XIN XIANG XUE LAN",
       "callSign": "-",
       "station": "PAL - NIPT5",
-      "time": "11-19 09:10"
+      "time": "11-19 09:20"
     },
     {
       "port": "인천",
@@ -309,7 +330,7 @@
       "port": "인천",
       "vessel": "KMTC ULSAN",
       "callSign": "-",
-      "station": "HJIT3 - NPPS",
+      "station": "SNCT3 - NPPS",
       "time": "11-19 12:00"
     },
     {
@@ -317,13 +338,6 @@
       "vessel": "XIN MING ZHOU 20",
       "callSign": "-",
       "station": "NPPS - SNCT3",
-      "time": "11-19 12:00"
-    },
-    {
-      "port": "인천",
-      "vessel": "KAI PING",
-      "callSign": "-",
-      "station": "NPPS - HJIT3",
       "time": "11-19 12:00"
     },
     {
@@ -359,6 +373,13 @@
       "vessel": "STARSHIP JUPITER",
       "callSign": "-",
       "station": "HJIT3 - NPPS",
+      "time": "11-19 18:00"
+    },
+    {
+      "port": "인천",
+      "vessel": "KAI PING",
+      "callSign": "-",
+      "station": "NPPS - HJIT3",
       "time": "11-19 18:00"
     },
     {
