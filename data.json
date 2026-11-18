@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18 13:29",
+  "updatedAt": "2026-11-18 14:34",
   "errors": {},
   "schedules": [
     {
@@ -22,13 +22,6 @@
       "callSign": "D7MQ",
       "station": "JANG → HD5",
       "time": "11-18 07:00"
-    },
-    {
-      "port": "평택",
-      "vessel": "NING HUA 418",
-      "callSign": "BUPA",
-      "station": "W1 → IPA",
-      "time": "11-18 08:00"
     },
     {
       "port": "평택",
@@ -179,6 +172,13 @@
     },
     {
       "port": "평택",
+      "vessel": "NING HUA 418",
+      "callSign": "BUPA",
+      "station": "W1 → IPA",
+      "time": "11-19 07:00"
+    },
+    {
+      "port": "평택",
       "vessel": "GLOBAL ARC",
       "callSign": "3FNJ6",
       "station": "W7 → IPA",
@@ -207,6 +207,13 @@
     },
     {
       "port": "평택",
+      "vessel": "BLUE TIGER",
+      "callSign": "5LGA2",
+      "station": "IPA → W8",
+      "time": "11-19 09:30"
+    },
+    {
+      "port": "평택",
       "vessel": "ZHE WU 188",
       "callSign": "BPON2",
       "station": "IPA → HD6",
@@ -218,6 +225,13 @@
       "callSign": "HOKX",
       "station": "IPA → W2",
       "time": "11-19 10:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "DORIS",
+      "callSign": "TJM5036",
+      "station": "IPA → W4",
+      "time": "11-19 11:00"
     },
     {
       "port": "평택",
@@ -434,7 +448,7 @@
       "vessel": "FORTUNE KAREN",
       "callSign": "-",
       "station": "PAL - N-HOB",
-      "time": "11-18 14:50"
+      "time": "11-18 14:40"
     },
     {
       "port": "인천",
@@ -487,6 +501,13 @@
     },
     {
       "port": "인천",
+      "vessel": "KOTA NASRAT",
+      "callSign": "-",
+      "station": "HJIT2 - NPPS",
+      "time": "11-18 18:30"
+    },
+    {
+      "port": "인천",
       "vessel": "NEW GOLDEN BRIDGE 5",
       "callSign": "-",
       "station": "NIPT4 - PAL",
@@ -498,13 +519,6 @@
       "callSign": "-",
       "station": "NIPT3 - NIPT4",
       "time": "11-18 18:40"
-    },
-    {
-      "port": "인천",
-      "vessel": "KOTA NASRAT",
-      "callSign": "-",
-      "station": "HJIT2 - NPPS",
-      "time": "11-18 19:00"
     },
     {
       "port": "인천",
