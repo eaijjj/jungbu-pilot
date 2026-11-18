@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19 05:48",
+  "updatedAt": "2026-11-19 06:46",
   "errors": {
     "대산": "원본 사이트 응답 오류 (자료 없음)"
   },
@@ -227,6 +227,13 @@
       "callSign": "D5MO4",
       "station": "IPA → E15",
       "time": "11-20 11:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "PACIFIC SHENZHEN",
+      "callSign": "9V8012",
+      "station": "IPA → E7",
+      "time": "11-20 16:00"
     },
     {
       "port": "평택",
