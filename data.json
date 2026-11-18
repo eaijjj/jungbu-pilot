@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-11-18 08:44",
+  "updatedAt": "2026-11-18 09:58",
   "errors": {},
   "schedules": [
     {
       "port": "평택",
       "vessel": "KOREA VISION",
-      "callSign": "BOYP9",
+      "callSign": "C6JS8",
       "station": "SK → IPA",
       "time": "11-18 05:30"
     },
@@ -144,13 +144,6 @@
     },
     {
       "port": "평택",
-      "vessel": "GLOBAL ARC",
-      "callSign": "3FNJ6",
-      "station": "W7 → IPA",
-      "time": "11-18 15:30"
-    },
-    {
-      "port": "평택",
       "vessel": "MODERN LINK",
       "callSign": "V7B3362",
       "station": "E1 → E4",
@@ -172,10 +165,10 @@
     },
     {
       "port": "평택",
-      "vessel": "VW PEACE",
-      "callSign": "C6JS8",
-      "station": "IPA → E12",
-      "time": "11-18 18:00"
+      "vessel": "GLOBAL ARC",
+      "callSign": "3FNJ6",
+      "station": "W7 → IPA",
+      "time": "11-18 21:00"
     },
     {
       "port": "평택",
@@ -239,6 +232,13 @@
       "callSign": "BOYP9",
       "station": "E12 → IPA",
       "time": "11-19 17:30"
+    },
+    {
+      "port": "평택",
+      "vessel": "VW PEACE",
+      "callSign": "C6JS8",
+      "station": "IPA → E12",
+      "time": "11-19 18:00"
     },
     {
       "port": "인천",
@@ -410,6 +410,13 @@
     },
     {
       "port": "인천",
+      "vessel": "SCORPIO 67",
+      "callSign": "-",
+      "station": "PAL - N11",
+      "time": "11-18 16:30"
+    },
+    {
+      "port": "인천",
       "vessel": "ORIENTAL PEARL 8",
       "callSign": "-",
       "station": "NIPT2 - PAL",
@@ -420,13 +427,6 @@
       "vessel": "KMTC ULSAN",
       "callSign": "-",
       "station": "NPPS - SNCT3",
-      "time": "11-18 18:00"
-    },
-    {
-      "port": "인천",
-      "vessel": "UDE PROSPER",
-      "callSign": "-",
-      "station": "PAL - N42",
       "time": "11-18 18:00"
     },
     {
@@ -466,13 +466,6 @@
     },
     {
       "port": "인천",
-      "vessel": "SCORPIO 67",
-      "callSign": "-",
-      "station": "PAL - N11",
-      "time": "11-18 19:00"
-    },
-    {
-      "port": "인천",
       "vessel": "FU LONG",
       "callSign": "-",
       "station": "PAL - N43",
@@ -505,6 +498,13 @@
       "callSign": "-",
       "station": "NIPT5 - PAL",
       "time": "11-18 21:30"
+    },
+    {
+      "port": "인천",
+      "vessel": "UDE PROSPER",
+      "callSign": "-",
+      "station": "PAL - N42",
+      "time": "11-18 22:00"
     },
     {
       "port": "인천",
@@ -547,6 +547,13 @@
       "callSign": "2CWB2",
       "station": "MDK-15 → WAA-10 MDK",
       "time": "11-18 07:30"
+    },
+    {
+      "port": "대산",
+      "vessel": "FPMC P IDEAL",
+      "callSign": "D5AW2",
+      "station": "WAA-09 → PS2",
+      "time": "11-18 08:00"
     },
     {
       "port": "대산",
