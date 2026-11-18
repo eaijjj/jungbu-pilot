@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19 03:48",
+  "updatedAt": "2026-11-19 04:53",
   "errors": {
     "대산": "원본 사이트 응답 오류 (자료 없음)"
   },
@@ -300,20 +300,6 @@
     },
     {
       "port": "인천",
-      "vessel": "KMTC ULSAN",
-      "callSign": "-",
-      "station": "SNCT3 - NPPS",
-      "time": "11-19 10:00"
-    },
-    {
-      "port": "인천",
-      "vessel": "XIN MING ZHOU 20",
-      "callSign": "-",
-      "station": "NPPS - SNCT3",
-      "time": "11-19 10:00"
-    },
-    {
-      "port": "인천",
       "vessel": "KOREA VENUS",
       "callSign": "-",
       "station": "PAL - GS-HD",
@@ -324,6 +310,20 @@
       "vessel": "STARSHIP JUPITER",
       "callSign": "-",
       "station": "HJIT3 - NPPS",
+      "time": "11-19 12:00"
+    },
+    {
+      "port": "인천",
+      "vessel": "KMTC ULSAN",
+      "callSign": "-",
+      "station": "HJIT3 - NPPS",
+      "time": "11-19 12:00"
+    },
+    {
+      "port": "인천",
+      "vessel": "XIN MING ZHOU 20",
+      "callSign": "-",
+      "station": "NPPS - SNCT3",
       "time": "11-19 12:00"
     },
     {
