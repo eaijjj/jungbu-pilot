@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18 17:37",
+  "updatedAt": "2026-11-18 18:54",
   "errors": {},
   "schedules": [
     {
@@ -522,17 +522,17 @@
     },
     {
       "port": "인천",
-      "vessel": "HUADONG PEARL 8",
-      "callSign": "-",
-      "station": "NIPT5 - PAL",
-      "time": "11-18 21:30"
-    },
-    {
-      "port": "인천",
       "vessel": "PES ALIOTH",
       "callSign": "-",
       "station": "NIPT4 - PAL",
       "time": "11-18 22:00"
+    },
+    {
+      "port": "인천",
+      "vessel": "HUADONG PEARL 8",
+      "callSign": "-",
+      "station": "NIPT5 - PAL",
+      "time": "11-18 22:10"
     },
     {
       "port": "대산",
