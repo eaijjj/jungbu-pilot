@@ -1,21 +1,14 @@
 {
-  "updatedAt": "2026-11-19 04:53",
+  "updatedAt": "2026-11-19 05:48",
   "errors": {
     "대산": "원본 사이트 응답 오류 (자료 없음)"
   },
   "schedules": [
     {
       "port": "평택",
-      "vessel": "SUNNY KALMIA",
+      "vessel": "GUO SHUN 23",
       "callSign": "D5MO4",
-      "station": "E8 → IPA",
-      "time": "11-19 07:00"
-    },
-    {
-      "port": "평택",
-      "vessel": "SUNNY KALMIA",
-      "callSign": "3E8980",
-      "station": "E8 → IPA",
+      "station": "E12 → IPA",
       "time": "11-19 07:00"
     },
     {
@@ -65,6 +58,13 @@
       "vessel": "NEW GRAND PEACE",
       "callSign": "H3OX",
       "station": "IPA → IFT2",
+      "time": "11-19 09:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "SUNNY KALMIA",
+      "callSign": "3E8980",
+      "station": "E8 → IPA",
       "time": "11-19 09:00"
     },
     {
