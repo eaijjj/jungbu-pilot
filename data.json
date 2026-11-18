@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18 11:15",
+  "updatedAt": "2026-11-18 12:23",
   "errors": {},
   "schedules": [
     {
@@ -137,17 +137,17 @@
     },
     {
       "port": "평택",
-      "vessel": "GLOVIS COSMOS",
-      "callSign": "D7HT",
-      "station": "E4 → IPA",
+      "vessel": "MODERN LINK",
+      "callSign": "V7B3362",
+      "station": "E1 → E4",
       "time": "11-18 15:30"
     },
     {
       "port": "평택",
-      "vessel": "MODERN LINK",
-      "callSign": "V7B3362",
-      "station": "E1 → E4",
-      "time": "11-18 16:00"
+      "vessel": "GLOVIS COSMOS",
+      "callSign": "D7HT",
+      "station": "E4 → IPA",
+      "time": "11-18 15:30"
     },
     {
       "port": "평택",
@@ -172,17 +172,17 @@
     },
     {
       "port": "평택",
-      "vessel": "RIZHAO ORIENT",
-      "callSign": "HOAG",
-      "station": "E14 → IPA",
-      "time": "11-18 22:30"
-    },
-    {
-      "port": "평택",
       "vessel": "SUNNY KALMIA",
       "callSign": "3E8980",
       "station": "E8 → IPA",
       "time": "11-19 02:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "RIZHAO ORIENT",
+      "callSign": "HOAG",
+      "station": "E14 → IPA",
+      "time": "11-19 07:00"
     },
     {
       "port": "평택",
@@ -480,13 +480,6 @@
     },
     {
       "port": "인천",
-      "vessel": "GLOVIS COSMOS",
-      "callSign": "-",
-      "station": "JANG - PAL",
-      "time": "11-18 19:00"
-    },
-    {
-      "port": "인천",
       "vessel": "KOTA NASRAT",
       "callSign": "-",
       "station": "HJIT2 - NPPS",
@@ -505,13 +498,6 @@
       "callSign": "-",
       "station": "PAL - N43",
       "time": "11-18 19:00"
-    },
-    {
-      "port": "인천",
-      "vessel": "GLOVIS COSMOS",
-      "callSign": "-",
-      "station": "PAL - 52",
-      "time": "11-18 21:30"
     },
     {
       "port": "인천",
