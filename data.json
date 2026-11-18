@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18 16:03",
+  "updatedAt": "2026-11-18 17:37",
   "errors": {},
   "schedules": [
     {
@@ -126,13 +126,20 @@
       "vessel": "OCEAN BLUE WHALE",
       "callSign": "D5MO4",
       "station": "E15 → JANG",
-      "time": "11-18 22:00"
+      "time": "11-18 22:30"
     },
     {
       "port": "평택",
       "vessel": "SUNNY KALMIA",
       "callSign": "3E8980",
       "station": "E8 → IPA",
+      "time": "11-19 07:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "GUO SHUN 23",
+      "callSign": "V3NM8",
+      "station": "E12 → IPA",
       "time": "11-19 07:00"
     },
     {
@@ -260,13 +267,6 @@
       "callSign": "BOPY4",
       "station": "E16 → IPA",
       "time": "11-19 16:00"
-    },
-    {
-      "port": "평택",
-      "vessel": "GUO SHUN 23",
-      "callSign": "V3NM8",
-      "station": "E12 → IPA",
-      "time": "11-19 17:00"
     },
     {
       "port": "평택",
@@ -508,13 +508,6 @@
     },
     {
       "port": "인천",
-      "vessel": "FU LONG",
-      "callSign": "-",
-      "station": "PAL - N43",
-      "time": "11-18 18:40"
-    },
-    {
-      "port": "인천",
       "vessel": "PES ALIOTH",
       "callSign": "-",
       "station": "NIPT3 - NIPT4",
@@ -540,13 +533,6 @@
       "callSign": "-",
       "station": "NIPT4 - PAL",
       "time": "11-18 22:00"
-    },
-    {
-      "port": "인천",
-      "vessel": "UDE PROSPER",
-      "callSign": "-",
-      "station": "PAL - N42",
-      "time": "11-18 23:00"
     },
     {
       "port": "대산",
