@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-20 01:58",
+  "updatedAt": "2026-11-20 02:54",
   "errors": {},
   "schedules": [
     {
@@ -347,6 +347,20 @@
     },
     {
       "port": "인천",
+      "vessel": "XIN MING ZHOU 20",
+      "callSign": "-",
+      "station": "SNCT3 - NPPS",
+      "time": "11-20 08:00"
+    },
+    {
+      "port": "인천",
+      "vessel": "AN DONG 68",
+      "callSign": "-",
+      "station": "NPPS - SNCT3",
+      "time": "11-20 08:00"
+    },
+    {
+      "port": "인천",
       "vessel": "HUADONG PEARL 8",
       "callSign": "-",
       "station": "PAL - NIPT5",
@@ -361,13 +375,6 @@
     },
     {
       "port": "인천",
-      "vessel": "XIN MING ZHOU 20",
-      "callSign": "-",
-      "station": "SNCT3 - NPPS",
-      "time": "11-20 10:00"
-    },
-    {
-      "port": "인천",
       "vessel": "KAI PING",
       "callSign": "-",
       "station": "HJIT3 - NPPS",
@@ -378,13 +385,6 @@
       "vessel": "SUNNY LAUREL",
       "callSign": "-",
       "station": "NPPS - HJIT3",
-      "time": "11-20 10:00"
-    },
-    {
-      "port": "인천",
-      "vessel": "AN DONG 68",
-      "callSign": "-",
-      "station": "NPPS - SNCT3",
       "time": "11-20 10:00"
     },
     {
