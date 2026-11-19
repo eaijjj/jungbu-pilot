@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19 12:22",
+  "updatedAt": "2026-11-19 13:31",
   "errors": {
     "대산": "원본 사이트 응답 오류 (자료 없음)"
   },
@@ -251,17 +251,17 @@
     },
     {
       "port": "평택",
-      "vessel": "PACIFIC SHENZHEN",
-      "callSign": "9V8012",
-      "station": "IPA → E6",
-      "time": "11-20 13:00"
-    },
-    {
-      "port": "평택",
       "vessel": "HUI NING",
       "callSign": "6YXY8",
       "station": "E16 → IPA",
       "time": "11-20 14:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "PACIFIC SHENZHEN",
+      "callSign": "9V8012",
+      "station": "IPA → E6",
+      "time": "11-20 15:30"
     },
     {
       "port": "평택",
@@ -398,13 +398,6 @@
     },
     {
       "port": "인천",
-      "vessel": "PACIFIC MONACO",
-      "callSign": "-",
-      "station": "E1CT - PAL",
-      "time": "11-19 19:00"
-    },
-    {
-      "port": "인천",
       "vessel": "AS NARA",
       "callSign": "-",
       "station": "HJIT2 - NPPS",
@@ -436,6 +429,13 @@
       "vessel": "SUNNY KALMIA",
       "callSign": "-",
       "station": "NPPS - HJIT1",
+      "time": "11-19 21:00"
+    },
+    {
+      "port": "인천",
+      "vessel": "PACIFIC MONACO",
+      "callSign": "-",
+      "station": "E1CT - PAL",
       "time": "11-19 21:00"
     },
     {
