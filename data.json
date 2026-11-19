@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19 11:13",
+  "updatedAt": "2026-11-19 12:22",
   "errors": {
     "대산": "원본 사이트 응답 오류 (자료 없음)"
   },
@@ -121,7 +121,7 @@
       "vessel": "NEW HONOR",
       "callSign": "HPCI",
       "station": "HD6 → JANG",
-      "time": "11-19 14:00"
+      "time": "11-19 14:30"
     },
     {
       "port": "평택",
@@ -377,20 +377,6 @@
     },
     {
       "port": "인천",
-      "vessel": "YU BANG 228",
-      "callSign": "-",
-      "station": "N53 - PAL",
-      "time": "11-19 17:00"
-    },
-    {
-      "port": "인천",
-      "vessel": "WOO CHAN",
-      "callSign": "-",
-      "station": "PAL - SOD1",
-      "time": "11-19 17:30"
-    },
-    {
-      "port": "인천",
       "vessel": "STARSHIP JUPITER",
       "callSign": "-",
       "station": "HJIT3 - NPPS",
@@ -451,13 +437,6 @@
       "callSign": "-",
       "station": "NPPS - HJIT1",
       "time": "11-19 21:00"
-    },
-    {
-      "port": "인천",
-      "vessel": "SUNNY LAUREL",
-      "callSign": "-",
-      "station": "NPPS - HJIT2",
-      "time": "11-19 23:00"
     },
     {
       "port": "대산",
