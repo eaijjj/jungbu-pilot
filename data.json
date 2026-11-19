@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19 16:05",
+  "updatedAt": "2026-11-19 17:40",
   "errors": {},
   "schedules": [
     {
@@ -277,6 +277,13 @@
     },
     {
       "port": "평택",
+      "vessel": "CHANG CHANG NAN HAI",
+      "callSign": "BTYU",
+      "station": "GD7 → IPA",
+      "time": "11-20 15:30"
+    },
+    {
+      "port": "평택",
       "vessel": "ROYAL TERN",
       "callSign": "V7B2995",
       "station": "E5 → IPA",
@@ -309,6 +316,20 @@
       "callSign": "C6JS8",
       "station": "IPA → E12",
       "time": "11-20 18:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "GRAND CHOICE",
+      "callSign": "V7B3189",
+      "station": "E3 → IPA",
+      "time": "11-20 21:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "GLOVIS CROWN",
+      "callSign": "D7LK",
+      "station": "IPA → E5",
+      "time": "11-20 22:00"
     },
     {
       "port": "평택",
@@ -406,7 +427,7 @@
       "vessel": "XIN XIANG XUE LAN",
       "callSign": "-",
       "station": "NIPT5 - PAL",
-      "time": "11-19 18:30"
+      "time": "11-19 18:20"
     },
     {
       "port": "인천",
