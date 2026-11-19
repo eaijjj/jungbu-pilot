@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-20 07:43",
+  "updatedAt": "2026-11-20 08:38",
   "errors": {},
   "schedules": [
     {
@@ -81,13 +81,6 @@
     },
     {
       "port": "평택",
-      "vessel": "리퍼스호",
-      "callSign": "DSQX4",
-      "station": "IPA → GD2",
-      "time": "11-20 10:00"
-    },
-    {
-      "port": "평택",
       "vessel": "ANSAC REVERENCE",
       "callSign": "3E8369",
       "station": "IPA → W7",
@@ -95,16 +88,16 @@
     },
     {
       "port": "평택",
-      "vessel": "MODERN LINK",
-      "callSign": "V7B3362",
-      "station": "E1 → E4",
-      "time": "11-20 11:00"
-    },
-    {
-      "port": "평택",
       "vessel": "GLOVIS TRINITY",
       "callSign": "5LYR2",
       "station": "IPA → E1",
+      "time": "11-20 10:30"
+    },
+    {
+      "port": "평택",
+      "vessel": "MODERN LINK",
+      "callSign": "V7B3362",
+      "station": "E1 → E4",
       "time": "11-20 11:00"
     },
     {
@@ -151,17 +144,17 @@
     },
     {
       "port": "평택",
-      "vessel": "HUI NING",
-      "callSign": "6YXY8",
-      "station": "E16 → IPA",
-      "time": "11-20 14:00"
-    },
-    {
-      "port": "평택",
       "vessel": "OCEAN BLUE WHALE",
       "callSign": "D5MO4",
       "station": "JANG → E15",
       "time": "11-20 14:30"
+    },
+    {
+      "port": "평택",
+      "vessel": "리퍼스호",
+      "callSign": "DSQX4",
+      "station": "IPA → GD2",
+      "time": "11-20 15:00"
     },
     {
       "port": "평택",
@@ -270,6 +263,13 @@
     },
     {
       "port": "평택",
+      "vessel": "HUI NING",
+      "callSign": "6YXY8",
+      "station": "E16 → IPA",
+      "time": "11-21 14:00"
+    },
+    {
+      "port": "평택",
       "vessel": "HUI LONG 17",
       "callSign": "BOYP9",
       "station": "E12 → IPA",
@@ -372,13 +372,6 @@
       "callSign": "-",
       "station": "NPPS - HJIT3",
       "time": "11-20 11:00"
-    },
-    {
-      "port": "인천",
-      "vessel": "WOO CHAN",
-      "callSign": "-",
-      "station": "PAL - SOD1",
-      "time": "11-20 12:00"
     },
     {
       "port": "인천",
