@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19 09:57",
+  "updatedAt": "2026-11-19 11:13",
   "errors": {
     "대산": "원본 사이트 응답 오류 (자료 없음)"
   },
@@ -111,9 +111,9 @@
     },
     {
       "port": "평택",
-      "vessel": "HUI NING",
-      "callSign": "6YXY8",
-      "station": "IPA → E16",
+      "vessel": "LAN HA",
+      "callSign": "3WPD",
+      "station": "W6 → IPA",
       "time": "11-19 14:00"
     },
     {
@@ -132,16 +132,16 @@
     },
     {
       "port": "평택",
-      "vessel": "LAN HA",
-      "callSign": "3WPD",
-      "station": "W6 → IPA",
-      "time": "11-19 15:00"
-    },
-    {
-      "port": "평택",
       "vessel": "MODERN LINK",
       "callSign": "V7B3362",
       "station": "E4 → E1",
+      "time": "11-19 16:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "HUI NING",
+      "callSign": "6YXY8",
+      "station": "IPA → E16",
       "time": "11-19 16:00"
     },
     {
@@ -202,13 +202,6 @@
     },
     {
       "port": "평택",
-      "vessel": "ANSAC REVERENCE",
-      "callSign": "3E8369",
-      "station": "IPA → W7",
-      "time": "11-20 09:00"
-    },
-    {
-      "port": "평택",
       "vessel": "HUI LONG 17",
       "callSign": "BOYP9",
       "station": "IPA → E12",
@@ -220,6 +213,20 @@
       "callSign": "9HA6126",
       "station": "JANG → LNG2",
       "time": "11-20 09:30"
+    },
+    {
+      "port": "평택",
+      "vessel": "리퍼스호",
+      "callSign": "DSQX4",
+      "station": "IPA → GD2",
+      "time": "11-20 10:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "ANSAC REVERENCE",
+      "callSign": "3E8369",
+      "station": "IPA → W7",
+      "time": "11-20 10:00"
     },
     {
       "port": "평택",
@@ -251,6 +258,13 @@
     },
     {
       "port": "평택",
+      "vessel": "HUI NING",
+      "callSign": "6YXY8",
+      "station": "E16 → IPA",
+      "time": "11-20 14:00"
+    },
+    {
+      "port": "평택",
       "vessel": "HUI LONG 17",
       "callSign": "BOYP9",
       "station": "E12 → IPA",
@@ -258,10 +272,24 @@
     },
     {
       "port": "평택",
+      "vessel": "SKYHIGH SW",
+      "callSign": "3FAT8",
+      "station": "IPA → E11",
+      "time": "11-20 18:00"
+    },
+    {
+      "port": "평택",
       "vessel": "VW PEACE",
       "callSign": "C6JS8",
       "station": "IPA → E12",
       "time": "11-20 18:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "리퍼스호",
+      "callSign": "DSQX4",
+      "station": "GD2 → IPA",
+      "time": "11-20 22:00"
     },
     {
       "port": "평택",
@@ -349,13 +377,6 @@
     },
     {
       "port": "인천",
-      "vessel": "SKY RAINBOW",
-      "callSign": "-",
-      "station": "NPPS - HJIT3",
-      "time": "11-19 16:00"
-    },
-    {
-      "port": "인천",
       "vessel": "YU BANG 228",
       "callSign": "-",
       "station": "N53 - PAL",
@@ -405,7 +426,7 @@
     },
     {
       "port": "인천",
-      "vessel": "SUNNY KALMIA",
+      "vessel": "SKY RAINBOW",
       "callSign": "-",
       "station": "NPPS - HJIT2",
       "time": "11-19 20:00"
@@ -426,10 +447,17 @@
     },
     {
       "port": "인천",
+      "vessel": "SUNNY KALMIA",
+      "callSign": "-",
+      "station": "NPPS - HJIT1",
+      "time": "11-19 21:00"
+    },
+    {
+      "port": "인천",
       "vessel": "SUNNY LAUREL",
       "callSign": "-",
       "station": "NPPS - HJIT2",
-      "time": "11-19 22:30"
+      "time": "11-19 23:00"
     },
     {
       "port": "대산",
