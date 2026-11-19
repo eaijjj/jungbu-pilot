@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19 08:45",
+  "updatedAt": "2026-11-19 09:57",
   "errors": {
     "대산": "원본 사이트 응답 오류 (자료 없음)"
   },
@@ -111,13 +111,6 @@
     },
     {
       "port": "평택",
-      "vessel": "TEN JUPITER",
-      "callSign": "3E8470",
-      "station": "E15 → IPA",
-      "time": "11-19 13:00"
-    },
-    {
-      "port": "평택",
       "vessel": "HUI NING",
       "callSign": "6YXY8",
       "station": "IPA → E16",
@@ -129,6 +122,13 @@
       "callSign": "HPCI",
       "station": "HD6 → JANG",
       "time": "11-19 14:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "TEN JUPITER",
+      "callSign": "3E8470",
+      "station": "E15 → IPA",
+      "time": "11-19 15:00"
     },
     {
       "port": "평택",
@@ -150,13 +150,6 @@
       "callSign": "BOPY4",
       "station": "E16 → IPA",
       "time": "11-19 16:00"
-    },
-    {
-      "port": "평택",
-      "vessel": "VW PEACE",
-      "callSign": "C6JS8",
-      "station": "IPA → E12",
-      "time": "11-19 18:00"
     },
     {
       "port": "평택",
@@ -253,8 +246,8 @@
       "port": "평택",
       "vessel": "PACIFIC SHENZHEN",
       "callSign": "9V8012",
-      "station": "IPA → E7",
-      "time": "11-20 16:00"
+      "station": "IPA → E6",
+      "time": "11-20 13:00"
     },
     {
       "port": "평택",
@@ -262,6 +255,13 @@
       "callSign": "BOYP9",
       "station": "E12 → IPA",
       "time": "11-20 17:30"
+    },
+    {
+      "port": "평택",
+      "vessel": "VW PEACE",
+      "callSign": "C6JS8",
+      "station": "IPA → E12",
+      "time": "11-20 18:00"
     },
     {
       "port": "평택",
@@ -328,24 +328,24 @@
     },
     {
       "port": "인천",
+      "vessel": "KOREA VENUS",
+      "callSign": "-",
+      "station": "PAL - GS-HD",
+      "time": "11-19 12:00"
+    },
+    {
+      "port": "인천",
       "vessel": "KMTC ULSAN",
       "callSign": "-",
       "station": "SNCT3 - NPPS",
-      "time": "11-19 12:00"
+      "time": "11-19 13:00"
     },
     {
       "port": "인천",
       "vessel": "XIN MING ZHOU 20",
       "callSign": "-",
       "station": "NPPS - SNCT3",
-      "time": "11-19 12:00"
-    },
-    {
-      "port": "인천",
-      "vessel": "KOREA VENUS",
-      "callSign": "-",
-      "station": "PAL - GS-HD",
-      "time": "11-19 12:00"
+      "time": "11-19 13:00"
     },
     {
       "port": "인천",
