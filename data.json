@@ -1,8 +1,6 @@
 {
-  "updatedAt": "2026-11-19 14:56",
-  "errors": {
-    "대산": "원본 사이트 응답 오류 (자료 없음)"
-  },
+  "updatedAt": "2026-11-19 16:05",
+  "errors": {},
   "schedules": [
     {
       "port": "평택",
@@ -104,13 +102,6 @@
     },
     {
       "port": "평택",
-      "vessel": "HUI NING",
-      "callSign": "6YXY8",
-      "station": "IPA → E16",
-      "time": "11-19 16:00"
-    },
-    {
-      "port": "평택",
       "vessel": "TIAN HAI PING ZE",
       "callSign": "BOPY4",
       "station": "E16 → IPA",
@@ -167,6 +158,13 @@
     },
     {
       "port": "평택",
+      "vessel": "HUI NING",
+      "callSign": "6YXY8",
+      "station": "IPA → E16",
+      "time": "11-20 09:00"
+    },
+    {
+      "port": "평택",
       "vessel": "DORIS",
       "callSign": "TJM5036",
       "station": "IPA → W5",
@@ -216,16 +214,16 @@
     },
     {
       "port": "평택",
-      "vessel": "OCEAN BLUE WHALE",
-      "callSign": "D5MO4",
-      "station": "IPA → E15",
+      "vessel": "CL HYAKU",
+      "callSign": "3E4125",
+      "station": "IPA → W9",
       "time": "11-20 11:00"
     },
     {
       "port": "평택",
-      "vessel": "CL HYAKU",
-      "callSign": "3E4125",
-      "station": "IPA → W9",
+      "vessel": "OCEAN BLUE WHALE",
+      "callSign": "D5MO4",
+      "station": "JANG → E15",
       "time": "11-20 11:00"
     },
     {
@@ -461,73 +459,108 @@
     },
     {
       "port": "대산",
-      "vessel": "CORAL PALMATA",
-      "callSign": "D5DN6",
-      "station": "MDK-19 → PS2",
-      "time": "11-18 05:30"
+      "vessel": "NEW GLOBAL",
+      "callSign": "DSQH9",
+      "station": "PS3 → WAA-06",
+      "time": "11-20 15:00"
     },
     {
       "port": "대산",
-      "vessel": "FPMC P IDEAL",
-      "callSign": "D5AW2",
-      "station": "MDS-36 → WAA-09",
-      "time": "11-18 06:00"
+      "vessel": "BUENA DIOSA",
+      "callSign": "3EOE8",
+      "station": "PS3 → MDK-11",
+      "time": "11-20 15:30"
     },
     {
       "port": "대산",
-      "vessel": "EAGLE HAMILTON",
-      "callSign": "2CWB2",
-      "station": "MDK-15 → WAA-10 MDK",
-      "time": "11-18 07:30"
+      "vessel": "TORM DAMINI",
+      "callSign": "OVQB2",
+      "station": "PS2-2 → MDK-15",
+      "time": "11-20 15:30"
     },
     {
       "port": "대산",
-      "vessel": "FPMC P IDEAL",
-      "callSign": "D5AW2",
-      "station": "WAA-09 → PS2",
-      "time": "11-18 08:00"
+      "vessel": "CLEAROCEAN MARAUDER",
+      "callSign": "S6TT5",
+      "station": "PS2 → WAA-09",
+      "time": "11-20 16:30"
     },
     {
       "port": "대산",
-      "vessel": "FPMC P IDEAL",
-      "callSign": "D5AW2",
-      "station": "WAA-09 → PS2",
-      "time": "11-18 08:30"
+      "vessel": "EXCELLENCE",
+      "callSign": "D6A3847",
+      "station": "MB2-01 → PS3",
+      "time": "11-20 17:00"
     },
     {
       "port": "대산",
-      "vessel": "HONG JUN",
-      "callSign": "D5PK4",
-      "station": "MDT-51 → WAQ-01",
-      "time": "11-18 09:30"
+      "vessel": "MANDAL",
+      "callSign": "V7IM9",
+      "station": "PS2-2 → MDK-16",
+      "time": "11-20 17:15"
     },
     {
       "port": "대산",
-      "vessel": "FORTUNE KAREN",
-      "callSign": "D8BU",
-      "station": "MDK-14 → PS2",
-      "time": "11-18 10:00"
+      "vessel": "WOOLIM 7",
+      "callSign": "DSME",
+      "station": "PS2-2 → MDK-14",
+      "time": "11-20 18:00"
     },
     {
       "port": "대산",
-      "vessel": "FORTUNE HARMONY",
-      "callSign": "C6KR3",
-      "station": "MDT-53 → T.WAA-01",
-      "time": "11-18 11:00"
+      "vessel": "NEW GLOBAL",
+      "callSign": "DSQH9",
+      "station": "WAA-06 → MDS-34",
+      "time": "11-20 18:00"
     },
     {
       "port": "대산",
-      "vessel": "GRAND WINNER 6",
-      "callSign": "5LYM2",
-      "station": "MDS-37 → PS2",
-      "time": "11-18 12:00"
+      "vessel": "JN CAMELLIA",
+      "callSign": "D7BB",
+      "station": "PS2 → MDS-37",
+      "time": "11-20 18:00"
     },
     {
       "port": "대산",
-      "vessel": "TONG SHUN",
-      "callSign": "3EHX4",
-      "station": "B.WAA-02 → MDB-43",
-      "time": "11-18 08:00"
+      "vessel": "ALIAI",
+      "callSign": "D5ZH7",
+      "station": "PS2 → MDS-36",
+      "time": "11-20 18:00"
+    },
+    {
+      "port": "대산",
+      "vessel": "CAPELLA",
+      "callSign": "XVJM7",
+      "station": "PS2-2 → MDH-23",
+      "time": "11-20 18:00"
+    },
+    {
+      "port": "대산",
+      "vessel": "NEW CHALLENGE",
+      "callSign": "DSQA4",
+      "station": "WAA-05 → MDS-32",
+      "time": "11-20 18:00"
+    },
+    {
+      "port": "대산",
+      "vessel": "PIS LOMBOK",
+      "callSign": "3E7920",
+      "station": "WAA-08 → MDH-21",
+      "time": "11-20 18:30"
+    },
+    {
+      "port": "대산",
+      "vessel": "TONG ZHOU 6",
+      "callSign": "BPNT4",
+      "station": "PS3 → MDS-33",
+      "time": "11-20 19:00"
+    },
+    {
+      "port": "대산",
+      "vessel": "SUNNY LAUREL",
+      "callSign": "H8BZ",
+      "station": "PS3 → MB4-01",
+      "time": "11-20 23:00"
     }
   ]
 }
