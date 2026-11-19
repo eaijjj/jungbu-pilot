@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19 13:31",
+  "updatedAt": "2026-11-19 14:56",
   "errors": {
     "대산": "원본 사이트 응답 오류 (자료 없음)"
   },
@@ -23,13 +23,6 @@
       "vessel": "RIZHAO ORIENT",
       "callSign": "HOAG",
       "station": "E14 → IPA",
-      "time": "11-19 07:00"
-    },
-    {
-      "port": "평택",
-      "vessel": "NING HUA 418",
-      "callSign": "BUPA",
-      "station": "W1 → IPA",
       "time": "11-19 07:00"
     },
     {
@@ -83,34 +76,6 @@
     },
     {
       "port": "평택",
-      "vessel": "SD GLORIA",
-      "callSign": "HOKX",
-      "station": "IPA → W2",
-      "time": "11-19 10:00"
-    },
-    {
-      "port": "평택",
-      "vessel": "DORIS",
-      "callSign": "TJM5036",
-      "station": "IPA → W4",
-      "time": "11-19 11:00"
-    },
-    {
-      "port": "평택",
-      "vessel": "XIN SHENG SHENG 3",
-      "callSign": "3E2716",
-      "station": "IPA → W4",
-      "time": "11-19 11:00"
-    },
-    {
-      "port": "평택",
-      "vessel": "LAN HAIFANG ZHOU",
-      "callSign": "3E7175",
-      "station": "GD9 → IPA",
-      "time": "11-19 12:00"
-    },
-    {
-      "port": "평택",
       "vessel": "LAN HA",
       "callSign": "3WPD",
       "station": "W6 → IPA",
@@ -153,13 +118,6 @@
     },
     {
       "port": "평택",
-      "vessel": "FOREVER WIN",
-      "callSign": "VREH6",
-      "station": "W5 → IPA",
-      "time": "11-19 18:00"
-    },
-    {
-      "port": "평택",
       "vessel": "NEW GRAND PEACE",
       "callSign": "H3OX",
       "station": "IFT2 → IPA",
@@ -167,16 +125,16 @@
     },
     {
       "port": "평택",
-      "vessel": "SITC SENDAI",
-      "callSign": "VRSC3",
-      "station": "E7 → IPA",
-      "time": "11-20 06:00"
-    },
-    {
-      "port": "평택",
       "vessel": "V GLOBAL",
       "callSign": "9LS2364",
       "station": "HD11 → IPA",
+      "time": "11-20 07:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "LAN HAIFANG ZHOU",
+      "callSign": "3E7175",
+      "station": "GD9 → IPA",
       "time": "11-20 07:00"
     },
     {
@@ -188,6 +146,13 @@
     },
     {
       "port": "평택",
+      "vessel": "NING HUA 418",
+      "callSign": "BUPA",
+      "station": "W1 → IPA",
+      "time": "11-20 07:00"
+    },
+    {
+      "port": "평택",
       "vessel": "OKIMOTO",
       "callSign": "V3NJ2",
       "station": "W4 → IPA",
@@ -195,17 +160,24 @@
     },
     {
       "port": "평택",
-      "vessel": "GAIN OCEAN",
-      "callSign": "3E2719",
-      "station": "IPA → W6",
+      "vessel": "FOREVER WIN",
+      "callSign": "VREH6",
+      "station": "W5 → IPA",
+      "time": "11-20 07:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "DORIS",
+      "callSign": "TJM5036",
+      "station": "IPA → W5",
       "time": "11-20 09:00"
     },
     {
       "port": "평택",
-      "vessel": "HUI LONG 17",
-      "callSign": "BOYP9",
-      "station": "IPA → E12",
-      "time": "11-20 09:30"
+      "vessel": "GAIN OCEAN",
+      "callSign": "3E2719",
+      "station": "IPA → W6",
+      "time": "11-20 09:00"
     },
     {
       "port": "평택",
@@ -223,10 +195,24 @@
     },
     {
       "port": "평택",
+      "vessel": "GLOVIS TRINITY",
+      "callSign": "5LYR2",
+      "station": "IPA → E1",
+      "time": "11-20 10:00"
+    },
+    {
+      "port": "평택",
       "vessel": "ANSAC REVERENCE",
       "callSign": "3E8369",
       "station": "IPA → W7",
       "time": "11-20 10:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "MODERN LINK",
+      "callSign": "V7B3362",
+      "station": "E1 → E4",
+      "time": "11-20 11:00"
     },
     {
       "port": "평택",
@@ -244,10 +230,38 @@
     },
     {
       "port": "평택",
+      "vessel": "GRAND CHOICE",
+      "callSign": "V7B3189",
+      "station": "E5 → E3",
+      "time": "11-20 11:30"
+    },
+    {
+      "port": "평택",
+      "vessel": "ROYAL TERN",
+      "callSign": "V7B2995",
+      "station": "E2 → E5",
+      "time": "11-20 11:30"
+    },
+    {
+      "port": "평택",
       "vessel": "NEW BOUNDARY",
       "callSign": "3EYA9",
       "station": "W9 → IPA",
       "time": "11-20 12:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "POLARIS MILA",
+      "callSign": "D5EZ7",
+      "station": "IPA → E4",
+      "time": "11-20 13:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "MODERN LINK",
+      "callSign": "V7B3362",
+      "station": "E4 → IPA",
+      "time": "11-20 14:00"
     },
     {
       "port": "평택",
@@ -265,10 +279,24 @@
     },
     {
       "port": "평택",
-      "vessel": "HUI LONG 17",
-      "callSign": "BOYP9",
-      "station": "E12 → IPA",
-      "time": "11-20 17:30"
+      "vessel": "ROYAL TERN",
+      "callSign": "V7B2995",
+      "station": "E5 → IPA",
+      "time": "11-20 16:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "SITC SENDAI",
+      "callSign": "VRSC3",
+      "station": "E7 → IPA",
+      "time": "11-20 16:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "AFRICAN FINCH",
+      "callSign": "3EGL8",
+      "station": "IPA → HD11",
+      "time": "11-20 17:00"
     },
     {
       "port": "평택",
@@ -377,20 +405,6 @@
     },
     {
       "port": "인천",
-      "vessel": "STARSHIP JUPITER",
-      "callSign": "-",
-      "station": "HJIT3 - NPPS",
-      "time": "11-19 18:00"
-    },
-    {
-      "port": "인천",
-      "vessel": "KAI PING",
-      "callSign": "-",
-      "station": "NPPS - HJIT3",
-      "time": "11-19 18:00"
-    },
-    {
-      "port": "인천",
       "vessel": "XIN XIANG XUE LAN",
       "callSign": "-",
       "station": "NIPT5 - PAL",
@@ -398,16 +412,16 @@
     },
     {
       "port": "인천",
-      "vessel": "AS NARA",
+      "vessel": "STARSHIP JUPITER",
       "callSign": "-",
-      "station": "HJIT2 - NPPS",
+      "station": "HJIT3 - NPPS",
       "time": "11-19 20:00"
     },
     {
       "port": "인천",
-      "vessel": "SKY RAINBOW",
+      "vessel": "KAI PING",
       "callSign": "-",
-      "station": "NPPS - HJIT2",
+      "station": "NPPS - HJIT3",
       "time": "11-19 20:00"
     },
     {
@@ -437,6 +451,13 @@
       "callSign": "-",
       "station": "E1CT - PAL",
       "time": "11-19 21:00"
+    },
+    {
+      "port": "인천",
+      "vessel": "AS NARA",
+      "callSign": "-",
+      "station": "HJIT2 - NPPS",
+      "time": "11-19 22:00"
     },
     {
       "port": "대산",
