@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-20 14:11",
+  "updatedAt": "2026-11-20 14:34",
   "schedules": [
     {
       "port": "평택",
@@ -461,7 +461,7 @@
       "vessel": "NORWEGIAN JADE",
       "callSign": "-",
       "station": "PAL - NIPT10",
-      "time": "11-20 16:00",
+      "time": "11-20 16:10",
       "pilot": "KU(1)",
       "agent": "Wilhelm",
       "tonnage": "93,558"
@@ -472,7 +472,7 @@
       "callSign": "-",
       "station": "HJIT2 - NPPS",
       "time": "11-20 18:00",
-      "pilot": "SC(2)",
+      "pilot": "JH(2)",
       "agent": "ALLWAYS",
       "tonnage": "17,944"
     },
@@ -482,7 +482,7 @@
       "callSign": "-",
       "station": "SNCT1 - NPPS",
       "time": "11-20 18:00",
-      "pilot": "JH(2)",
+      "pilot": "SC(2)",
       "agent": "ALLWAYS",
       "tonnage": "9,971"
     },
@@ -548,16 +548,6 @@
     },
     {
       "port": "인천",
-      "vessel": "AN DONG 68",
-      "callSign": "-",
-      "station": "SNCT3 - NPPS",
-      "time": "11-20 21:00",
-      "pilot": "-",
-      "agent": "Doowoo",
-      "tonnage": "3,988"
-    },
-    {
-      "port": "인천",
       "vessel": "HUADONG PEARL 8",
       "callSign": "-",
       "station": "NIPT5 - PAL",
@@ -587,15 +577,14 @@
       "tonnage": "58,107"
     },
     {
-      "port": "대산",
-      "vessel": "BUENA DIOSA",
-      "callSign": "3EOE8",
-      "station": "PS3 → MDK-11",
-      "time": "11-20 16:45",
+      "port": "인천",
+      "vessel": "AN DONG 68",
+      "callSign": "-",
+      "station": "SNCT3 - NPPS",
+      "time": "11-20 23:00",
       "pilot": "-",
-      "agent": "우일선박(주)",
-      "tonnage": "2,999",
-      "transit": false
+      "agent": "Doowoo",
+      "tonnage": "3,988"
     },
     {
       "port": "대산",
@@ -694,6 +683,17 @@
       "pilot": "-",
       "agent": "(주)라이언쉬핑",
       "tonnage": "29,408",
+      "transit": false
+    },
+    {
+      "port": "대산",
+      "vessel": "BUENA DIOSA",
+      "callSign": "3EOE8",
+      "station": "PS3 → MDK-11",
+      "time": "11-20 19:00",
+      "pilot": "-",
+      "agent": "우일선박(주)",
+      "tonnage": "2,999",
       "transit": false
     },
     {
