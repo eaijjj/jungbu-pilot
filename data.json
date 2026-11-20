@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-20 08:38",
+  "updatedAt": "2026-11-20 09:52",
   "errors": {},
   "schedules": [
     {
@@ -21,20 +21,6 @@
       "vessel": "LAN HAIFANG ZHOU",
       "callSign": "3E7175",
       "station": "GD9 → IPA",
-      "time": "11-20 07:00"
-    },
-    {
-      "port": "평택",
-      "vessel": "KOREA VISION",
-      "callSign": "D7KV",
-      "station": "SK → IPA",
-      "time": "11-20 07:00"
-    },
-    {
-      "port": "평택",
-      "vessel": "NING HUA 418",
-      "callSign": "BUPA",
-      "station": "W1 → IPA",
       "time": "11-20 07:00"
     },
     {
@@ -193,13 +179,6 @@
     },
     {
       "port": "평택",
-      "vessel": "VW PEACE",
-      "callSign": "C6JS8",
-      "station": "IPA → E12",
-      "time": "11-20 18:00"
-    },
-    {
-      "port": "평택",
       "vessel": "GRAND CHOICE",
       "callSign": "V7B3189",
       "station": "E3 → IPA",
@@ -221,16 +200,44 @@
     },
     {
       "port": "평택",
+      "vessel": "RIZHAO ORIENT",
+      "callSign": "HOAG",
+      "station": "IPA → E14",
+      "time": "11-21 05:30"
+    },
+    {
+      "port": "평택",
       "vessel": "OCEAN BLUE WHALE",
       "callSign": "D5MO4",
       "station": "E15 → IPA",
-      "time": "11-20 22:00"
+      "time": "11-21 06:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "KOREA VISION",
+      "callSign": "D7KV",
+      "station": "SK → IPA",
+      "time": "11-21 07:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "NING HUA 418",
+      "callSign": "BUPA",
+      "station": "W1 → IPA",
+      "time": "11-21 07:00"
     },
     {
       "port": "평택",
       "vessel": "HUI LONG 17",
       "callSign": "BOYP9",
       "station": "IPA → E12",
+      "time": "11-21 08:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "GOLDEN BEIJING",
+      "callSign": "CQ2793",
+      "station": "HD4 → JANG",
       "time": "11-21 08:00"
     },
     {
@@ -256,10 +263,24 @@
     },
     {
       "port": "평택",
+      "vessel": "PAN ESPERANZA",
+      "callSign": "V7A3147",
+      "station": "JANG → HD4",
+      "time": "11-21 11:00"
+    },
+    {
+      "port": "평택",
       "vessel": "AGAMEMNON",
       "callSign": "9HA6126",
       "station": "LNG2 → JANG",
       "time": "11-21 11:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "RIZHAO ORIENT",
+      "callSign": "HOAG",
+      "station": "E14 → IPA",
+      "time": "11-21 14:00"
     },
     {
       "port": "평택",
@@ -375,24 +396,10 @@
     },
     {
       "port": "인천",
-      "vessel": "YU BANG 228",
-      "callSign": "-",
-      "station": "N53 - PAL",
-      "time": "11-20 12:00"
-    },
-    {
-      "port": "인천",
       "vessel": "NORWEGIAN JADE",
       "callSign": "-",
-      "station": "JANG - NIPT10",
-      "time": "11-20 14:15"
-    },
-    {
-      "port": "인천",
-      "vessel": "WPS A",
-      "callSign": "-",
-      "station": "PAL - N13",
-      "time": "11-20 14:30"
+      "station": "PAL - NIPT10",
+      "time": "11-20 15:15"
     },
     {
       "port": "인천",
@@ -417,10 +424,24 @@
     },
     {
       "port": "인천",
+      "vessel": "WPS A",
+      "callSign": "-",
+      "station": "PAL - N13",
+      "time": "11-20 20:00"
+    },
+    {
+      "port": "인천",
       "vessel": "FU LONG",
       "callSign": "-",
       "station": "N43 - PAL",
-      "time": "11-20 18:00"
+      "time": "11-20 20:00"
+    },
+    {
+      "port": "인천",
+      "vessel": "YU BANG 228",
+      "callSign": "-",
+      "station": "N53 - PAL",
+      "time": "11-20 20:00"
     },
     {
       "port": "인천",
@@ -435,20 +456,6 @@
       "callSign": "-",
       "station": "PAL - N45",
       "time": "11-20 20:30"
-    },
-    {
-      "port": "인천",
-      "vessel": "WAN HAI 315",
-      "callSign": "-",
-      "station": "NPPS - SNCT3",
-      "time": "11-20 21:00"
-    },
-    {
-      "port": "인천",
-      "vessel": "PES ALIOTH",
-      "callSign": "-",
-      "station": "PAL - NIPT2",
-      "time": "11-20 21:00"
     },
     {
       "port": "인천",
@@ -480,59 +487,24 @@
     },
     {
       "port": "대산",
-      "vessel": "NEW GLOBAL",
-      "callSign": "DSQH9",
-      "station": "PS3 → WAA-06",
-      "time": "11-20 15:00"
-    },
-    {
-      "port": "대산",
       "vessel": "BUENA DIOSA",
       "callSign": "3EOE8",
       "station": "PS3 → MDK-11",
-      "time": "11-20 15:30"
+      "time": "11-20 16:45"
     },
     {
       "port": "대산",
-      "vessel": "TORM DAMINI",
-      "callSign": "OVQB2",
-      "station": "PS2-2 → MDK-15",
-      "time": "11-20 15:30"
+      "vessel": "NEW GLOBAL",
+      "callSign": "DSQH9",
+      "station": "PS3 → WAA-06",
+      "time": "11-20 16:45"
     },
     {
       "port": "대산",
       "vessel": "CLEAROCEAN MARAUDER",
       "callSign": "S6TT5",
       "station": "PS2 → WAA-09",
-      "time": "11-20 16:30"
-    },
-    {
-      "port": "대산",
-      "vessel": "EXCELLENCE",
-      "callSign": "D6A3847",
-      "station": "MB2-01 → PS3",
-      "time": "11-20 17:00"
-    },
-    {
-      "port": "대산",
-      "vessel": "MANDAL",
-      "callSign": "V7IM9",
-      "station": "PS2-2 → MDK-16",
       "time": "11-20 17:15"
-    },
-    {
-      "port": "대산",
-      "vessel": "WOOLIM 7",
-      "callSign": "DSME",
-      "station": "PS2-2 → MDK-14",
-      "time": "11-20 18:00"
-    },
-    {
-      "port": "대산",
-      "vessel": "NEW GLOBAL",
-      "callSign": "DSQH9",
-      "station": "WAA-06 → MDS-34",
-      "time": "11-20 18:00"
     },
     {
       "port": "대산",
@@ -550,6 +522,13 @@
     },
     {
       "port": "대산",
+      "vessel": "TORM DAMINI",
+      "callSign": "OVQB2",
+      "station": "PS2-2 → MDK-15",
+      "time": "11-20 18:00"
+    },
+    {
+      "port": "대산",
       "vessel": "CAPELLA",
       "callSign": "XVJM7",
       "station": "PS2-2 → MDH-23",
@@ -557,9 +536,23 @@
     },
     {
       "port": "대산",
-      "vessel": "NEW CHALLENGE",
-      "callSign": "DSQA4",
-      "station": "WAA-05 → MDS-32",
+      "vessel": "NEW GLOBAL",
+      "callSign": "DSQH9",
+      "station": "WAA-06 → MDS-34",
+      "time": "11-20 18:00"
+    },
+    {
+      "port": "대산",
+      "vessel": "EXCELLENCE",
+      "callSign": "D6A3847",
+      "station": "MB2-01 → PS3",
+      "time": "11-20 18:00"
+    },
+    {
+      "port": "대산",
+      "vessel": "WOOLIM 7",
+      "callSign": "DSME",
+      "station": "PS2-2 → MDK-14",
       "time": "11-20 18:00"
     },
     {
@@ -567,7 +560,7 @@
       "vessel": "PIS LOMBOK",
       "callSign": "3E7920",
       "station": "WAA-08 → MDH-21",
-      "time": "11-20 18:30"
+      "time": "11-20 18:45"
     },
     {
       "port": "대산",
@@ -578,10 +571,24 @@
     },
     {
       "port": "대산",
+      "vessel": "NEW CHALLENGE",
+      "callSign": "DSQA4",
+      "station": "WAA-05 → MDS-32",
+      "time": "11-20 19:20"
+    },
+    {
+      "port": "대산",
       "vessel": "SUNNY LAUREL",
       "callSign": "H8BZ",
       "station": "PS3 → MB4-01",
       "time": "11-20 23:00"
+    },
+    {
+      "port": "대산",
+      "vessel": "MANDAL",
+      "callSign": "V7IM9",
+      "station": "PS2-2 → MDK-16",
+      "time": "11-20 18:00"
     }
   ]
 }
