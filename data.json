@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21 00:24",
+  "updatedAt": "2026-11-21 01:26",
   "schedules": [
     {
       "port": "평택",
@@ -574,16 +574,6 @@
     },
     {
       "port": "인천",
-      "vessel": "QIYUNHE",
-      "callSign": "-",
-      "station": "NPPS - HJIT2",
-      "time": "11-21 13:00",
-      "pilot": "-",
-      "agent": "COSCO K",
-      "tonnage": "16,738"
-    },
-    {
-      "port": "인천",
       "vessel": "CHUN KAI 5",
       "callSign": "-",
       "station": "PAL - N31",
@@ -741,16 +731,6 @@
       "pilot": "-",
       "agent": "NEW INC",
       "tonnage": "9,990"
-    },
-    {
-      "port": "인천",
-      "vessel": "QIYUNHE",
-      "callSign": "-",
-      "station": "HJIT2 - NPPS",
-      "time": "11-21 23:00",
-      "pilot": "-",
-      "agent": "COSCO K",
-      "tonnage": "16,738"
     },
     {
       "port": "인천",
