@@ -12,6 +12,13 @@ def pick(cells, i, default="-"):
     return default
 
 
+def fmt_num(v):
+    digits = str(v).replace(",", "").strip()
+    if digits.isdigit():
+        return f"{int(digits):,}"
+    return v if v else "-"
+
+
 def scrape_all():
     all_data = []
     today_md = datetime.now(KST).strftime("%m-%d")
@@ -32,13 +39,21 @@ def scrape_all():
             page.wait_for_timeout(3000)
 
             pt_count = 0
+            pt_debug = 0
             for frame in page.frames:
+                heads = [h.inner_text().strip() for h in frame.locator("th").all()]
+                heads = [h for h in heads if h]
+                if heads:
+                    print("PTHEAD", heads[:40])
                 for r in frame.locator("tr").all():
                     cells = [c.inner_text().strip() for c in r.locator("td").all()]
                     if len(cells) >= 10:
                         date_idx = next((i for i, v in enumerate(cells) if re.match(r"^\d{2}-\d{2}$", v)), -1)
                         time_idx = next((i for i, v in enumerate(cells) if re.match(r"^\d{2}:\d{2}$", v)), -1)
                         if date_idx != -1 and time_idx != -1 and len(cells) > time_idx + 3:
+                            if pt_debug < 6:
+                                print("PTDEBUG", cells)
+                                pt_debug += 1
                             next_val = cells[time_idx + 1]
                             is_remark = (next_val == "") or (len(next_val) <= 3 and not re.match(r"^[A-Z]{2,3}$", next_val))
                             offset = 2 if is_remark else 1
@@ -61,6 +76,7 @@ def scrape_all():
             print("평택 오류:", e)
 
         # 2. 인천항도선사회
+        # 표 순서: No(0) 도선사(1) 시간(2) 선명(3) 갑문(4) 도선구간(5) 접안(6) 톤수(7) 홀수(8) 대리점(9)
         try:
             page.goto("http://incheonpilot.com", timeout=25000, wait_until="domcontentloaded")
             page.wait_for_timeout(1000)
@@ -77,19 +93,25 @@ def scrape_all():
                             vessel = cells[3]
                             route = next((v for v in cells[4:7] if "-" in v), cells[4])
                             if vessel and vessel != "선명":
+                                pilot = cells[1]
+                                if pilot in ("", "(0)"):
+                                    pilot = "-"
                                 all_data.append({
                                     "port": "인천",
                                     "vessel": vessel,
                                     "callSign": "-",
                                     "station": route,
-                                    "time": f"{today_md} {cells[2]}"
+                                    "time": f"{today_md} {cells[2]}",
+                                    "pilot": pilot,
+                                    "agent": pick(cells, 9),
+                                    "tonnage": fmt_num(pick(cells, 7))
                                 })
                                 ic_count += 1
             print(f"인천 수집: {ic_count}건")
         except Exception as e:
             print("인천 오류:", e)
 
-        # 3. 대산항도선사회 (오늘 + 내일, 취소 제외)
+        # 3. 대산항도선사회 (오늘 + 내일, 분류가 취소인 건 제외)
         ds_count = 0
         ds_cancel = 0
         for day_add in (0, 1):
@@ -109,8 +131,8 @@ def scrape_all():
                         if date_idx == -1 or time_idx < 4 or len(cells) <= time_idx + 3:
                             continue
 
-                        # 분류가 취소인 줄은 제외
-                        if any(c.startswith("취소") for c in cells):
+                        # 분류 칸(날짜 바로 다음 칸)이 취소면 제외
+                        if cells[date_idx + 1] == "취소" or "취소" in cells:
                             ds_cancel += 1
                             continue
 
