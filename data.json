@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21 05:45",
+  "updatedAt": "2026-11-21 06:42",
   "schedules": [
     {
       "port": "평택",
@@ -426,7 +426,7 @@
       "port": "인천",
       "vessel": "WPS A",
       "callSign": "-",
-      "station": "PAL - N13",
+      "station": "PAL - W12",
       "time": "11-21 06:00",
       "pilot": "JK(1)",
       "agent": "ONE INT",
@@ -524,11 +524,21 @@
     },
     {
       "port": "인천",
+      "vessel": "WPS A",
+      "callSign": "-",
+      "station": "W12 - N13",
+      "time": "11-21 09:00",
+      "pilot": "CH(1)",
+      "agent": "ONE INT",
+      "tonnage": "6,732"
+    },
+    {
+      "port": "인천",
       "vessel": "UDE PROSPER",
       "callSign": "-",
       "station": "N42 - PAL",
       "time": "11-21 11:00",
-      "pilot": "GJ(2)",
+      "pilot": "CH(2)",
       "agent": "TAE DON",
       "tonnage": "5,146"
     },
@@ -538,7 +548,7 @@
       "callSign": "-",
       "station": "JANG - E1GT",
       "time": "11-21 11:30",
-      "pilot": "CH(2) CY(2)",
+      "pilot": "CY(2) GJ(3)",
       "agent": "HAN IL",
       "tonnage": "50,498"
     },
@@ -2108,5 +2118,7 @@
       ]
     }
   ],
-  "errors": {}
+  "errors": {
+    "평택": "Locator.all: Frame was detached"
+  }
 }
