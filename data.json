@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-20 19:55",
+  "updatedAt": "2026-11-20 20:52",
   "schedules": [
     {
       "port": "평택",
@@ -255,13 +255,6 @@
     },
     {
       "port": "평택",
-      "vessel": "AGAMEMNON",
-      "callSign": "9HA6126",
-      "station": "LNG2 → JANG",
-      "time": "11-21 09:00"
-    },
-    {
-      "port": "평택",
       "vessel": "NEW GRAND PEACE",
       "callSign": "H3OX",
       "station": "IPA → IFT2",
@@ -279,6 +272,13 @@
       "vessel": "CLAYTON",
       "callSign": "D7OB",
       "station": "IPA → E10",
+      "time": "11-21 10:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "AGAMEMNON",
+      "callSign": "9HA6126",
+      "station": "LNG2 → JANG",
       "time": "11-21 10:00"
     },
     {
@@ -307,7 +307,7 @@
       "vessel": "ROYAL TERN",
       "callSign": "V7B2995",
       "station": "E2 → IPA",
-      "time": "11-21 11:30"
+      "time": "11-21 12:00"
     },
     {
       "port": "평택",
@@ -335,7 +335,7 @@
       "vessel": "BLUE TIGER",
       "callSign": "5LGA2",
       "station": "W8 → IPA",
-      "time": "11-21 16:00"
+      "time": "11-21 20:30"
     },
     {
       "port": "평택",
