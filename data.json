@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-20 17:37",
+  "updatedAt": "2026-11-20 18:54",
   "schedules": [
     {
       "port": "평택",
@@ -136,6 +136,20 @@
     },
     {
       "port": "평택",
+      "vessel": "POLARIS MILA",
+      "callSign": "D5EZ7",
+      "station": "IPA → E4",
+      "time": "11-21 07:30"
+    },
+    {
+      "port": "평택",
+      "vessel": "RIZHAO ORIENT",
+      "callSign": "HOAG",
+      "station": "IPA → E14",
+      "time": "11-21 07:30"
+    },
+    {
+      "port": "평택",
       "vessel": "NING HUA 418",
       "callSign": "BUPA",
       "station": "W1 → IPA",
@@ -150,9 +164,23 @@
     },
     {
       "port": "평택",
-      "vessel": "POLARIS MILA",
-      "callSign": "D5EZ7",
-      "station": "IPA → E4",
+      "vessel": "AFRICAN FINCH",
+      "callSign": "3EGL8",
+      "station": "IPA → HD11",
+      "time": "11-21 08:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "JIA HE 178",
+      "callSign": "V3OV4",
+      "station": "IPA → GD7",
+      "time": "11-21 08:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "MORNING CORNELIA",
+      "callSign": "D7LM",
+      "station": "IPA → E3",
       "time": "11-21 08:00"
     },
     {
@@ -171,38 +199,10 @@
     },
     {
       "port": "평택",
-      "vessel": "RIZHAO ORIENT",
-      "callSign": "HOAG",
-      "station": "IPA → E14",
-      "time": "11-21 08:00"
-    },
-    {
-      "port": "평택",
       "vessel": "GOLDEN BEIJING",
       "callSign": "CQ2793",
       "station": "HD4 → JANG",
       "time": "11-21 08:00"
-    },
-    {
-      "port": "평택",
-      "vessel": "AFRICAN FINCH",
-      "callSign": "3EGL8",
-      "station": "IPA → HD11",
-      "time": "11-21 08:30"
-    },
-    {
-      "port": "평택",
-      "vessel": "JIA HE 178",
-      "callSign": "V3OV4",
-      "station": "IPA → GD7",
-      "time": "11-21 08:30"
-    },
-    {
-      "port": "평택",
-      "vessel": "MORNING CORNELIA",
-      "callSign": "D7LM",
-      "station": "IPA → E3",
-      "time": "11-21 08:30"
     },
     {
       "port": "평택",
@@ -241,13 +241,6 @@
     },
     {
       "port": "평택",
-      "vessel": "DORIS",
-      "callSign": "TJM5036",
-      "station": "IPA → W5",
-      "time": "11-21 09:00"
-    },
-    {
-      "port": "평택",
       "vessel": "XIN SHENG SHENG 3",
       "callSign": "3E2716",
       "station": "IPA → W5",
@@ -272,6 +265,13 @@
       "vessel": "NEW GRAND PEACE",
       "callSign": "H3OX",
       "station": "IPA → IFT2",
+      "time": "11-21 09:30"
+    },
+    {
+      "port": "평택",
+      "vessel": "DORIS",
+      "callSign": "TJM5036",
+      "station": "IPA → W5",
       "time": "11-21 09:30"
     },
     {
@@ -593,7 +593,7 @@
       "callSign": "DSME",
       "station": "PS2-2 → MDK-18",
       "time": "11-21 06:00",
-      "pilot": "-",
+      "pilot": "TW",
       "agent": "우림해운(주)",
       "tonnage": "8,072",
       "transit": false
@@ -604,7 +604,7 @@
       "callSign": "BPNT4",
       "station": "PS3 → MDS-33",
       "time": "11-21 06:00",
-      "pilot": "-",
+      "pilot": "LH",
       "agent": "이글에이전시(주)",
       "tonnage": "2,798",
       "transit": false
@@ -615,7 +615,7 @@
       "callSign": "D5ZH7",
       "station": "PS2 → MDS-36",
       "time": "11-21 06:00",
-      "pilot": "-",
+      "pilot": "YM",
       "agent": "제이앤제이해운 주식회사",
       "tonnage": "29,725",
       "transit": false
@@ -626,7 +626,7 @@
       "callSign": "OVQB2",
       "station": "PS2-2 → MDK-15",
       "time": "11-21 06:00",
-      "pilot": "-",
+      "pilot": "PK",
       "agent": "주식회사 디와이유엘씨",
       "tonnage": "29,553",
       "transit": false
@@ -637,7 +637,7 @@
       "callSign": "VRRH3",
       "station": "PS2 → WAA-12",
       "time": "11-21 06:00",
-      "pilot": "-",
+      "pilot": "MC / MY",
       "agent": "주식회사 지에이씨쉬핑앤로지스틱스코리아",
       "tonnage": "159,843",
       "transit": false
@@ -648,7 +648,7 @@
       "callSign": "3FJG3",
       "station": "PS2 → WAA-3 MDK",
       "time": "11-21 06:15",
-      "pilot": "-",
+      "pilot": "JO",
       "agent": "조광해운(주)",
       "tonnage": "7,250",
       "transit": false
@@ -659,7 +659,7 @@
       "callSign": "3EOE8",
       "station": "MDK-11 → PS3",
       "time": "11-21 07:00",
-      "pilot": "-",
+      "pilot": "ST",
       "agent": "우일선박(주)",
       "tonnage": "2,999",
       "transit": false
@@ -670,7 +670,7 @@
       "callSign": "D7BB",
       "station": "PS2 → MDS-37",
       "time": "11-21 07:00",
-      "pilot": "-",
+      "pilot": "KS",
       "agent": "제이앤탱커 주식회사",
       "tonnage": "8,278",
       "transit": false
@@ -680,8 +680,8 @@
       "vessel": "NEW CHALLENGE",
       "callSign": "DSQA4",
       "station": "WAA-05 → MDS-32",
-      "time": "11-21 07:00",
-      "pilot": "-",
+      "time": "11-21 07:15",
+      "pilot": "LH",
       "agent": "글로벌얼라이언스해운(주)",
       "tonnage": "4,060",
       "transit": false
@@ -692,7 +692,7 @@
       "callSign": "S6TT5",
       "station": "PS2 → WAA-09",
       "time": "11-21 08:00",
-      "pilot": "-",
+      "pilot": "MC",
       "agent": "주식회사 굳파트너쉬핑",
       "tonnage": "30,087",
       "transit": true
@@ -703,7 +703,7 @@
       "callSign": "DSQH9",
       "station": "PS3 → WAA-03",
       "time": "11-21 08:00",
-      "pilot": "-",
+      "pilot": "ST",
       "agent": "성호해운(주)",
       "tonnage": "4,060",
       "transit": false
@@ -714,7 +714,7 @@
       "callSign": "XVJM7",
       "station": "PS2 → WAA-08",
       "time": "11-21 08:30",
-      "pilot": "-",
+      "pilot": "MY",
       "agent": "수정산업(주)",
       "tonnage": "20,058",
       "transit": false
@@ -725,7 +725,7 @@
       "callSign": "5LPG3",
       "station": "PS2-2 → MDH-23",
       "time": "11-21 10:30",
-      "pilot": "-",
+      "pilot": "GB",
       "agent": "(주)디엠쉽핑",
       "tonnage": "8,239",
       "transit": false
@@ -736,7 +736,7 @@
       "callSign": "H8BZ",
       "station": "PS3 → MB4-01",
       "time": "11-21 11:00",
-      "pilot": "-",
+      "pilot": "TW",
       "agent": "고려해운(주)",
       "tonnage": "9,870",
       "transit": false
@@ -747,7 +747,7 @@
       "callSign": "3E7920",
       "station": "WAA-08 → MDH-21",
       "time": "11-21 12:00",
-      "pilot": "-",
+      "pilot": "LH",
       "agent": "(주)라이언쉬핑",
       "tonnage": "29,408",
       "transit": false
@@ -758,7 +758,7 @@
       "callSign": "BQIQ3",
       "station": "PS2-2 → MDH-26",
       "time": "11-21 12:00",
-      "pilot": "-",
+      "pilot": "PK",
       "agent": "이글에이전시(주)",
       "tonnage": "9,684",
       "transit": false
@@ -769,20 +769,9 @@
       "callSign": "DSQH9",
       "station": "WAA-03 → MDS-34",
       "time": "11-21 12:30",
-      "pilot": "-",
+      "pilot": "TW",
       "agent": "성호해운(주)",
       "tonnage": "4,060",
-      "transit": false
-    },
-    {
-      "port": "대산",
-      "vessel": "FORTUNE SWALLOW",
-      "callSign": "D5WY9",
-      "station": "PS3 → WAA-01",
-      "time": "11-21 12:30",
-      "pilot": "-",
-      "agent": "엘앤씨마리타임(주)",
-      "tonnage": "3,494",
       "transit": false
     },
     {
@@ -791,7 +780,7 @@
       "callSign": "5LBJ5",
       "station": "PS2 → SPM-01",
       "time": "11-21 13:00",
-      "pilot": "-",
+      "pilot": "KS / JO",
       "agent": "케이엘엔지 주식회사",
       "tonnage": "156,452",
       "transit": false
@@ -802,7 +791,7 @@
       "callSign": "VRRH3",
       "station": "WAA-12 → MDN-11",
       "time": "11-21 13:00",
-      "pilot": "-",
+      "pilot": "ST / LT",
       "agent": "주식회사 지에이씨쉬핑앤로지스틱스코리아",
       "tonnage": "159,843",
       "transit": false
@@ -813,9 +802,20 @@
       "callSign": "V7B2890",
       "station": "MDT-61 → MDT-61",
       "time": "11-21 13:00",
-      "pilot": "-",
+      "pilot": "MY / MC",
       "agent": "해양선박 주식회사",
       "tonnage": "51,255",
+      "transit": false
+    },
+    {
+      "port": "대산",
+      "vessel": "FORTUNE SWALLOW",
+      "callSign": "D5WY9",
+      "station": "PS3 → WAA-01",
+      "time": "11-21 13:15",
+      "pilot": "GB",
+      "agent": "엘앤씨마리타임(주)",
+      "tonnage": "3,494",
       "transit": false
     },
     {
@@ -823,8 +823,8 @@
       "vessel": "FORTUNE KAREN",
       "callSign": "D8BU",
       "station": "MDK-16 → PS2",
-      "time": "11-21 13:30",
-      "pilot": "-",
+      "time": "11-21 14:00",
+      "pilot": "LH",
       "agent": "비에스쉬핑 주식회사",
       "tonnage": "7,699",
       "transit": false
@@ -835,7 +835,7 @@
       "callSign": "H3PA",
       "station": "PS3 → MDH-25",
       "time": "11-21 14:00",
-      "pilot": "-",
+      "pilot": "TW",
       "agent": "아이쉽코퍼레이션(주)",
       "tonnage": "4,301",
       "transit": false
@@ -846,9 +846,20 @@
       "callSign": "V7A4413",
       "station": "PS2 → MB5-01",
       "time": "11-21 14:00",
-      "pilot": "-",
+      "pilot": "YM",
       "agent": "선우해상 주식회사",
       "tonnage": "30,653",
+      "transit": false
+    },
+    {
+      "port": "대산",
+      "vessel": "MANDAL",
+      "callSign": "V7IM9",
+      "station": "PS2-2 → MDK-16",
+      "time": "11-21 17:00",
+      "pilot": "MC",
+      "agent": "(주)에메스라인",
+      "tonnage": "23,861",
       "transit": false
     },
     {
@@ -857,20 +868,9 @@
       "callSign": "C6KR3",
       "station": "T.WAA-01 → MDT-53",
       "time": "11-21 17:00",
-      "pilot": "-",
+      "pilot": "PK",
       "agent": "해양선박 주식회사",
       "tonnage": "40,121",
-      "transit": false
-    },
-    {
-      "port": "대산",
-      "vessel": "MANDAL",
-      "callSign": "V7IM9",
-      "station": "PS2-2 → MDK-16",
-      "time": "11-21 17:15",
-      "pilot": "-",
-      "agent": "(주)에메스라인",
-      "tonnage": "23,861",
       "transit": false
     },
     {
@@ -879,7 +879,7 @@
       "callSign": "D5PK4",
       "station": "WAQ-01 → MDT-51",
       "time": "11-21 17:30",
-      "pilot": "-",
+      "pilot": "MY",
       "agent": "동아탱커주식회사",
       "tonnage": "51,158",
       "transit": false
@@ -890,7 +890,7 @@
       "callSign": "XVJM7",
       "station": "WAA-08 → MDH-23",
       "time": "11-21 19:30",
-      "pilot": "-",
+      "pilot": "LH",
       "agent": "씨스타마리타임 주식회사",
       "tonnage": "20,058",
       "transit": false
@@ -901,7 +901,7 @@
       "callSign": "5LPG3",
       "station": "MDH-23 → PS2",
       "time": "11-21 19:30",
-      "pilot": "-",
+      "pilot": "YM",
       "agent": "(주)디엠쉽핑",
       "tonnage": "8,239",
       "transit": false
@@ -912,7 +912,7 @@
       "callSign": "9HA4889",
       "station": "PS2 → WAA-09",
       "time": "11-21 19:45",
-      "pilot": "-",
+      "pilot": "PK / MY",
       "agent": "(주)에메스라인",
       "tonnage": "43,693",
       "transit": false
@@ -923,7 +923,7 @@
       "callSign": "BPNT4",
       "station": "MDS-33 → WAA-02",
       "time": "11-21 20:00",
-      "pilot": "-",
+      "pilot": "MC",
       "agent": "이글에이전시(주)",
       "tonnage": "2,798",
       "transit": false
@@ -934,7 +934,7 @@
       "callSign": "V7FS7",
       "station": "PS2 → WAA-12",
       "time": "11-21 20:00",
-      "pilot": "-",
+      "pilot": "TW",
       "agent": "주식회사 굳파트너쉬핑",
       "tonnage": "29,124",
       "transit": true
@@ -945,7 +945,7 @@
       "callSign": "S6TT5",
       "station": "WAA-09 → PS2",
       "time": "11-21 20:00",
-      "pilot": "-",
+      "pilot": "JO",
       "agent": "주식회사 굳파트너쉬핑",
       "tonnage": "30,087",
       "transit": true
@@ -956,7 +956,7 @@
       "callSign": "H8BZ",
       "station": "MB4-01 → PS3",
       "time": "11-22 02:00",
-      "pilot": "-",
+      "pilot": "JO",
       "agent": "고려해운(주)",
       "tonnage": "9,870",
       "transit": false
