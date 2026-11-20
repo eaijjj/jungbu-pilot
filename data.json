@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21 07:41",
+  "updatedAt": "2026-11-21 08:42",
   "schedules": [
     {
       "port": "평택",
@@ -283,13 +283,6 @@
     },
     {
       "port": "평택",
-      "vessel": "HAI CHANG",
-      "callSign": "VRNL4",
-      "station": "IPA → HD14",
-      "time": "11-22 05:30"
-    },
-    {
-      "port": "평택",
       "vessel": "리퍼스호",
       "callSign": "DSQX4",
       "station": "IPA → GD2",
@@ -318,10 +311,38 @@
     },
     {
       "port": "평택",
+      "vessel": "LAKE SHIRASAGI",
+      "callSign": "5LOL5",
+      "station": "IPA → E2",
+      "time": "11-22 12:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "HAI CHANG",
+      "callSign": "VRNL4",
+      "station": "IPA → HD14",
+      "time": "11-22 13:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "HELIOS RAY",
+      "callSign": "C6BO7",
+      "station": "IPA → E1",
+      "time": "11-22 13:00"
+    },
+    {
+      "port": "평택",
       "vessel": "SD GLORIA",
       "callSign": "HOKX",
       "station": "W2 → IPA",
       "time": "11-22 13:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "GLOVIS CROWN",
+      "callSign": "D7LK",
+      "station": "E1 → IPA",
+      "time": "11-22 14:00"
     },
     {
       "port": "평택",
@@ -332,9 +353,23 @@
     },
     {
       "port": "평택",
+      "vessel": "GLOVIS CONDOR",
+      "callSign": "D7GI",
+      "station": "IPA → E4",
+      "time": "11-22 15:00"
+    },
+    {
+      "port": "평택",
       "vessel": "리퍼스호",
       "callSign": "DSQX4",
       "station": "GD2 → IPA",
+      "time": "11-22 16:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "MORNING CORNELIA",
+      "callSign": "D7LM",
+      "station": "E3 → IPA",
       "time": "11-22 16:00"
     },
     {
@@ -346,6 +381,13 @@
     },
     {
       "port": "평택",
+      "vessel": "VW PEACE",
+      "callSign": "C6JS8",
+      "station": "IPA → E12",
+      "time": "11-22 17:00"
+    },
+    {
+      "port": "평택",
       "vessel": "NEW GRAND PEACE",
       "callSign": "H3OX",
       "station": "IFT2 → IPA",
@@ -353,10 +395,10 @@
     },
     {
       "port": "평택",
-      "vessel": "VW PEACE",
-      "callSign": "C6JS8",
-      "station": "IPA → E12",
-      "time": "11-22 20:00"
+      "vessel": "LAKE SHIRASAGI",
+      "callSign": "5LOL5",
+      "station": "E2 → E5",
+      "time": "11-22 21:00"
     },
     {
       "port": "평택",
@@ -565,7 +607,7 @@
       "callSign": "-",
       "station": "HJIT2 - NPPS",
       "time": "11-21 12:00",
-      "pilot": "-",
+      "pilot": "CR(1)",
       "agent": "WORLD S",
       "tonnage": "18,461"
     },
@@ -661,16 +703,6 @@
     },
     {
       "port": "인천",
-      "vessel": "FORTUNE KAREN",
-      "callSign": "-",
-      "station": "PAL - N-HOB",
-      "time": "11-21 18:30",
-      "pilot": "-",
-      "agent": "Joa Shi",
-      "tonnage": "7,699"
-    },
-    {
-      "port": "인천",
       "vessel": "XIN XIANG XUE LAN",
       "callSign": "-",
       "station": "NIPT5 - PAL",
@@ -688,6 +720,16 @@
       "pilot": "-",
       "agent": "WEIDONG",
       "tonnage": "29,554"
+    },
+    {
+      "port": "인천",
+      "vessel": "FORTUNE KAREN",
+      "callSign": "-",
+      "station": "PAL - N-HOB",
+      "time": "11-21 18:50",
+      "pilot": "-",
+      "agent": "Joa Shi",
+      "tonnage": "7,699"
     },
     {
       "port": "인천",
@@ -740,20 +782,10 @@
       "tonnage": "9,990"
     },
     {
-      "port": "인천",
-      "vessel": "TS PUSAN",
-      "callSign": "-",
-      "station": "PAL - ICT2",
-      "time": "11-21 23:00",
-      "pilot": "-",
-      "agent": "Duk San",
-      "tonnage": "17,449"
-    },
-    {
       "port": "대산",
       "vessel": "WOOLIM 7",
       "callSign": "DSME",
-      "station": "PS2-2 → MDK-18",
+      "station": "PS2-2 → MDK-14",
       "time": "11-21 06:00",
       "pilot": "TW",
       "agent": "동양",
@@ -2047,80 +2079,6 @@
         [
           "연락처",
           "010-5057-6856"
-        ]
-      ]
-    },
-    {
-      "port": "대산",
-      "vessel": "RIXTA OLDENDORFF",
-      "callSign": "D5YK5",
-      "station": "MDB-41 → PS1",
-      "time": "11-21 13:15",
-      "pilot": "JY / LK",
-      "agent": "해양",
-      "tonnage": "66,019",
-      "transit": false,
-      "detail": [
-        [
-          "흘수",
-          "7.00 m"
-        ],
-        [
-          "전장",
-          "260 m"
-        ],
-        [
-          "접안",
-          "우현"
-        ],
-        [
-          "화물",
-          "공선"
-        ],
-        [
-          "담당자",
-          "황인용"
-        ],
-        [
-          "연락처",
-          "041-932-5005"
-        ]
-      ]
-    },
-    {
-      "port": "대산",
-      "vessel": "WOOYANG VENUS",
-      "callSign": "V7A2864",
-      "station": "PS1 → MDB-41",
-      "time": "11-21 15:15",
-      "pilot": "LK / JY",
-      "agent": "해양",
-      "tonnage": "46,982",
-      "transit": false,
-      "detail": [
-        [
-          "흘수",
-          "14.10 m"
-        ],
-        [
-          "전장",
-          "229 m"
-        ],
-        [
-          "접안",
-          "우현"
-        ],
-        [
-          "화물",
-          "적재"
-        ],
-        [
-          "담당자",
-          "황인용"
-        ],
-        [
-          "연락처",
-          "041-932-5005"
         ]
       ]
     }
