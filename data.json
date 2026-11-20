@@ -1,25 +1,11 @@
 {
-  "updatedAt": "2026-11-20 14:34",
+  "updatedAt": "2026-11-20 16:02",
   "schedules": [
     {
       "port": "평택",
       "vessel": "V GLOBAL",
-      "callSign": "3EZG6",
+      "callSign": "5LZR4",
       "station": "HD11 → IPA",
-      "time": "11-20 07:00"
-    },
-    {
-      "port": "평택",
-      "vessel": "LAN HAIFANG ZHOU",
-      "callSign": "3E7175",
-      "station": "GD9 → IPA",
-      "time": "11-20 07:00"
-    },
-    {
-      "port": "평택",
-      "vessel": "OKIMOTO",
-      "callSign": "V3NJ2",
-      "station": "W4 → IPA",
       "time": "11-20 07:00"
     },
     {
@@ -34,13 +20,6 @@
       "vessel": "HUI NING",
       "callSign": "6YXY8",
       "station": "IPA → E16",
-      "time": "11-20 09:00"
-    },
-    {
-      "port": "평택",
-      "vessel": "DORIS",
-      "callSign": "TJM5036",
-      "station": "IPA → W5",
       "time": "11-20 09:00"
     },
     {
@@ -115,23 +94,9 @@
     },
     {
       "port": "평택",
-      "vessel": "CHANG CHANG NAN HAI",
-      "callSign": "BTYU",
-      "station": "GD7 → IPA",
-      "time": "11-20 15:30"
-    },
-    {
-      "port": "평택",
       "vessel": "MODERN LINK",
       "callSign": "V7B3362",
       "station": "E4 → IPA",
-      "time": "11-20 16:00"
-    },
-    {
-      "port": "평택",
-      "vessel": "ROYAL TERN",
-      "callSign": "V7B2995",
-      "station": "E5 → IPA",
       "time": "11-20 16:00"
     },
     {
@@ -178,6 +143,27 @@
     },
     {
       "port": "평택",
+      "vessel": "ROYAL TERN",
+      "callSign": "V7B2995",
+      "station": "E5 → E2",
+      "time": "11-21 07:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "CHANG CHANG NAN HAI",
+      "callSign": "BTYU",
+      "station": "GD7 → IPA",
+      "time": "11-21 07:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "LAN HAIFANG ZHOU",
+      "callSign": "3E7175",
+      "station": "GD9 → IPA",
+      "time": "11-21 07:00"
+    },
+    {
+      "port": "평택",
       "vessel": "KOREA VISION",
       "callSign": "D7KV",
       "station": "SK → IPA",
@@ -199,10 +185,10 @@
     },
     {
       "port": "평택",
-      "vessel": "HUI LONG 17",
-      "callSign": "BOYP9",
-      "station": "IPA → E12",
-      "time": "11-21 08:00"
+      "vessel": "OKIMOTO",
+      "callSign": "V3NJ2",
+      "station": "W4 → IPA",
+      "time": "11-21 07:00"
     },
     {
       "port": "평택",
@@ -220,6 +206,13 @@
     },
     {
       "port": "평택",
+      "vessel": "JIA HE 178",
+      "callSign": "V3OV4",
+      "station": "IPA → GD7",
+      "time": "11-21 08:30"
+    },
+    {
+      "port": "평택",
       "vessel": "POLARIS MILA",
       "callSign": "D5EZ7",
       "station": "IPA → E4",
@@ -230,6 +223,27 @@
       "vessel": "PACIFIC SHENZHEN",
       "callSign": "9V8012",
       "station": "IPA → E7",
+      "time": "11-21 08:30"
+    },
+    {
+      "port": "평택",
+      "vessel": "HUI LONG 17",
+      "callSign": "BOYP9",
+      "station": "IPA → E12",
+      "time": "11-21 08:30"
+    },
+    {
+      "port": "평택",
+      "vessel": "UDE NOAH",
+      "callSign": "3E7230",
+      "station": "IPA → E12",
+      "time": "11-21 08:30"
+    },
+    {
+      "port": "평택",
+      "vessel": "DORIS",
+      "callSign": "TJM5036",
+      "station": "IPA → W5",
       "time": "11-21 08:30"
     },
     {
@@ -304,17 +318,17 @@
     },
     {
       "port": "평택",
-      "vessel": "HUI LONG 17",
-      "callSign": "BOYP9",
-      "station": "E12 → IPA",
-      "time": "11-21 17:30"
-    },
-    {
-      "port": "평택",
       "vessel": "TRANS FUTURE 8",
       "callSign": "3EZG6",
       "station": "E2 → IPA",
       "time": "11-21 21:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "PAN TRITON",
+      "callSign": "5LZR4",
+      "station": "HD10 → IPA",
+      "time": "11-21 22:30"
     },
     {
       "port": "인천",
@@ -488,16 +502,6 @@
     },
     {
       "port": "인천",
-      "vessel": "SUNNY KALMIA",
-      "callSign": "-",
-      "station": "HJIT1 - NPPS",
-      "time": "11-20 20:00",
-      "pilot": "RZ(2)",
-      "agent": "ALLWAYS",
-      "tonnage": "9,940"
-    },
-    {
-      "port": "인천",
       "vessel": "WPS A",
       "callSign": "-",
       "station": "PAL - N13",
@@ -548,6 +552,16 @@
     },
     {
       "port": "인천",
+      "vessel": "SUNNY KALMIA",
+      "callSign": "-",
+      "station": "HJIT1 - NPPS",
+      "time": "11-20 21:00",
+      "pilot": "-",
+      "agent": "ALLWAYS",
+      "tonnage": "9,940"
+    },
+    {
+      "port": "인천",
       "vessel": "HUADONG PEARL 8",
       "callSign": "-",
       "station": "NIPT5 - PAL",
@@ -588,35 +602,35 @@
     },
     {
       "port": "대산",
-      "vessel": "NEW GLOBAL",
-      "callSign": "DSQH9",
-      "station": "PS3 → WAA-06",
-      "time": "11-20 16:45",
+      "vessel": "BUENA DIOSA",
+      "callSign": "3EOE8",
+      "station": "PS3 → MDK-11",
+      "time": "11-20 19:30",
       "pilot": "-",
-      "agent": "성호해운(주)",
-      "tonnage": "4,060",
+      "agent": "우일선박(주)",
+      "tonnage": "2,999",
       "transit": false
     },
     {
       "port": "대산",
-      "vessel": "CLEAROCEAN MARAUDER",
-      "callSign": "S6TT5",
-      "station": "PS2 → WAA-09",
-      "time": "11-20 17:15",
+      "vessel": "EXCELLENCE",
+      "callSign": "D6A3847",
+      "station": "MB2-01 → PS3",
+      "time": "11-20 19:30",
       "pilot": "-",
-      "agent": "주식회사 굳파트너쉬핑",
-      "tonnage": "30,087",
-      "transit": true
+      "agent": "씨레인보우인터내셔널(주)",
+      "tonnage": "5,415",
+      "transit": false
     },
     {
       "port": "대산",
-      "vessel": "JN CAMELLIA",
-      "callSign": "D7BB",
-      "station": "PS2 → MDS-37",
-      "time": "11-20 18:00",
+      "vessel": "WOOLIM 7",
+      "callSign": "DSME",
+      "station": "PS2-2 → MDK-18",
+      "time": "11-21 06:00",
       "pilot": "-",
-      "agent": "제이앤탱커 주식회사",
-      "tonnage": "8,278",
+      "agent": "우림해운(주)",
+      "tonnage": "8,072",
       "transit": false
     },
     {
@@ -624,7 +638,7 @@
       "vessel": "ALIAI",
       "callSign": "D5ZH7",
       "station": "PS2 → MDS-36",
-      "time": "11-20 18:00",
+      "time": "11-21 06:00",
       "pilot": "-",
       "agent": "제이앤제이해운 주식회사",
       "tonnage": "29,725",
@@ -635,7 +649,7 @@
       "vessel": "TORM DAMINI",
       "callSign": "OVQB2",
       "station": "PS2-2 → MDK-15",
-      "time": "11-20 18:00",
+      "time": "11-21 06:00",
       "pilot": "-",
       "agent": "주식회사 디와이유엘씨",
       "tonnage": "29,553",
@@ -643,68 +657,24 @@
     },
     {
       "port": "대산",
-      "vessel": "NEW GLOBAL",
-      "callSign": "DSQH9",
-      "station": "WAA-06 → MDS-34",
-      "time": "11-20 18:00",
+      "vessel": "NEW PRIME",
+      "callSign": "VRRH3",
+      "station": "PS2 → WAA-12",
+      "time": "11-21 06:00",
       "pilot": "-",
-      "agent": "성호해운(주)",
-      "tonnage": "4,060",
+      "agent": "주식회사 지에이씨쉬핑앤로지스틱스코리아",
+      "tonnage": "159,843",
       "transit": false
     },
     {
       "port": "대산",
-      "vessel": "EXCELLENCE",
-      "callSign": "D6A3847",
-      "station": "MB2-01 → PS3",
-      "time": "11-20 18:00",
+      "vessel": "GOLDEN WAVE",
+      "callSign": "3FJG3",
+      "station": "PS2 → WAA-3 MDK",
+      "time": "11-21 06:30",
       "pilot": "-",
-      "agent": "씨레인보우인터내셔널(주)",
-      "tonnage": "5,415",
-      "transit": false
-    },
-    {
-      "port": "대산",
-      "vessel": "WOOLIM 7",
-      "callSign": "DSME",
-      "station": "PS2-2 → MDK-14",
-      "time": "11-20 18:00",
-      "pilot": "-",
-      "agent": "우림해운(주)",
-      "tonnage": "8,072",
-      "transit": false
-    },
-    {
-      "port": "대산",
-      "vessel": "PIS LOMBOK",
-      "callSign": "3E7920",
-      "station": "WAA-08 → MDH-21",
-      "time": "11-20 18:45",
-      "pilot": "-",
-      "agent": "(주)라이언쉬핑",
-      "tonnage": "29,408",
-      "transit": false
-    },
-    {
-      "port": "대산",
-      "vessel": "BUENA DIOSA",
-      "callSign": "3EOE8",
-      "station": "PS3 → MDK-11",
-      "time": "11-20 19:00",
-      "pilot": "-",
-      "agent": "우일선박(주)",
-      "tonnage": "2,999",
-      "transit": false
-    },
-    {
-      "port": "대산",
-      "vessel": "TONG ZHOU 6",
-      "callSign": "BPNT4",
-      "station": "PS3 → MDS-33",
-      "time": "11-20 19:00",
-      "pilot": "-",
-      "agent": "이글에이전시(주)",
-      "tonnage": "2,798",
+      "agent": "조광해운(주)",
+      "tonnage": "7,250",
       "transit": false
     },
     {
@@ -712,10 +682,109 @@
       "vessel": "NEW CHALLENGE",
       "callSign": "DSQA4",
       "station": "WAA-05 → MDS-32",
-      "time": "11-20 19:20",
+      "time": "11-21 07:00",
       "pilot": "-",
       "agent": "글로벌얼라이언스해운(주)",
       "tonnage": "4,060",
+      "transit": false
+    },
+    {
+      "port": "대산",
+      "vessel": "JN CAMELLIA",
+      "callSign": "D7BB",
+      "station": "PS2 → MDS-37",
+      "time": "11-21 07:00",
+      "pilot": "-",
+      "agent": "제이앤탱커 주식회사",
+      "tonnage": "8,278",
+      "transit": false
+    },
+    {
+      "port": "대산",
+      "vessel": "CLEAROCEAN MARAUDER",
+      "callSign": "S6TT5",
+      "station": "PS2 → WAA-09",
+      "time": "11-21 08:00",
+      "pilot": "-",
+      "agent": "주식회사 굳파트너쉬핑",
+      "tonnage": "30,087",
+      "transit": true
+    },
+    {
+      "port": "대산",
+      "vessel": "NEW GLOBAL",
+      "callSign": "DSQH9",
+      "station": "PS3 → WAA-03",
+      "time": "11-21 08:00",
+      "pilot": "-",
+      "agent": "성호해운(주)",
+      "tonnage": "4,060",
+      "transit": false
+    },
+    {
+      "port": "대산",
+      "vessel": "HANYU FREESIA",
+      "callSign": "5LPG3",
+      "station": "PS2-2 → MDH-23",
+      "time": "11-21 10:30",
+      "pilot": "-",
+      "agent": "(주)디엠쉽핑",
+      "tonnage": "8,239",
+      "transit": false
+    },
+    {
+      "port": "대산",
+      "vessel": "SUNNY LAUREL",
+      "callSign": "H8BZ",
+      "station": "PS3 → MB4-01",
+      "time": "11-21 11:00",
+      "pilot": "-",
+      "agent": "고려해운(주)",
+      "tonnage": "9,870",
+      "transit": false
+    },
+    {
+      "port": "대산",
+      "vessel": "NEW GLOBAL",
+      "callSign": "DSQH9",
+      "station": "WAA-03 → MDS-34",
+      "time": "11-21 12:30",
+      "pilot": "-",
+      "agent": "성호해운(주)",
+      "tonnage": "4,060",
+      "transit": false
+    },
+    {
+      "port": "대산",
+      "vessel": "FORTUNE KAREN",
+      "callSign": "D8BU",
+      "station": "MDK-16 → PS2",
+      "time": "11-21 12:30",
+      "pilot": "-",
+      "agent": "비에스쉬핑 주식회사",
+      "tonnage": "7,699",
+      "transit": false
+    },
+    {
+      "port": "대산",
+      "vessel": "FORTUNE SWALLOW",
+      "callSign": "D5WY9",
+      "station": "PS3 → WAA-01",
+      "time": "11-21 12:30",
+      "pilot": "-",
+      "agent": "엘앤씨마리타임(주)",
+      "tonnage": "3,494",
+      "transit": false
+    },
+    {
+      "port": "대산",
+      "vessel": "C.CREATOR",
+      "callSign": "5LBJ5",
+      "station": "PS2 → SPM-01",
+      "time": "11-21 13:00",
+      "pilot": "-",
+      "agent": "케이엘엔지 주식회사",
+      "tonnage": "156,452",
       "transit": false
     },
     {
@@ -728,6 +797,50 @@
       "agent": "해양선박 주식회사",
       "tonnage": "51,255",
       "transit": false
+    },
+    {
+      "port": "대산",
+      "vessel": "NEW PRIME",
+      "callSign": "VRRH3",
+      "station": "WAA-12 → MDN-11",
+      "time": "11-21 13:00",
+      "pilot": "-",
+      "agent": "주식회사 지에이씨쉬핑앤로지스틱스코리아",
+      "tonnage": "159,843",
+      "transit": false
+    },
+    {
+      "port": "대산",
+      "vessel": "STELLAR LADY",
+      "callSign": "V7A4413",
+      "station": "PS2 → MB5-01",
+      "time": "11-21 14:00",
+      "pilot": "-",
+      "agent": "선우해상 주식회사",
+      "tonnage": "30,653",
+      "transit": false
+    },
+    {
+      "port": "대산",
+      "vessel": "HAFNIA BEIJING",
+      "callSign": "9HA4889",
+      "station": "PS2 → WAA-09",
+      "time": "11-21 15:30",
+      "pilot": "-",
+      "agent": "(주)에메스라인",
+      "tonnage": "43,693",
+      "transit": false
+    },
+    {
+      "port": "대산",
+      "vessel": "CLEAROCEAN MARAUDER",
+      "callSign": "S6TT5",
+      "station": "WAA-09 → PS2",
+      "time": "11-21 16:00",
+      "pilot": "-",
+      "agent": "주식회사 굳파트너쉬핑",
+      "tonnage": "30,087",
+      "transit": true
     },
     {
       "port": "대산",
@@ -749,6 +862,72 @@
       "pilot": "-",
       "agent": "동아탱커주식회사",
       "tonnage": "51,158",
+      "transit": false
+    },
+    {
+      "port": "대산",
+      "vessel": "ALTUM SIDUS",
+      "callSign": "V7FS7",
+      "station": "PS2 → WAA-12",
+      "time": "11-21 20:00",
+      "pilot": "-",
+      "agent": "주식회사 굳파트너쉬핑",
+      "tonnage": "29,124",
+      "transit": true
+    },
+    {
+      "port": "대산",
+      "vessel": "SUNNY LAUREL",
+      "callSign": "H8BZ",
+      "station": "MB4-01 → PS3",
+      "time": "11-22 02:00",
+      "pilot": "-",
+      "agent": "고려해운(주)",
+      "tonnage": "9,870",
+      "transit": false
+    },
+    {
+      "port": "대산",
+      "vessel": "SEA GRACE",
+      "callSign": "V7A5958",
+      "station": "MDB-42 → B.WAA-02",
+      "time": "11-21 12:00",
+      "pilot": "LK / JY",
+      "agent": "에스더블유해운(주)",
+      "tonnage": "39,737",
+      "transit": false
+    },
+    {
+      "port": "대산",
+      "vessel": "SEA GRACE",
+      "callSign": "V7A5958",
+      "station": "B.WAA-02 → MDB-42",
+      "time": "11-21 12:30",
+      "pilot": "LK / JY",
+      "agent": "에스더블유해운(주)",
+      "tonnage": "39,737",
+      "transit": false
+    },
+    {
+      "port": "대산",
+      "vessel": "RIXTA OLDENDORFF",
+      "callSign": "D5YK5",
+      "station": "MDB-41 → PS1",
+      "time": "11-21 13:15",
+      "pilot": "LK / JY",
+      "agent": "해양선박 주식회사",
+      "tonnage": "66,019",
+      "transit": false
+    },
+    {
+      "port": "대산",
+      "vessel": "WOOYANG VENUS",
+      "callSign": "V7A2864",
+      "station": "PS1 → MDB-41",
+      "time": "11-21 15:15",
+      "pilot": "LK / JY",
+      "agent": "우양상선(주)",
+      "tonnage": "46,982",
       "transit": false
     }
   ],
