@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21 03:25",
+  "updatedAt": "2026-11-21 04:32",
   "schedules": [
     {
       "port": "평택",
@@ -528,7 +528,7 @@
       "callSign": "-",
       "station": "N42 - PAL",
       "time": "11-21 11:00",
-      "pilot": "-",
+      "pilot": "GJ(2)",
       "agent": "TAE DON",
       "tonnage": "5,146"
     },
@@ -538,7 +538,7 @@
       "callSign": "-",
       "station": "JANG - E1GT",
       "time": "11-21 11:30",
-      "pilot": "-",
+      "pilot": "CH(2) CY(2)",
       "agent": "HAN IL",
       "tonnage": "50,498"
     },
@@ -548,7 +548,7 @@
       "callSign": "-",
       "station": "HJIT2 - NPPS",
       "time": "11-21 12:00",
-      "pilot": "-",
+      "pilot": "SC(2)",
       "agent": "WORLD S",
       "tonnage": "18,461"
     },
@@ -558,19 +558,9 @@
       "callSign": "-",
       "station": "JANG - YHD2",
       "time": "11-21 13:00",
-      "pilot": "-",
+      "pilot": "JJ(3) JK(3)",
       "agent": "H-SHIPP",
       "tonnage": "89,990"
-    },
-    {
-      "port": "인천",
-      "vessel": "SKY SUNSHINE",
-      "callSign": "-",
-      "station": "NPPS - HJIT2",
-      "time": "11-21 13:00",
-      "pilot": "-",
-      "agent": "ALLWAYS",
-      "tonnage": "17,853"
     },
     {
       "port": "인천",
