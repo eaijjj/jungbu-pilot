@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-20 12:15",
+  "updatedAt": "2026-11-20 13:28",
   "errors": {},
   "schedules": [
     {
@@ -116,20 +116,6 @@
     },
     {
       "port": "평택",
-      "vessel": "POLARIS MILA",
-      "callSign": "D5EZ7",
-      "station": "IPA → E4",
-      "time": "11-20 13:30"
-    },
-    {
-      "port": "평택",
-      "vessel": "MODERN LINK",
-      "callSign": "V7B3362",
-      "station": "E4 → IPA",
-      "time": "11-20 14:00"
-    },
-    {
-      "port": "평택",
       "vessel": "OCEAN BLUE WHALE",
       "callSign": "D5MO4",
       "station": "JANG → E15",
@@ -144,16 +130,16 @@
     },
     {
       "port": "평택",
-      "vessel": "ROYAL TERN",
-      "callSign": "V7B2995",
-      "station": "E5 → IPA",
+      "vessel": "MODERN LINK",
+      "callSign": "V7B3362",
+      "station": "E4 → IPA",
       "time": "11-20 16:00"
     },
     {
       "port": "평택",
-      "vessel": "SITC SENDAI",
-      "callSign": "VRSC3",
-      "station": "E7 → IPA",
+      "vessel": "ROYAL TERN",
+      "callSign": "V7B2995",
+      "station": "E5 → IPA",
       "time": "11-20 16:00"
     },
     {
@@ -189,7 +175,7 @@
       "vessel": "RIZHAO ORIENT",
       "callSign": "HOAG",
       "station": "IPA → E14",
-      "time": "11-21 05:30"
+      "time": "11-21 06:00"
     },
     {
       "port": "평택",
@@ -203,6 +189,13 @@
       "vessel": "KOREA VISION",
       "callSign": "D7KV",
       "station": "SK → IPA",
+      "time": "11-21 07:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "SITC SENDAI",
+      "callSign": "VRSC3",
+      "station": "E7 → IPA",
       "time": "11-21 07:00"
     },
     {
@@ -242,9 +235,16 @@
     },
     {
       "port": "평택",
+      "vessel": "POLARIS MILA",
+      "callSign": "D5EZ7",
+      "station": "IPA → E4",
+      "time": "11-21 08:30"
+    },
+    {
+      "port": "평택",
       "vessel": "PACIFIC SHENZHEN",
       "callSign": "9V8012",
-      "station": "IPA → E8",
+      "station": "IPA → E7",
       "time": "11-21 08:30"
     },
     {
@@ -427,14 +427,7 @@
       "vessel": "NORWEGIAN JADE",
       "callSign": "-",
       "station": "PAL - NIPT10",
-      "time": "11-20 15:45"
-    },
-    {
-      "port": "인천",
-      "vessel": "HARRIER",
-      "callSign": "-",
-      "station": "SNCT1 - NPPS",
-      "time": "11-20 17:00"
+      "time": "11-20 16:00"
     },
     {
       "port": "인천",
@@ -445,10 +438,17 @@
     },
     {
       "port": "인천",
+      "vessel": "HARRIER",
+      "callSign": "-",
+      "station": "SNCT1 - NPPS",
+      "time": "11-20 18:00"
+    },
+    {
+      "port": "인천",
       "vessel": "SUNNY KALMIA",
       "callSign": "-",
       "station": "HJIT1 - NPPS",
-      "time": "11-20 18:00"
+      "time": "11-20 20:00"
     },
     {
       "port": "인천",
@@ -477,13 +477,6 @@
       "callSign": "-",
       "station": "ICT2 - HJIT2",
       "time": "11-20 20:00"
-    },
-    {
-      "port": "인천",
-      "vessel": "EXCELLENCE",
-      "callSign": "-",
-      "station": "PAL - N45",
-      "time": "11-20 20:30"
     },
     {
       "port": "인천",
@@ -557,13 +550,6 @@
     },
     {
       "port": "대산",
-      "vessel": "CAPELLA",
-      "callSign": "XVJM7",
-      "station": "PS2-2 → MDH-23",
-      "time": "11-20 18:00"
-    },
-    {
-      "port": "대산",
       "vessel": "NEW GLOBAL",
       "callSign": "DSQH9",
       "station": "WAA-06 → MDS-34",
@@ -603,6 +589,13 @@
       "callSign": "DSQA4",
       "station": "WAA-05 → MDS-32",
       "time": "11-20 19:20"
+    },
+    {
+      "port": "대산",
+      "vessel": "CAPELLA",
+      "callSign": "XVJM7",
+      "station": "PS2-2 → MDH-23",
+      "time": "11-20 18:00"
     },
     {
       "port": "대산",
