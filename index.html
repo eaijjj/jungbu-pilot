@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>서해 중부 통합 도선 스케줄 (인천·평택·대산)</title>
+  <title>서해 중부 통합 도선 스케줄</title>
   <link rel="manifest" href="manifest.json" />
   <link rel="apple-touch-icon" href="apple-touch-icon.png" />
   <meta name="theme-color" content="#1d4ed8" />
@@ -11,8 +11,8 @@
     :root {
       --bg-color: #f4f6f9;
       --card-bg: #ffffff;
-      --text-main: #1f2937;
-      --text-sub: #6b7280;
+      --text-main: #111827;
+      --text-sub: #4b5563;
       --border-color: #e5e7eb;
       --primary: #1d4ed8;
       --incheon-bg: #fce7f3;
@@ -21,6 +21,8 @@
       --pyeongtaek-text: #6b3f1d;
       --daesan-bg: #dcfce7;
       --daesan-text: #166534;
+      --boryeong-bg: #e0f2fe;
+      --boryeong-text: #075985;
     }
 
     * {
@@ -37,7 +39,7 @@
     }
 
     .container {
-      max-width: 900px;
+      max-width: 1100px;
       margin: 0 auto;
     }
 
@@ -59,6 +61,7 @@
       font-size: 0.85rem;
       color: var(--text-sub);
     }
+
     .header-right {
       display: flex;
       align-items: center;
@@ -105,6 +108,7 @@
       font-weight: 500;
       opacity: 0.85;
     }
+
     .controls {
       background: var(--card-bg);
       padding: 12px;
@@ -124,12 +128,12 @@
 
     .tab-btn {
       flex: 1;
-      padding: 8px 12px;
+      padding: 10px 12px;
       border: 1px solid var(--border-color);
       background: #fff;
       border-radius: 8px;
-      font-size: 0.9rem;
-      font-weight: 600;
+      font-size: 0.95rem;
+      font-weight: 700;
       color: var(--text-sub);
       cursor: pointer;
       transition: all 0.15s;
@@ -160,693 +164,48 @@
       border-color: var(--primary);
     }
 
-    .table-wrapper {
-      background: var(--card-bg);
-      border-radius: 12px;
-      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
-      overflow: hidden;
-    }
-
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      text-align: left;
-    }
-
-    th {
-      background: #f9fafb;
-      padding: 12px 14px;
-      font-size: 0.85rem;
-      font-weight: 600;
-      color: var(--text-sub);
-      border-bottom: 1px solid var(--border-color);
-    }
-
-    td {
-      padding: 12px 14px;
-      font-size: 0.92rem;
-      border-bottom: 1px solid var(--border-color);
-      vertical-align: middle;
-    }
-
-    tr:last-child td {
-      border-bottom: none;
-    }
-
     .badge {
       display: inline-block;
-      padding: 4px 8px;
+      padding: 2px 7px;
       border-radius: 6px;
-      font-size: 0.78rem;
-      font-weight: 700;
+      font-size: 0.72rem;
+      font-weight: 800;
+      margin-right: 6px;
+      vertical-align: middle;
     }
 
     .badge-인천 { background: var(--incheon-bg); color: var(--incheon-text); }
     .badge-평택 { background: var(--pyeongtaek-bg); color: var(--pyeongtaek-text); }
     .badge-대산 { background: var(--daesan-bg); color: var(--daesan-text); }
+    .badge-보령 { background: var(--boryeong-bg); color: var(--boryeong-text); }
 
-    .vessel-name {
-      font-weight: 700;
-      color: var(--text-main);
-    }
-
-    .call-sign {
-      font-family: monospace;
-      font-size: 0.88rem;
-      color: var(--text-sub);
-    }
-
-    .pilot-time {
-      font-weight: 600;
-      color: #111827;
-    }
-
-    .ais-link {
-      display: inline-block;
-      padding: 6px 10px;
-      background: #eff6ff;
-      color: var(--primary);
-      text-decoration: none;
-      border-radius: 6px;
-      font-size: 0.8rem;
-      font-weight: 600;
-      white-space: nowrap;
-    }
-
-    .ais-link:hover {
-      background: #dbeafe;
-    }
-
-    .empty-state {
-      text-align: center;
-      padding: 40px 16px;
-      color: var(--text-sub);
-      font-size: 0.95rem;
-      line-height: 1.6;
-    }
-
-    /* ===== 요약 보기 (컴퓨터: 3칸 나란히) ===== */
-    .summary-note {
+    /* ===== 상세 목록 (대산 / 보령 / 전체) ===== */
+    .detail-wrap {
       display: none;
-      font-size: 0.78rem;
+    }
+
+    .dt-legend {
+      font-size: 0.8rem;
       color: var(--text-sub);
       margin-bottom: 8px;
       line-height: 1.5;
     }
 
-    .summary-grid {
-      display: none;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 12px;
-      align-items: start;
-    }
-
-    .sum-col {
+    .dt-card {
       background: var(--card-bg);
       border-radius: 12px;
-      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
-      overflow: hidden;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+      overflow: clip;
     }
 
-    .sum-head {
-      padding: 10px 12px;
-      font-size: 0.95rem;
-      font-weight: 700;
+    .dt-title {
+      padding: 12px 16px;
+      font-size: 1.15rem;
+      font-weight: 800;
       display: flex;
       justify-content: space-between;
       align-items: center;
     }
 
-    .sum-head small {
-      font-size: 0.75rem;
-      font-weight: 600;
-      opacity: 0.8;
-    }
-
-    .sum-head-인천 { background: var(--incheon-bg); color: var(--incheon-text); }
-    .sum-head-평택 { background: var(--pyeongtaek-bg); color: var(--pyeongtaek-text); }
-    .sum-head-대산 { background: var(--daesan-bg); color: var(--daesan-text); }
-
-    .sum-item {
-      padding: 8px 12px;
-      border-top: 1px solid var(--border-color);
-    }
-
-    .sum-line1 {
-      display: flex;
-      justify-content: space-between;
-      align-items: baseline;
-      gap: 8px;
-    }
-
-    .sum-vessel {
-      font-weight: 700;
-      font-size: 0.9rem;
-      word-break: break-word;
-    }
-
-    .sum-time {
-      font-weight: 600;
-      font-size: 0.85rem;
-      white-space: nowrap;
-    }
-
-    .sum-station {
-      font-size: 0.78rem;
-      color: var(--text-sub);
-      margin-top: 2px;
-      word-break: break-word;
-    }
-
-    .sum-empty {
-      padding: 16px 12px;
-      font-size: 0.85rem;
-      color: var(--text-sub);
-    }
-
-    /* ===== 요약 보기 (폰: 시간대별 표) ===== */
-    .tl-grid {
-      display: grid;
-      grid-template-columns: 38px 1fr 1fr 1fr;
-      background: var(--card-bg);
-      border-radius: 12px;
-      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
-      overflow: clip;
-    }
-
-    .tl-head {
-      position: sticky;
-      top: 0;
-      z-index: 2;
-      padding: 8px 2px;
-      font-size: 0.8rem;
-      font-weight: 700;
-      text-align: center;
-    }
-
-    .tl-head small {
-      display: block;
-      font-size: 0.65rem;
-      font-weight: 600;
-      opacity: 0.8;
-    }
-
-    .tl-head-time {
-      background: #f3f4f6;
-      color: var(--text-sub);
-    }
-
-    .tl-date {
-      grid-column: 1 / -1;
-      padding: 4px 10px;
-      background: #eef2ff;
-      color: #3730a3;
-      font-size: 0.75rem;
-      font-weight: 700;
-      border-top: 1px solid var(--border-color);
-    }
-
-    .tl-hour {
-      padding: 6px 2px;
-      font-size: 0.75rem;
-      font-weight: 700;
-      text-align: center;
-      color: var(--text-sub);
-      background: #f9fafb;
-      border-top: 1px solid var(--border-color);
-    }
-
-    .tl-cell {
-      padding: 5px 5px;
-      border-top: 1px solid var(--border-color);
-      border-left: 1px solid var(--border-color);
-      min-width: 0;
-    }
-
-    .tl-item + .tl-item {
-      margin-top: 5px;
-      padding-top: 5px;
-      border-top: 1px dashed var(--border-color);
-    }
-
-    .tl-min {
-      font-size: 0.68rem;
-      font-weight: 700;
-      color: var(--text-sub);
-    }
-
-    .tl-name {
-      font-size: 0.74rem;
-      font-weight: 700;
-      line-height: 1.25;
-      word-break: break-word;
-    }
-
-    .tl-st {
-      font-size: 0.64rem;
-      color: var(--text-sub);
-      line-height: 1.25;
-      word-break: break-word;
-    }
-
-    .tl-empty {
-      grid-column: 1 / -1;
-      padding: 24px 12px;
-      text-align: center;
-      font-size: 0.85rem;
-      color: var(--text-sub);
-    }
-
-    @media (max-width: 700px) {
-      .summary-grid {
-        grid-template-columns: 1fr;
-      }
-    }
-
-    @media (max-width: 640px) {
-      thead {
-        display: none;
-      }
-
-      table, tbody, tr, td {
-        display: block;
-        width: 100%;
-      }
-
-      tr {
-        padding: 14px;
-        border-bottom: 1px solid var(--border-color);
-        position: relative;
-      }
-
-      td {
-        padding: 3px 0;
-        border: none;
-      }
-
-      /* 폭이 좁으면 콜사인은 숨김 */
-      .call-sign {
-        display: none;
-      }
-
-      .cell-action {
-        position: absolute;
-        right: 14px;
-        top: 14px;
-      }
-    }
-  </style>
-</head>
-<body>
-  <div class="container">
-    <header>
-      <h1>⚓ 통합 도선 스케줄 (인천·평택·대산)</h1>
-      <div class="header-right">
-        <span class="update-info" id="lastUpdated">업데이트: 불러오는 중...</span>
-        <button class="refresh-btn" id="refreshBtn" type="button">🔄 새로고침</button>
-      </div>
-    </header>
-
-    <div class="error-banner" id="errorBanner"></div>
-
-    <div class="controls">
-      <div class="tabs" id="portTabs">
-        <button class="tab-btn active" data-port="SUMMARY">요약</button>
-        <button class="tab-btn" data-port="ALL">전체</button>
-        <button class="tab-btn" data-port="인천">인천</button>
-        <button class="tab-btn" data-port="평택">평택</button>
-        <button class="tab-btn" data-port="대산">대산</button>
-      </div>
-      <div class="search-box">
-        <input
-          type="text"
-          id="searchInput"
-          placeholder="선박명, 콜사인 또는 도선점 검색..."
-        />
-      </div>
-    </div>
-
-    <div class="table-wrapper" id="tableWrapper">
-      <table>
-        <thead>
-          <tr>
-            <th>항구</th>
-            <th>선박명</th>
-            <th>콜사인</th>
-            <th>도선점</th>
-            <th>도선시간</th>
-            <th>실시간 위치</th>
-          </tr>
-        </thead>
-        <tbody id="scheduleBody"></tbody>
-      </table>
-      <div id="emptyState" class="empty-state" style="display: none;">
-        현재 시각 기준 표시할 도선 스케줄이 없습니다.
-      </div>
-    </div>
-
-    <div class="summary-note" id="summaryNote">
-      대산은 전체 표시 / 평택은 JANG→, IPA→ 로 시작 / 인천은 JANG, PAL, NPPS 로 시작하는 도선점만 표시합니다.
-    </div>
-    <div class="summary-grid" id="summaryWrap"></div>
-  </div>
-
-  <script>
-    // ===== 요약 화면 표시 규칙 =====
-    // 항구별로 도선점이 아래 글자로 "시작"하는 선박만 요약에 표시합니다.
-    // 규칙이 없는 항구(대산)는 전부 표시합니다. 영문 대소문자와 띄어쓰기는 무시합니다.
-    const SUMMARY_RULES = {
-      "평택": ["JANG→", "IPA→"],
-      "인천": ["JANG", "PAL", "NPPS"]
-    };
-
-    let currentPort = "SUMMARY";
-    let searchKeyword = "";
-    let allSchedules = [];
-
-    const scheduleBody = document.getElementById("scheduleBody");
-    const tableWrapper = document.getElementById("tableWrapper");
-    const summaryWrap = document.getElementById("summaryWrap");
-    const summaryNote = document.getElementById("summaryNote");
-    const emptyState = document.getElementById("emptyState");
-    const lastUpdatedEl = document.getElementById("lastUpdated");
-    const errorBanner = document.getElementById("errorBanner");
-    const searchInput = document.getElementById("searchInput");
-    const tabButtons = document.querySelectorAll(".tab-btn");
-
-    function isNarrow() {
-      return window.matchMedia("(max-width: 700px)").matches;
-    }
-    let lastNarrow = isNarrow();
-
-    function esc(s) {
-      return String(s == null ? "" : s)
-        .replace(/&/g, "&amp;")
-        .replace(/</g, "&lt;")
-        .replace(/>/g, "&gt;");
-    }
-
-    function pad2(n) {
-      return String(n).padStart(2, "0");
-    }
-
-    function parseScheduleTime(timeStr) {
-      const now = new Date();
-      const parts = timeStr.trim().split(" ");
-      if (parts.length !== 2) return null;
-      const md = parts[0];
-      const hm = parts[1];
-      const mdParts = md.split("-").map(Number);
-      const hmParts = hm.split(":").map(Number);
-      const month = mdParts[0];
-      const day = mdParts[1];
-      const hour = hmParts[0];
-      const minute = hmParts[1];
-      if (!month || !day || isNaN(hour) || isNaN(minute)) return null;
-
-      let year = now.getFullYear();
-      if (now.getMonth() === 11 && month === 1) year += 1;
-      return new Date(year, month - 1, day, hour, minute, 0);
-    }
-
-    // 요약 화면에 보여줄 선박인지 판단
-    function matchesSummaryRule(item) {
-      const rules = SUMMARY_RULES[item.port];
-      if (!rules) return true;
-      const st = String(item.station || "").toUpperCase().replace(/\s+/g, "");
-      return rules.some(function (prefix) {
-        return st.indexOf(prefix.toUpperCase().replace(/\s+/g, "")) === 0;
-      });
-    }
-
-    function shortTime(timeStr) {
-      const parts = String(timeStr).trim().split(" ");
-      if (parts.length !== 2) return timeStr;
-      const now = new Date();
-      const todayMd = pad2(now.getMonth() + 1) + "-" + pad2(now.getDate());
-      return parts[0] === todayMd ? parts[1] : parts[0] + " " + parts[1];
-    }
-
-    function getFiltered(portFilter) {
-      const now = new Date();
-      const oneHourAgo = new Date(now.getTime() - 60 * 60 * 1000);
-      const limit = new Date(now.getTime() + 24 * 60 * 60 * 1000);
-      const keyword = searchKeyword.toLowerCase();
-
-      return allSchedules.filter(function (item) {
-        const itemDate = parseScheduleTime(item.time);
-        if (itemDate && itemDate < oneHourAgo) return false;
-        if (itemDate && itemDate > limit) return false;
-
-        const matchPort = portFilter === "ALL" || item.port === portFilter;
-        const matchSearch =
-          !keyword ||
-          (item.vessel && item.vessel.toLowerCase().includes(keyword)) ||
-          (item.callSign && item.callSign.toLowerCase().includes(keyword)) ||
-          (item.station && item.station.toLowerCase().includes(keyword));
-        return matchPort && matchSearch;
-      });
-    }
-
-    // 원본 사이트 수집 실패 표시 (data.errors)
-    function renderErrors(errorsMap) {
-      const ports = Object.keys(errorsMap || {});
-      if (ports.length === 0) {
-        errorBanner.style.display = "none";
-        errorBanner.innerHTML = "";
-        return;
-      }
-
-      const names = ports
-        .map(function (port) {
-          const hasRows = allSchedules.some(function (s) {
-            return s.port === port;
-          });
-          return port + (hasRows ? " (직전 정상 데이터 표시 중)" : "");
-        })
-        .join(", ");
-
-      const details = ports
-        .map(function (port) {
-          return port + ": " + esc(errorsMap[port]);
-        })
-        .join(" · ");
-
-      errorBanner.innerHTML =
-        "⚠️ 원본 사이트 오류: " +
-        esc(names) +
-        "<span class='eb-detail'>" +
-        esc(details) +
-        "</span>";
-      errorBanner.style.display = "block";
-    }
-
-    async function init() {
-      let errorsMap = {};
-      try {
-        const res = await fetch("./data.json?t=" + new Date().getTime());
-        if (!res.ok) throw new Error("HTTP " + res.status);
-        const data = await res.json();
-        allSchedules = data.schedules || [];
-        errorsMap = data.errors || {};
-        lastUpdatedEl.textContent = "업데이트: " + (data.updatedAt || "-") + " (1시간 전~24시간 후 표시)";
-      } catch (e) {
-        console.error("데이터 로드 실패:", e);
-        lastUpdatedEl.textContent = "업데이트: 데이터 로드 실패";
-        allSchedules = [];
-      }
-
-      allSchedules.sort(function (a, b) {
-        return a.time.localeCompare(b.time);
-      });
-      renderErrors(errorsMap);
-      renderTable();
-    }
-
-    // ===== 요약: 컴퓨터용 (3칸 나란히) =====
-    function renderSummaryColumns() {
-      const ports = ["인천", "평택", "대산"];
-      summaryWrap.innerHTML = ports
-        .map(function (port) {
-          const items = getFiltered(port).filter(matchesSummaryRule);
-          let body = "";
-          if (items.length === 0) {
-            body = "<div class='sum-empty'>표시할 스케줄이 없습니다.</div>";
-          } else {
-            body = items
-              .map(function (item) {
-                return (
-                  "<div class='sum-item'>" +
-                    "<div class='sum-line1'>" +
-                      "<span class='sum-vessel'>" + esc(item.vessel) + "</span>" +
-                      "<span class='sum-time'>" + esc(shortTime(item.time)) + "</span>" +
-                    "</div>" +
-                    "<div class='sum-station'>" + esc(item.station) + "</div>" +
-                  "</div>"
-                );
-              })
-              .join("");
-          }
-          return (
-            "<div class='sum-col'>" +
-              "<div class='sum-head sum-head-" + port + "'>" + port + "<small>" + items.length + "건</small></div>" +
-              body +
-            "</div>"
-          );
-        })
-        .join("");
-    }
-
-    // ===== 요약: 폰용 (시간대별 표, 가로 = 항구) =====
-    function renderSummaryTimeline() {
-      const ports = ["인천", "평택", "대산"];
-      const now = new Date();
-      const tomorrow = new Date(now.getTime() + 24 * 60 * 60 * 1000);
-      const todayMd = pad2(now.getMonth() + 1) + "-" + pad2(now.getDate());
-      const tomorrowMd = pad2(tomorrow.getMonth() + 1) + "-" + pad2(tomorrow.getDate());
-
-      const counts = {};
-      const groups = {};
-      const order = [];
-
-      ports.forEach(function (port) {
-        const items = getFiltered(port).filter(matchesSummaryRule);
-        counts[port] = items.length;
-        items.forEach(function (item) {
-          const parts = String(item.time).trim().split(" ");
-          if (parts.length !== 2) return;
-          const hm = parts[1].split(":");
-          const key = parts[0] + " " + hm[0];
-          if (!groups[key]) {
-            groups[key] = { date: parts[0], hour: hm[0], cells: { "인천": [], "평택": [], "대산": [] } };
-            order.push(key);
-          }
-          groups[key].cells[port].push({ item: item, min: hm[1] });
-        });
-      });
-
-      order.sort();
-
-      let html = "<div class='tl-grid'>";
-      html += "<div class='tl-head tl-head-time'>시</div>";
-      ports.forEach(function (port) {
-        html += "<div class='tl-head sum-head-" + port + "'>" + port + "<small>" + counts[port] + "건</small></div>";
-      });
-
-      if (order.length === 0) {
-        html += "<div class='tl-empty'>표시할 스케줄이 없습니다.</div>";
-      }
-
-      let lastDate = todayMd;
-      order.forEach(function (key) {
-        const g = groups[key];
-        if (g.date !== lastDate) {
-          html += "<div class='tl-date'>" + esc(g.date) + (g.date === tomorrowMd ? " (내일)" : "") + "</div>";
-          lastDate = g.date;
-        }
-        html += "<div class='tl-hour'>" + esc(g.hour) + "시</div>";
-        ports.forEach(function (port) {
-          const list = g.cells[port];
-          html += "<div class='tl-cell'>";
-          list.forEach(function (c) {
-            html +=
-              "<div class='tl-item'>" +
-                "<div class='tl-min'>" + esc(c.min) + "분</div>" +
-                "<div class='tl-name'>" + esc(c.item.vessel) + "</div>" +
-                "<div class='tl-st'>" + esc(c.item.station) + "</div>" +
-              "</div>";
-          });
-          html += "</div>";
-        });
-      });
-
-      html += "</div>";
-      summaryWrap.innerHTML = html;
-    }
-
-    function renderSummary() {
-      if (isNarrow()) {
-        renderSummaryTimeline();
-      } else {
-        renderSummaryColumns();
-      }
-    }
-
-    function renderTable() {
-      const isSummary = currentPort === "SUMMARY";
-      tableWrapper.style.display = isSummary ? "none" : "block";
-      summaryWrap.style.display = isSummary ? "grid" : "none";
-      summaryNote.style.display = isSummary ? "block" : "none";
-
-      if (isSummary) {
-        renderSummary();
-        return;
-      }
-
-      const filtered = getFiltered(currentPort);
-
-      if (filtered.length === 0) {
-        scheduleBody.innerHTML = "";
-        emptyState.style.display = "block";
-        return;
-      }
-
-      emptyState.style.display = "none";
-      scheduleBody.innerHTML = filtered
-        .map(function (item) {
-          const searchTarget = item.vessel || item.callSign;
-          const vfUrl = "https://www.vesselfinder.com/vessels?name=" + encodeURIComponent(searchTarget);
-
-          return (
-            "<tr>" +
-              "<td><span class='badge badge-" + item.port + "'>" + item.port + "</span></td>" +
-              "<td class='vessel-name'>" + esc(item.vessel) + "</td>" +
-              "<td class='call-sign'>" + esc(item.callSign || "-") + "</td>" +
-              "<td>" + esc(item.station) + "</td>" +
-              "<td class='pilot-time'>" + esc(item.time) + "</td>" +
-              "<td class='cell-action'>" +
-                "<a href='" + vfUrl + "' target='_blank' rel='noopener noreferrer' class='ais-link'>📍 위치추적</a>" +
-              "</td>" +
-            "</tr>"
-          );
-        })
-        .join("");
-    }
-
-    tabButtons.forEach(function (btn) {
-      btn.addEventListener("click", function () {
-        tabButtons.forEach(function (b) {
-          b.classList.remove("active");
-        });
-        btn.classList.add("active");
-        currentPort = btn.dataset.port;
-        renderTable();
-      });
-    });
-
-    searchInput.addEventListener("input", function (e) {
-      searchKeyword = e.target.value.trim();
-      renderTable();
-    });
-
-    // 화면 폭이 좁음/넓음으로 바뀔 때만 다시 그리기 (폰 회전 등)
-    window.addEventListener("resize", function () {
-      const nowNarrow = isNarrow();
-      if (nowNarrow !== lastNarrow) {
-        lastNarrow = nowNarrow;
-        if (currentPort === "SUMMARY") renderTable();
-      }
-    });
-
-    const refreshBtn = document.getElementById("refreshBtn");
-    refreshBtn.addEventListener("click", async function () {
-      refreshBtn.disabled = true;
-      lastUpdatedEl.textContent = "업데이트: 불러오는 중...";
-      await init();
-      refreshBtn.disabled = false;
-    });
-
-    init();
-  </script>
-</body>
-</html>
+    .dt-title small {
+      font-size:
