@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21 04:32",
+  "updatedAt": "2026-11-21 05:45",
   "schedules": [
     {
       "port": "평택",
@@ -223,7 +223,7 @@
       "vessel": "ROYAL TERN",
       "callSign": "V7B2995",
       "station": "E2 → IPA",
-      "time": "11-21 12:00"
+      "time": "11-21 11:30"
     },
     {
       "port": "평택",
@@ -424,21 +424,11 @@
     },
     {
       "port": "인천",
-      "vessel": "LIBERTY PEACE",
-      "callSign": "-",
-      "station": "PAL - 52",
-      "time": "11-21 06:00",
-      "pilot": "KX(1) JK(1)",
-      "agent": "PYEONG",
-      "tonnage": "58,107"
-    },
-    {
-      "port": "인천",
       "vessel": "WPS A",
       "callSign": "-",
       "station": "PAL - N13",
       "time": "11-21 06:00",
-      "pilot": "SC(1)",
+      "pilot": "JK(1)",
       "agent": "ONE INT",
       "tonnage": "6,732"
     },
@@ -448,7 +438,7 @@
       "callSign": "-",
       "station": "HJIT3 - NPPS",
       "time": "11-21 06:50",
-      "pilot": "OS(1)",
+      "pilot": "SC(1)",
       "agent": "ALLWAYS",
       "tonnage": "9,870"
     },
@@ -484,11 +474,21 @@
     },
     {
       "port": "인천",
+      "vessel": "LIBERTY PEACE",
+      "callSign": "-",
+      "station": "PAL - 52",
+      "time": "11-21 07:30",
+      "pilot": "KX(1) OS(1)",
+      "agent": "PYEONG",
+      "tonnage": "58,107"
+    },
+    {
+      "port": "인천",
       "vessel": "WOO CHAN",
       "callSign": "-",
       "station": "PAL - SOD1",
       "time": "11-21 07:40",
-      "pilot": "OS(2)",
+      "pilot": "SC(2)",
       "agent": "ILJIN S",
       "tonnage": "8,539"
     },
@@ -548,7 +548,7 @@
       "callSign": "-",
       "station": "HJIT2 - NPPS",
       "time": "11-21 12:00",
-      "pilot": "SC(2)",
+      "pilot": "-",
       "agent": "WORLD S",
       "tonnage": "18,461"
     },
@@ -771,7 +771,7 @@
       "callSign": "BPNT4",
       "station": "PS3 → MDS-33",
       "time": "11-21 06:00",
-      "pilot": "LH",
+      "pilot": "KS",
       "agent": "수정",
       "tonnage": "2,798",
       "transit": false,
@@ -845,7 +845,7 @@
       "callSign": "OVQB2",
       "station": "PS2-2 → MDK-15",
       "time": "11-21 06:00",
-      "pilot": "PK",
+      "pilot": "LH",
       "agent": "대동",
       "tonnage": "29,553",
       "transit": false,
@@ -981,7 +981,7 @@
       "callSign": "D7BB",
       "station": "PS2 → MDS-37",
       "time": "11-21 07:00",
-      "pilot": "KS",
+      "pilot": "PK",
       "agent": "대산",
       "tonnage": "8,278",
       "transit": false,
@@ -1014,7 +1014,7 @@
       "callSign": "DSQA4",
       "station": "WAA-05 → MDS-32",
       "time": "11-21 07:15",
-      "pilot": "LH",
+      "pilot": "KS",
       "agent": "스타",
       "tonnage": "4,060",
       "transit": false,
