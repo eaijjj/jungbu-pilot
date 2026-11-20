@@ -150,6 +150,14 @@ def scrape_all():
                         tonnage = pick(cells, time_idx + 5)
                         agent = pick(cells, time_idx + 9)
                         md = cells[date_idx][5:].replace("/", "-")
+                         row_text = " ".join(cells)
+                        try:
+                            row_text += " " + r.evaluate(
+                                "el => Array.from(el.querySelectorAll('input,textarea,select')).map(x => x.value).join(' ')"
+                            )
+                        except Exception:
+                            pass
+                        is_transit = "통과선박" in row_text
 
                         all_data.append({
                             "port": "대산",
@@ -159,7 +167,8 @@ def scrape_all():
                             "time": f"{md} {cells[time_idx]}",
                             "pilot": pilot or "-",
                             "agent": agent,
-                            "tonnage": tonnage
+                            "tonnage": tonnage,
+                            "transit": is_transit
                         })
                         ds_count += 1
             except Exception as e:
