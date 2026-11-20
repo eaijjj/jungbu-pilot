@@ -19,8 +19,19 @@ def fmt_num(v):
     return v if v else "-"
 
 
+def load_previous():
+    try:
+        with open("data.json", encoding="utf-8") as f:
+            return json.load(f).get("schedules", [])
+    except Exception:
+        return []
+
+
 def scrape_all():
-    all_data = []
+    pt_rows = []
+    ic_rows = []
+    ds_rows = []
+    errors = {}
     today_md = datetime.now(KST).strftime("%m-%d")
 
     with sync_playwright() as p:
@@ -38,7 +49,6 @@ def scrape_all():
             page.evaluate("location.href = '/forecast/1'")
             page.wait_for_timeout(3000)
 
-            pt_count = 0
             pt_debug = 0
             for frame in page.frames:
                 heads = [h.inner_text().strip() for h in frame.locator("th").all()]
@@ -63,17 +73,19 @@ def scrape_all():
                                 from_pt = cells[time_idx + offset + 1]
                                 to_pt = cells[time_idx + offset + 2]
                                 call_sign = cells[-1] if re.match(r"^[A-Z0-9]{4,8}$", cells[-1]) else "-"
-                                all_data.append({
+                                pt_rows.append({
                                     "port": "평택",
                                     "vessel": vessel,
                                     "callSign": call_sign,
                                     "station": f"{from_pt} → {to_pt}",
                                     "time": f"{cells[date_idx]} {cells[time_idx]}"
                                 })
-                                pt_count += 1
-            print(f"평택 수집: {pt_count}건")
+            print(f"평택 수집: {len(pt_rows)}건")
+            if len(pt_rows) == 0:
+                errors["평택"] = "수집 0건"
         except Exception as e:
             print("평택 오류:", e)
+            errors["평택"] = str(e)[:80]
 
         # 2. 인천항도선사회
         # 표 순서: No(0) 도선사(1) 시간(2) 선명(3) 갑문(4) 도선구간(5) 접안(6) 톤수(7) 홀수(8) 대리점(9)
@@ -83,7 +95,6 @@ def scrape_all():
             page.evaluate("location.href = '/pilot/pilot04_01.asp'")
             page.wait_for_timeout(3000)
 
-            ic_count = 0
             for frame in page.frames:
                 for r in frame.locator("tr").all():
                     cells = [c.inner_text().strip() for c in r.locator("td").all()]
@@ -96,7 +107,7 @@ def scrape_all():
                                 pilot = cells[1]
                                 if pilot in ("", "(0)"):
                                     pilot = "-"
-                                all_data.append({
+                                ic_rows.append({
                                     "port": "인천",
                                     "vessel": vessel,
                                     "callSign": "-",
@@ -106,14 +117,16 @@ def scrape_all():
                                     "agent": pick(cells, 9),
                                     "tonnage": fmt_num(pick(cells, 7))
                                 })
-                                ic_count += 1
-            print(f"인천 수집: {ic_count}건")
+            print(f"인천 수집: {len(ic_rows)}건")
+            if len(ic_rows) == 0:
+                errors["인천"] = "수집 0건"
         except Exception as e:
             print("인천 오류:", e)
+            errors["인천"] = str(e)[:80]
 
-        # 3. 대산항도선사회 (오늘 + 내일, 분류가 취소인 건 제외)
-        ds_count = 0
+        # 3. 대산항도선사회 (오늘 + 내일, 분류가 취소인 건 제외, 통과선박 감지)
         ds_cancel = 0
+        ds_fail = ""
         for day_add in (0, 1):
             try:
                 d = datetime.now(KST) + timedelta(days=day_add)
@@ -150,7 +163,9 @@ def scrape_all():
                         tonnage = pick(cells, time_idx + 5)
                         agent = pick(cells, time_idx + 9)
                         md = cells[date_idx][5:].replace("/", "-")
-                         row_text = " ".join(cells)
+
+                        # 통과선박: 줄 전체 글자 + 입력칸에 들어 있는 비고 글자에서 찾기
+                        row_text = " ".join(cells)
                         try:
                             row_text += " " + r.evaluate(
                                 "el => Array.from(el.querySelectorAll('input,textarea,select')).map(x => x.value).join(' ')"
@@ -159,7 +174,7 @@ def scrape_all():
                             pass
                         is_transit = "통과선박" in row_text
 
-                        all_data.append({
+                        ds_rows.append({
                             "port": "대산",
                             "vessel": vessel,
                             "callSign": call_sign,
@@ -170,26 +185,38 @@ def scrape_all():
                             "tonnage": tonnage,
                             "transit": is_transit
                         })
-                        ds_count += 1
             except Exception as e:
                 print("대산 오류:", e)
-        print(f"대산 수집: {ds_count}건 (취소 제외: {ds_cancel}건)")
+                ds_fail = str(e)[:80]
+        print(f"대산 수집: {len(ds_rows)}건 (취소 제외: {ds_cancel}건)")
+        if ds_fail:
+            errors["대산"] = ds_fail
+        elif len(ds_rows) == 0:
+            errors["대산"] = "수집 0건"
 
         browser.close()
 
     # 인천: 시간이 거꾸로 가면(23:30 → 00:30) 다음날로 처리
     day_offset = 0
-    prev = ""
-    for item in all_data:
-        if item["port"] != "인천":
-            continue
+    prev_hm = ""
+    for item in ic_rows:
         hm = item["time"].split(" ")[1]
-        if prev and hm < prev:
+        if prev_hm and hm < prev_hm:
             day_offset += 1
-        prev = hm
+        prev_hm = hm
         if day_offset:
             nd = datetime.now(KST) + timedelta(days=day_offset)
             item["time"] = nd.strftime("%m-%d") + " " + hm
+
+    # 수집에 실패한 항구는 직전 정상 데이터를 그대로 사용
+    prev_rows = load_previous()
+    all_data = []
+    for port, rows in (("평택", pt_rows), ("인천", ic_rows), ("대산", ds_rows)):
+        if port in errors:
+            old = [x for x in prev_rows if x.get("port") == port]
+            if old:
+                rows = old
+        all_data.extend(rows)
 
     # 같은 항구, 같은 선박, 같은 시간이 두 번 나오면 하나로 합치기 (콜사인이 있는 쪽을 남김)
     merged = {}
@@ -200,9 +227,13 @@ def scrape_all():
     all_data = list(merged.values())
 
     print(f"총 수집 건수: {len(all_data)}건")
+    if errors:
+        print("오류 항구:", errors)
+
     output = {
         "updatedAt": datetime.now(KST).strftime("%Y-%m-%d %H:%M"),
-        "schedules": all_data
+        "schedules": all_data,
+        "errors": errors
     }
 
     with open("data.json", "w", encoding="utf-8") as f:
