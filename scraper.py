@@ -161,7 +161,7 @@ def scrape_all():
                         to_pt = cells[time_idx + 2]
                         call_sign = cells[time_idx + 3] if re.match(r"^[A-Z0-9]{4,8}$", cells[time_idx + 3]) else "-"
                         tonnage = pick(cells, time_idx + 5)
-                        agent = pick(cells, time_idx + 9)
+                        agent = pick(cells, time_idx + 4)
                         md = cells[date_idx][5:].replace("/", "-")
 
                         # 통과선박: 줄 전체 글자 + 입력칸에 들어 있는 비고 글자에서 찾기
