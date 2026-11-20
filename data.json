@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-11-20 11:02",
+  "updatedAt": "2026-11-20 12:15",
   "errors": {},
   "schedules": [
     {
       "port": "평택",
       "vessel": "V GLOBAL",
-      "callSign": "BOYP9",
+      "callSign": "3EZG6",
       "station": "HD11 → IPA",
       "time": "11-20 07:00"
     },
@@ -235,6 +235,13 @@
     },
     {
       "port": "평택",
+      "vessel": "TRANS FUTURE 8",
+      "callSign": "3EZG6",
+      "station": "IPA → E2",
+      "time": "11-21 08:30"
+    },
+    {
+      "port": "평택",
       "vessel": "PACIFIC SHENZHEN",
       "callSign": "9V8012",
       "station": "IPA → E8",
@@ -309,6 +316,13 @@
       "callSign": "BOYP9",
       "station": "E12 → IPA",
       "time": "11-21 17:30"
+    },
+    {
+      "port": "평택",
+      "vessel": "TRANS FUTURE 8",
+      "callSign": "3EZG6",
+      "station": "E2 → IPA",
+      "time": "11-21 21:00"
     },
     {
       "port": "인천",
@@ -473,6 +487,13 @@
     },
     {
       "port": "인천",
+      "vessel": "AN DONG 68",
+      "callSign": "-",
+      "station": "SNCT3 - NPPS",
+      "time": "11-20 21:00"
+    },
+    {
+      "port": "인천",
       "vessel": "HUADONG PEARL 8",
       "callSign": "-",
       "station": "NIPT5 - PAL",
@@ -491,13 +512,6 @@
       "callSign": "-",
       "station": "PAL - 52",
       "time": "11-20 22:30"
-    },
-    {
-      "port": "인천",
-      "vessel": "AN DONG 68",
-      "callSign": "-",
-      "station": "SNCT3 - NPPS",
-      "time": "11-20 23:00"
     },
     {
       "port": "대산",
@@ -592,17 +606,17 @@
     },
     {
       "port": "대산",
-      "vessel": "SUNNY LAUREL",
-      "callSign": "H8BZ",
-      "station": "PS3 → MB4-01",
-      "time": "11-20 23:00"
-    },
-    {
-      "port": "대산",
       "vessel": "MANDAL",
       "callSign": "V7IM9",
       "station": "PS2-2 → MDK-16",
       "time": "11-20 18:00"
+    },
+    {
+      "port": "대산",
+      "vessel": "SUNNY LAUREL",
+      "callSign": "H8BZ",
+      "station": "PS3 → MB4-01",
+      "time": "11-20 23:00"
     }
   ]
 }
