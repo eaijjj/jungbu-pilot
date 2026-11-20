@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-20 09:52",
+  "updatedAt": "2026-11-20 11:02",
   "errors": {},
   "schedules": [
     {
@@ -137,13 +137,6 @@
     },
     {
       "port": "평택",
-      "vessel": "리퍼스호",
-      "callSign": "DSQX4",
-      "station": "IPA → GD2",
-      "time": "11-20 15:00"
-    },
-    {
-      "port": "평택",
       "vessel": "CHANG CHANG NAN HAI",
       "callSign": "BTYU",
       "station": "GD7 → IPA",
@@ -172,13 +165,6 @@
     },
     {
       "port": "평택",
-      "vessel": "SKYHIGH SW",
-      "callSign": "3FAT8",
-      "station": "IPA → E11",
-      "time": "11-20 18:00"
-    },
-    {
-      "port": "평택",
       "vessel": "GRAND CHOICE",
       "callSign": "V7B3189",
       "station": "E3 → IPA",
@@ -193,10 +179,10 @@
     },
     {
       "port": "평택",
-      "vessel": "리퍼스호",
-      "callSign": "DSQX4",
-      "station": "GD2 → IPA",
-      "time": "11-20 22:00"
+      "vessel": "SKYHIGH SW",
+      "callSign": "3FAT8",
+      "station": "IPA → E11",
+      "time": "11-21 05:00"
     },
     {
       "port": "평택",
@@ -235,6 +221,13 @@
     },
     {
       "port": "평택",
+      "vessel": "SD GLORIA",
+      "callSign": "HOKX",
+      "station": "IPA → W2",
+      "time": "11-21 08:00"
+    },
+    {
+      "port": "평택",
       "vessel": "GOLDEN BEIJING",
       "callSign": "CQ2793",
       "station": "HD4 → JANG",
@@ -249,17 +242,17 @@
     },
     {
       "port": "평택",
+      "vessel": "XIN SHENG SHENG 3",
+      "callSign": "3E2716",
+      "station": "IPA → W5",
+      "time": "11-21 09:00"
+    },
+    {
+      "port": "평택",
       "vessel": "NEW GRAND PEACE",
       "callSign": "H3OX",
       "station": "IPA → IFT2",
       "time": "11-21 09:30"
-    },
-    {
-      "port": "평택",
-      "vessel": "SD GLORIA",
-      "callSign": "HOKX",
-      "station": "IPA → W2",
-      "time": "11-21 10:00"
     },
     {
       "port": "평택",
@@ -277,6 +270,13 @@
     },
     {
       "port": "평택",
+      "vessel": "CLAYTON",
+      "callSign": "D7OB",
+      "station": "IPA → E10",
+      "time": "11-21 13:00"
+    },
+    {
+      "port": "평택",
       "vessel": "RIZHAO ORIENT",
       "callSign": "HOAG",
       "station": "E14 → IPA",
@@ -288,6 +288,20 @@
       "callSign": "6YXY8",
       "station": "E16 → IPA",
       "time": "11-21 14:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "리퍼스호",
+      "callSign": "DSQX4",
+      "station": "IPA → GD2",
+      "time": "11-21 15:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "BLUE TIGER",
+      "callSign": "5LGA2",
+      "station": "W8 → IPA",
+      "time": "11-21 16:00"
     },
     {
       "port": "평택",
@@ -399,7 +413,7 @@
       "vessel": "NORWEGIAN JADE",
       "callSign": "-",
       "station": "PAL - NIPT10",
-      "time": "11-20 15:15"
+      "time": "11-20 15:45"
     },
     {
       "port": "인천",
