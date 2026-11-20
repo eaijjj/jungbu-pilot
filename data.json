@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21 06:42",
+  "updatedAt": "2026-11-21 07:41",
   "schedules": [
     {
       "port": "평택",
@@ -59,9 +59,9 @@
     },
     {
       "port": "평택",
-      "vessel": "POLARIS MILA",
-      "callSign": "D5EZ7",
-      "station": "IPA → E4",
+      "vessel": "PACIFIC SHENZHEN",
+      "callSign": "9V8012",
+      "station": "IPA → E7",
       "time": "11-21 07:30"
     },
     {
@@ -101,9 +101,9 @@
     },
     {
       "port": "평택",
-      "vessel": "MORNING CORNELIA",
-      "callSign": "D7LM",
-      "station": "IPA → E3",
+      "vessel": "POLARIS MILA",
+      "callSign": "D5EZ7",
+      "station": "IPA → E4",
       "time": "11-21 08:00"
     },
     {
@@ -115,9 +115,9 @@
     },
     {
       "port": "평택",
-      "vessel": "PACIFIC SHENZHEN",
-      "callSign": "9V8012",
-      "station": "IPA → E7",
+      "vessel": "HUI LONG 17",
+      "callSign": "BOYP9",
+      "station": "IPA → E12",
       "time": "11-21 08:00"
     },
     {
@@ -126,13 +126,6 @@
       "callSign": "CQ2793",
       "station": "HD4 → JANG",
       "time": "11-21 08:00"
-    },
-    {
-      "port": "평택",
-      "vessel": "HUI LONG 17",
-      "callSign": "BOYP9",
-      "station": "IPA → E12",
-      "time": "11-21 08:30"
     },
     {
       "port": "평택",
@@ -164,6 +157,13 @@
     },
     {
       "port": "평택",
+      "vessel": "DORIS",
+      "callSign": "TJM5036",
+      "station": "IPA → W5",
+      "time": "11-21 09:00"
+    },
+    {
+      "port": "평택",
       "vessel": "XIN SHENG SHENG 3",
       "callSign": "3E2716",
       "station": "IPA → W5",
@@ -178,16 +178,16 @@
     },
     {
       "port": "평택",
-      "vessel": "NEW GRAND PEACE",
-      "callSign": "H3OX",
-      "station": "IPA → IFT2",
+      "vessel": "MORNING CORNELIA",
+      "callSign": "D7LM",
+      "station": "IPA → E3",
       "time": "11-21 09:30"
     },
     {
       "port": "평택",
-      "vessel": "DORIS",
-      "callSign": "TJM5036",
-      "station": "IPA → W5",
+      "vessel": "NEW GRAND PEACE",
+      "callSign": "H3OX",
+      "station": "IPA → IFT2",
       "time": "11-21 09:30"
     },
     {
@@ -224,13 +224,6 @@
       "callSign": "V7B2995",
       "station": "E2 → IPA",
       "time": "11-21 11:30"
-    },
-    {
-      "port": "평택",
-      "vessel": "HUI NING",
-      "callSign": "6YXY8",
-      "station": "E16 → IPA",
-      "time": "11-21 14:00"
     },
     {
       "port": "평택",
@@ -322,6 +315,20 @@
       "callSign": "5BMB6",
       "station": "JANG → W8",
       "time": "11-22 11:30"
+    },
+    {
+      "port": "평택",
+      "vessel": "SD GLORIA",
+      "callSign": "HOKX",
+      "station": "W2 → IPA",
+      "time": "11-22 13:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "HUI NING",
+      "callSign": "6YXY8",
+      "station": "E16 → IPA",
+      "time": "11-22 14:00"
     },
     {
       "port": "평택",
@@ -517,7 +524,7 @@
       "vessel": "XIN XIANG XUE LAN",
       "callSign": "-",
       "station": "PAL - NIPT5",
-      "time": "11-21 08:30",
+      "time": "11-21 09:00",
       "pilot": "RZ(1)",
       "agent": "HAN JOO",
       "tonnage": "32,729"
@@ -841,7 +848,7 @@
         ],
         [
           "담당자",
-          "장재ㅇ"
+          "장재영"
         ],
         [
           "연락처",
@@ -1047,7 +1054,7 @@
         ],
         [
           "담당자",
-          "장재ㅇ"
+          "장재영"
         ],
         [
           "연락처",
@@ -1578,7 +1585,7 @@
         ],
         [
           "담당자",
-          "장재ㅇ"
+          "장재영"
         ],
         [
           "연락처",
@@ -2118,7 +2125,5 @@
       ]
     }
   ],
-  "errors": {
-    "평택": "Locator.all: Frame was detached"
-  }
+  "errors": {}
 }
