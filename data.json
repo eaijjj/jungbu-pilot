@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21 13:26",
+  "updatedAt": "2026-11-21 14:27",
   "schedules": [
     {
       "port": "평택",
@@ -227,16 +227,16 @@
     },
     {
       "port": "평택",
-      "vessel": "POLARIS MILA",
-      "callSign": "D5EZ7",
-      "station": "E4 → IPA",
-      "time": "11-21 16:00"
-    },
-    {
-      "port": "평택",
       "vessel": "RIZHAO ORIENT",
       "callSign": "HOAG",
       "station": "E14 → IPA",
+      "time": "11-21 15:30"
+    },
+    {
+      "port": "평택",
+      "vessel": "POLARIS MILA",
+      "callSign": "D5EZ7",
+      "station": "E4 → IPA",
       "time": "11-21 16:00"
     },
     {
@@ -807,16 +807,6 @@
     },
     {
       "port": "인천",
-      "vessel": "CHUN KAI 5",
-      "callSign": "-",
-      "station": "PAL - N31",
-      "time": "11-21 21:30",
-      "pilot": "-",
-      "agent": "Wilhelm",
-      "tonnage": "7,824"
-    },
-    {
-      "port": "인천",
       "vessel": "LIBERTY PEACE",
       "callSign": "-",
       "station": "52 - PAL",
@@ -824,6 +814,16 @@
       "pilot": "-",
       "agent": "PYEONG",
       "tonnage": "58,107"
+    },
+    {
+      "port": "인천",
+      "vessel": "CHUN KAI 5",
+      "callSign": "-",
+      "station": "PAL - N31",
+      "time": "11-21 22:00",
+      "pilot": "-",
+      "agent": "Wilhelm",
+      "tonnage": "7,824"
     },
     {
       "port": "인천",
@@ -1965,6 +1965,43 @@
     },
     {
       "port": "대산",
+      "vessel": "NEW CHALLENGE",
+      "callSign": "DSQA4",
+      "station": "MDS-32 → PS3",
+      "time": "11-21 20:30",
+      "pilot": "-",
+      "agent": "스타",
+      "tonnage": "4,060",
+      "transit": false,
+      "detail": [
+        [
+          "흘수",
+          "6.00 m"
+        ],
+        [
+          "전장",
+          "105 m"
+        ],
+        [
+          "접안",
+          "우현"
+        ],
+        [
+          "화물",
+          "적재"
+        ],
+        [
+          "담당자",
+          "장재영"
+        ],
+        [
+          "연락처",
+          "041-429-2920"
+        ]
+      ]
+    },
+    {
+      "port": "대산",
       "vessel": "SUNNY LAUREL",
       "callSign": "H8BZ",
       "station": "MB4-01 → PS3",
@@ -2138,6 +2175,43 @@
     },
     {
       "port": "대산",
+      "vessel": "NEW GLOBAL",
+      "callSign": "DSQH9",
+      "station": "MDS-34 → PS3",
+      "time": "11-22 08:30",
+      "pilot": "-",
+      "agent": "해양",
+      "tonnage": "4,060",
+      "transit": false,
+      "detail": [
+        [
+          "흘수",
+          "7.40 m"
+        ],
+        [
+          "전장",
+          "105 m"
+        ],
+        [
+          "접안",
+          "좌현"
+        ],
+        [
+          "화물",
+          "적재"
+        ],
+        [
+          "담당자",
+          "박근홍"
+        ],
+        [
+          "연락처",
+          "041-681-7500"
+        ]
+      ]
+    },
+    {
+      "port": "대산",
       "vessel": "ANDROS NAVIGATOR",
       "callSign": "D5SC8",
       "station": "MDT-63 → PS4",
@@ -2215,7 +2289,7 @@
       "vessel": "XIA HUAI",
       "callSign": "BPKD2",
       "station": "PS3 → MDS-32",
-      "time": "11-22 19:30",
+      "time": "11-22 19:00",
       "pilot": "-",
       "agent": "대산",
       "tonnage": "5,407",
@@ -2231,7 +2305,7 @@
         ],
         [
           "접안",
-          "우현"
+          "무관"
         ],
         [
           "화물",
@@ -2244,6 +2318,109 @@
         [
           "연락처",
           "041-681-9300"
+        ]
+      ]
+    },
+    {
+      "port": "대산",
+      "vessel": "RIXTA OLDENDORFF",
+      "callSign": "D5YK5",
+      "station": "MDB-41 → PS1",
+      "time": "11-22 09:00",
+      "pilot": "-",
+      "agent": "해양",
+      "tonnage": "66,019",
+      "transit": false,
+      "detail": [
+        [
+          "흘수",
+          "10.00 m"
+        ],
+        [
+          "전장",
+          "260 m"
+        ],
+        [
+          "화물",
+          "공선"
+        ],
+        [
+          "담당자",
+          "박근홍"
+        ],
+        [
+          "연락처",
+          "041-681-7500"
+        ]
+      ]
+    },
+    {
+      "port": "대산",
+      "vessel": "WOOYANG VENUS",
+      "callSign": "V7A2864",
+      "station": "PS1 → B.WAA-03",
+      "time": "11-22 11:00",
+      "pilot": "-",
+      "agent": "해양",
+      "tonnage": "46,982",
+      "transit": false,
+      "detail": [
+        [
+          "흘수",
+          "14.10 m"
+        ],
+        [
+          "전장",
+          "229 m"
+        ],
+        [
+          "화물",
+          "적재"
+        ],
+        [
+          "담당자",
+          "박근홍"
+        ],
+        [
+          "연락처",
+          "041-681-7500"
+        ]
+      ]
+    },
+    {
+      "port": "대산",
+      "vessel": "WOOYANG VENUS",
+      "callSign": "V7A2864",
+      "station": "B.WAA-03 → MDB-41",
+      "time": "11-22 12:00",
+      "pilot": "-",
+      "agent": "해양",
+      "tonnage": "46,982",
+      "transit": false,
+      "detail": [
+        [
+          "흘수",
+          "14.10 m"
+        ],
+        [
+          "전장",
+          "229 m"
+        ],
+        [
+          "접안",
+          "우현"
+        ],
+        [
+          "화물",
+          "적재"
+        ],
+        [
+          "담당자",
+          "박근홍"
+        ],
+        [
+          "연락처",
+          "041-681-7500"
         ]
       ]
     }
