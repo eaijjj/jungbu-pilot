@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-21 16:45",
+  "updatedAt": "2026-11-21 17:46",
   "schedules": [
     {
       "port": "평택",
       "vessel": "ROYAL TERN",
-      "callSign": "5LRE4",
+      "callSign": "3FAT8",
       "station": "E5 → E2",
       "time": "11-21 06:30"
     },
@@ -248,52 +248,52 @@
     },
     {
       "port": "평택",
-      "vessel": "SUN BIRDIE",
-      "callSign": "3E8881",
-      "station": "IPA → W1",
-      "time": "11-21 17:30"
+      "vessel": "GLOVIS CROWN",
+      "callSign": "D7LK",
+      "station": "E5 → E1",
+      "time": "11-22 06:30"
     },
     {
       "port": "평택",
       "vessel": "JIA HE 178",
       "callSign": "V3OV4",
       "station": "GD7 → IPA",
-      "time": "11-22 01:00"
-    },
-    {
-      "port": "평택",
-      "vessel": "ARTOTINA",
-      "callSign": "5LRE4",
-      "station": "IPA → E6",
-      "time": "11-22 04:30"
-    },
-    {
-      "port": "평택",
-      "vessel": "WOORI HANA",
-      "callSign": "D7WH",
-      "station": "IPA → W4",
-      "time": "11-22 05:00"
+      "time": "11-22 07:00"
     },
     {
       "port": "평택",
       "vessel": "리퍼스호",
       "callSign": "DSQX4",
       "station": "IPA → GD2",
-      "time": "11-22 05:30"
+      "time": "11-22 08:00"
     },
     {
       "port": "평택",
       "vessel": "UNI HORIZON",
       "callSign": "V7A3542",
       "station": "IPA → GD6",
-      "time": "11-22 06:00"
+      "time": "11-22 08:00"
     },
     {
       "port": "평택",
-      "vessel": "GLOVIS CROWN",
-      "callSign": "D7LK",
-      "station": "E5 → E1",
-      "time": "11-22 06:30"
+      "vessel": "ARTOTINA",
+      "callSign": "5LRE4",
+      "station": "IPA → E6",
+      "time": "11-22 08:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "SUN BIRDIE",
+      "callSign": "3E8881",
+      "station": "IPA → W1",
+      "time": "11-22 08:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "WOORI HANA",
+      "callSign": "D7WH",
+      "station": "IPA → W4",
+      "time": "11-22 08:00"
     },
     {
       "port": "평택",
@@ -493,17 +493,17 @@
     },
     {
       "port": "평택",
+      "vessel": "ARTOTINA",
+      "callSign": "5LRE4",
+      "station": "E6 → IPA",
+      "time": "11-22 22:30"
+    },
+    {
+      "port": "평택",
       "vessel": "SKYHIGH SW",
       "callSign": "3FAT8",
       "station": "E11 → IPA",
       "time": "11-22 23:00"
-    },
-    {
-      "port": "평택",
-      "vessel": "ARTOTINA",
-      "callSign": "5LRE4",
-      "station": "E6 → IPA",
-      "time": "11-22 23:30"
     },
     {
       "port": "인천",
@@ -757,30 +757,30 @@
     },
     {
       "port": "인천",
-      "vessel": "FORTUNE KAREN",
-      "callSign": "-",
-      "station": "PAL - N-HOB",
-      "time": "11-21 18:00",
-      "pilot": "KU(3)",
-      "agent": "Joa Shi",
-      "tonnage": "7,699"
-    },
-    {
-      "port": "인천",
       "vessel": "HARMONY YUN GANG",
       "callSign": "-",
       "station": "NIPT1 - PAL",
       "time": "11-21 18:00",
-      "pilot": "JH(3)",
+      "pilot": "KU(3)",
       "agent": "LIAN YU",
       "tonnage": "35,187"
+    },
+    {
+      "port": "인천",
+      "vessel": "FORTUNE KAREN",
+      "callSign": "-",
+      "station": "PAL - N-HOB",
+      "time": "11-21 18:20",
+      "pilot": "JH(3)",
+      "agent": "Joa Shi",
+      "tonnage": "7,699"
     },
     {
       "port": "인천",
       "vessel": "XIN XIANG XUE LAN",
       "callSign": "-",
       "station": "NIPT5 - PAL",
-      "time": "11-21 18:10",
+      "time": "11-21 18:20",
       "pilot": "SC(3)",
       "agent": "HAN JOO",
       "tonnage": "32,729"
@@ -820,20 +820,10 @@
       "vessel": "CHUN KAI 5",
       "callSign": "-",
       "station": "PAL - N31",
-      "time": "11-21 22:00",
+      "time": "11-21 22:10",
       "pilot": "GJ(4)",
       "agent": "Wilhelm",
       "tonnage": "7,824"
-    },
-    {
-      "port": "인천",
-      "vessel": "WAN HAI 315",
-      "callSign": "-",
-      "station": "SNCT2 - NPPS",
-      "time": "11-21 23:00",
-      "pilot": "-",
-      "agent": "WAN HAI",
-      "tonnage": "27,800"
     },
     {
       "port": "인천",
@@ -841,7 +831,7 @@
       "callSign": "-",
       "station": "NPPS - HJIT2",
       "time": "11-21 23:00",
-      "pilot": "-",
+      "pilot": "CY(4)",
       "agent": "COSCO K",
       "tonnage": "16,738"
     },
@@ -851,7 +841,7 @@
       "callSign": "-",
       "station": "NPPS - SNCT3",
       "time": "11-21 23:00",
-      "pilot": "-",
+      "pilot": "GN(4)",
       "agent": "NEW INC",
       "tonnage": "9,990"
     },
@@ -1849,7 +1839,7 @@
       "callSign": "XVJM7",
       "station": "WAA-08 → MDH-23",
       "time": "11-21 18:30",
-      "pilot": "LH",
+      "pilot": "JO",
       "agent": "수정",
       "tonnage": "20,058",
       "transit": false,
@@ -1952,44 +1942,11 @@
     },
     {
       "port": "대산",
-      "vessel": "CLEAROCEAN MARAUDER",
-      "callSign": "S6TT5",
-      "station": "WAA-09 → PS2",
-      "time": "11-21 20:00",
-      "pilot": "JO",
-      "agent": "대동",
-      "tonnage": "30,087",
-      "transit": true,
-      "detail": [
-        [
-          "흘수",
-          "8.00 m"
-        ],
-        [
-          "전장",
-          "183 m"
-        ],
-        [
-          "화물",
-          "공선"
-        ],
-        [
-          "담당자",
-          "김만수"
-        ],
-        [
-          "연락처",
-          "041-664-8644"
-        ]
-      ]
-    },
-    {
-      "port": "대산",
       "vessel": "NEW CHALLENGE",
       "callSign": "DSQA4",
       "station": "MDS-32 → PS3",
       "time": "11-21 20:30",
-      "pilot": "TW",
+      "pilot": "JO",
       "agent": "스타",
       "tonnage": "4,060",
       "transit": false,
@@ -2261,6 +2218,39 @@
     },
     {
       "port": "대산",
+      "vessel": "CLEAROCEAN MARAUDER",
+      "callSign": "S6TT5",
+      "station": "WAA-09 → PS2",
+      "time": "11-22 06:00",
+      "pilot": "-",
+      "agent": "대동",
+      "tonnage": "30,087",
+      "transit": true,
+      "detail": [
+        [
+          "흘수",
+          "8.00 m"
+        ],
+        [
+          "전장",
+          "183 m"
+        ],
+        [
+          "화물",
+          "공선"
+        ],
+        [
+          "담당자",
+          "김만수"
+        ],
+        [
+          "연락처",
+          "041-664-8644"
+        ]
+      ]
+    },
+    {
+      "port": "대산",
       "vessel": "ALTUM SIDUS",
       "callSign": "V7FS7",
       "station": "PS2 → WAA-12",
@@ -2383,7 +2373,7 @@
         ],
         [
           "접안",
-          "무관"
+          "좌현"
         ],
         [
           "화물",
