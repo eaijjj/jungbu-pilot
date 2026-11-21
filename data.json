@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21 11:06",
+  "updatedAt": "2026-11-21 12:16",
   "schedules": [
     {
       "port": "평택",
@@ -248,13 +248,6 @@
     },
     {
       "port": "평택",
-      "vessel": "BLUE TIGER",
-      "callSign": "5LGA2",
-      "station": "W8 → IPA",
-      "time": "11-21 20:30"
-    },
-    {
-      "port": "평택",
       "vessel": "GLOVIS CROWN",
       "callSign": "D7LK",
       "station": "E5 → E1",
@@ -265,13 +258,6 @@
       "vessel": "GLOVIS TRINITY",
       "callSign": "5LYR2",
       "station": "E1 → IPA",
-      "time": "11-21 21:00"
-    },
-    {
-      "port": "평택",
-      "vessel": "TRANS FUTURE 8",
-      "callSign": "3EZG6",
-      "station": "E2 → IPA",
       "time": "11-21 21:00"
     },
     {
@@ -318,6 +304,27 @@
     },
     {
       "port": "평택",
+      "vessel": "SUN BIRDIE",
+      "callSign": "3E8881",
+      "station": "W1 → IPA",
+      "time": "11-22 09:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "BLUE TIGER",
+      "callSign": "5LGA2",
+      "station": "W8 → IPA",
+      "time": "11-22 10:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "TRANS FUTURE 8",
+      "callSign": "3EZG6",
+      "station": "E2 → IPA",
+      "time": "11-22 11:00"
+    },
+    {
+      "port": "평택",
       "vessel": "IONIC KLEOS",
       "callSign": "V7DX4",
       "station": "JANG → HD6",
@@ -332,9 +339,23 @@
     },
     {
       "port": "평택",
+      "vessel": "XI CHENG",
+      "callSign": "V3NI3",
+      "station": "IPA → GD7",
+      "time": "11-22 12:00"
+    },
+    {
+      "port": "평택",
       "vessel": "LAKE SHIRASAGI",
       "callSign": "5LOL5",
       "station": "IPA → E2",
+      "time": "11-22 12:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "SD GLORIA",
+      "callSign": "HOKX",
+      "station": "W2 → IPA",
       "time": "11-22 12:00"
     },
     {
@@ -349,13 +370,6 @@
       "vessel": "HAI CHANG",
       "callSign": "VRNL4",
       "station": "IPA → HD14",
-      "time": "11-22 13:00"
-    },
-    {
-      "port": "평택",
-      "vessel": "SD GLORIA",
-      "callSign": "HOKX",
-      "station": "W2 → IPA",
       "time": "11-22 13:00"
     },
     {
@@ -430,6 +444,20 @@
     },
     {
       "port": "평택",
+      "vessel": "SHAO YUN",
+      "callSign": "BPOB2",
+      "station": "IPA → E8",
+      "time": "11-22 18:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "YUN QIAN",
+      "callSign": "3E2552",
+      "station": "IPA → GD8",
+      "time": "11-22 20:00"
+    },
+    {
+      "port": "평택",
       "vessel": "DONGJIN CONTINENTAL",
       "callSign": "D7VD",
       "station": "IPA → E8",
@@ -461,13 +489,6 @@
       "vessel": "ZHE WU 188",
       "callSign": "BPON2",
       "station": "HD7 → IPA",
-      "time": "11-22 22:30"
-    },
-    {
-      "port": "평택",
-      "vessel": "SUN BIRDIE",
-      "callSign": "3E8881",
-      "station": "W1 → IPA",
       "time": "11-22 22:30"
     },
     {
@@ -1099,7 +1120,7 @@
         ],
         [
           "연락처",
-          "010-2076-0248"
+          "041-681-9300"
         ]
       ]
     },
@@ -1463,7 +1484,7 @@
       "callSign": "VRRH3",
       "station": "WAA-12 → MDN-11",
       "time": "11-21 13:00",
-      "pilot": "ST / LT",
+      "pilot": "LT / ST",
       "agent": "해양",
       "tonnage": "159,843",
       "transit": false,
@@ -1634,7 +1655,7 @@
         ],
         [
           "연락처",
-          "010-2076-0248"
+          "041-681-9300"
         ]
       ]
     },
@@ -2124,10 +2145,49 @@
         ],
         [
           "연락처",
-          "010-2076-0248"
+          "041-681-9300"
+        ]
+      ]
+    },
+    {
+      "port": "대산",
+      "vessel": "XIA HUAI",
+      "callSign": "BPKD2",
+      "station": "PS3 → MDS-32",
+      "time": "11-22 19:30",
+      "pilot": "-",
+      "agent": "대산",
+      "tonnage": "5,407",
+      "transit": false,
+      "detail": [
+        [
+          "흘수",
+          "4.90 m"
+        ],
+        [
+          "전장",
+          "111 m"
+        ],
+        [
+          "접안",
+          "우현"
+        ],
+        [
+          "화물",
+          "공선"
+        ],
+        [
+          "담당자",
+          "채수일"
+        ],
+        [
+          "연락처",
+          "041-681-9300"
         ]
       ]
     }
   ],
-  "errors": {}
+  "errors": {
+    "인천": "수집 0건"
+  }
 }
