@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22 05:35",
+  "updatedAt": "2026-11-22 06:34",
   "schedules": [
     {
       "port": "평택",
@@ -136,13 +136,6 @@
     },
     {
       "port": "평택",
-      "vessel": "리퍼스호",
-      "callSign": "DSQX4",
-      "station": "GD2 → IPA",
-      "time": "11-22 16:00"
-    },
-    {
-      "port": "평택",
       "vessel": "MORNING CORNELIA",
       "callSign": "D7LM",
       "station": "E3 → IPA",
@@ -167,6 +160,13 @@
       "vessel": "PAN TRITON",
       "callSign": "5LZR4",
       "station": "HD10 → IPA",
+      "time": "11-22 17:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "리퍼스호",
+      "callSign": "DSQX4",
+      "station": "GD2 → IPA",
       "time": "11-22 17:00"
     },
     {
@@ -1011,6 +1011,39 @@
     },
     {
       "port": "대산",
+      "vessel": "BUENA ALBA",
+      "callSign": "3FOE8",
+      "station": "PS3 → WAA-2 MDK",
+      "time": "11-22 08:00",
+      "pilot": "LH",
+      "agent": "수정",
+      "tonnage": "2,999",
+      "transit": false,
+      "detail": [
+        [
+          "흘수",
+          "4.00 m"
+        ],
+        [
+          "전장",
+          "96 m"
+        ],
+        [
+          "화물",
+          "공선"
+        ],
+        [
+          "담당자",
+          "이형우"
+        ],
+        [
+          "연락처",
+          "010-4002-8751"
+        ]
+      ]
+    },
+    {
+      "port": "대산",
       "vessel": "NEW GLOBAL",
       "callSign": "DSQH9",
       "station": "MDS-34 → PS3",
@@ -1043,39 +1076,6 @@
         [
           "연락처",
           "041-674-0474"
-        ]
-      ]
-    },
-    {
-      "port": "대산",
-      "vessel": "BUENA ALBA",
-      "callSign": "3FOE8",
-      "station": "PS3 → WAA-2 MDK",
-      "time": "11-22 08:30",
-      "pilot": "LH",
-      "agent": "수정",
-      "tonnage": "2,999",
-      "transit": false,
-      "detail": [
-        [
-          "흘수",
-          "4.00 m"
-        ],
-        [
-          "전장",
-          "96 m"
-        ],
-        [
-          "화물",
-          "공선"
-        ],
-        [
-          "담당자",
-          "이형우"
-        ],
-        [
-          "연락처",
-          "010-4002-8751"
         ]
       ]
     },
