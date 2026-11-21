@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22 07:33",
+  "updatedAt": "2026-11-22 08:32",
   "schedules": [
     {
       "port": "평택",
@@ -276,6 +276,13 @@
     },
     {
       "port": "평택",
+      "vessel": "ZHE WU 188",
+      "callSign": "BPON2",
+      "station": "HD7 → IPA",
+      "time": "11-23 07:00"
+    },
+    {
+      "port": "평택",
       "vessel": "SHAO YUN",
       "callSign": "BPOB2",
       "station": "E8 → IPA",
@@ -304,6 +311,13 @@
     },
     {
       "port": "평택",
+      "vessel": "AFRICAN FINCH",
+      "callSign": "3EGL8",
+      "station": "HD11 → IPA",
+      "time": "11-23 10:30"
+    },
+    {
+      "port": "평택",
       "vessel": "BW LESMES",
       "callSign": "9V6827",
       "station": "JANG → LNG2",
@@ -318,10 +332,10 @@
     },
     {
       "port": "평택",
-      "vessel": "ZHE WU 188",
-      "callSign": "BPON2",
-      "station": "HD7 → IPA",
-      "time": "11-23 15:30"
+      "vessel": "VW PEACE",
+      "callSign": "C6JS8",
+      "station": "E11 → IPA",
+      "time": "11-23 17:00"
     },
     {
       "port": "평택",
@@ -536,6 +550,16 @@
     },
     {
       "port": "인천",
+      "vessel": "HIROMI",
+      "callSign": "-",
+      "station": "PAL - 32",
+      "time": "11-22 12:00",
+      "pilot": "CY(2)",
+      "agent": "ONE INT",
+      "tonnage": "4,076"
+    },
+    {
+      "port": "인천",
       "vessel": "APJ PRITI 2",
       "callSign": "-",
       "station": "JANG - LEN",
@@ -583,16 +607,6 @@
       "pilot": "-",
       "agent": "DA SAN",
       "tonnage": "9,946"
-    },
-    {
-      "port": "인천",
-      "vessel": "HIROMI",
-      "callSign": "-",
-      "station": "PAL - 32",
-      "time": "11-22 16:00",
-      "pilot": "-",
-      "agent": "ONE INT",
-      "tonnage": "4,076"
     },
     {
       "port": "인천",
@@ -769,7 +783,7 @@
         ],
         [
           "담당자",
-          "김영수"
+          "홍흥표"
         ],
         [
           "연락처",
@@ -835,7 +849,7 @@
         ],
         [
           "담당자",
-          "김영수"
+          "홍흥표"
         ],
         [
           "연락처",
