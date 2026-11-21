@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21 08:42",
+  "updatedAt": "2026-11-21 09:56",
   "schedules": [
     {
       "port": "평택",
@@ -353,6 +353,13 @@
     },
     {
       "port": "평택",
+      "vessel": "AQUAMARINE ACE",
+      "callSign": "7KVI",
+      "station": "IPA → E3",
+      "time": "11-22 15:00"
+    },
+    {
+      "port": "평택",
       "vessel": "GLOVIS CONDOR",
       "callSign": "D7GI",
       "station": "IPA → E4",
@@ -395,6 +402,13 @@
     },
     {
       "port": "평택",
+      "vessel": "DONGJIN CONTINENTAL",
+      "callSign": "D7VD",
+      "station": "IPA → E8",
+      "time": "11-22 20:00"
+    },
+    {
+      "port": "평택",
       "vessel": "LAKE SHIRASAGI",
       "callSign": "5LOL5",
       "station": "E2 → E5",
@@ -406,6 +420,13 @@
       "callSign": "9V8012",
       "station": "E7 → IPA",
       "time": "11-22 21:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "GAIN OCEAN",
+      "callSign": "3E2719",
+      "station": "W6 → IPA",
+      "time": "11-22 22:00"
     },
     {
       "port": "평택",
@@ -607,7 +628,7 @@
       "callSign": "-",
       "station": "HJIT2 - NPPS",
       "time": "11-21 12:00",
-      "pilot": "CR(1)",
+      "pilot": "CR(2)",
       "agent": "WORLD S",
       "tonnage": "18,461"
     },
@@ -623,16 +644,6 @@
     },
     {
       "port": "인천",
-      "vessel": "CHUN KAI 5",
-      "callSign": "-",
-      "station": "PAL - N31",
-      "time": "11-21 13:00",
-      "pilot": "-",
-      "agent": "Wilhelm",
-      "tonnage": "7,824"
-    },
-    {
-      "port": "인천",
       "vessel": "NEW GOLDEN BRIDGE I",
       "callSign": "-",
       "station": "PAL - NIPT3",
@@ -643,16 +654,6 @@
     },
     {
       "port": "인천",
-      "vessel": "PES ALIOTH",
-      "callSign": "-",
-      "station": "PAL - NIPT2",
-      "time": "11-21 14:30",
-      "pilot": "-",
-      "agent": "WEIDONG",
-      "tonnage": "17,137"
-    },
-    {
-      "port": "인천",
       "vessel": "JUNIPER",
       "callSign": "-",
       "station": "PAL - W2",
@@ -660,6 +661,16 @@
       "pilot": "-",
       "agent": "HAN IL",
       "tonnage": "33,194"
+    },
+    {
+      "port": "인천",
+      "vessel": "PES ALIOTH",
+      "callSign": "-",
+      "station": "PAL - NIPT2",
+      "time": "11-21 15:00",
+      "pilot": "-",
+      "agent": "WEIDONG",
+      "tonnage": "17,137"
     },
     {
       "port": "인천",
@@ -753,6 +764,16 @@
     },
     {
       "port": "인천",
+      "vessel": "CHUN KAI 5",
+      "callSign": "-",
+      "station": "PAL - N31",
+      "time": "11-21 21:30",
+      "pilot": "-",
+      "agent": "Wilhelm",
+      "tonnage": "7,824"
+    },
+    {
+      "port": "인천",
       "vessel": "LIBERTY PEACE",
       "callSign": "-",
       "station": "52 - PAL",
@@ -843,11 +864,11 @@
         ],
         [
           "담당자",
-          "류승철"
+          "이형우"
         ],
         [
           "연락처",
-          "010-3999-3187"
+          "010-4002-8751"
         ]
       ]
     },
@@ -962,7 +983,7 @@
       "port": "대산",
       "vessel": "GOLDEN WAVE",
       "callSign": "3FJG3",
-      "station": "PS2 → WAA-3 MDK",
+      "station": "PS2 → WAA-5 MDK",
       "time": "11-21 06:15",
       "pilot": "JO",
       "agent": "동양",
@@ -1131,7 +1152,7 @@
       "port": "대산",
       "vessel": "NEW GLOBAL",
       "callSign": "DSQH9",
-      "station": "PS3 → WAA-03",
+      "station": "PS3 → WAA-06",
       "time": "11-21 08:00",
       "pilot": "ST",
       "agent": "해양",
@@ -1189,11 +1210,11 @@
         ],
         [
           "담당자",
-          "류승철"
+          "이형우"
         ],
         [
           "연락처",
-          "010-3999-3187"
+          "010-4002-8751"
         ]
       ]
     },
@@ -1296,11 +1317,11 @@
         ],
         [
           "담당자",
-          "류승철"
+          "이형우"
         ],
         [
           "연락처",
-          "010-3999-3187"
+          "010-4002-8751"
         ]
       ]
     },
@@ -1333,11 +1354,11 @@
         ],
         [
           "담당자",
-          "류승철"
+          "이형우"
         ],
         [
           "연락처",
-          "010-3999-3187"
+          "010-4002-8751"
         ]
       ]
     },
@@ -1487,22 +1508,63 @@
     },
     {
       "port": "대산",
-      "vessel": "FORTUNE SWALLOW",
-      "callSign": "D5WY9",
-      "station": "PS3 → WAA-01",
-      "time": "11-21 13:15",
-      "pilot": "GB",
-      "agent": "대동",
-      "tonnage": "3,494",
+      "vessel": "STELLAR LADY",
+      "callSign": "V7A4413",
+      "station": "PS2 → MB5-01",
+      "time": "11-21 14:00",
+      "pilot": "YM",
+      "agent": "스타",
+      "tonnage": "30,653",
       "transit": false,
       "detail": [
         [
           "흘수",
-          "4.50 m"
+          "10.65 m"
+        ],
+        [
+          "전장",
+          "183 m"
+        ],
+        [
+          "접안",
+          "우현"
+        ],
+        [
+          "화물",
+          "적재"
+        ],
+        [
+          "담당자",
+          "장재영"
+        ],
+        [
+          "연락처",
+          "041-429-2920"
+        ]
+      ]
+    },
+    {
+      "port": "대산",
+      "vessel": "MORNING GENTLY",
+      "callSign": "H3PA",
+      "station": "PS3 → MDH-25",
+      "time": "11-21 14:00",
+      "pilot": "TW",
+      "agent": "수정",
+      "tonnage": "4,301",
+      "transit": false,
+      "detail": [
+        [
+          "흘수",
+          "5.00 m"
         ],
         [
           "전장",
           "99 m"
+        ],
+        [
+          "접안",
+          "우현"
         ],
         [
           "화물",
@@ -1510,11 +1572,11 @@
         ],
         [
           "담당자",
-          "김만수"
+          "이형우"
         ],
         [
           "연락처",
-          "041-664-8644"
+          "010-4002-8751"
         ]
       ]
     },
@@ -1553,26 +1615,22 @@
     },
     {
       "port": "대산",
-      "vessel": "MORNING GENTLY",
-      "callSign": "H3PA",
-      "station": "PS3 → MDH-25",
-      "time": "11-21 14:00",
+      "vessel": "FORTUNE SWALLOW",
+      "callSign": "D5WY9",
+      "station": "PS3 → WAA-01",
+      "time": "11-21 15:30",
       "pilot": "TW",
-      "agent": "수정",
-      "tonnage": "4,301",
+      "agent": "대동",
+      "tonnage": "3,494",
       "transit": false,
       "detail": [
         [
           "흘수",
-          "5.00 m"
+          "4.50 m"
         ],
         [
           "전장",
           "99 m"
-        ],
-        [
-          "접안",
-          "우현"
         ],
         [
           "화물",
@@ -1580,48 +1638,11 @@
         ],
         [
           "담당자",
-          "류승철"
+          "김만수"
         ],
         [
           "연락처",
-          "010-3999-3187"
-        ]
-      ]
-    },
-    {
-      "port": "대산",
-      "vessel": "STELLAR LADY",
-      "callSign": "V7A4413",
-      "station": "PS2 → MB5-01",
-      "time": "11-21 14:00",
-      "pilot": "YM",
-      "agent": "스타",
-      "tonnage": "30,653",
-      "transit": false,
-      "detail": [
-        [
-          "흘수",
-          "10.65 m"
-        ],
-        [
-          "전장",
-          "183 m"
-        ],
-        [
-          "접안",
-          "우현"
-        ],
-        [
-          "화물",
-          "적재"
-        ],
-        [
-          "담당자",
-          "장재영"
-        ],
-        [
-          "연락처",
-          "041-429-2920"
+          "041-664-8644"
         ]
       ]
     },
@@ -1738,43 +1759,6 @@
     },
     {
       "port": "대산",
-      "vessel": "CAPELLA",
-      "callSign": "XVJM7",
-      "station": "WAA-08 → MDH-23",
-      "time": "11-21 19:30",
-      "pilot": "LH",
-      "agent": "수정",
-      "tonnage": "20,058",
-      "transit": false,
-      "detail": [
-        [
-          "흘수",
-          "6.30 m"
-        ],
-        [
-          "전장",
-          "174 m"
-        ],
-        [
-          "접안",
-          "무관"
-        ],
-        [
-          "화물",
-          "공선"
-        ],
-        [
-          "담당자",
-          "류승철"
-        ],
-        [
-          "연락처",
-          "010-3999-3187"
-        ]
-      ]
-    },
-    {
-      "port": "대산",
       "vessel": "HANYU FREESIA",
       "callSign": "5LPG3",
       "station": "MDH-23 → PS2",
@@ -1803,6 +1787,43 @@
         [
           "연락처",
           "041-667-2033"
+        ]
+      ]
+    },
+    {
+      "port": "대산",
+      "vessel": "CAPELLA",
+      "callSign": "XVJM7",
+      "station": "WAA-08 → MDH-23",
+      "time": "11-21 19:30",
+      "pilot": "LH",
+      "agent": "수정",
+      "tonnage": "20,058",
+      "transit": false,
+      "detail": [
+        [
+          "흘수",
+          "6.30 m"
+        ],
+        [
+          "전장",
+          "174 m"
+        ],
+        [
+          "접안",
+          "무관"
+        ],
+        [
+          "화물",
+          "공선"
+        ],
+        [
+          "담당자",
+          "이형우"
+        ],
+        [
+          "연락처",
+          "010-4002-8751"
         ]
       ]
     },
@@ -1868,44 +1889,11 @@
         ],
         [
           "담당자",
-          "류승철"
+          "이형우"
         ],
         [
           "연락처",
-          "010-3999-3187"
-        ]
-      ]
-    },
-    {
-      "port": "대산",
-      "vessel": "ALTUM SIDUS",
-      "callSign": "V7FS7",
-      "station": "PS2 → WAA-12",
-      "time": "11-21 20:00",
-      "pilot": "TW",
-      "agent": "대동",
-      "tonnage": "29,124",
-      "transit": true,
-      "detail": [
-        [
-          "흘수",
-          "8.00 m"
-        ],
-        [
-          "전장",
-          "183 m"
-        ],
-        [
-          "화물",
-          "공선"
-        ],
-        [
-          "담당자",
-          "김만수"
-        ],
-        [
-          "연락처",
-          "041-664-8644"
+          "010-4002-8751"
         ]
       ]
     },
