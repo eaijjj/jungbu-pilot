@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21 09:56",
+  "updatedAt": "2026-11-21 11:06",
   "schedules": [
     {
       "port": "평택",
@@ -241,6 +241,13 @@
     },
     {
       "port": "평택",
+      "vessel": "SUN BIRDIE",
+      "callSign": "3E8881",
+      "station": "IPA → W1",
+      "time": "11-21 17:30"
+    },
+    {
+      "port": "평택",
       "vessel": "BLUE TIGER",
       "callSign": "5LGA2",
       "station": "W8 → IPA",
@@ -276,10 +283,24 @@
     },
     {
       "port": "평택",
+      "vessel": "JIA HE 178",
+      "callSign": "V3OV4",
+      "station": "GD7 → IPA",
+      "time": "11-22 01:00"
+    },
+    {
+      "port": "평택",
       "vessel": "ARTOTINA",
       "callSign": "5LRE4",
       "station": "IPA → E6",
       "time": "11-22 04:30"
+    },
+    {
+      "port": "평택",
+      "vessel": "WOORI HANA",
+      "callSign": "D7WH",
+      "station": "IPA → W4",
+      "time": "11-22 05:00"
     },
     {
       "port": "평택",
@@ -297,10 +318,10 @@
     },
     {
       "port": "평택",
-      "vessel": "SUN BIRDIE",
-      "callSign": "3E8881",
-      "station": "IPA → W1",
-      "time": "11-22 06:00"
+      "vessel": "IONIC KLEOS",
+      "callSign": "V7DX4",
+      "station": "JANG → HD6",
+      "time": "11-22 11:30"
     },
     {
       "port": "평택",
@@ -318,16 +339,16 @@
     },
     {
       "port": "평택",
-      "vessel": "HAI CHANG",
-      "callSign": "VRNL4",
-      "station": "IPA → HD14",
-      "time": "11-22 13:00"
-    },
-    {
-      "port": "평택",
       "vessel": "HELIOS RAY",
       "callSign": "C6BO7",
       "station": "IPA → E1",
+      "time": "11-22 12:30"
+    },
+    {
+      "port": "평택",
+      "vessel": "HAI CHANG",
+      "callSign": "VRNL4",
+      "station": "IPA → HD14",
       "time": "11-22 13:00"
     },
     {
@@ -342,7 +363,7 @@
       "vessel": "GLOVIS CROWN",
       "callSign": "D7LK",
       "station": "E1 → IPA",
-      "time": "11-22 14:00"
+      "time": "11-22 13:30"
     },
     {
       "port": "평택",
@@ -402,6 +423,13 @@
     },
     {
       "port": "평택",
+      "vessel": "WOORI HANA",
+      "callSign": "D7WH",
+      "station": "W4 → IPA",
+      "time": "11-22 17:00"
+    },
+    {
+      "port": "평택",
       "vessel": "DONGJIN CONTINENTAL",
       "callSign": "D7VD",
       "station": "IPA → E8",
@@ -427,6 +455,13 @@
       "callSign": "3E2719",
       "station": "W6 → IPA",
       "time": "11-22 22:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "ZHE WU 188",
+      "callSign": "BPON2",
+      "station": "HD7 → IPA",
+      "time": "11-22 22:30"
     },
     {
       "port": "평택",
@@ -607,7 +642,7 @@
       "vessel": "UDE PROSPER",
       "callSign": "-",
       "station": "N42 - PAL",
-      "time": "11-21 11:00",
+      "time": "11-21 10:30",
       "pilot": "CH(2)",
       "agent": "TAE DON",
       "tonnage": "5,146"
@@ -648,7 +683,7 @@
       "callSign": "-",
       "station": "PAL - NIPT3",
       "time": "11-21 14:00",
-      "pilot": "-",
+      "pilot": "CR(3)",
       "agent": "WEIDONG",
       "tonnage": "34,360"
     },
@@ -658,7 +693,7 @@
       "callSign": "-",
       "station": "PAL - W2",
       "time": "11-21 15:00",
-      "pilot": "-",
+      "pilot": "KX(2)",
       "agent": "HAN IL",
       "tonnage": "33,194"
     },
@@ -668,7 +703,7 @@
       "callSign": "-",
       "station": "PAL - NIPT2",
       "time": "11-21 15:00",
-      "pilot": "-",
+      "pilot": "OS(2)",
       "agent": "WEIDONG",
       "tonnage": "17,137"
     },
@@ -678,7 +713,7 @@
       "callSign": "-",
       "station": "PAL - E1CT",
       "time": "11-21 16:00",
-      "pilot": "-",
+      "pilot": "KX(3)",
       "agent": "CK LINE",
       "tonnage": "7,406"
     },
@@ -688,19 +723,9 @@
       "callSign": "-",
       "station": "NIPT10 - DONG",
       "time": "11-21 16:00",
-      "pilot": "-",
+      "pilot": "RZ(3)",
       "agent": "Wilhelm",
       "tonnage": "93,558"
-    },
-    {
-      "port": "인천",
-      "vessel": "WPS A",
-      "callSign": "-",
-      "station": "N13 - PAL",
-      "time": "11-21 18:00",
-      "pilot": "-",
-      "agent": "ONE INT",
-      "tonnage": "6,732"
     },
     {
       "port": "인천",
@@ -708,7 +733,7 @@
       "callSign": "-",
       "station": "NIPT1 - PAL",
       "time": "11-21 18:00",
-      "pilot": "-",
+      "pilot": "YM(3)",
       "agent": "LIAN YU",
       "tonnage": "35,187"
     },
@@ -2067,6 +2092,39 @@
         [
           "연락처",
           "010-5057-6856"
+        ]
+      ]
+    },
+    {
+      "port": "대산",
+      "vessel": "JN CAMELLIA",
+      "callSign": "D7BB",
+      "station": "MDS-37 → PS2",
+      "time": "11-22 07:30",
+      "pilot": "-",
+      "agent": "대산",
+      "tonnage": "8,278",
+      "transit": false,
+      "detail": [
+        [
+          "흘수",
+          "8.20 m"
+        ],
+        [
+          "전장",
+          "121 m"
+        ],
+        [
+          "화물",
+          "적재"
+        ],
+        [
+          "담당자",
+          "채수일"
+        ],
+        [
+          "연락처",
+          "010-2076-0248"
         ]
       ]
     }
