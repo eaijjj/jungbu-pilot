@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21 21:46",
+  "updatedAt": "2026-11-21 22:53",
   "schedules": [
     {
       "port": "평택",
@@ -805,7 +805,7 @@
       "port": "인천",
       "vessel": "QIYUNHE",
       "callSign": "-",
-      "station": "NPPS - HJIT2",
+      "station": "NPPS - HJIT3",
       "time": "11-21 23:00",
       "pilot": "CY(4)",
       "agent": "COSCO K",
