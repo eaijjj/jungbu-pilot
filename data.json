@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21 18:43",
+  "updatedAt": "2026-11-21 19:43",
   "schedules": [
     {
       "port": "평택",
@@ -807,7 +807,7 @@
       "callSign": "-",
       "station": "NPPS - HJIT2",
       "time": "11-21 23:00",
-      "pilot": "-",
+      "pilot": "CY(4)",
       "agent": "COSCO K",
       "tonnage": "16,738"
     },
@@ -817,7 +817,7 @@
       "callSign": "-",
       "station": "NPPS - SNCT3",
       "time": "11-21 23:00",
-      "pilot": "-",
+      "pilot": "GJ(4)",
       "agent": "NEW INC",
       "tonnage": "9,990"
     },
@@ -827,7 +827,7 @@
       "callSign": "-",
       "station": "PAL - N31",
       "time": "11-21 23:10",
-      "pilot": "-",
+      "pilot": "GN(4)",
       "agent": "Wilhelm",
       "tonnage": "7,824"
     },
@@ -1434,7 +1434,7 @@
       "callSign": "5LBJ5",
       "station": "PS2 → SPM-01",
       "time": "11-21 13:00",
-      "pilot": "KS / JO",
+      "pilot": "JO / KS",
       "agent": "대동",
       "tonnage": "156,452",
       "transit": false,
@@ -1646,7 +1646,7 @@
       "port": "대산",
       "vessel": "FORTUNE SWALLOW",
       "callSign": "D5WY9",
-      "station": "PS3 → WAA-01",
+      "station": "PS3 → WAA-03",
       "time": "11-21 15:30",
       "pilot": "TW",
       "agent": "대동",
@@ -2661,7 +2661,7 @@
       "callSign": "D5SC8",
       "station": "MDT-63 → PS4",
       "time": "11-22 15:00",
-      "pilot": "MY / MC",
+      "pilot": "-",
       "agent": "웨스턴",
       "tonnage": "92,993",
       "transit": false,
@@ -2698,7 +2698,7 @@
       "callSign": "D5SC8",
       "station": "PS4 → PS3",
       "time": "11-22 16:00",
-      "pilot": "MY / MC",
+      "pilot": "-",
       "agent": "웨스턴",
       "tonnage": "92,993",
       "transit": false,
@@ -2974,7 +2974,7 @@
       "callSign": "C6KR3",
       "station": "MDT-53 → PS2",
       "time": "11-22 19:30",
-      "pilot": "LH",
+      "pilot": "-",
       "agent": "해양",
       "tonnage": "40,121",
       "transit": false,
