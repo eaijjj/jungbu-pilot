@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21 20:40",
+  "updatedAt": "2026-11-21 21:46",
   "schedules": [
     {
       "port": "평택",
@@ -332,16 +332,16 @@
     },
     {
       "port": "평택",
-      "vessel": "SD GLORIA",
-      "callSign": "HOKX",
-      "station": "W2 → IPA",
-      "time": "11-22 12:00"
-    },
-    {
-      "port": "평택",
       "vessel": "HELIOS RAY",
       "callSign": "C6BO7",
       "station": "IPA → E1",
+      "time": "11-22 12:30"
+    },
+    {
+      "port": "평택",
+      "vessel": "SD GLORIA",
+      "callSign": "HOKX",
+      "station": "W2 → IPA",
       "time": "11-22 12:30"
     },
     {
