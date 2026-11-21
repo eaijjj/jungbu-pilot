@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22 06:34",
+  "updatedAt": "2026-11-22 07:33",
   "schedules": [
     {
       "port": "평택",
@@ -283,6 +283,13 @@
     },
     {
       "port": "평택",
+      "vessel": "RICH SPRING",
+      "callSign": "3E2133",
+      "station": "IPA → GD9",
+      "time": "11-23 08:30"
+    },
+    {
+      "port": "평택",
       "vessel": "OCEAN BLUE WHALE",
       "callSign": "D5MO4",
       "station": "IPA → E15",
@@ -523,7 +530,7 @@
       "callSign": "-",
       "station": "PAL - N44",
       "time": "11-22 12:00",
-      "pilot": "-",
+      "pilot": "JK(2)",
       "agent": "ONE INT",
       "tonnage": "6,434"
     },
@@ -533,7 +540,7 @@
       "callSign": "-",
       "station": "JANG - LEN",
       "time": "11-22 12:30",
-      "pilot": "-",
+      "pilot": "JJ(3)",
       "agent": "A-PLUS",
       "tonnage": "43,168"
     },
@@ -543,7 +550,7 @@
       "callSign": "-",
       "station": "JANG - SKI 3",
       "time": "11-22 12:30",
-      "pilot": "-",
+      "pilot": "OS(3)",
       "agent": "DA SAN",
       "tonnage": "29,996"
     },
