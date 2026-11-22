@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23 06:37",
+  "updatedAt": "2026-11-23 07:38",
   "schedules": [
     {
       "port": "평택",
@@ -62,7 +62,7 @@
       "vessel": "OCEAN BLUE WHALE",
       "callSign": "D5MO4",
       "station": "IPA → E15",
-      "time": "11-23 09:00"
+      "time": "11-23 09:30"
     },
     {
       "port": "평택",
