@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22 17:45",
+  "updatedAt": "2026-11-22 18:42",
   "schedules": [
     {
       "port": "평택",
@@ -227,17 +227,10 @@
     },
     {
       "port": "평택",
-      "vessel": "SKYHIGH SW",
-      "callSign": "3FAT8",
-      "station": "E11 → IPA",
-      "time": "11-22 23:00"
-    },
-    {
-      "port": "평택",
       "vessel": "DONGJIN CONTINENTAL",
       "callSign": "D7VD",
       "station": "IPA → E6",
-      "time": "11-23 01:00"
+      "time": "11-23 01:30"
     },
     {
       "port": "평택",
@@ -371,6 +364,13 @@
       "callSign": "BPOB2",
       "station": "E8 → IPA",
       "time": "11-23 16:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "SKYHIGH SW",
+      "callSign": "3FAT8",
+      "station": "E11 → IPA",
+      "time": "11-23 17:00"
     },
     {
       "port": "평택",
@@ -826,7 +826,7 @@
         ],
         [
           "담당자",
-          "홍흥표"
+          "김영수"
         ],
         [
           "연락처",
@@ -892,7 +892,7 @@
         ],
         [
           "담당자",
-          "홍흥표"
+          "김영수"
         ],
         [
           "연락처",
@@ -1947,7 +1947,7 @@
         ],
         [
           "담당자",
-          "홍흥표"
+          "김영수"
         ],
         [
           "연락처",
@@ -2079,7 +2079,7 @@
         ],
         [
           "담당자",
-          "홍흥표"
+          "김영수"
         ],
         [
           "연락처",
@@ -2130,7 +2130,7 @@
       "callSign": "D5SC8",
       "station": "MDT-63 → PS4",
       "time": "11-23 08:00",
-      "pilot": "ST / GB",
+      "pilot": "-",
       "agent": "웨스턴",
       "tonnage": "92,993",
       "transit": false,
@@ -2241,7 +2241,7 @@
       "callSign": "D5SC8",
       "station": "PS4 → PS3",
       "time": "11-23 09:00",
-      "pilot": "ST / GB",
+      "pilot": "-",
       "agent": "웨스턴",
       "tonnage": "92,993",
       "transit": false,
@@ -2330,7 +2330,7 @@
         ],
         [
           "담당자",
-          "홍흥표"
+          "김영수"
         ],
         [
           "연락처",
@@ -2363,7 +2363,7 @@
         ],
         [
           "담당자",
-          "홍흥표"
+          "김영수"
         ],
         [
           "연락처",
@@ -2377,7 +2377,7 @@
       "callSign": "C6KR3",
       "station": "MDT-53 → PS2",
       "time": "11-23 19:00",
-      "pilot": "TW / JO",
+      "pilot": "-",
       "agent": "해양",
       "tonnage": "40,121",
       "transit": false,
