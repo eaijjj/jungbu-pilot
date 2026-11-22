@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23 00:39",
+  "updatedAt": "2026-11-23 01:39",
   "schedules": [
     {
       "port": "평택",
@@ -449,16 +449,6 @@
     },
     {
       "port": "인천",
-      "vessel": "A ROKKO",
-      "callSign": "-",
-      "station": "NPPS - HJIT2",
-      "time": "11-23 13:00",
-      "pilot": "-",
-      "agent": "COSCO K",
-      "tonnage": "9,562"
-    },
-    {
-      "port": "인천",
       "vessel": "PSARA",
       "callSign": "-",
       "station": "SKI 3 - W10",
@@ -466,6 +456,16 @@
       "pilot": "-",
       "agent": "DA SAN",
       "tonnage": "29,996"
+    },
+    {
+      "port": "인천",
+      "vessel": "A ROKKO",
+      "callSign": "-",
+      "station": "NPPS - HJIT2",
+      "time": "11-23 15:00",
+      "pilot": "-",
+      "agent": "COSCO K",
+      "tonnage": "9,562"
     },
     {
       "port": "인천",
