@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23 05:39",
+  "updatedAt": "2026-11-23 06:37",
   "schedules": [
     {
       "port": "평택",
@@ -409,21 +409,11 @@
     },
     {
       "port": "인천",
-      "vessel": "NEW GOLDEN BRIDGE 5",
-      "callSign": "-",
-      "station": "PAL - NIPT4",
-      "time": "11-23 10:00",
-      "pilot": "-",
-      "agent": "WEIDONG",
-      "tonnage": "29,554"
-    },
-    {
-      "port": "인천",
       "vessel": "GAIN SPRING",
       "callSign": "-",
       "station": "PAL - 41",
-      "time": "11-23 10:00",
-      "pilot": "-",
+      "time": "11-23 09:50",
+      "pilot": "CH(2)",
       "agent": "MASTER",
       "tonnage": "5,211"
     },
@@ -433,9 +423,19 @@
       "callSign": "-",
       "station": "NIPT4 - PAL",
       "time": "11-23 10:00",
-      "pilot": "-",
+      "pilot": "OS(3)",
       "agent": "WEIDONG",
       "tonnage": "17,137"
+    },
+    {
+      "port": "인천",
+      "vessel": "NEW GOLDEN BRIDGE 5",
+      "callSign": "-",
+      "station": "PAL - NIPT4",
+      "time": "11-23 11:00",
+      "pilot": "OS(4)",
+      "agent": "WEIDONG",
+      "tonnage": "29,554"
     },
     {
       "port": "인천",
@@ -443,7 +443,7 @@
       "callSign": "-",
       "station": "NPPS - HJIT2",
       "time": "11-23 12:00",
-      "pilot": "-",
+      "pilot": "GJ(2)",
       "agent": "ALLWAYS",
       "tonnage": "5,275"
     },
@@ -453,7 +453,7 @@
       "callSign": "-",
       "station": "PAL - E1CT",
       "time": "11-23 12:00",
-      "pilot": "-",
+      "pilot": "JH(3)",
       "agent": "QININ F",
       "tonnage": "9,030"
     },
@@ -757,7 +757,7 @@
       "port": "대산",
       "vessel": "HAFNIA TANZANITE",
       "callSign": "V7RA6",
-      "station": "WAA-8 MDK → MDK-16",
+      "station": "WAA-9 MDK → MDK-16",
       "time": "11-23 06:30",
       "pilot": "PK",
       "agent": "대동",
@@ -928,7 +928,7 @@
       "callSign": "D5SC8",
       "station": "MDT-63 → PS4",
       "time": "11-23 08:00",
-      "pilot": "-",
+      "pilot": "ST / GB",
       "agent": "웨스턴",
       "tonnage": "92,993",
       "transit": false,
@@ -1039,7 +1039,7 @@
       "callSign": "D5SC8",
       "station": "PS4 → PS3",
       "time": "11-23 09:00",
-      "pilot": "-",
+      "pilot": "ST / GB",
       "agent": "웨스턴",
       "tonnage": "92,993",
       "transit": false,
