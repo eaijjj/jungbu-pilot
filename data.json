@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23 07:38",
+  "updatedAt": "2026-11-23 08:36",
   "schedules": [
     {
       "port": "평택",
@@ -402,7 +402,7 @@
       "vessel": "HUADONG PEARL 8",
       "callSign": "-",
       "station": "PAL - NIPT5",
-      "time": "11-23 09:40",
+      "time": "11-23 09:45",
       "pilot": "RZ(2)",
       "agent": "HUADONG",
       "tonnage": "35,092"
@@ -452,7 +452,7 @@
       "vessel": "HE YUAN 1",
       "callSign": "-",
       "station": "PAL - E1CT",
-      "time": "11-23 12:00",
+      "time": "11-23 13:30",
       "pilot": "JH(3)",
       "agent": "QININ F",
       "tonnage": "9,030"
@@ -1351,43 +1351,6 @@
         [
           "연락처",
           "041-681-7500"
-        ]
-      ]
-    },
-    {
-      "port": "대산",
-      "vessel": "SEA GRACE",
-      "callSign": "V7A5958",
-      "station": "MDB-42 → PS1",
-      "time": "11-23 09:00",
-      "pilot": "KW / LK",
-      "agent": "신성",
-      "tonnage": "39,737",
-      "transit": false,
-      "detail": [
-        [
-          "흘수",
-          "7.00 m"
-        ],
-        [
-          "전장",
-          "225 m"
-        ],
-        [
-          "접안",
-          "우현"
-        ],
-        [
-          "화물",
-          "공선"
-        ],
-        [
-          "담당자",
-          "서우주"
-        ],
-        [
-          "연락처",
-          "010-5057-6856"
         ]
       ]
     }
