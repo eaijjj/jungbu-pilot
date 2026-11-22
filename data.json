@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22 12:18",
+  "updatedAt": "2026-11-22 13:28",
   "schedules": [
     {
       "port": "평택",
@@ -297,6 +297,27 @@
     },
     {
       "port": "평택",
+      "vessel": "GOLDEN PIONEER",
+      "callSign": "V7DB7",
+      "station": "IPA → W4",
+      "time": "11-23 10:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "POLARIS MILA",
+      "callSign": "D5EZ7",
+      "station": "IPA → E1",
+      "time": "11-23 10:30"
+    },
+    {
+      "port": "평택",
+      "vessel": "MORNING CAPO",
+      "callSign": "V7CB4",
+      "station": "IPA → E5",
+      "time": "11-23 10:30"
+    },
+    {
+      "port": "평택",
       "vessel": "RIZHAO ORIENT",
       "callSign": "HOAG",
       "station": "IPA → E14",
@@ -311,6 +332,20 @@
     },
     {
       "port": "평택",
+      "vessel": "LAKE SHIRASAGI",
+      "callSign": "5LOL5",
+      "station": "E5 → E2",
+      "time": "11-23 11:30"
+    },
+    {
+      "port": "평택",
+      "vessel": "HELIOS RAY",
+      "callSign": "C6BO7",
+      "station": "E1 → IPA",
+      "time": "11-23 11:30"
+    },
+    {
+      "port": "평택",
       "vessel": "BW LESMES",
       "callSign": "9V6827",
       "station": "JANG → LNG2",
@@ -322,6 +357,27 @@
       "callSign": "3E8881",
       "station": "W1 → IPA",
       "time": "11-23 13:30"
+    },
+    {
+      "port": "평택",
+      "vessel": "HELIOS RAY",
+      "callSign": "C6BO7",
+      "station": "IPA → E1",
+      "time": "11-23 15:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "POLARIS MILA",
+      "callSign": "D5EZ7",
+      "station": "E1 → IPA",
+      "time": "11-23 16:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "LAKE SHIRASAGI",
+      "callSign": "5LOL5",
+      "station": "E2 → IPA",
+      "time": "11-23 16:00"
     },
     {
       "port": "평택",
@@ -346,9 +402,30 @@
     },
     {
       "port": "평택",
+      "vessel": "GLOVIS CONDOR",
+      "callSign": "D7GI",
+      "station": "E1 → E4",
+      "time": "11-23 21:00"
+    },
+    {
+      "port": "평택",
       "vessel": "EN TAI",
       "callSign": "3E8415",
       "station": "IPA → E12",
+      "time": "11-23 21:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "HELIOS RAY",
+      "callSign": "C6BO7",
+      "station": "E1 → IPA",
+      "time": "11-23 21:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "MORNING CAPO",
+      "callSign": "V7CB4",
+      "station": "E5 → IPA",
       "time": "11-23 21:00"
     },
     {
@@ -623,7 +700,7 @@
       "vessel": "JING RUN",
       "callSign": "-",
       "station": "30 - PAL",
-      "time": "11-22 16:00",
+      "time": "11-22 15:30",
       "pilot": "SC(3)",
       "agent": "JIEUM S",
       "tonnage": "1,497"
@@ -634,7 +711,7 @@
       "callSign": "-",
       "station": "PAL - 42",
       "time": "11-22 17:30",
-      "pilot": "CR(3)",
+      "pilot": "SC(4)",
       "agent": "SEA &I",
       "tonnage": "7,566"
     },
@@ -644,7 +721,7 @@
       "callSign": "-",
       "station": "PAL - ICT1",
       "time": "11-22 18:00",
-      "pilot": "-",
+      "pilot": "CR(3)",
       "agent": "ALLWAYS",
       "tonnage": "27,799"
     },
@@ -654,7 +731,7 @@
       "callSign": "-",
       "station": "PAL - N42",
       "time": "11-22 18:00",
-      "pilot": "-",
+      "pilot": "KX(3)",
       "agent": "MASTER",
       "tonnage": "7,719"
     },
@@ -1185,39 +1262,6 @@
     },
     {
       "port": "대산",
-      "vessel": "TORM DAMINI",
-      "callSign": "OVQB2",
-      "station": "MDK-15 → WAA-8 MDK",
-      "time": "11-22 14:00",
-      "pilot": "LH",
-      "agent": "대동",
-      "tonnage": "29,553",
-      "transit": false,
-      "detail": [
-        [
-          "흘수",
-          "12.00 m"
-        ],
-        [
-          "전장",
-          "183 m"
-        ],
-        [
-          "화물",
-          "적재"
-        ],
-        [
-          "담당자",
-          "김만수"
-        ],
-        [
-          "연락처",
-          "041-664-8644"
-        ]
-      ]
-    },
-    {
-      "port": "대산",
       "vessel": "HAFNIA TANZANITE",
       "callSign": "V7RA6",
       "station": "WAA-9 MDK → MDK-15",
@@ -1242,6 +1286,39 @@
         [
           "화물",
           "공선"
+        ],
+        [
+          "담당자",
+          "김만수"
+        ],
+        [
+          "연락처",
+          "041-664-8644"
+        ]
+      ]
+    },
+    {
+      "port": "대산",
+      "vessel": "TORM DAMINI",
+      "callSign": "OVQB2",
+      "station": "MDK-15 → WAA-8 MDK",
+      "time": "11-22 14:00",
+      "pilot": "LH",
+      "agent": "대동",
+      "tonnage": "29,553",
+      "transit": false,
+      "detail": [
+        [
+          "흘수",
+          "12.00 m"
+        ],
+        [
+          "전장",
+          "183 m"
+        ],
+        [
+          "화물",
+          "적재"
         ],
         [
           "담당자",
@@ -1325,39 +1402,6 @@
     },
     {
       "port": "대산",
-      "vessel": "MC HESTIA",
-      "callSign": "5LZS3",
-      "station": "PS2 → WAA-9 MDK",
-      "time": "11-22 16:00",
-      "pilot": "YM / JO",
-      "agent": "대동",
-      "tonnage": "30,089",
-      "transit": false,
-      "detail": [
-        [
-          "흘수",
-          "8.00 m"
-        ],
-        [
-          "전장",
-          "182 m"
-        ],
-        [
-          "화물",
-          "공선"
-        ],
-        [
-          "담당자",
-          "김만수"
-        ],
-        [
-          "연락처",
-          "041-664-8644"
-        ]
-      ]
-    },
-    {
-      "port": "대산",
       "vessel": "C.CREATOR",
       "callSign": "5LBJ5",
       "station": "SPM-01 → PS2",
@@ -1378,6 +1422,39 @@
         [
           "화물",
           "적재"
+        ],
+        [
+          "담당자",
+          "김만수"
+        ],
+        [
+          "연락처",
+          "041-664-8644"
+        ]
+      ]
+    },
+    {
+      "port": "대산",
+      "vessel": "MC HESTIA",
+      "callSign": "5LZS3",
+      "station": "PS2 → WAA-9 MDK",
+      "time": "11-22 16:00",
+      "pilot": "YM / JO",
+      "agent": "대동",
+      "tonnage": "30,089",
+      "transit": false,
+      "detail": [
+        [
+          "흘수",
+          "8.00 m"
+        ],
+        [
+          "전장",
+          "182 m"
+        ],
+        [
+          "화물",
+          "공선"
         ],
         [
           "담당자",
@@ -1459,9 +1536,9 @@
       "port": "대산",
       "vessel": "MC HESTIA",
       "callSign": "5LZS3",
-      "station": "WAA-9 MDK → MDK-19",
+      "station": "PS2 → MDK-15",
       "time": "11-22 18:00",
-      "pilot": "JO / YM",
+      "pilot": "YM / JO",
       "agent": "대동",
       "tonnage": "30,089",
       "transit": false,
@@ -1476,7 +1553,7 @@
         ],
         [
           "접안",
-          "좌현"
+          "우현"
         ],
         [
           "화물",
@@ -1560,6 +1637,39 @@
     },
     {
       "port": "대산",
+      "vessel": "XING SHENG YUAN",
+      "callSign": "BQIQ3",
+      "station": "MDH-26 → PS2",
+      "time": "11-22 19:30",
+      "pilot": "TW",
+      "agent": "수정",
+      "tonnage": "9,684",
+      "transit": false,
+      "detail": [
+        [
+          "흘수",
+          "7.50 m"
+        ],
+        [
+          "전장",
+          "119 m"
+        ],
+        [
+          "화물",
+          "적재"
+        ],
+        [
+          "담당자",
+          "이형우"
+        ],
+        [
+          "연락처",
+          "010-4002-8751"
+        ]
+      ]
+    },
+    {
+      "port": "대산",
       "vessel": "FORTUNE HARMONY",
       "callSign": "C6KR3",
       "station": "MDT-53 → PS2",
@@ -1592,39 +1702,6 @@
         [
           "연락처",
           "041-674-0474"
-        ]
-      ]
-    },
-    {
-      "port": "대산",
-      "vessel": "XING SHENG YUAN",
-      "callSign": "BQIQ3",
-      "station": "MDH-26 → PS2",
-      "time": "11-22 19:30",
-      "pilot": "TW",
-      "agent": "수정",
-      "tonnage": "9,684",
-      "transit": false,
-      "detail": [
-        [
-          "흘수",
-          "7.50 m"
-        ],
-        [
-          "전장",
-          "119 m"
-        ],
-        [
-          "화물",
-          "적재"
-        ],
-        [
-          "담당자",
-          "이형우"
-        ],
-        [
-          "연락처",
-          "010-4002-8751"
         ]
       ]
     },
@@ -1869,7 +1946,7 @@
       "callSign": "3EWB4",
       "station": "B.WAA-04 → MDB-43",
       "time": "11-23 06:30",
-      "pilot": "-",
+      "pilot": "LK / KW",
       "agent": "해양",
       "tonnage": "92,370",
       "transit": false,
@@ -1906,7 +1983,7 @@
       "callSign": "3EHX4",
       "station": "B.WAA-03 → MDA-01",
       "time": "11-23 06:35",
-      "pilot": "-",
+      "pilot": "JY / MY",
       "agent": "해양",
       "tonnage": "44,090",
       "transit": false,
@@ -1936,9 +2013,44 @@
           "041-674-0474"
         ]
       ]
+    },
+    {
+      "port": "대산",
+      "vessel": "SEA GRACE",
+      "callSign": "V7A5958",
+      "station": "MDB-42 → PS1",
+      "time": "11-23 09:00",
+      "pilot": "KW / LK",
+      "agent": "신성",
+      "tonnage": "39,737",
+      "transit": false,
+      "detail": [
+        [
+          "흘수",
+          "7.00 m"
+        ],
+        [
+          "전장",
+          "225 m"
+        ],
+        [
+          "접안",
+          "우현"
+        ],
+        [
+          "화물",
+          "공선"
+        ],
+        [
+          "담당자",
+          "서우주"
+        ],
+        [
+          "연락처",
+          "010-5057-6856"
+        ]
+      ]
     }
   ],
-  "errors": {
-    "인천": "수집 0건"
-  }
+  "errors": {}
 }
