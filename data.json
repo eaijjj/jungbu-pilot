@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23 02:37",
+  "updatedAt": "2026-11-23 03:39",
   "schedules": [
     {
       "port": "평택",
@@ -343,7 +343,7 @@
       "callSign": "-",
       "station": "W13 - 52",
       "time": "11-23 05:00",
-      "pilot": "-",
+      "pilot": "KX(2) JK(2)",
       "agent": "PHOENIX",
       "tonnage": "59,968"
     },
@@ -353,7 +353,7 @@
       "callSign": "-",
       "station": "E6 - SKI 1",
       "time": "11-23 05:00",
-      "pilot": "-",
+      "pilot": "CY(2)",
       "agent": "Joa Shi",
       "tonnage": "9,330"
     },
@@ -363,7 +363,7 @@
       "callSign": "-",
       "station": "NPPS - SNCT2",
       "time": "11-23 06:00",
-      "pilot": "-",
+      "pilot": "JJ(2)",
       "agent": "ALLWAYS",
       "tonnage": "9,742"
     },
@@ -373,7 +373,7 @@
       "callSign": "-",
       "station": "NPPS - HJIT3",
       "time": "11-23 07:00",
-      "pilot": "-",
+      "pilot": "GN(2)",
       "agent": "COSCO K",
       "tonnage": "5,275"
     },
@@ -383,7 +383,7 @@
       "callSign": "-",
       "station": "NIPT2 - NIPT4",
       "time": "11-23 07:00",
-      "pilot": "-",
+      "pilot": "SC(2)",
       "agent": "WEIDONG",
       "tonnage": "17,137"
     },
@@ -393,7 +393,7 @@
       "callSign": "-",
       "station": "PAL - NIPT2",
       "time": "11-23 08:30",
-      "pilot": "-",
+      "pilot": "OS(2)",
       "agent": "DONGGAN",
       "tonnage": "24,748"
     },
