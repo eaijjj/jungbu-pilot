@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22 20:39",
+  "updatedAt": "2026-11-22 21:44",
   "schedules": [
     {
       "port": "평택",
@@ -390,7 +390,7 @@
       "port": "평택",
       "vessel": "GLOVIS CONDOR",
       "callSign": "D7GI",
-      "station": "E1 → E4",
+      "station": "E4 → E1",
       "time": "11-23 21:00"
     },
     {
@@ -1691,7 +1691,7 @@
       "port": "대산",
       "vessel": "HONG JIA",
       "callSign": "BPFC2",
-      "station": "MDH-25 → WAA-04",
+      "station": "MDH-25 → PS3",
       "time": "11-22 21:30",
       "pilot": "YM",
       "agent": "수정",
