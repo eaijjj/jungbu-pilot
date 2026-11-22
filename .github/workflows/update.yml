@@ -2,15 +2,22 @@ name: Update Pilot Schedule
 
 on:
   schedule:
+    # 30분마다. 한도가 걱정되면 아래 줄을 '0 * * * *' 로 바꾸면 1시간마다 돕니다.
     - cron: '*/30 * * * *'
   workflow_dispatch:
 
 permissions:
   contents: write
 
+# 이전 실행이 끝나기 전에 다음 실행이 겹치지 않게 함
+concurrency:
+  group: update-pilot-schedule
+  cancel-in-progress: false
+
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 12
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -20,17 +27,34 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Install dependencies
+      - name: Install Playwright
+        id: pw
         run: |
           pip install playwright
-          playwright install chromium
+          echo "ver=$(pip show playwright | grep '^Version' | cut -d' ' -f2)" >> "$GITHUB_OUTPUT"
+
+      - name: Cache Playwright browsers
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: pw-${{ runner.os }}-${{ steps.pw.outputs.ver }}
+
+      - name: Install Chromium
+        run: playwright install chromium
 
       - name: Run scraper
         run: python scraper.py
-             
+
       - name: Commit and push updated data
         run: |
           git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@://github.com"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data.json
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Update schedule data" && git push)
+          if [ -f tide-daesan.json ]; then git add tide-daesan.json; fi
+          if git diff --staged --quiet; then
+            echo "변경 없음"
+          else
+            git commit -m "Update schedule data"
+            git pull --rebase
+            git push
+          fi
