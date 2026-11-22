@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23 01:39",
+  "updatedAt": "2026-11-23 02:37",
   "schedules": [
     {
       "port": "평택",
@@ -10,16 +10,16 @@
     },
     {
       "port": "평택",
-      "vessel": "ARTOTINA",
-      "callSign": "5LRE4",
-      "station": "E6 → IPA",
-      "time": "11-23 04:00"
-    },
-    {
-      "port": "평택",
       "vessel": "TEN JUPITER",
       "callSign": "3E8470",
       "station": "IPA → E15",
+      "time": "11-23 05:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "ARTOTINA",
+      "callSign": "5LRE4",
+      "station": "E6 → IPA",
       "time": "11-23 05:00"
     },
     {
@@ -281,7 +281,7 @@
       "port": "인천",
       "vessel": "GLOVIS CROWN",
       "callSign": "-",
-      "station": "PAL - 52",
+      "station": "PAL - W13",
       "time": "11-23 00:30",
       "pilot": "YM(1) KX(1)",
       "agent": "PHOENIX",
@@ -339,11 +339,21 @@
     },
     {
       "port": "인천",
+      "vessel": "GLOVIS CROWN",
+      "callSign": "-",
+      "station": "W13 - 52",
+      "time": "11-23 05:00",
+      "pilot": "-",
+      "agent": "PHOENIX",
+      "tonnage": "59,968"
+    },
+    {
+      "port": "인천",
       "vessel": "SH SOPHIA",
       "callSign": "-",
       "station": "E6 - SKI 1",
       "time": "11-23 05:00",
-      "pilot": "CY(2)",
+      "pilot": "-",
       "agent": "Joa Shi",
       "tonnage": "9,330"
     },
@@ -353,7 +363,7 @@
       "callSign": "-",
       "station": "NPPS - SNCT2",
       "time": "11-23 06:00",
-      "pilot": "JJ(1)",
+      "pilot": "-",
       "agent": "ALLWAYS",
       "tonnage": "9,742"
     },
@@ -363,7 +373,7 @@
       "callSign": "-",
       "station": "NPPS - HJIT3",
       "time": "11-23 07:00",
-      "pilot": "GN(2)",
+      "pilot": "-",
       "agent": "COSCO K",
       "tonnage": "5,275"
     },
@@ -373,7 +383,7 @@
       "callSign": "-",
       "station": "NIPT2 - NIPT4",
       "time": "11-23 07:00",
-      "pilot": "JK(2)",
+      "pilot": "-",
       "agent": "WEIDONG",
       "tonnage": "17,137"
     },
@@ -429,13 +439,13 @@
     },
     {
       "port": "인천",
-      "vessel": "KMTC SURABAYA",
+      "vessel": "XING PING",
       "callSign": "-",
       "station": "NPPS - HJIT2",
       "time": "11-23 12:00",
       "pilot": "-",
       "agent": "ALLWAYS",
-      "tonnage": "28,736"
+      "tonnage": "5,275"
     },
     {
       "port": "인천",
@@ -489,6 +499,16 @@
     },
     {
       "port": "인천",
+      "vessel": "KMTC SURABAYA",
+      "callSign": "-",
+      "station": "NPPS - HJIT3",
+      "time": "11-23 16:00",
+      "pilot": "-",
+      "agent": "ALLWAYS",
+      "tonnage": "28,736"
+    },
+    {
+      "port": "인천",
       "vessel": "CETUS HUMPBACK",
       "callSign": "-",
       "station": "43 - 36",
@@ -519,13 +539,13 @@
     },
     {
       "port": "인천",
-      "vessel": "XING PING",
+      "vessel": "SKY MOON",
       "callSign": "-",
       "station": "NPPS - HJIT1",
       "time": "11-23 17:00",
       "pilot": "-",
       "agent": "ALLWAYS",
-      "tonnage": "5,275"
+      "tonnage": "9,988"
     },
     {
       "port": "인천",
@@ -559,16 +579,6 @@
     },
     {
       "port": "인천",
-      "vessel": "HARRIER",
-      "callSign": "-",
-      "station": "NPPS - SNCT1",
-      "time": "11-23 18:00",
-      "pilot": "-",
-      "agent": "ALLWAYS",
-      "tonnage": "9,971"
-    },
-    {
-      "port": "인천",
       "vessel": "GLOVIS CROWN",
       "callSign": "-",
       "station": "52 - DONG",
@@ -586,6 +596,16 @@
       "pilot": "-",
       "agent": "WEIDONG",
       "tonnage": "29,554"
+    },
+    {
+      "port": "인천",
+      "vessel": "HARRIER",
+      "callSign": "-",
+      "station": "NPPS - SNCT1",
+      "time": "11-23 19:00",
+      "pilot": "-",
+      "agent": "ALLWAYS",
+      "tonnage": "9,971"
     },
     {
       "port": "인천",
