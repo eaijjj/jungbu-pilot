@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22 13:28",
+  "updatedAt": "2026-11-22 14:29",
   "schedules": [
     {
       "port": "평택",
@@ -108,13 +108,6 @@
     },
     {
       "port": "평택",
-      "vessel": "SD GLORIA",
-      "callSign": "HOKX",
-      "station": "W2 → IPA",
-      "time": "11-22 14:30"
-    },
-    {
-      "port": "평택",
       "vessel": "HAI CHANG",
       "callSign": "VRNL4",
       "station": "IPA → HD14",
@@ -178,9 +171,23 @@
     },
     {
       "port": "평택",
+      "vessel": "SD GLORIA",
+      "callSign": "HOKX",
+      "station": "W2 → IPA",
+      "time": "11-22 17:00"
+    },
+    {
+      "port": "평택",
       "vessel": "PACIFIC SHENZHEN",
       "callSign": "9V8012",
       "station": "E7 → IPA",
+      "time": "11-22 18:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "WOORI HANA",
+      "callSign": "D7WH",
+      "station": "W4 → IPA",
       "time": "11-22 18:00"
     },
     {
@@ -189,13 +196,6 @@
       "callSign": "3E8881",
       "station": "IPA → W1",
       "time": "11-22 18:30"
-    },
-    {
-      "port": "평택",
-      "vessel": "WOORI HANA",
-      "callSign": "D7WH",
-      "station": "W4 → IPA",
-      "time": "11-22 19:00"
     },
     {
       "port": "평택",
@@ -427,6 +427,13 @@
       "callSign": "V7CB4",
       "station": "E5 → IPA",
       "time": "11-23 21:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "XIN TAI PING",
+      "callSign": "BSDU",
+      "station": "IPA → E8",
+      "time": "11-23 22:00"
     },
     {
       "port": "평택",
@@ -741,29 +748,9 @@
       "callSign": "-",
       "station": "N45 - PAL",
       "time": "11-22 18:00",
-      "pilot": "-",
+      "pilot": "RZ(3)",
       "agent": "MASTER",
       "tonnage": "5,415"
-    },
-    {
-      "port": "인천",
-      "vessel": "NEW GOLDEN BRIDGE 9",
-      "callSign": "-",
-      "station": "NIPT3 - PAL",
-      "time": "11-22 18:00",
-      "pilot": "-",
-      "agent": "WEIDONG",
-      "tonnage": "34,360"
-    },
-    {
-      "port": "인천",
-      "vessel": "TS PUSAN",
-      "callSign": "-",
-      "station": "ICT2 - PAL",
-      "time": "11-22 18:00",
-      "pilot": "-",
-      "agent": "Duk San",
-      "tonnage": "17,449"
     },
     {
       "port": "인천",
@@ -771,9 +758,29 @@
       "callSign": "-",
       "station": "ICT1 - PAL",
       "time": "11-22 18:00",
-      "pilot": "-",
+      "pilot": "CH(3)",
       "agent": "Duk San",
       "tonnage": "9,981"
+    },
+    {
+      "port": "인천",
+      "vessel": "TS PUSAN",
+      "callSign": "-",
+      "station": "ICT2 - PAL",
+      "time": "11-22 19:00",
+      "pilot": "CR(4)",
+      "agent": "Duk San",
+      "tonnage": "17,449"
+    },
+    {
+      "port": "인천",
+      "vessel": "NEW GOLDEN BRIDGE 9",
+      "callSign": "-",
+      "station": "NIPT3 - PAL",
+      "time": "11-22 19:30",
+      "pilot": "-",
+      "agent": "WEIDONG",
+      "tonnage": "34,360"
     },
     {
       "port": "인천",
@@ -800,7 +807,7 @@
       "vessel": "PAN TRITON",
       "callSign": "-",
       "station": "PAL - 61",
-      "time": "11-22 20:00",
+      "time": "11-22 21:30",
       "pilot": "-",
       "agent": "NEW INC",
       "tonnage": "36,088"
@@ -1149,11 +1156,11 @@
         ],
         [
           "담당자",
-          "박준일"
+          "박근홍"
         ],
         [
           "연락처",
-          "041-674-0474"
+          "041-681-7500"
         ]
       ]
     },
@@ -1697,11 +1704,11 @@
         ],
         [
           "담당자",
-          "박준일"
+          "박근홍"
         ],
         [
           "연락처",
-          "041-674-0474"
+          "041-681-7500"
         ]
       ]
     },
@@ -1796,11 +1803,11 @@
         ],
         [
           "담당자",
-          "박준일"
+          "박근홍"
         ],
         [
           "연락처",
-          "041-674-0474"
+          "041-681-7500"
         ]
       ]
     },
@@ -1829,11 +1836,11 @@
         ],
         [
           "담당자",
-          "박준일"
+          "박근홍"
         ],
         [
           "연락처",
-          "041-674-0474"
+          "041-681-7500"
         ]
       ]
     },
@@ -1862,11 +1869,11 @@
         ],
         [
           "담당자",
-          "박준일"
+          "박근홍"
         ],
         [
           "연락처",
-          "041-674-0474"
+          "041-681-7500"
         ]
       ]
     },
@@ -1899,11 +1906,11 @@
         ],
         [
           "담당자",
-          "박준일"
+          "박근홍"
         ],
         [
           "연락처",
-          "041-674-0474"
+          "041-681-7500"
         ]
       ]
     },
@@ -1932,11 +1939,11 @@
         ],
         [
           "담당자",
-          "박준일"
+          "박근홍"
         ],
         [
           "연락처",
-          "041-674-0474"
+          "041-681-7500"
         ]
       ]
     },
@@ -1969,11 +1976,11 @@
         ],
         [
           "담당자",
-          "박준일"
+          "박근홍"
         ],
         [
           "연락처",
-          "041-674-0474"
+          "041-681-7500"
         ]
       ]
     },
@@ -2006,11 +2013,11 @@
         ],
         [
           "담당자",
-          "박준일"
+          "박근홍"
         ],
         [
           "연락처",
-          "041-674-0474"
+          "041-681-7500"
         ]
       ]
     },
