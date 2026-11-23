@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23 09:53",
+  "updatedAt": "2026-11-23 11:11",
   "schedules": [
     {
       "port": "평택",
@@ -136,20 +136,6 @@
     },
     {
       "port": "평택",
-      "vessel": "SHAO YUN",
-      "callSign": "BPOB2",
-      "station": "E8 → IPA",
-      "time": "11-23 16:00"
-    },
-    {
-      "port": "평택",
-      "vessel": "SKYHIGH SW",
-      "callSign": "3FAT8",
-      "station": "E11 → IPA",
-      "time": "11-23 17:00"
-    },
-    {
-      "port": "평택",
       "vessel": "풍LS특",
       "callSign": "HOAG",
       "station": "RIZHAO ORIENT → E14",
@@ -192,13 +178,6 @@
     },
     {
       "port": "평택",
-      "vessel": "TEN JUPITER",
-      "callSign": "3E8470",
-      "station": "E15 → IPA",
-      "time": "11-23 22:00"
-    },
-    {
-      "port": "평택",
       "vessel": "GLOVIS CROWN",
       "callSign": "D7LK",
       "station": "IPA → E5",
@@ -227,10 +206,24 @@
     },
     {
       "port": "평택",
+      "vessel": "SHAO YUN",
+      "callSign": "BPOB2",
+      "station": "E8 → IPA",
+      "time": "11-24 07:00"
+    },
+    {
+      "port": "평택",
       "vessel": "ATLANTIC PIONEER",
       "callSign": "9V7919",
       "station": "IPA → E16",
       "time": "11-24 08:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "LARA",
+      "callSign": "9VCV4",
+      "station": "IPA → HD11",
+      "time": "11-24 08:30"
     },
     {
       "port": "평택",
@@ -244,13 +237,6 @@
       "vessel": "K. ACACIA",
       "callSign": "3E4710",
       "station": "JANG → LNG1",
-      "time": "11-24 13:00"
-    },
-    {
-      "port": "평택",
-      "vessel": "XIN SHENG SHENG 3",
-      "callSign": "3E2716",
-      "station": "W5 → IPA",
       "time": "11-24 13:00"
     },
     {
@@ -269,10 +255,24 @@
     },
     {
       "port": "평택",
+      "vessel": "XIN SHENG SHENG 3",
+      "callSign": "3E2716",
+      "station": "W5 → IPA",
+      "time": "11-24 16:00"
+    },
+    {
+      "port": "평택",
       "vessel": "ANSAC REVERENCE",
       "callSign": "3E8369",
       "station": "W7 → IPA",
       "time": "11-24 16:30"
+    },
+    {
+      "port": "평택",
+      "vessel": "SKYHIGH SW",
+      "callSign": "3FAT8",
+      "station": "E11 → IPA",
+      "time": "11-24 17:00"
     },
     {
       "port": "평택",
@@ -283,10 +283,17 @@
     },
     {
       "port": "평택",
+      "vessel": "TEN JUPITER",
+      "callSign": "3E8470",
+      "station": "E15 → IPA",
+      "time": "11-24 17:00"
+    },
+    {
+      "port": "평택",
       "vessel": "NEW GRAND PEACE",
       "callSign": "H3OX",
       "station": "IFT2 → IPA",
-      "time": "11-24 18:30"
+      "time": "11-24 17:30"
     },
     {
       "port": "평택",
@@ -500,7 +507,7 @@
       "vessel": "PSARA",
       "callSign": "-",
       "station": "SKI 3 - W10",
-      "time": "11-23 15:00",
+      "time": "11-23 15:30",
       "pilot": "-",
       "agent": "DA SAN",
       "tonnage": "29,996"
@@ -617,6 +624,16 @@
     },
     {
       "port": "인천",
+      "vessel": "SH SOPHIA",
+      "callSign": "-",
+      "station": "SKI 1 - PAL",
+      "time": "11-23 18:30",
+      "pilot": "-",
+      "agent": "Joa Shi",
+      "tonnage": "9,330"
+    },
+    {
+      "port": "인천",
       "vessel": "NEW GOLDEN BRIDGE 5",
       "callSign": "-",
       "station": "NIPT4 - PAL",
@@ -664,16 +681,6 @@
       "pilot": "-",
       "agent": "DA SAN",
       "tonnage": "102,784"
-    },
-    {
-      "port": "인천",
-      "vessel": "SH SOPHIA",
-      "callSign": "-",
-      "station": "SKI 1 - PAL",
-      "time": "11-23 21:00",
-      "pilot": "-",
-      "agent": "Joa Shi",
-      "tonnage": "9,330"
     },
     {
       "port": "인천",
@@ -946,7 +953,7 @@
       "callSign": "VRRH3",
       "station": "MDN-11 → PS2",
       "time": "11-23 08:00",
-      "pilot": "KS / TW",
+      "pilot": "TW / KS",
       "agent": "해양",
       "tonnage": "159,843",
       "transit": false,
