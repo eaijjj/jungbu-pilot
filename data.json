@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23 22:04",
+  "updatedAt": "2026-11-23 23:39",
   "schedules": [
     {
       "port": "평택",
@@ -241,17 +241,17 @@
     },
     {
       "port": "평택",
+      "vessel": "BW LESMES",
+      "callSign": "9V6827",
+      "station": "LNG2 → JANG",
+      "time": "11-24 12:30"
+    },
+    {
+      "port": "평택",
       "vessel": "K. ACACIA",
       "callSign": "3E4710",
       "station": "JANG → LNG1",
       "time": "11-24 13:00"
-    },
-    {
-      "port": "평택",
-      "vessel": "BW LESMES",
-      "callSign": "9V6827",
-      "station": "LNG2 → JANG",
-      "time": "11-24 13:30"
     },
     {
       "port": "평택",
