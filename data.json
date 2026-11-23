@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24 05:01",
+  "updatedAt": "2026-11-24 06:19",
   "schedules": [
     {
       "port": "평택",
@@ -13,13 +13,6 @@
       "vessel": "POLARIS MILA",
       "callSign": "D5EZ7",
       "station": "E1 → IPA",
-      "time": "11-24 07:00"
-    },
-    {
-      "port": "평택",
-      "vessel": "SHAO YUN",
-      "callSign": "BPOB2",
-      "station": "E8 → IPA",
       "time": "11-24 07:00"
     },
     {
@@ -269,6 +262,13 @@
     },
     {
       "port": "평택",
+      "vessel": "SHAO YUN",
+      "callSign": "BPOB2",
+      "station": "E8 → IPA",
+      "time": "11-25 07:00"
+    },
+    {
+      "port": "평택",
       "vessel": "KOREA VISION",
       "callSign": "D7KV",
       "station": "IPA → SK",
@@ -483,8 +483,8 @@
       "vessel": "XIN XIANG XUE LAN",
       "callSign": "-",
       "station": "PAL - NIPT5",
-      "time": "11-24 08:30",
-      "pilot": "-",
+      "time": "11-24 09:00",
+      "pilot": "CN(2)",
       "agent": "HAN JOO",
       "tonnage": "32,729"
     },
@@ -493,8 +493,8 @@
       "vessel": "SKY MOON",
       "callSign": "-",
       "station": "HJIT1 - NPPS",
-      "time": "11-24 09:00",
-      "pilot": "-",
+      "time": "11-24 09:30",
+      "pilot": "JJ(1)",
       "agent": "ALLWAYS",
       "tonnage": "9,988"
     },
@@ -503,8 +503,8 @@
       "vessel": "GUO ZHI HAI",
       "callSign": "-",
       "station": "NPPS - HJIT1",
-      "time": "11-24 09:00",
-      "pilot": "-",
+      "time": "11-24 09:30",
+      "pilot": "GD(2)",
       "agent": "COSCO K",
       "tonnage": "50,502"
     },
@@ -1236,6 +1236,6 @@
   "failStreak": {
     "평택": 0,
     "인천": 0,
-    "대산": 5
+    "대산": 6
   }
 }
