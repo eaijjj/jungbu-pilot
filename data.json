@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23 14:59",
+  "updatedAt": "2026-11-23 16:32",
   "schedules": [
     {
       "port": "평택",
@@ -52,13 +52,6 @@
     },
     {
       "port": "평택",
-      "vessel": "RICH SPRING",
-      "callSign": "3E2133",
-      "station": "IPA → GD9",
-      "time": "11-23 08:30"
-    },
-    {
-      "port": "평택",
       "vessel": "OCEAN BLUE WHALE",
       "callSign": "D5MO4",
       "station": "IPA → E15",
@@ -108,13 +101,6 @@
     },
     {
       "port": "평택",
-      "vessel": "SUN BIRDIE",
-      "callSign": "3E8881",
-      "station": "W1 → IPA",
-      "time": "11-23 13:30"
-    },
-    {
-      "port": "평택",
       "vessel": "POLARIS MILA",
       "callSign": "D5EZ7",
       "station": "IPA → E1",
@@ -143,9 +129,9 @@
     },
     {
       "port": "평택",
-      "vessel": "GLOVIS CONDOR",
+      "vessel": "풍협특2",
       "callSign": "D7GI",
-      "station": "E4 → E2",
+      "station": "GLOVIS CONDOR → E4",
       "time": "11-23 17:00"
     },
     {
@@ -164,20 +150,6 @@
     },
     {
       "port": "평택",
-      "vessel": "POLARIS MILA",
-      "callSign": "D5EZ7",
-      "station": "E1 → IPA",
-      "time": "11-23 21:00"
-    },
-    {
-      "port": "평택",
-      "vessel": "XIN TAI PING",
-      "callSign": "BSDU",
-      "station": "IPA → E8",
-      "time": "11-23 22:00"
-    },
-    {
-      "port": "평택",
       "vessel": "GLOVIS CROWN",
       "callSign": "D7LK",
       "station": "IPA → E5",
@@ -185,37 +157,30 @@
     },
     {
       "port": "평택",
-      "vessel": "JAEWON STELLA",
-      "callSign": "190007",
-      "station": "IPA → W1",
-      "time": "11-24 05:00"
+      "vessel": "TOMBARRA",
+      "callSign": "9HA4367",
+      "station": "IPA → E2",
+      "time": "11-24 03:30"
     },
     {
       "port": "평택",
-      "vessel": "GOLDEN PIONEER",
-      "callSign": "V7DB7",
-      "station": "W4 → IPA",
-      "time": "11-24 05:00"
-    },
-    {
-      "port": "평택",
-      "vessel": "DONGJIN CONTINENTAL",
-      "callSign": "D7VD",
-      "station": "E6 → IPA",
-      "time": "11-24 06:00"
-    },
-    {
-      "port": "평택",
-      "vessel": "KOREA VISION",
-      "callSign": "D7KV",
-      "station": "IPA → SK",
+      "vessel": "GLOVIS CONDOR",
+      "callSign": "D7GI",
+      "station": "E2 → E1",
       "time": "11-24 07:00"
     },
     {
       "port": "평택",
-      "vessel": "ZHE WU 188",
-      "callSign": "BPON2",
-      "station": "HD7 → IPA",
+      "vessel": "PARANA",
+      "callSign": "DHDT2",
+      "station": "IPA → E4",
+      "time": "11-24 07:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "POLARIS MILA",
+      "callSign": "D5EZ7",
+      "station": "E1 → IPA",
       "time": "11-24 07:00"
     },
     {
@@ -243,7 +208,7 @@
       "port": "평택",
       "vessel": "TAIHAI 1",
       "callSign": "VRWS7",
-      "station": "IPA → E16",
+      "station": "IPA → E14",
       "time": "11-24 08:30"
     },
     {
@@ -290,6 +255,13 @@
     },
     {
       "port": "평택",
+      "vessel": "GLOVIS SYMPHONY",
+      "callSign": "D7GX",
+      "station": "IPA → E1",
+      "time": "11-24 14:30"
+    },
+    {
+      "port": "평택",
       "vessel": "GLOVIS NOBLE",
       "callSign": "9HA6670",
       "station": "IPA → E4",
@@ -297,10 +269,17 @@
     },
     {
       "port": "평택",
-      "vessel": "XIN TAI PING",
-      "callSign": "BSDU",
-      "station": "E8 → IPA",
-      "time": "11-24 15:00"
+      "vessel": "GLOVIS CONDOR",
+      "callSign": "D7GI",
+      "station": "E1 → IPA",
+      "time": "11-24 15:30"
+    },
+    {
+      "port": "평택",
+      "vessel": "SAGA ODYSSEY",
+      "callSign": "C6IB6",
+      "station": "IPA → E11",
+      "time": "11-24 16:00"
     },
     {
       "port": "평택",
@@ -322,6 +301,13 @@
       "callSign": "9V7919",
       "station": "E15 → E15",
       "time": "11-24 16:30"
+    },
+    {
+      "port": "평택",
+      "vessel": "XI CHENG",
+      "callSign": "V3NI3",
+      "station": "GD7 → IPA",
+      "time": "11-24 17:00"
     },
     {
       "port": "평택",
@@ -353,9 +339,9 @@
     },
     {
       "port": "평택",
-      "vessel": "XUAN JING",
-      "callSign": "BPPV2",
-      "station": "IPA → W1",
+      "vessel": "EN TAI",
+      "callSign": "3E8415",
+      "station": "IPA → E12",
       "time": "11-24 18:00"
     },
     {
@@ -367,16 +353,16 @@
     },
     {
       "port": "평택",
-      "vessel": "EN TAI",
-      "callSign": "3E8415",
-      "station": "IPA → E12",
-      "time": "11-24 21:00"
+      "vessel": "HE XIE 6",
+      "callSign": "D6A4405",
+      "station": "W6 → IPA",
+      "time": "11-24 18:30"
     },
     {
       "port": "평택",
       "vessel": "TAIHAI 1",
       "callSign": "VRWS7",
-      "station": "E16 → IPA",
+      "station": "E14 → IPA",
       "time": "11-24 23:00"
     },
     {
@@ -611,33 +597,13 @@
     },
     {
       "port": "인천",
-      "vessel": "PACIFIC SOPHIA",
-      "callSign": "-",
-      "station": "72 - DONG",
-      "time": "11-23 16:00",
-      "pilot": "-",
-      "agent": "A-PLUS",
-      "tonnage": "30,064"
-    },
-    {
-      "port": "인천",
       "vessel": "CETUS HUMPBACK",
       "callSign": "-",
       "station": "43 - 36",
       "time": "11-23 16:00",
-      "pilot": "-",
+      "pilot": "GH(1)",
       "agent": "NEW INC",
       "tonnage": "26,411"
-    },
-    {
-      "port": "인천",
-      "vessel": "CLIPPER GUARDIAN",
-      "callSign": "-",
-      "station": "E1GT - DONG",
-      "time": "11-23 17:00",
-      "pilot": "-",
-      "agent": "HAN IL",
-      "tonnage": "50,498"
     },
     {
       "port": "인천",
@@ -645,7 +611,7 @@
       "callSign": "-",
       "station": "PAL - ICT1",
       "time": "11-23 17:00",
-      "pilot": "-",
+      "pilot": "GO(1)",
       "agent": "ALLWAYS",
       "tonnage": "18,658"
     },
@@ -655,7 +621,7 @@
       "callSign": "-",
       "station": "NIPT2 - PAL",
       "time": "11-23 17:20",
-      "pilot": "-",
+      "pilot": "HY(1)",
       "agent": "DONGGAN",
       "tonnage": "24,748"
     },
@@ -665,7 +631,7 @@
       "callSign": "-",
       "station": "HJIT1 - NPPS",
       "time": "11-23 17:30",
-      "pilot": "-",
+      "pilot": "GD(2)",
       "agent": "COSCO K",
       "tonnage": "9,972"
     },
@@ -675,19 +641,9 @@
       "callSign": "-",
       "station": "NPPS - HJIT1",
       "time": "11-23 17:30",
-      "pilot": "-",
+      "pilot": "KB(1)",
       "agent": "ALLWAYS",
       "tonnage": "9,988"
-    },
-    {
-      "port": "인천",
-      "vessel": "GLOVIS CROWN",
-      "callSign": "-",
-      "station": "52 - PAL",
-      "time": "11-23 18:00",
-      "pilot": "-",
-      "agent": "PHOENIX",
-      "tonnage": "59,968"
     },
     {
       "port": "인천",
@@ -695,39 +651,9 @@
       "callSign": "-",
       "station": "SKI 1 - PAL",
       "time": "11-23 18:30",
-      "pilot": "-",
+      "pilot": "YM(1)",
       "agent": "Joa Shi",
       "tonnage": "9,330"
-    },
-    {
-      "port": "인천",
-      "vessel": "PSARA",
-      "callSign": "-",
-      "station": "W10 - DONG",
-      "time": "11-23 18:30",
-      "pilot": "-",
-      "agent": "DA SAN",
-      "tonnage": "29,996"
-    },
-    {
-      "port": "인천",
-      "vessel": "NEW GOLDEN BRIDGE 5",
-      "callSign": "-",
-      "station": "NIPT4 - PAL",
-      "time": "11-23 18:30",
-      "pilot": "-",
-      "agent": "WEIDONG",
-      "tonnage": "29,554"
-    },
-    {
-      "port": "인천",
-      "vessel": "INTRANS EDY",
-      "callSign": "-",
-      "station": "E5 - SKI 1",
-      "time": "11-23 18:40",
-      "pilot": "-",
-      "agent": "ILJIN S",
-      "tonnage": "7,699"
     },
     {
       "port": "인천",
@@ -738,6 +664,16 @@
       "pilot": "-",
       "agent": "ALLWAYS",
       "tonnage": "9,971"
+    },
+    {
+      "port": "인천",
+      "vessel": "NEW GOLDEN BRIDGE 5",
+      "callSign": "-",
+      "station": "NIPT4 - PAL",
+      "time": "11-23 19:00",
+      "pilot": "KU(1)",
+      "agent": "WEIDONG",
+      "tonnage": "29,554"
     },
     {
       "port": "인천",
@@ -771,16 +707,6 @@
     },
     {
       "port": "인천",
-      "vessel": "YU CHANG 128",
-      "callSign": "-",
-      "station": "PAL - N43",
-      "time": "11-23 21:30",
-      "pilot": "-",
-      "agent": "TAE DON",
-      "tonnage": "5,839"
-    },
-    {
-      "port": "인천",
       "vessel": "HUADONG PEARL 8",
       "callSign": "-",
       "station": "NIPT5 - PAL",
@@ -788,6 +714,46 @@
       "pilot": "-",
       "agent": "HUADONG",
       "tonnage": "35,092"
+    },
+    {
+      "port": "인천",
+      "vessel": "PACIFIC SOPHIA",
+      "callSign": "-",
+      "station": "72 - DONG",
+      "time": "11-23 23:00",
+      "pilot": "-",
+      "agent": "A-PLUS",
+      "tonnage": "30,064"
+    },
+    {
+      "port": "인천",
+      "vessel": "CLIPPER GUARDIAN",
+      "callSign": "-",
+      "station": "E1GT - DONG",
+      "time": "11-23 23:01",
+      "pilot": "-",
+      "agent": "HAN IL",
+      "tonnage": "50,498"
+    },
+    {
+      "port": "인천",
+      "vessel": "GLOVIS CROWN",
+      "callSign": "-",
+      "station": "52 - PAL",
+      "time": "11-23 23:02",
+      "pilot": "-",
+      "agent": "PHOENIX",
+      "tonnage": "59,968"
+    },
+    {
+      "port": "인천",
+      "vessel": "YU CHANG 128",
+      "callSign": "-",
+      "station": "PAL - N43",
+      "time": "11-23 23:32",
+      "pilot": "-",
+      "agent": "TAE DON",
+      "tonnage": "5,839"
     },
     {
       "port": "대산",
