@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24 07:20",
+  "updatedAt": "2026-11-24 08:23",
   "schedules": [
     {
       "port": "평택",
@@ -540,16 +540,6 @@
     },
     {
       "port": "인천",
-      "vessel": "NEW GOLDEN BRIDGE 9",
-      "callSign": "-",
-      "station": "PAL - NIPT3",
-      "time": "11-24 13:00",
-      "pilot": "-",
-      "agent": "WEIDONG",
-      "tonnage": "34,360"
-    },
-    {
-      "port": "인천",
       "vessel": "한나라",
       "callSign": "-",
       "station": "PAL - 16",
@@ -650,6 +640,16 @@
     },
     {
       "port": "인천",
+      "vessel": "NEW GOLDEN BRIDGE 9",
+      "callSign": "-",
+      "station": "PAL - NIPT3",
+      "time": "11-24 21:00",
+      "pilot": "-",
+      "agent": "WEIDONG",
+      "tonnage": "34,360"
+    },
+    {
+      "port": "인천",
       "vessel": "AN DONG 68",
       "callSign": "-",
       "station": "NPPS - SNCT3",
@@ -667,16 +667,6 @@
       "pilot": "-",
       "agent": "ALLWAYS",
       "tonnage": "35,697"
-    },
-    {
-      "port": "인천",
-      "vessel": "NEW GOLDEN BRIDGE 9",
-      "callSign": "-",
-      "station": "NIPT3 - PAL",
-      "time": "11-24 22:00",
-      "pilot": "-",
-      "agent": "WEIDONG",
-      "tonnage": "34,360"
     },
     {
       "port": "인천",
@@ -1236,6 +1226,6 @@
   "failStreak": {
     "평택": 0,
     "인천": 0,
-    "대산": 7
+    "대산": 8
   }
 }
