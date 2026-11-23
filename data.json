@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23 12:28",
+  "updatedAt": "2026-11-23 13:44",
   "schedules": [
     {
       "port": "평택",
@@ -125,7 +125,7 @@
       "vessel": "HELIOS RAY",
       "callSign": "C6BO7",
       "station": "E1 → IPA",
-      "time": "11-23 15:30"
+      "time": "11-23 15:00"
     },
     {
       "port": "평택",
@@ -222,7 +222,7 @@
       "port": "평택",
       "vessel": "ATLANTIC PIONEER",
       "callSign": "9V7919",
-      "station": "IPA → E16",
+      "station": "IPA → E15",
       "time": "11-24 08:00"
     },
     {
@@ -230,6 +230,13 @@
       "vessel": "LARA",
       "callSign": "9VCV4",
       "station": "IPA → HD11",
+      "time": "11-24 08:30"
+    },
+    {
+      "port": "평택",
+      "vessel": "TAIHAI 1",
+      "callSign": "VRWS7",
+      "station": "IPA → E16",
       "time": "11-24 08:30"
     },
     {
@@ -269,10 +276,10 @@
     },
     {
       "port": "평택",
-      "vessel": "ANSAC REVERENCE",
-      "callSign": "3E8369",
-      "station": "W7 → IPA",
-      "time": "11-24 16:30"
+      "vessel": "YUN QIAN",
+      "callSign": "3E2552",
+      "station": "GD7 → IPA",
+      "time": "11-24 17:00"
     },
     {
       "port": "평택",
@@ -431,13 +438,13 @@
     },
     {
       "port": "인천",
-      "vessel": "PES ALIOTH",
+      "vessel": "ORIENTAL PEARL 8",
       "callSign": "-",
-      "station": "NIPT4 - PAL",
+      "station": "PAL - NIPT2",
       "time": "11-23 08:30",
       "pilot": "OS(1)",
-      "agent": "WEIDONG",
-      "tonnage": "17,137"
+      "agent": "DONGGAN",
+      "tonnage": "24,748"
     },
     {
       "port": "인천",
@@ -461,11 +468,21 @@
     },
     {
       "port": "인천",
+      "vessel": "PES ALIOTH",
+      "callSign": "-",
+      "station": "NIPT4 - PAL",
+      "time": "11-23 10:00",
+      "pilot": "OS(2)",
+      "agent": "WEIDONG",
+      "tonnage": "17,137"
+    },
+    {
+      "port": "인천",
       "vessel": "NEW GOLDEN BRIDGE 5",
       "callSign": "-",
       "station": "PAL - NIPT4",
       "time": "11-23 11:00",
-      "pilot": "OS(2)",
+      "pilot": "OS(3)",
       "agent": "WEIDONG",
       "tonnage": "29,554"
     },
@@ -501,21 +518,11 @@
     },
     {
       "port": "인천",
-      "vessel": "ORIENTAL PEARL 8",
-      "callSign": "-",
-      "station": "PAL - NIPT2",
-      "time": "11-23 15:00",
-      "pilot": "OS(3)",
-      "agent": "DONGGAN",
-      "tonnage": "24,748"
-    },
-    {
-      "port": "인천",
       "vessel": "PSARA",
       "callSign": "-",
       "station": "SKI 3 - W10",
       "time": "11-23 15:30",
-      "pilot": "SK(1)",
+      "pilot": "-",
       "agent": "DA SAN",
       "tonnage": "29,996"
     },
@@ -525,7 +532,7 @@
       "callSign": "-",
       "station": "HJIT3 - NPPS",
       "time": "11-23 16:00",
-      "pilot": "CR(1)",
+      "pilot": "-",
       "agent": "COSCO K",
       "tonnage": "5,275"
     },
@@ -581,16 +588,6 @@
     },
     {
       "port": "인천",
-      "vessel": "SKY MOON",
-      "callSign": "-",
-      "station": "NPPS - HJIT1",
-      "time": "11-23 17:00",
-      "pilot": "-",
-      "agent": "ALLWAYS",
-      "tonnage": "9,988"
-    },
-    {
-      "port": "인천",
       "vessel": "EVER CONFORM",
       "callSign": "-",
       "station": "PAL - ICT1",
@@ -611,9 +608,19 @@
     },
     {
       "port": "인천",
+      "vessel": "SKY MOON",
+      "callSign": "-",
+      "station": "NPPS - HJIT1",
+      "time": "11-23 17:30",
+      "pilot": "-",
+      "agent": "ALLWAYS",
+      "tonnage": "9,988"
+    },
+    {
+      "port": "인천",
       "vessel": "GLOVIS CROWN",
       "callSign": "-",
-      "station": "52 - DONG",
+      "station": "52 - PAL",
       "time": "11-23 18:00",
       "pilot": "-",
       "agent": "PHOENIX",
