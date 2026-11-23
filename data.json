@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23 18:15",
+  "updatedAt": "2026-11-23 19:37",
   "schedules": [
     {
       "port": "평택",
@@ -717,7 +717,7 @@
       "vessel": "HUADONG PEARL 8",
       "callSign": "-",
       "station": "NIPT5 - PAL",
-      "time": "11-23 21:30",
+      "time": "11-23 22:15",
       "pilot": "CN(2)",
       "agent": "HUADONG",
       "tonnage": "35,092"
