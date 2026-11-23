@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23 16:32",
+  "updatedAt": "2026-11-23 18:15",
   "schedules": [
     {
       "port": "평택",
@@ -139,7 +139,7 @@
       "vessel": "풍LS특",
       "callSign": "HOAG",
       "station": "RIZHAO ORIENT → E14",
-      "time": "11-23 19:00"
+      "time": "11-23 20:00"
     },
     {
       "port": "평택",
@@ -150,30 +150,9 @@
     },
     {
       "port": "평택",
-      "vessel": "GLOVIS CROWN",
-      "callSign": "D7LK",
-      "station": "IPA → E5",
-      "time": "11-24 00:30"
-    },
-    {
-      "port": "평택",
-      "vessel": "TOMBARRA",
-      "callSign": "9HA4367",
-      "station": "IPA → E2",
-      "time": "11-24 03:30"
-    },
-    {
-      "port": "평택",
       "vessel": "GLOVIS CONDOR",
       "callSign": "D7GI",
       "station": "E2 → E1",
-      "time": "11-24 07:00"
-    },
-    {
-      "port": "평택",
-      "vessel": "PARANA",
-      "callSign": "DHDT2",
-      "station": "IPA → E4",
       "time": "11-24 07:00"
     },
     {
@@ -192,13 +171,6 @@
     },
     {
       "port": "평택",
-      "vessel": "ATLANTIC PIONEER",
-      "callSign": "9V7919",
-      "station": "IPA → E15",
-      "time": "11-24 08:00"
-    },
-    {
-      "port": "평택",
       "vessel": "LARA",
       "callSign": "9VCV4",
       "station": "IPA → HD11",
@@ -206,9 +178,16 @@
     },
     {
       "port": "평택",
-      "vessel": "TAIHAI 1",
-      "callSign": "VRWS7",
-      "station": "IPA → E14",
+      "vessel": "PARANA",
+      "callSign": "DHDT2",
+      "station": "IPA → E4",
+      "time": "11-24 08:30"
+    },
+    {
+      "port": "평택",
+      "vessel": "ATLANTIC PIONEER",
+      "callSign": "9V7919",
+      "station": "IPA → E15",
       "time": "11-24 08:30"
     },
     {
@@ -217,6 +196,34 @@
       "callSign": "H3OX",
       "station": "IPA → IFT2",
       "time": "11-24 09:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "TAIHAI 1",
+      "callSign": "VRWS7",
+      "station": "IPA → E14",
+      "time": "11-24 09:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "TOMBARRA",
+      "callSign": "9HA4367",
+      "station": "IPA → E2",
+      "time": "11-24 10:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "GLOVIS SYMPHONY",
+      "callSign": "D7GX",
+      "station": "IPA → E7",
+      "time": "11-24 10:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "GLOVIS CROWN",
+      "callSign": "D7LK",
+      "station": "IPA → E5",
+      "time": "11-24 10:30"
     },
     {
       "port": "평택",
@@ -234,13 +241,6 @@
     },
     {
       "port": "평택",
-      "vessel": "OLIVE BAY",
-      "callSign": "VRON5",
-      "station": "IPA → GD4",
-      "time": "11-24 13:00"
-    },
-    {
-      "port": "평택",
       "vessel": "K. ACACIA",
       "callSign": "3E4710",
       "station": "JANG → LNG1",
@@ -255,17 +255,17 @@
     },
     {
       "port": "평택",
-      "vessel": "GLOVIS SYMPHONY",
-      "callSign": "D7GX",
-      "station": "IPA → E1",
-      "time": "11-24 14:30"
+      "vessel": "MORNING CAPO",
+      "callSign": "V7CB4",
+      "station": "IPA → E5",
+      "time": "11-24 15:00"
     },
     {
       "port": "평택",
-      "vessel": "GLOVIS NOBLE",
-      "callSign": "9HA6670",
-      "station": "IPA → E4",
-      "time": "11-24 15:00"
+      "vessel": "GLOVIS SYMPHONY",
+      "callSign": "D7GX",
+      "station": "E7 → E1",
+      "time": "11-24 15:30"
     },
     {
       "port": "평택",
@@ -357,6 +357,13 @@
       "callSign": "D6A4405",
       "station": "W6 → IPA",
       "time": "11-24 18:30"
+    },
+    {
+      "port": "평택",
+      "vessel": "MORNING CAPO",
+      "callSign": "V7CB4",
+      "station": "E5 → IPA",
+      "time": "11-24 21:00"
     },
     {
       "port": "평택",
@@ -661,7 +668,7 @@
       "callSign": "-",
       "station": "NPPS - SNCT1",
       "time": "11-23 19:00",
-      "pilot": "-",
+      "pilot": "KU(1)",
       "agent": "ALLWAYS",
       "tonnage": "9,971"
     },
@@ -671,7 +678,7 @@
       "callSign": "-",
       "station": "NIPT4 - PAL",
       "time": "11-23 19:00",
-      "pilot": "KU(1)",
+      "pilot": "KN(2)",
       "agent": "WEIDONG",
       "tonnage": "29,554"
     },
@@ -681,7 +688,7 @@
       "callSign": "-",
       "station": "PAL - ICT2",
       "time": "11-23 20:00",
-      "pilot": "-",
+      "pilot": "YM(2)",
       "agent": "ALLWAYS",
       "tonnage": "35,697"
     },
@@ -691,7 +698,7 @@
       "callSign": "-",
       "station": "NIPT10 - DONG",
       "time": "11-23 20:00",
-      "pilot": "-",
+      "pilot": "LO(3)",
       "agent": "DA SAN",
       "tonnage": "102,784"
     },
@@ -700,8 +707,8 @@
       "vessel": "HE YUAN 1",
       "callSign": "-",
       "station": "E1CT - PAL",
-      "time": "11-23 21:00",
-      "pilot": "-",
+      "time": "11-23 21:20",
+      "pilot": "SK(2)",
       "agent": "QININ F",
       "tonnage": "9,030"
     },
@@ -711,49 +718,9 @@
       "callSign": "-",
       "station": "NIPT5 - PAL",
       "time": "11-23 21:30",
-      "pilot": "-",
+      "pilot": "CN(2)",
       "agent": "HUADONG",
       "tonnage": "35,092"
-    },
-    {
-      "port": "인천",
-      "vessel": "PACIFIC SOPHIA",
-      "callSign": "-",
-      "station": "72 - DONG",
-      "time": "11-23 23:00",
-      "pilot": "-",
-      "agent": "A-PLUS",
-      "tonnage": "30,064"
-    },
-    {
-      "port": "인천",
-      "vessel": "CLIPPER GUARDIAN",
-      "callSign": "-",
-      "station": "E1GT - DONG",
-      "time": "11-23 23:01",
-      "pilot": "-",
-      "agent": "HAN IL",
-      "tonnage": "50,498"
-    },
-    {
-      "port": "인천",
-      "vessel": "GLOVIS CROWN",
-      "callSign": "-",
-      "station": "52 - PAL",
-      "time": "11-23 23:02",
-      "pilot": "-",
-      "agent": "PHOENIX",
-      "tonnage": "59,968"
-    },
-    {
-      "port": "인천",
-      "vessel": "YU CHANG 128",
-      "callSign": "-",
-      "station": "PAL - N43",
-      "time": "11-23 23:32",
-      "pilot": "-",
-      "agent": "TAE DON",
-      "tonnage": "5,839"
     },
     {
       "port": "대산",
