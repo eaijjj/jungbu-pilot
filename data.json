@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23 20:50",
+  "updatedAt": "2026-11-23 22:04",
   "schedules": [
     {
       "port": "평택",
@@ -185,24 +185,24 @@
     },
     {
       "port": "평택",
-      "vessel": "ATLANTIC PIONEER",
-      "callSign": "9V7919",
-      "station": "IPA → E15",
-      "time": "11-24 08:30"
-    },
-    {
-      "port": "평택",
       "vessel": "NEW GRAND PEACE",
       "callSign": "H3OX",
       "station": "IPA → IFT2",
-      "time": "11-24 09:00"
+      "time": "11-24 08:30"
     },
     {
       "port": "평택",
       "vessel": "TAIHAI 1",
       "callSign": "VRWS7",
       "station": "IPA → E14",
-      "time": "11-24 09:00"
+      "time": "11-24 08:30"
+    },
+    {
+      "port": "평택",
+      "vessel": "ATLANTIC PIONEER",
+      "callSign": "9V7919",
+      "station": "IPA → E15",
+      "time": "11-24 08:30"
     },
     {
       "port": "평택",
