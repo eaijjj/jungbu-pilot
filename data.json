@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24 19:00",
+  "updatedAt": "2026-11-24 19:57",
   "schedules": [
     {
       "port": "평택",
@@ -276,13 +276,6 @@
     },
     {
       "port": "평택",
-      "vessel": "OCEAN BLUE WHALE",
-      "callSign": "D5MO4",
-      "station": "IPA → E15",
-      "time": "11-25 09:00"
-    },
-    {
-      "port": "평택",
       "vessel": "JAEWON STELLA",
       "callSign": "190007",
       "station": "IPA → W1",
@@ -378,6 +371,13 @@
       "callSign": "3E2716",
       "station": "W5 → IPA",
       "time": "11-25 12:30"
+    },
+    {
+      "port": "평택",
+      "vessel": "OCEAN BLUE WHALE",
+      "callSign": "D5MO4",
+      "station": "IPA → E15",
+      "time": "11-25 13:00"
     },
     {
       "port": "평택",
