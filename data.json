@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24 10:48",
+  "updatedAt": "2026-11-24 11:51",
   "schedules": [
     {
       "port": "평택",
@@ -150,13 +150,6 @@
     },
     {
       "port": "평택",
-      "vessel": "SKYHIGH SW",
-      "callSign": "3FAT8",
-      "station": "E11 → IPA",
-      "time": "11-24 17:00"
-    },
-    {
-      "port": "평택",
       "vessel": "VW PEACE",
       "callSign": "C6JS8",
       "station": "E12 → IPA",
@@ -251,6 +244,13 @@
       "vessel": "SHAO YUN",
       "callSign": "BPOB2",
       "station": "E8 → IPA",
+      "time": "11-25 07:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "SKYHIGH SW",
+      "callSign": "3FAT8",
+      "station": "E11 → IPA",
       "time": "11-25 07:00"
     },
     {
@@ -820,7 +820,7 @@
       "callSign": "V7A5958",
       "station": "MDB-42 → PS1",
       "time": "11-25 09:00",
-      "pilot": "-",
+      "pilot": "LK / KW",
       "agent": "신성",
       "tonnage": "39,737",
       "transit": false,
