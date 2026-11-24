@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24 11:51",
+  "updatedAt": "2026-11-24 12:53",
   "schedules": [
     {
       "port": "평택",
@@ -606,21 +606,11 @@
     },
     {
       "port": "인천",
-      "vessel": "한나라",
-      "callSign": "-",
-      "station": "PAL - 16",
-      "time": "11-24 14:00",
-      "pilot": "KB(2)",
-      "agent": "ALLWAYS",
-      "tonnage": "9,196"
-    },
-    {
-      "port": "인천",
       "vessel": "SHIN YANG",
       "callSign": "-",
       "station": "PAL - SSC",
       "time": "11-24 15:00",
-      "pilot": "HY(2)",
+      "pilot": "KB(2)",
       "agent": "HAN IL",
       "tonnage": "6,422"
     },
@@ -673,6 +663,16 @@
       "pilot": "-",
       "agent": "MIRAE S",
       "tonnage": "29,015"
+    },
+    {
+      "port": "인천",
+      "vessel": "한나라",
+      "callSign": "-",
+      "station": "PAL - 16",
+      "time": "11-24 18:00",
+      "pilot": "-",
+      "agent": "ALLWAYS",
+      "tonnage": "9,196"
     },
     {
       "port": "인천",
