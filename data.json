@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24 08:23",
+  "updatedAt": "2026-11-24 09:18",
   "schedules": [
     {
       "port": "평택",
@@ -199,13 +199,6 @@
     },
     {
       "port": "평택",
-      "vessel": "HE XIE 6",
-      "callSign": "D6A4405",
-      "station": "W6 → IPA",
-      "time": "11-24 18:30"
-    },
-    {
-      "port": "평택",
       "vessel": "MORNING CAPO",
       "callSign": "V7CB4",
       "station": "E5 → IPA",
@@ -217,20 +210,6 @@
       "callSign": "VRWS7",
       "station": "E14 → IPA",
       "time": "11-24 23:00"
-    },
-    {
-      "port": "평택",
-      "vessel": "ANSAC REVERENCE",
-      "callSign": "3E8369",
-      "station": "W7 → IPA",
-      "time": "11-25 01:00"
-    },
-    {
-      "port": "평택",
-      "vessel": "RICH WELL",
-      "callSign": "JVYH8",
-      "station": "IPA → W6",
-      "time": "11-25 05:00"
     },
     {
       "port": "평택",
@@ -318,6 +297,27 @@
     },
     {
       "port": "평택",
+      "vessel": "NEW INTELLIGENCE",
+      "callSign": "5LDL7",
+      "station": "IPA → GD5",
+      "time": "11-25 12:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "RICH WELL",
+      "callSign": "JVYH8",
+      "station": "IPA → W6",
+      "time": "11-25 12:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "ASL ALTAIR",
+      "callSign": "S6SW5",
+      "station": "GD5 → IPA",
+      "time": "11-25 12:00"
+    },
+    {
+      "port": "평택",
       "vessel": "XIN SHENG SHENG 3",
       "callSign": "3E2716",
       "station": "W5 → IPA",
@@ -332,6 +332,13 @@
     },
     {
       "port": "평택",
+      "vessel": "HE XIE 6",
+      "callSign": "D6A4405",
+      "station": "W6 → IPA",
+      "time": "11-25 13:00"
+    },
+    {
+      "port": "평택",
       "vessel": "BARCELONA KNUTSEN",
       "callSign": "EACW",
       "station": "JANG → LNG2",
@@ -339,10 +346,17 @@
     },
     {
       "port": "평택",
-      "vessel": "XIN TAI PING",
-      "callSign": "BSDU",
-      "station": "E8 → IPA",
-      "time": "11-25 15:00"
+      "vessel": "RIZHAO ORIENT",
+      "callSign": "HOAG",
+      "station": "IPA → E14",
+      "time": "11-25 16:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "ANSAC REVERENCE",
+      "callSign": "3E8369",
+      "station": "W7 → IPA",
+      "time": "11-25 16:00"
     },
     {
       "port": "평택",
@@ -350,6 +364,13 @@
       "callSign": "BPPV2",
       "station": "IPA → W1",
       "time": "11-25 18:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "XIN TAI PING",
+      "callSign": "BSDU",
+      "station": "E8 → IPA",
+      "time": "11-25 20:00"
     },
     {
       "port": "평택",
@@ -503,8 +524,8 @@
       "vessel": "GUO ZHI HAI",
       "callSign": "-",
       "station": "NPPS - HJIT1",
-      "time": "11-24 10:00",
-      "pilot": "GD(2)",
+      "time": "11-24 10:30",
+      "pilot": "JJ(2)",
       "agent": "COSCO K",
       "tonnage": "50,502"
     },
@@ -512,9 +533,9 @@
       "port": "인천",
       "vessel": "SEUNG JIN",
       "callSign": "-",
-      "station": "SKI 2 - W3",
+      "station": "SKI 2 - E3",
       "time": "11-24 11:30",
-      "pilot": "-",
+      "pilot": "GD(2)",
       "agent": "GAON SH",
       "tonnage": "1,635"
     },
@@ -540,6 +561,16 @@
     },
     {
       "port": "인천",
+      "vessel": "INTRANS EDY",
+      "callSign": "-",
+      "station": "E5 - SKI 2",
+      "time": "11-24 12:10",
+      "pilot": "-",
+      "agent": "ILJIN S",
+      "tonnage": "7,699"
+    },
+    {
+      "port": "인천",
       "vessel": "한나라",
       "callSign": "-",
       "station": "PAL - 16",
@@ -557,16 +588,6 @@
       "pilot": "-",
       "agent": "HAN IL",
       "tonnage": "6,422"
-    },
-    {
-      "port": "인천",
-      "vessel": "HARMONY YUN GANG",
-      "callSign": "-",
-      "station": "PAL - NIPT1",
-      "time": "11-24 16:00",
-      "pilot": "-",
-      "agent": "LIAN YU",
-      "tonnage": "35,187"
     },
     {
       "port": "인천",
@@ -590,6 +611,16 @@
     },
     {
       "port": "인천",
+      "vessel": "HARMONY YUN GANG",
+      "callSign": "-",
+      "station": "PAL - NIPT1",
+      "time": "11-24 17:15",
+      "pilot": "-",
+      "agent": "LIAN YU",
+      "tonnage": "35,187"
+    },
+    {
+      "port": "인천",
       "vessel": "YA LU JIANG",
       "callSign": "-",
       "station": "SNCT3 - NPPS",
@@ -610,6 +641,16 @@
     },
     {
       "port": "인천",
+      "vessel": "BAO HONG 17",
+      "callSign": "-",
+      "station": "N44 - PAL",
+      "time": "11-24 18:00",
+      "pilot": "-",
+      "agent": "ONE INT",
+      "tonnage": "6,434"
+    },
+    {
+      "port": "인천",
       "vessel": "XIN XIANG XUE LAN",
       "callSign": "-",
       "station": "NIPT5 - PAL",
@@ -617,6 +658,16 @@
       "pilot": "-",
       "agent": "HAN JOO",
       "tonnage": "32,729"
+    },
+    {
+      "port": "인천",
+      "vessel": "AN DONG 68",
+      "callSign": "-",
+      "station": "NPPS - SNCT3",
+      "time": "11-24 20:00",
+      "pilot": "-",
+      "agent": "Doowoo",
+      "tonnage": "3,988"
     },
     {
       "port": "인천",
@@ -630,16 +681,6 @@
     },
     {
       "port": "인천",
-      "vessel": "INTRANS EDY",
-      "callSign": "-",
-      "station": "E5 - SKI 2",
-      "time": "11-24 20:40",
-      "pilot": "-",
-      "agent": "ILJIN S",
-      "tonnage": "7,699"
-    },
-    {
-      "port": "인천",
       "vessel": "NEW GOLDEN BRIDGE 9",
       "callSign": "-",
       "station": "PAL - NIPT3",
@@ -647,16 +688,6 @@
       "pilot": "-",
       "agent": "WEIDONG",
       "tonnage": "34,360"
-    },
-    {
-      "port": "인천",
-      "vessel": "AN DONG 68",
-      "callSign": "-",
-      "station": "NPPS - SNCT3",
-      "time": "11-24 22:00",
-      "pilot": "-",
-      "agent": "Doowoo",
-      "tonnage": "3,988"
     },
     {
       "port": "인천",
@@ -1226,6 +1257,6 @@
   "failStreak": {
     "평택": 0,
     "인천": 0,
-    "대산": 8
+    "대산": 9
   }
 }
