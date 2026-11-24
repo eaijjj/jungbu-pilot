@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25 06:25",
+  "updatedAt": "2026-11-25 07:27",
   "schedules": [
     {
       "port": "평택",
@@ -548,33 +548,23 @@
     },
     {
       "port": "인천",
-      "vessel": "KOTA GAYA",
+      "vessel": "NEW GOLDEN BRIDGE 9",
       "callSign": "-",
-      "station": "SNCT1 - NPPS",
-      "time": "11-25 09:00",
-      "pilot": "LO(3)",
-      "agent": "MIRAE S",
-      "tonnage": "29,015"
+      "station": "PAL - NIPT3",
+      "time": "11-25 09:30",
+      "pilot": "HY(1)",
+      "agent": "WEIDONG",
+      "tonnage": "34,360"
     },
     {
       "port": "인천",
       "vessel": "HUADONG PEARL 8",
       "callSign": "-",
       "station": "PAL - NIPT5",
-      "time": "11-25 09:30",
+      "time": "11-25 10:00",
       "pilot": "CR(4)",
       "agent": "HUADONG",
       "tonnage": "35,092"
-    },
-    {
-      "port": "인천",
-      "vessel": "NEW GOLDEN BRIDGE 9",
-      "callSign": "-",
-      "station": "PAL - NIPT3",
-      "time": "11-25 10:00",
-      "pilot": "GD(4)",
-      "agent": "WEIDONG",
-      "tonnage": "34,360"
     },
     {
       "port": "인천",
@@ -582,7 +572,7 @@
       "callSign": "-",
       "station": "PAL - SOD1",
       "time": "11-25 10:00",
-      "pilot": "HY(1)",
+      "pilot": "GD(4)",
       "agent": "ILJIN S",
       "tonnage": "8,072"
     },
@@ -615,6 +605,16 @@
       "pilot": "-",
       "agent": "WORLD S",
       "tonnage": "29,274"
+    },
+    {
+      "port": "인천",
+      "vessel": "KOTA GAYA",
+      "callSign": "-",
+      "station": "SNCT1 - NPPS",
+      "time": "11-25 11:00",
+      "pilot": "-",
+      "agent": "MIRAE S",
+      "tonnage": "29,015"
     },
     {
       "port": "인천",
@@ -651,7 +651,7 @@
       "vessel": "BAOHONG 18",
       "callSign": "-",
       "station": "N42 - PAL",
-      "time": "11-25 13:00",
+      "time": "11-25 12:00",
       "pilot": "-",
       "agent": "TAE DON",
       "tonnage": "6,434"
