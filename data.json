@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25 07:27",
+  "updatedAt": "2026-11-25 08:23",
   "schedules": [
     {
       "port": "평택",
@@ -178,20 +178,6 @@
     },
     {
       "port": "평택",
-      "vessel": "NEW INTELLIGENCE",
-      "callSign": "5LDL7",
-      "station": "IPA → GD5",
-      "time": "11-25 12:00"
-    },
-    {
-      "port": "평택",
-      "vessel": "ASL ALTAIR",
-      "callSign": "S6SW5",
-      "station": "GD5 → IPA",
-      "time": "11-25 12:00"
-    },
-    {
-      "port": "평택",
       "vessel": "PARANA",
       "callSign": "DHDT2",
       "station": "E5 → IPA",
@@ -234,13 +220,6 @@
     },
     {
       "port": "평택",
-      "vessel": "OCEAN BLUE WHALE",
-      "callSign": "D5MO4",
-      "station": "IPA → E15",
-      "time": "11-25 13:00"
-    },
-    {
-      "port": "평택",
       "vessel": "K. ACACIA",
       "callSign": "3E4710",
       "station": "LNG1 → JANG",
@@ -248,10 +227,31 @@
     },
     {
       "port": "평택",
+      "vessel": "OCEAN BLUE WHALE",
+      "callSign": "D5MO4",
+      "station": "IPA → E15",
+      "time": "11-25 13:30"
+    },
+    {
+      "port": "평택",
       "vessel": "BARCELONA KNUTSEN",
       "callSign": "EACW",
       "station": "JANG → LNG2",
       "time": "11-25 13:30"
+    },
+    {
+      "port": "평택",
+      "vessel": "NEW INTELLIGENCE",
+      "callSign": "5LDL7",
+      "station": "IPA → GD5",
+      "time": "11-25 15:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "ASL ALTAIR",
+      "callSign": "S6SW5",
+      "station": "GD5 → IPA",
+      "time": "11-25 15:30"
     },
     {
       "port": "평택",
@@ -552,7 +552,7 @@
       "callSign": "-",
       "station": "PAL - NIPT3",
       "time": "11-25 09:30",
-      "pilot": "HY(1)",
+      "pilot": "HY(2)",
       "agent": "WEIDONG",
       "tonnage": "34,360"
     },
@@ -581,7 +581,7 @@
       "vessel": "NEW GOLDEN BRIDGE 5",
       "callSign": "-",
       "station": "PAL - NIPT4",
-      "time": "11-25 10:30",
+      "time": "11-25 10:40",
       "pilot": "JJ(3)",
       "agent": "WEIDONG",
       "tonnage": "29,554"
@@ -602,7 +602,7 @@
       "callSign": "-",
       "station": "HJIT2 - NPPS",
       "time": "11-25 11:00",
-      "pilot": "-",
+      "pilot": "GH(3)",
       "agent": "WORLD S",
       "tonnage": "29,274"
     },
@@ -612,7 +612,7 @@
       "callSign": "-",
       "station": "SNCT1 - NPPS",
       "time": "11-25 11:00",
-      "pilot": "-",
+      "pilot": "GO(3)",
       "agent": "MIRAE S",
       "tonnage": "29,015"
     },
@@ -622,7 +622,7 @@
       "callSign": "-",
       "station": "NPPS - HJIT2",
       "time": "11-25 11:00",
-      "pilot": "-",
+      "pilot": "LO(3)",
       "agent": "MAERSK",
       "tonnage": "28,316"
     },
@@ -642,7 +642,7 @@
       "callSign": "-",
       "station": "PAL - E2",
       "time": "11-25 12:00",
-      "pilot": "-",
+      "pilot": "GH(4)",
       "agent": "TNK MAR",
       "tonnage": "1,291"
     },
@@ -652,7 +652,7 @@
       "callSign": "-",
       "station": "N42 - PAL",
       "time": "11-25 12:00",
-      "pilot": "-",
+      "pilot": "HY(3)",
       "agent": "TAE DON",
       "tonnage": "6,434"
     },
