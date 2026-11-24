@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25 04:30",
+  "updatedAt": "2026-11-25 05:25",
   "schedules": [
     {
       "port": "평택",
@@ -548,33 +548,13 @@
     },
     {
       "port": "인천",
-      "vessel": "SITC SHENGMING",
-      "callSign": "-",
-      "station": "HJIT2 - NPPS",
-      "time": "11-25 09:00",
-      "pilot": "LO(3)",
-      "agent": "WORLD S",
-      "tonnage": "29,274"
-    },
-    {
-      "port": "인천",
       "vessel": "KOTA GAYA",
       "callSign": "-",
       "station": "SNCT1 - NPPS",
       "time": "11-25 09:00",
-      "pilot": "-",
+      "pilot": "LO(3)",
       "agent": "MIRAE S",
       "tonnage": "29,015"
-    },
-    {
-      "port": "인천",
-      "vessel": "MAERSK BERMUDA",
-      "callSign": "-",
-      "station": "NPPS - HJIT2",
-      "time": "11-25 09:00",
-      "pilot": "-",
-      "agent": "MAERSK",
-      "tonnage": "28,316"
     },
     {
       "port": "인천",
@@ -628,13 +608,23 @@
     },
     {
       "port": "인천",
-      "vessel": "A ROKKO",
+      "vessel": "SITC SHENGMING",
       "callSign": "-",
-      "station": "HJIT1 - NPPS",
+      "station": "HJIT2 - NPPS",
       "time": "11-25 11:00",
       "pilot": "-",
-      "agent": "COSCO K",
-      "tonnage": "9,562"
+      "agent": "WORLD S",
+      "tonnage": "29,274"
+    },
+    {
+      "port": "인천",
+      "vessel": "MAERSK BERMUDA",
+      "callSign": "-",
+      "station": "NPPS - HJIT2",
+      "time": "11-25 11:00",
+      "pilot": "-",
+      "agent": "MAERSK",
+      "tonnage": "28,316"
     },
     {
       "port": "인천",
@@ -665,6 +655,16 @@
       "pilot": "-",
       "agent": "TAE DON",
       "tonnage": "6,434"
+    },
+    {
+      "port": "인천",
+      "vessel": "A ROKKO",
+      "callSign": "-",
+      "station": "HJIT1 - NPPS",
+      "time": "11-25 14:00",
+      "pilot": "-",
+      "agent": "COSCO K",
+      "tonnage": "9,562"
     },
     {
       "port": "인천",
