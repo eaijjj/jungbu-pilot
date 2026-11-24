@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25 00:59",
+  "updatedAt": "2026-11-25 02:05",
   "schedules": [
     {
       "port": "평택",
@@ -498,23 +498,23 @@
     },
     {
       "port": "인천",
-      "vessel": "CNC PANTHER",
-      "callSign": "-",
-      "station": "NPPS - HJIT3",
-      "time": "11-25 06:30",
-      "pilot": "LO(2)",
-      "agent": "PHOENIX",
-      "tonnage": "31,999"
-    },
-    {
-      "port": "인천",
       "vessel": "MAERSK NACKA",
       "callSign": "-",
       "station": "HJIT3 - NPPS",
       "time": "11-25 07:00",
-      "pilot": "HY(1)",
+      "pilot": "GO(3)",
       "agent": "MAERSK",
       "tonnage": "25,514"
+    },
+    {
+      "port": "인천",
+      "vessel": "CNC PANTHER",
+      "callSign": "-",
+      "station": "NPPS - HJIT3",
+      "time": "11-25 07:00",
+      "pilot": "LO(2)",
+      "agent": "PHOENIX",
+      "tonnage": "31,999"
     },
     {
       "port": "인천",
@@ -522,7 +522,7 @@
       "callSign": "-",
       "station": "PAL - 16",
       "time": "11-25 07:00",
-      "pilot": "HY(1)",
+      "pilot": "SK(3)",
       "agent": "ALLWAYS",
       "tonnage": "9,196"
     },
@@ -552,7 +552,7 @@
       "callSign": "-",
       "station": "HJIT2 - NPPS",
       "time": "11-25 09:00",
-      "pilot": "-",
+      "pilot": "LO(3)",
       "agent": "WORLD S",
       "tonnage": "29,274"
     },
@@ -562,7 +562,7 @@
       "callSign": "-",
       "station": "SNCT1 - NPPS",
       "time": "11-25 09:00",
-      "pilot": "GO(3)",
+      "pilot": "-",
       "agent": "MIRAE S",
       "tonnage": "29,015"
     },
