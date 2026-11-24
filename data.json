@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25 02:05",
+  "updatedAt": "2026-11-25 03:17",
   "schedules": [
     {
       "port": "평택",
@@ -542,7 +542,7 @@
       "callSign": "-",
       "station": "PAL - NIPT2",
       "time": "11-25 08:30",
-      "pilot": "-",
+      "pilot": "CN(4)",
       "agent": "DONGGAN",
       "tonnage": "24,748"
     },
