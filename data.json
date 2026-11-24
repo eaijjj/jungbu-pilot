@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24 13:58",
+  "updatedAt": "2026-11-24 14:59",
   "schedules": [
     {
       "port": "평택",
@@ -153,13 +153,6 @@
       "vessel": "VW PEACE",
       "callSign": "C6JS8",
       "station": "E12 → IPA",
-      "time": "11-24 17:00"
-    },
-    {
-      "port": "평택",
-      "vessel": "DORIS",
-      "callSign": "TJM5036",
-      "station": "W5 → IPA",
       "time": "11-24 17:00"
     },
     {
@@ -318,13 +311,6 @@
     },
     {
       "port": "평택",
-      "vessel": "GLOVIS NOBLE",
-      "callSign": "9HA6670",
-      "station": "IPA → E5",
-      "time": "11-25 10:30"
-    },
-    {
-      "port": "평택",
       "vessel": "NEW INTELLIGENCE",
       "callSign": "5LDL7",
       "station": "IPA → GD5",
@@ -332,16 +318,16 @@
     },
     {
       "port": "평택",
-      "vessel": "RICH WELL",
-      "callSign": "JVYH8",
-      "station": "IPA → W6",
+      "vessel": "ASL ALTAIR",
+      "callSign": "S6SW5",
+      "station": "GD5 → IPA",
       "time": "11-25 12:00"
     },
     {
       "port": "평택",
-      "vessel": "ASL ALTAIR",
-      "callSign": "S6SW5",
-      "station": "GD5 → IPA",
+      "vessel": "DORIS",
+      "callSign": "TJM5036",
+      "station": "W5 → IPA",
       "time": "11-25 12:00"
     },
     {
@@ -378,20 +364,6 @@
       "callSign": "D7GX",
       "station": "E1 → IPA",
       "time": "11-25 16:00"
-    },
-    {
-      "port": "평택",
-      "vessel": "XIN SHENG SHENG 7",
-      "callSign": "3E3710",
-      "station": "IPA → W6",
-      "time": "11-25 18:00"
-    },
-    {
-      "port": "평택",
-      "vessel": "HE XIE 6",
-      "callSign": "D6A4405",
-      "station": "W6 → IPA",
-      "time": "11-25 18:30"
     },
     {
       "port": "평택",
@@ -613,7 +585,7 @@
       "callSign": "-",
       "station": "HJIT1 - NPPS",
       "time": "11-24 18:00",
-      "pilot": "-",
+      "pilot": "YM(2)",
       "agent": "COSCO K",
       "tonnage": "50,502"
     },
@@ -623,39 +595,9 @@
       "callSign": "-",
       "station": "SNCT3 - NPPS",
       "time": "11-24 18:00",
-      "pilot": "-",
+      "pilot": "KU(1)",
       "agent": "COSCO K",
       "tonnage": "5,250"
-    },
-    {
-      "port": "인천",
-      "vessel": "KOTA GAYA",
-      "callSign": "-",
-      "station": "NPPS - SNCT1",
-      "time": "11-24 18:00",
-      "pilot": "-",
-      "agent": "MIRAE S",
-      "tonnage": "29,015"
-    },
-    {
-      "port": "인천",
-      "vessel": "A ROKKO",
-      "callSign": "-",
-      "station": "NPPS - HJIT1",
-      "time": "11-24 18:00",
-      "pilot": "-",
-      "agent": "COSCO K",
-      "tonnage": "9,562"
-    },
-    {
-      "port": "인천",
-      "vessel": "한나라",
-      "callSign": "-",
-      "station": "PAL - 16",
-      "time": "11-24 18:00",
-      "pilot": "-",
-      "agent": "ALLWAYS",
-      "tonnage": "9,196"
     },
     {
       "port": "인천",
@@ -669,6 +611,26 @@
     },
     {
       "port": "인천",
+      "vessel": "KOTA GAYA",
+      "callSign": "-",
+      "station": "NPPS - SNCT1",
+      "time": "11-24 18:30",
+      "pilot": "YM(3)",
+      "agent": "MIRAE S",
+      "tonnage": "29,015"
+    },
+    {
+      "port": "인천",
+      "vessel": "A ROKKO",
+      "callSign": "-",
+      "station": "NPPS - HJIT1",
+      "time": "11-24 18:30",
+      "pilot": "KU(2)",
+      "agent": "COSCO K",
+      "tonnage": "9,562"
+    },
+    {
+      "port": "인천",
       "vessel": "XIN XIANG XUE LAN",
       "callSign": "-",
       "station": "NIPT5 - PAL",
@@ -679,20 +641,20 @@
     },
     {
       "port": "인천",
-      "vessel": "AN DONG 68",
+      "vessel": "한나라",
       "callSign": "-",
-      "station": "NPPS - SNCT3",
+      "station": "PAL - 16",
       "time": "11-24 20:00",
       "pilot": "-",
-      "agent": "Doowoo",
-      "tonnage": "3,988"
+      "agent": "ALLWAYS",
+      "tonnage": "9,196"
     },
     {
       "port": "인천",
       "vessel": "LIBERTY PEACE",
       "callSign": "-",
       "station": "PAL - 52",
-      "time": "11-24 20:00",
+      "time": "11-24 22:00",
       "pilot": "-",
       "agent": "PYEONG",
       "tonnage": "58,107"
@@ -718,21 +680,44 @@
       "tonnage": "35,697"
     },
     {
-      "port": "인천",
-      "vessel": "PSARA",
-      "callSign": "-",
-      "station": "W10 - DONG",
-      "time": "11-24 23:59",
+      "port": "대산",
+      "vessel": "PAN DANGJIN",
+      "callSign": "V7IU7",
+      "station": "PS3 → PS4",
+      "time": "11-25 07:15",
       "pilot": "-",
-      "agent": "DA SAN",
-      "tonnage": "29,996"
+      "agent": "해양",
+      "tonnage": "79,823",
+      "transit": false,
+      "detail": [
+        [
+          "흘수",
+          "15.94 m"
+        ],
+        [
+          "전장",
+          "273 m"
+        ],
+        [
+          "화물",
+          "적재"
+        ],
+        [
+          "담당자",
+          "김남윤"
+        ],
+        [
+          "연락처",
+          "041-352-6444"
+        ]
+      ]
     },
     {
       "port": "대산",
       "vessel": "ORIENTAL LEADER",
       "callSign": "DSRL5",
       "station": "PS3 → PS4",
-      "time": "11-25 08:00",
+      "time": "11-25 07:45",
       "pilot": "-",
       "agent": "수정",
       "tonnage": "50,623",
@@ -756,11 +741,48 @@
         ],
         [
           "담당자",
-          "정하용"
+          "이형우"
         ],
         [
           "연락처",
-          "010-4860-9211"
+          "010-4002-8751"
+        ]
+      ]
+    },
+    {
+      "port": "대산",
+      "vessel": "PAN DANGJIN",
+      "callSign": "V7IU7",
+      "station": "PS4 → MDT-62",
+      "time": "11-25 08:15",
+      "pilot": "-",
+      "agent": "해양",
+      "tonnage": "79,823",
+      "transit": false,
+      "detail": [
+        [
+          "흘수",
+          "15.94 m"
+        ],
+        [
+          "전장",
+          "273 m"
+        ],
+        [
+          "접안",
+          "우현"
+        ],
+        [
+          "화물",
+          "적재"
+        ],
+        [
+          "담당자",
+          "김남윤"
+        ],
+        [
+          "연락처",
+          "041-352-6444"
         ]
       ]
     },
@@ -769,7 +791,7 @@
       "vessel": "ORIENTAL LEADER",
       "callSign": "DSRL5",
       "station": "PS4 → MDT-63",
-      "time": "11-25 09:00",
+      "time": "11-25 08:45",
       "pilot": "-",
       "agent": "수정",
       "tonnage": "50,623",
@@ -789,11 +811,11 @@
         ],
         [
           "담당자",
-          "정하용"
+          "이형우"
         ],
         [
           "연락처",
-          "010-4860-9211"
+          "010-4002-8751"
         ]
       ]
     },
@@ -803,7 +825,7 @@
       "callSign": "V7A5958",
       "station": "MDB-42 → PS1",
       "time": "11-25 09:00",
-      "pilot": "LK / KW",
+      "pilot": "KW / LK",
       "agent": "신성",
       "tonnage": "39,737",
       "transit": false,
@@ -831,6 +853,105 @@
         [
           "연락처",
           "010-5057-6856"
+        ]
+      ]
+    },
+    {
+      "port": "대산",
+      "vessel": "SEA FUTURE",
+      "callSign": "V7MI8",
+      "station": "PS1 → B.WAA-04",
+      "time": "11-25 11:00",
+      "pilot": "LK / KW",
+      "agent": "해양",
+      "tonnage": "47,051",
+      "transit": false,
+      "detail": [
+        [
+          "흘수",
+          "13.73 m"
+        ],
+        [
+          "전장",
+          "229 m"
+        ],
+        [
+          "화물",
+          "적재"
+        ],
+        [
+          "담당자",
+          "김남윤"
+        ],
+        [
+          "연락처",
+          "041-352-6444"
+        ]
+      ]
+    },
+    {
+      "port": "대산",
+      "vessel": "TONG SHUN",
+      "callSign": "3EHX4",
+      "station": "MDA-01 → PS1",
+      "time": "11-25 14:00",
+      "pilot": "KW / LK",
+      "agent": "해양",
+      "tonnage": "44,090",
+      "transit": false,
+      "detail": [
+        [
+          "흘수",
+          "7.00 m"
+        ],
+        [
+          "전장",
+          "229 m"
+        ],
+        [
+          "화물",
+          "공선"
+        ],
+        [
+          "담당자",
+          "김남윤"
+        ],
+        [
+          "연락처",
+          "041-352-6444"
+        ]
+      ]
+    },
+    {
+      "port": "대산",
+      "vessel": "PAN MUTIARA",
+      "callSign": "D7KU",
+      "station": "PS1 → B.WAA-03",
+      "time": "11-25 16:00",
+      "pilot": "LK / KW",
+      "agent": "해양",
+      "tonnage": "44,003",
+      "transit": false,
+      "detail": [
+        [
+          "흘수",
+          "13.92 m"
+        ],
+        [
+          "전장",
+          "229 m"
+        ],
+        [
+          "화물",
+          "적재"
+        ],
+        [
+          "담당자",
+          "김남윤"
+        ],
+        [
+          "연락처",
+          "041-352-6444"
         ]
       ]
     }
