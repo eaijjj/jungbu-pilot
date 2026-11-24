@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24 20:55",
+  "updatedAt": "2026-11-24 22:05",
   "schedules": [
     {
       "port": "평택",
@@ -188,13 +188,6 @@
       "vessel": "XI CHENG",
       "callSign": "V3NI3",
       "station": "GD7 → IPA",
-      "time": "11-25 07:30"
-    },
-    {
-      "port": "평택",
-      "vessel": "YUN QIAN",
-      "callSign": "3E2552",
-      "station": "GD8 → IPA",
       "time": "11-25 07:30"
     },
     {
@@ -412,6 +405,13 @@
       "vessel": "MING YUAN",
       "callSign": "V3LH2",
       "station": "IPA → E12",
+      "time": "11-25 17:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "YUN QIAN",
+      "callSign": "3E2552",
+      "station": "GD8 → IPA",
       "time": "11-25 17:00"
     },
     {
