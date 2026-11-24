@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25 05:25",
+  "updatedAt": "2026-11-25 06:25",
   "schedules": [
     {
       "port": "평택",
@@ -502,7 +502,7 @@
       "callSign": "-",
       "station": "HJIT3 - NPPS",
       "time": "11-25 07:00",
-      "pilot": "GO(3)",
+      "pilot": "KB(3)",
       "agent": "MAERSK",
       "tonnage": "25,514"
     },
@@ -562,7 +562,7 @@
       "callSign": "-",
       "station": "PAL - NIPT5",
       "time": "11-25 09:30",
-      "pilot": "-",
+      "pilot": "CR(4)",
       "agent": "HUADONG",
       "tonnage": "35,092"
     },
@@ -572,7 +572,7 @@
       "callSign": "-",
       "station": "PAL - NIPT3",
       "time": "11-25 10:00",
-      "pilot": "-",
+      "pilot": "GD(4)",
       "agent": "WEIDONG",
       "tonnage": "34,360"
     },
@@ -582,7 +582,7 @@
       "callSign": "-",
       "station": "PAL - SOD1",
       "time": "11-25 10:00",
-      "pilot": "-",
+      "pilot": "HY(1)",
       "agent": "ILJIN S",
       "tonnage": "8,072"
     },
@@ -592,7 +592,7 @@
       "callSign": "-",
       "station": "PAL - NIPT4",
       "time": "11-25 10:30",
-      "pilot": "-",
+      "pilot": "JJ(3)",
       "agent": "WEIDONG",
       "tonnage": "29,554"
     },
@@ -602,7 +602,7 @@
       "callSign": "-",
       "station": "JANG - LNG2",
       "time": "11-25 11:00",
-      "pilot": "-",
+      "pilot": "YM(3) KU(3)",
       "agent": "UNIPROS",
       "tonnage": "115,366"
     },
@@ -632,7 +632,7 @@
       "callSign": "-",
       "station": "JANG - E1GT",
       "time": "11-25 11:30",
-      "pilot": "-",
+      "pilot": "KN(3) JH(4)",
       "agent": "HAN IL",
       "tonnage": "47,342"
     },
