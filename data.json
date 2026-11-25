@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25 20:28",
+  "updatedAt": "2026-11-25 21:36",
   "schedules": [
     {
       "port": "평택",
@@ -860,16 +860,6 @@
       "pilot": "CN(5)",
       "agent": "WEIDONG",
       "tonnage": "29,554"
-    },
-    {
-      "port": "인천",
-      "vessel": "BAO JIA 77",
-      "callSign": "-",
-      "station": "PAL - N42",
-      "time": "11-25 23:50",
-      "pilot": "JH(5)",
-      "agent": "TAE DON",
-      "tonnage": "4,025"
     },
     {
       "port": "대산",
