@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25 21:36",
+  "updatedAt": "2026-11-25 23:18",
   "schedules": [
     {
       "port": "평택",
@@ -335,7 +335,7 @@
       "vessel": "NEW GRAND PEACE",
       "callSign": "H3OX",
       "station": "IPA → IFT2",
-      "time": "11-26 09:30"
+      "time": "11-26 09:00"
     },
     {
       "port": "평택",
@@ -1929,6 +1929,39 @@
         [
           "연락처",
           "041-429-2920"
+        ]
+      ]
+    },
+    {
+      "port": "대산",
+      "vessel": "MAJESTY",
+      "callSign": "VTWE",
+      "station": "WAA-9 MDK → MDK-19",
+      "time": "11-26 08:40",
+      "pilot": "-",
+      "agent": "대동",
+      "tonnage": "28,777",
+      "transit": false,
+      "detail": [
+        [
+          "흘수",
+          "8.00 m"
+        ],
+        [
+          "전장",
+          "179 m"
+        ],
+        [
+          "화물",
+          "공선"
+        ],
+        [
+          "담당자",
+          "김만수"
+        ],
+        [
+          "연락처",
+          "041-664-8644"
         ]
       ]
     },
