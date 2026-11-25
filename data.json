@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26 03:45",
+  "updatedAt": "2026-11-26 04:51",
   "schedules": [
     {
       "port": "평택",
@@ -13,13 +13,6 @@
       "vessel": "GLOVIS CONDOR",
       "callSign": "D7GI",
       "station": "E1 → IPA",
-      "time": "11-26 07:00"
-    },
-    {
-      "port": "평택",
-      "vessel": "SAWASDEE ALTAIR",
-      "callSign": "D8MY",
-      "station": "E6 → IPA",
       "time": "11-26 07:00"
     },
     {
@@ -63,6 +56,13 @@
       "callSign": "H3OX",
       "station": "IPA → IFT2",
       "time": "11-26 09:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "SAWASDEE ALTAIR",
+      "callSign": "D8MY",
+      "station": "E6 → IPA",
+      "time": "11-26 09:30"
     },
     {
       "port": "평택",
@@ -370,7 +370,7 @@
       "callSign": "-",
       "station": "PAL - N45",
       "time": "11-26 08:10",
-      "pilot": "GD(2)",
+      "pilot": "KN(2)",
       "agent": "ONE INT",
       "tonnage": "2,998"
     },
@@ -380,7 +380,7 @@
       "callSign": "-",
       "station": "PAL - NIPT2",
       "time": "11-26 09:00",
-      "pilot": "-",
+      "pilot": "CN(1)",
       "agent": "HAN JOO",
       "tonnage": "32,729"
     },
@@ -390,7 +390,7 @@
       "callSign": "-",
       "station": "PAL - SKI 2",
       "time": "11-26 09:00",
-      "pilot": "-",
+      "pilot": "JH(2)",
       "agent": "Joa Shi",
       "tonnage": "4,060"
     },
@@ -400,7 +400,7 @@
       "callSign": "-",
       "station": "SKI 1 - PAL",
       "time": "11-26 09:00",
-      "pilot": "-",
+      "pilot": "JJ(2)",
       "agent": "ILJIN S",
       "tonnage": "5,649"
     },
@@ -410,7 +410,7 @@
       "callSign": "-",
       "station": "16 - PAL",
       "time": "11-26 09:00",
-      "pilot": "-",
+      "pilot": "HY(2)",
       "agent": "ALLWAYS",
       "tonnage": "9,196"
     },
@@ -806,13 +806,13 @@
     },
     {
       "port": "대산",
-      "vessel": "GAS VALERIA",
-      "callSign": "3E7866",
-      "station": "WAA-05 → MDK-19",
-      "time": "11-26 14:15",
+      "vessel": "JC NEW RUBY",
+      "callSign": "3E6753",
+      "station": "PS2-2 → MB5-01",
+      "time": "11-26 14:30",
       "pilot": "-",
-      "agent": "우진",
-      "tonnage": "4,312",
+      "agent": "스타",
+      "tonnage": "33,091",
       "transit": false,
       "detail": [
         [
@@ -821,19 +821,23 @@
         ],
         [
           "전장",
-          "100 m"
+          "197 m"
+        ],
+        [
+          "접안",
+          "우현"
         ],
         [
           "화물",
-          "적재"
+          "공선"
         ],
         [
           "담당자",
-          "현동준"
+          "장재영"
         ],
         [
           "연락처",
-          "041-681-9596"
+          "041-429-2920"
         ]
       ]
     },
@@ -859,43 +863,6 @@
         [
           "접안",
           "무관"
-        ],
-        [
-          "화물",
-          "공선"
-        ],
-        [
-          "담당자",
-          "장재영"
-        ],
-        [
-          "연락처",
-          "041-429-2920"
-        ]
-      ]
-    },
-    {
-      "port": "대산",
-      "vessel": "JC NEW RUBY",
-      "callSign": "3E6753",
-      "station": "PS2-2 → MB5-01",
-      "time": "11-26 14:30",
-      "pilot": "-",
-      "agent": "스타",
-      "tonnage": "33,091",
-      "transit": false,
-      "detail": [
-        [
-          "흘수",
-          "6.00 m"
-        ],
-        [
-          "전장",
-          "197 m"
-        ],
-        [
-          "접안",
-          "우현"
         ],
         [
           "화물",
@@ -1238,34 +1205,38 @@
     },
     {
       "port": "대산",
-      "vessel": "SIX SEVEN",
-      "callSign": "V7B2890",
-      "station": "PS4 → PS3",
+      "vessel": "GAS VALERIA",
+      "callSign": "3E7866",
+      "station": "WAA-05 → MDK-19",
       "time": "11-26 17:00",
       "pilot": "-",
-      "agent": "해양",
-      "tonnage": "51,255",
+      "agent": "우진",
+      "tonnage": "4,312",
       "transit": false,
       "detail": [
         [
           "흘수",
-          "7.50 m"
+          "6.00 m"
         ],
         [
           "전장",
-          "229 m"
+          "100 m"
+        ],
+        [
+          "접안",
+          "우현"
         ],
         [
           "화물",
-          "공선"
+          "적재"
         ],
         [
           "담당자",
-          "박준일"
+          "현동준"
         ],
         [
           "연락처",
-          "041-674-0474"
+          "041-681-9596"
         ]
       ]
     },
@@ -1303,6 +1274,39 @@
         [
           "연락처",
           "041-429-2920"
+        ]
+      ]
+    },
+    {
+      "port": "대산",
+      "vessel": "SIX SEVEN",
+      "callSign": "V7B2890",
+      "station": "PS4 → PS3",
+      "time": "11-26 17:00",
+      "pilot": "-",
+      "agent": "해양",
+      "tonnage": "51,255",
+      "transit": false,
+      "detail": [
+        [
+          "흘수",
+          "7.50 m"
+        ],
+        [
+          "전장",
+          "229 m"
+        ],
+        [
+          "화물",
+          "공선"
+        ],
+        [
+          "담당자",
+          "박준일"
+        ],
+        [
+          "연락처",
+          "041-674-0474"
         ]
       ]
     },
@@ -1624,43 +1628,6 @@
         [
           "연락처",
           "041-681-9596"
-        ]
-      ]
-    },
-    {
-      "port": "대산",
-      "vessel": "PAN MUTIARA",
-      "callSign": "D7KU",
-      "station": "B.WAA-04 → MDB-42",
-      "time": "11-26 08:30",
-      "pilot": "KW / GH",
-      "agent": "해양",
-      "tonnage": "44,003",
-      "transit": false,
-      "detail": [
-        [
-          "흘수",
-          "13.92 m"
-        ],
-        [
-          "전장",
-          "229 m"
-        ],
-        [
-          "접안",
-          "우현"
-        ],
-        [
-          "화물",
-          "적재"
-        ],
-        [
-          "담당자",
-          "박준일"
-        ],
-        [
-          "연락처",
-          "041-674-0474"
         ]
       ]
     }
