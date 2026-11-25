@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-25 12:56",
+  "updatedAt": "2026-11-25 14:02",
   "schedules": [
     {
       "port": "평택",
       "vessel": "PARANA",
-      "callSign": "JVYH8",
+      "callSign": "9HA6670",
       "station": "E4 → E5",
       "time": "11-25 07:00"
     },
@@ -255,13 +255,6 @@
     },
     {
       "port": "평택",
-      "vessel": "ASL ALTAIR",
-      "callSign": "S6SW5",
-      "station": "GD5 → IPA",
-      "time": "11-25 15:30"
-    },
-    {
-      "port": "평택",
       "vessel": "TORINO",
       "callSign": "9HA4855",
       "station": "E4 → E3",
@@ -269,30 +262,30 @@
     },
     {
       "port": "평택",
+      "vessel": "ASL ALTAIR",
+      "callSign": "S6SW5",
+      "station": "GD5 → IPA",
+      "time": "11-25 16:00"
+    },
+    {
+      "port": "평택",
       "vessel": "MING YUAN",
       "callSign": "V3LH2",
       "station": "IPA → E12",
-      "time": "11-25 17:00"
-    },
-    {
-      "port": "평택",
-      "vessel": "YUN QIAN",
-      "callSign": "3E2552",
-      "station": "GD8 → IPA",
-      "time": "11-25 17:00"
-    },
-    {
-      "port": "평택",
-      "vessel": "UDE NOAH",
-      "callSign": "3E7230",
-      "station": "E12 → IPA",
-      "time": "11-25 17:00"
+      "time": "11-25 20:00"
     },
     {
       "port": "평택",
       "vessel": "GLOVIS CONDOR",
       "callSign": "D7GI",
       "station": "E1 → IPA",
+      "time": "11-25 21:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "UDE NOAH",
+      "callSign": "3E7230",
+      "station": "E12 → IPA",
       "time": "11-25 21:00"
     },
     {
@@ -360,13 +353,6 @@
     },
     {
       "port": "평택",
-      "vessel": "RICH WELL",
-      "callSign": "JVYH8",
-      "station": "IPA → W7",
-      "time": "11-26 06:00"
-    },
-    {
-      "port": "평택",
       "vessel": "XIN SHENG SHENG 7",
       "callSign": "3E3710",
       "station": "IPA → W7",
@@ -385,6 +371,13 @@
       "callSign": "9V5147",
       "station": "E10 → IPA",
       "time": "11-26 07:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "RICH WELL",
+      "callSign": "JVYH8",
+      "station": "IPA → W7",
+      "time": "11-26 11:30"
     },
     {
       "port": "평택",
@@ -469,13 +462,6 @@
       "callSign": "9HA6670",
       "station": "E5 → E1",
       "time": "11-26 21:00"
-    },
-    {
-      "port": "평택",
-      "vessel": "RICH WELL",
-      "callSign": "JVYH8",
-      "station": "W7 → IPA",
-      "time": "11-26 22:00"
     },
     {
       "port": "인천",
@@ -812,7 +798,7 @@
       "vessel": "NEW GOLDEN BRIDGE 5",
       "callSign": "-",
       "station": "NIPT4 - PAL",
-      "time": "11-25 18:30",
+      "time": "11-25 19:00",
       "pilot": "-",
       "agent": "WEIDONG",
       "tonnage": "29,554"
@@ -839,23 +825,23 @@
     },
     {
       "port": "인천",
-      "vessel": "NEW GOLDEN BRIDGE 9",
-      "callSign": "-",
-      "station": "NIPT3 - PAL",
-      "time": "11-25 22:30",
-      "pilot": "-",
-      "agent": "WEIDONG",
-      "tonnage": "34,360"
-    },
-    {
-      "port": "인천",
       "vessel": "SITC ZHEJIANG",
       "callSign": "-",
       "station": "NPPS - HJIT1",
-      "time": "11-25 23:00",
+      "time": "11-25 22:30",
       "pilot": "-",
       "agent": "WORLD S",
       "tonnage": "17,119"
+    },
+    {
+      "port": "인천",
+      "vessel": "NEW GOLDEN BRIDGE 9",
+      "callSign": "-",
+      "station": "NIPT3 - PAL",
+      "time": "11-25 23:00",
+      "pilot": "-",
+      "agent": "WEIDONG",
+      "tonnage": "34,360"
     },
     {
       "port": "대산",
@@ -1517,7 +1503,7 @@
       "vessel": "HAFNIA TANZANITE",
       "callSign": "V7RA6",
       "station": "MDK-16 → PS2",
-      "time": "11-25 15:30",
+      "time": "11-25 15:10",
       "pilot": "JO",
       "agent": "대동",
       "tonnage": "29,492",
