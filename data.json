@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26 04:51",
+  "updatedAt": "2026-11-26 05:50",
   "schedules": [
     {
       "port": "평택",
@@ -723,16 +723,6 @@
       "pilot": "-",
       "agent": "ALLWAYS",
       "tonnage": "27,997"
-    },
-    {
-      "port": "인천",
-      "vessel": "SEUNG JIN",
-      "callSign": "-",
-      "station": "53 - PAL",
-      "time": "11-26 23:59",
-      "pilot": "-",
-      "agent": "GAON SH",
-      "tonnage": "1,635"
     },
     {
       "port": "대산",
