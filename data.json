@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26 07:50",
+  "updatedAt": "2026-11-26 08:44",
   "schedules": [
     {
       "port": "평택",
@@ -150,6 +150,13 @@
     },
     {
       "port": "평택",
+      "vessel": "KOREA VISION",
+      "callSign": "D7KV",
+      "station": "SK → IPA",
+      "time": "11-26 15:00"
+    },
+    {
+      "port": "평택",
       "vessel": "풍협2P",
       "callSign": "9HA6670",
       "station": "GLOVIS NOBLE → IPA",
@@ -209,13 +216,6 @@
       "vessel": "GLOVIS NOBLE",
       "callSign": "9HA6670",
       "station": "E5 → E1",
-      "time": "11-26 21:00"
-    },
-    {
-      "port": "평택",
-      "vessel": "KOREA VISION",
-      "callSign": "D7KV",
-      "station": "SK → IPA",
       "time": "11-26 21:00"
     },
     {
@@ -409,7 +409,7 @@
       "vessel": "PANCON GLORY",
       "callSign": "-",
       "station": "PAL - E1CT",
-      "time": "11-26 09:30",
+      "time": "11-26 09:20",
       "pilot": "JJ(2)",
       "agent": "BUM JU",
       "tonnage": "9,892"
@@ -488,7 +488,7 @@
       "port": "인천",
       "vessel": "HOEGH BERLIN",
       "callSign": "-",
-      "station": "PAL - 53",
+      "station": "PAL - 52",
       "time": "11-26 14:30",
       "pilot": "-",
       "agent": "PHOENIX",
@@ -833,7 +833,7 @@
         ],
         [
           "연락처",
-          "041-932-5005"
+          "041-932-5004"
         ]
       ]
     },
@@ -866,7 +866,7 @@
         ],
         [
           "연락처",
-          "041-932-5005"
+          "041-932-5004"
         ]
       ]
     },
@@ -874,7 +874,7 @@
       "port": "대산",
       "vessel": "MONTESPERANZA",
       "callSign": "CQKV",
-      "station": "PS2-2 → WAA-11 MDK",
+      "station": "PS2-2 → WAA-12 MDK",
       "time": "11-26 13:00",
       "pilot": "-",
       "agent": "대동",
@@ -1047,7 +1047,7 @@
         ],
         [
           "연락처",
-          "041-932-5005"
+          "041-932-5004"
         ]
       ]
     },
@@ -1232,7 +1232,7 @@
         ],
         [
           "연락처",
-          "041-932-5005"
+          "041-932-5004"
         ]
       ]
     },
@@ -1557,7 +1557,7 @@
         ],
         [
           "연락처",
-          "041-932-5005"
+          "041-932-5004"
         ]
       ]
     },
@@ -1627,7 +1627,7 @@
         ],
         [
           "연락처",
-          "041-932-5005"
+          "041-932-5004"
         ]
       ]
     }
