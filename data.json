@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26 05:50",
+  "updatedAt": "2026-11-26 06:52",
   "schedules": [
     {
       "port": "평택",
@@ -426,16 +426,6 @@
     },
     {
       "port": "인천",
-      "vessel": "MAERSK BERMUDA",
-      "callSign": "-",
-      "station": "HJIT2 - NPPS",
-      "time": "11-26 10:00",
-      "pilot": "-",
-      "agent": "MAERSK",
-      "tonnage": "28,316"
-    },
-    {
-      "port": "인천",
       "vessel": "GOLDEN SKY HANA",
       "callSign": "-",
       "station": "PAL - W11",
@@ -443,6 +433,16 @@
       "pilot": "-",
       "agent": "DA SAN",
       "tonnage": "3,936"
+    },
+    {
+      "port": "인천",
+      "vessel": "MAERSK BERMUDA",
+      "callSign": "-",
+      "station": "HJIT2 - NPPS",
+      "time": "11-26 12:00",
+      "pilot": "-",
+      "agent": "MAERSK",
+      "tonnage": "28,316"
     },
     {
       "port": "인천",
