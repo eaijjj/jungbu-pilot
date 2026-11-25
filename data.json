@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26 01:59",
+  "updatedAt": "2026-11-26 02:51",
   "schedules": [
     {
       "port": "평택",
@@ -41,13 +41,6 @@
       "vessel": "XUAN JING",
       "callSign": "BPPV2",
       "station": "W1 → IPA",
-      "time": "11-26 07:00"
-    },
-    {
-      "port": "평택",
-      "vessel": "PAN ESPERANZA",
-      "callSign": "V7A3147",
-      "station": "HD4 → JANG",
       "time": "11-26 07:00"
     },
     {
@@ -111,6 +104,13 @@
       "vessel": "ANSAC REVERENCE",
       "callSign": "3E8369",
       "station": "W7 → IPA",
+      "time": "11-26 12:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "PAN ESPERANZA",
+      "callSign": "V7A3147",
+      "station": "HD4 → JANG",
       "time": "11-26 12:00"
     },
     {
