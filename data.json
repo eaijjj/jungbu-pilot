@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25 08:23",
+  "updatedAt": "2026-11-25 09:15",
   "schedules": [
     {
       "port": "평택",
@@ -248,6 +248,13 @@
     },
     {
       "port": "평택",
+      "vessel": "RIZHAO ORIENT",
+      "callSign": "HOAG",
+      "station": "IPA → E14",
+      "time": "11-25 15:30"
+    },
+    {
+      "port": "평택",
       "vessel": "ASL ALTAIR",
       "callSign": "S6SW5",
       "station": "GD5 → IPA",
@@ -258,13 +265,6 @@
       "vessel": "TORINO",
       "callSign": "9HA4855",
       "station": "E4 → E3",
-      "time": "11-25 16:00"
-    },
-    {
-      "port": "평택",
-      "vessel": "RIZHAO ORIENT",
-      "callSign": "HOAG",
-      "station": "IPA → E14",
       "time": "11-25 16:00"
     },
     {
@@ -290,24 +290,17 @@
     },
     {
       "port": "평택",
-      "vessel": "XIN TAI PING",
-      "callSign": "BSDU",
-      "station": "E8 → IPA",
-      "time": "11-25 20:00"
-    },
-    {
-      "port": "평택",
-      "vessel": "OCEAN BLUE WHALE",
-      "callSign": "D5MO4",
-      "station": "E15 → IPA",
-      "time": "11-25 20:30"
-    },
-    {
-      "port": "평택",
       "vessel": "GLOVIS CONDOR",
       "callSign": "D7GI",
       "station": "E1 → IPA",
       "time": "11-25 21:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "XIN TAI PING",
+      "callSign": "BSDU",
+      "station": "E8 → IPA",
+      "time": "11-25 22:00"
     },
     {
       "port": "평택",
@@ -322,6 +315,13 @@
       "callSign": "HOAG",
       "station": "E14 → IPA",
       "time": "11-26 00:30"
+    },
+    {
+      "port": "평택",
+      "vessel": "OCEAN BLUE WHALE",
+      "callSign": "D5MO4",
+      "station": "E15 → IPA",
+      "time": "11-26 01:30"
     },
     {
       "port": "평택",
@@ -342,7 +342,7 @@
       "vessel": "RICH WELL",
       "callSign": "JVYH8",
       "station": "IPA → W7",
-      "time": "11-26 11:00"
+      "time": "11-26 11:30"
     },
     {
       "port": "평택",
@@ -356,7 +356,7 @@
       "vessel": "ANSAC REVERENCE",
       "callSign": "3E8369",
       "station": "W7 → IPA",
-      "time": "11-26 12:00"
+      "time": "11-26 12:30"
     },
     {
       "port": "평택",
@@ -371,13 +371,6 @@
       "callSign": "9HA6670",
       "station": "IPA → E5",
       "time": "11-26 15:30"
-    },
-    {
-      "port": "평택",
-      "vessel": "QINGDAO TRADER",
-      "callSign": "D7IG",
-      "station": "E7 → IPA",
-      "time": "11-26 17:30"
     },
     {
       "port": "평택",
@@ -518,7 +511,7 @@
     },
     {
       "port": "인천",
-      "vessel": "한나라",
+      "vessel": "HANNARA",
       "callSign": "-",
       "station": "PAL - 16",
       "time": "11-25 07:00",
@@ -642,7 +635,7 @@
       "callSign": "-",
       "station": "PAL - E2",
       "time": "11-25 12:00",
-      "pilot": "GH(4)",
+      "pilot": "-",
       "agent": "TNK MAR",
       "tonnage": "1,291"
     },
@@ -672,7 +665,7 @@
       "callSign": "-",
       "station": "JANG - SKI 3",
       "time": "11-25 14:30",
-      "pilot": "-",
+      "pilot": "JJ(5) SK(5)",
       "agent": "HAN IL",
       "tonnage": "164,364"
     },
@@ -695,16 +688,6 @@
       "pilot": "-",
       "agent": "Joa Shi",
       "tonnage": "2,389"
-    },
-    {
-      "port": "인천",
-      "vessel": "SITC ZHEJIANG",
-      "callSign": "-",
-      "station": "NPPS - HJIT1",
-      "time": "11-25 17:00",
-      "pilot": "-",
-      "agent": "WORLD S",
-      "tonnage": "17,119"
     },
     {
       "port": "인천",
@@ -758,16 +741,6 @@
     },
     {
       "port": "인천",
-      "vessel": "SWIFT ARROW",
-      "callSign": "-",
-      "station": "60 - PAL",
-      "time": "11-25 19:00",
-      "pilot": "-",
-      "agent": "MARINER",
-      "tonnage": "28,157"
-    },
-    {
-      "port": "인천",
       "vessel": "BAO JIA 77",
       "callSign": "-",
       "station": "PAL - N42",
@@ -805,6 +778,16 @@
       "pilot": "-",
       "agent": "WEIDONG",
       "tonnage": "34,360"
+    },
+    {
+      "port": "인천",
+      "vessel": "SITC ZHEJIANG",
+      "callSign": "-",
+      "station": "NPPS - HJIT1",
+      "time": "11-25 23:00",
+      "pilot": "-",
+      "agent": "WORLD S",
+      "tonnage": "17,119"
     },
     {
       "port": "대산",
