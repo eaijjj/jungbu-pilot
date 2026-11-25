@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26 06:52",
+  "updatedAt": "2026-11-26 07:50",
   "schedules": [
     {
       "port": "평택",
@@ -376,21 +376,11 @@
     },
     {
       "port": "인천",
-      "vessel": "XIN XIANG XUE LAN",
-      "callSign": "-",
-      "station": "PAL - NIPT2",
-      "time": "11-26 09:00",
-      "pilot": "CN(1)",
-      "agent": "HAN JOO",
-      "tonnage": "32,729"
-    },
-    {
-      "port": "인천",
       "vessel": "YC COSMOS",
       "callSign": "-",
       "station": "PAL - SKI 2",
       "time": "11-26 09:00",
-      "pilot": "JH(2)",
+      "pilot": "CN(1)",
       "agent": "Joa Shi",
       "tonnage": "4,060"
     },
@@ -400,7 +390,7 @@
       "callSign": "-",
       "station": "SKI 1 - PAL",
       "time": "11-26 09:00",
-      "pilot": "JJ(2)",
+      "pilot": "JH(2)",
       "agent": "ILJIN S",
       "tonnage": "5,649"
     },
@@ -420,17 +410,27 @@
       "callSign": "-",
       "station": "PAL - E1CT",
       "time": "11-26 09:30",
-      "pilot": "-",
+      "pilot": "JJ(2)",
       "agent": "BUM JU",
       "tonnage": "9,892"
+    },
+    {
+      "port": "인천",
+      "vessel": "XIN XIANG XUE LAN",
+      "callSign": "-",
+      "station": "PAL - NIPT2",
+      "time": "11-26 10:40",
+      "pilot": "JH(3)",
+      "agent": "HAN JOO",
+      "tonnage": "32,729"
     },
     {
       "port": "인천",
       "vessel": "GOLDEN SKY HANA",
       "callSign": "-",
       "station": "PAL - W11",
-      "time": "11-26 10:00",
-      "pilot": "-",
+      "time": "11-26 11:00",
+      "pilot": "HY(3)",
       "agent": "DA SAN",
       "tonnage": "3,936"
     },
@@ -725,11 +725,21 @@
       "tonnage": "27,997"
     },
     {
+      "port": "인천",
+      "vessel": "SEUNG JIN",
+      "callSign": "-",
+      "station": "53 - PAL",
+      "time": "11-26 23:59",
+      "pilot": "-",
+      "agent": "GAON SH",
+      "tonnage": "1,635"
+    },
+    {
       "port": "대산",
       "vessel": "C.CREATOR",
       "callSign": "5LBJ5",
       "station": "SPM-01 → PS2",
-      "time": "11-26 13:30",
+      "time": "11-26 11:30",
       "pilot": "-",
       "agent": "대동",
       "tonnage": "156,452",
@@ -759,6 +769,142 @@
     },
     {
       "port": "대산",
+      "vessel": "EAGLE HAMILTON",
+      "callSign": "2CWB2",
+      "station": "MDK-15 → PS2",
+      "time": "11-26 11:30",
+      "pilot": "-",
+      "agent": "대동",
+      "tonnage": "62,851",
+      "transit": false,
+      "detail": [
+        [
+          "흘수",
+          "8.00 m"
+        ],
+        [
+          "전장",
+          "249 m"
+        ],
+        [
+          "화물",
+          "공선"
+        ],
+        [
+          "담당자",
+          "김만수"
+        ],
+        [
+          "연락처",
+          "041-664-8644"
+        ]
+      ]
+    },
+    {
+      "port": "대산",
+      "vessel": "SIX SEVEN",
+      "callSign": "V7B2890",
+      "station": "MDT-61 → PS4",
+      "time": "11-26 11:30",
+      "pilot": "-",
+      "agent": "해양",
+      "tonnage": "51,255",
+      "transit": false,
+      "detail": [
+        [
+          "흘수",
+          "7.50 m"
+        ],
+        [
+          "전장",
+          "229 m"
+        ],
+        [
+          "접안",
+          "좌현"
+        ],
+        [
+          "화물",
+          "공선"
+        ],
+        [
+          "담당자",
+          "황인용"
+        ],
+        [
+          "연락처",
+          "041-932-5005"
+        ]
+      ]
+    },
+    {
+      "port": "대산",
+      "vessel": "SIX SEVEN",
+      "callSign": "V7B2890",
+      "station": "PS4 → PS3",
+      "time": "11-26 12:30",
+      "pilot": "-",
+      "agent": "해양",
+      "tonnage": "51,255",
+      "transit": false,
+      "detail": [
+        [
+          "흘수",
+          "7.50 m"
+        ],
+        [
+          "전장",
+          "229 m"
+        ],
+        [
+          "화물",
+          "공선"
+        ],
+        [
+          "담당자",
+          "황인용"
+        ],
+        [
+          "연락처",
+          "041-932-5005"
+        ]
+      ]
+    },
+    {
+      "port": "대산",
+      "vessel": "MONTESPERANZA",
+      "callSign": "CQKV",
+      "station": "PS2-2 → WAA-11 MDK",
+      "time": "11-26 13:00",
+      "pilot": "-",
+      "agent": "대동",
+      "tonnage": "81,468",
+      "transit": false,
+      "detail": [
+        [
+          "흘수",
+          "15.80 m"
+        ],
+        [
+          "전장",
+          "274 m"
+        ],
+        [
+          "화물",
+          "적재"
+        ],
+        [
+          "담당자",
+          "김만수"
+        ],
+        [
+          "연락처",
+          "041-664-8644"
+        ]
+      ]
+    },
+    {
+      "port": "대산",
       "vessel": "STELLAR LADY",
       "callSign": "V7A4413",
       "station": "MB5-01 → PS2",
@@ -770,7 +916,7 @@
       "detail": [
         [
           "흘수",
-          "6.00 m"
+          "12.30 m"
         ],
         [
           "전장",
@@ -897,44 +1043,11 @@
         ],
         [
           "담당자",
-          "박준일"
+          "황인용"
         ],
         [
           "연락처",
-          "041-674-0474"
-        ]
-      ]
-    },
-    {
-      "port": "대산",
-      "vessel": "MONTESPERANZA",
-      "callSign": "CQKV",
-      "station": "PS2-2 → WAA-11 MDK",
-      "time": "11-26 15:00",
-      "pilot": "-",
-      "agent": "대동",
-      "tonnage": "81,468",
-      "transit": false,
-      "detail": [
-        [
-          "흘수",
-          "15.80 m"
-        ],
-        [
-          "전장",
-          "274 m"
-        ],
-        [
-          "화물",
-          "적재"
-        ],
-        [
-          "담당자",
-          "김만수"
-        ],
-        [
-          "연락처",
-          "041-664-8644"
+          "041-932-5005"
         ]
       ]
     },
@@ -972,76 +1085,6 @@
         [
           "연락처",
           "041-681-9596"
-        ]
-      ]
-    },
-    {
-      "port": "대산",
-      "vessel": "SIX SEVEN",
-      "callSign": "V7B2890",
-      "station": "MDT-61 → PS4",
-      "time": "11-26 16:00",
-      "pilot": "-",
-      "agent": "해양",
-      "tonnage": "51,255",
-      "transit": false,
-      "detail": [
-        [
-          "흘수",
-          "7.50 m"
-        ],
-        [
-          "전장",
-          "229 m"
-        ],
-        [
-          "접안",
-          "좌현"
-        ],
-        [
-          "화물",
-          "공선"
-        ],
-        [
-          "담당자",
-          "박준일"
-        ],
-        [
-          "연락처",
-          "041-674-0474"
-        ]
-      ]
-    },
-    {
-      "port": "대산",
-      "vessel": "EAGLE HAMILTON",
-      "callSign": "2CWB2",
-      "station": "MDK-15 → PS2",
-      "time": "11-26 16:00",
-      "pilot": "-",
-      "agent": "대동",
-      "tonnage": "62,851",
-      "transit": false,
-      "detail": [
-        [
-          "흘수",
-          "8.00 m"
-        ],
-        [
-          "전장",
-          "249 m"
-        ],
-        [
-          "화물",
-          "공선"
-        ],
-        [
-          "담당자",
-          "김만수"
-        ],
-        [
-          "연락처",
-          "041-664-8644"
         ]
       ]
     },
@@ -1185,11 +1228,11 @@
         ],
         [
           "담당자",
-          "박준일"
+          "황인용"
         ],
         [
           "연락처",
-          "041-674-0474"
+          "041-932-5005"
         ]
       ]
     },
@@ -1264,39 +1307,6 @@
         [
           "연락처",
           "041-429-2920"
-        ]
-      ]
-    },
-    {
-      "port": "대산",
-      "vessel": "SIX SEVEN",
-      "callSign": "V7B2890",
-      "station": "PS4 → PS3",
-      "time": "11-26 17:00",
-      "pilot": "-",
-      "agent": "해양",
-      "tonnage": "51,255",
-      "transit": false,
-      "detail": [
-        [
-          "흘수",
-          "7.50 m"
-        ],
-        [
-          "전장",
-          "229 m"
-        ],
-        [
-          "화물",
-          "공선"
-        ],
-        [
-          "담당자",
-          "박준일"
-        ],
-        [
-          "연락처",
-          "041-674-0474"
         ]
       ]
     },
@@ -1543,11 +1553,11 @@
         ],
         [
           "담당자",
-          "박준일"
+          "황인용"
         ],
         [
           "연락처",
-          "041-674-0474"
+          "041-932-5005"
         ]
       ]
     },
@@ -1586,22 +1596,22 @@
     },
     {
       "port": "대산",
-      "vessel": "GAS VALERIA",
-      "callSign": "3E7866",
-      "station": "MDK-19 → PS3",
-      "time": "11-26 21:30",
-      "pilot": "-",
-      "agent": "우진",
-      "tonnage": "4,312",
+      "vessel": "PAN MUTIARA",
+      "callSign": "D7KU",
+      "station": "B.WAA-04 → MDB-42",
+      "time": "11-26 15:30",
+      "pilot": "KW / GH",
+      "agent": "해양",
+      "tonnage": "44,003",
       "transit": false,
       "detail": [
         [
           "흘수",
-          "6.00 m"
+          "13.92 m"
         ],
         [
           "전장",
-          "100 m"
+          "229 m"
         ],
         [
           "접안",
@@ -1613,11 +1623,11 @@
         ],
         [
           "담당자",
-          "현동준"
+          "황인용"
         ],
         [
           "연락처",
-          "041-681-9596"
+          "041-932-5005"
         ]
       ]
     }
