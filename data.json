@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25 11:52",
+  "updatedAt": "2026-11-25 12:56",
   "schedules": [
     {
       "port": "평택",
@@ -332,6 +332,13 @@
     },
     {
       "port": "평택",
+      "vessel": "GLOVIS SIGMA",
+      "callSign": "C6CF6",
+      "station": "IPA → E1",
+      "time": "11-26 04:00"
+    },
+    {
+      "port": "평택",
       "vessel": "XUAN JING",
       "callSign": "BPPV2",
       "station": "W1 → IPA",
@@ -381,10 +388,10 @@
     },
     {
       "port": "평택",
-      "vessel": "ANSAC REVERENCE",
-      "callSign": "3E8369",
-      "station": "W7 → IPA",
-      "time": "11-26 07:00"
+      "vessel": "TOMBARRA",
+      "callSign": "9HA4367",
+      "station": "E2 → E4",
+      "time": "11-26 12:00"
     },
     {
       "port": "평택",
@@ -392,6 +399,13 @@
       "callSign": "9V7919",
       "station": "E15 → IPA",
       "time": "11-26 12:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "ANSAC REVERENCE",
+      "callSign": "3E8369",
+      "station": "W7 → IPA",
+      "time": "11-26 12:30"
     },
     {
       "port": "평택",
@@ -413,6 +427,48 @@
       "callSign": "9HA6670",
       "station": "IPA → E5",
       "time": "11-26 15:30"
+    },
+    {
+      "port": "평택",
+      "vessel": "GLOVIS SIGMA",
+      "callSign": "C6CF6",
+      "station": "E1 → E4",
+      "time": "11-26 16:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "KOREA VISION",
+      "callSign": "D7KV",
+      "station": "SK → IPA",
+      "time": "11-26 16:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "TOMBARRA",
+      "callSign": "9HA4367",
+      "station": "E4 → IPA",
+      "time": "11-26 16:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "GLOVIS SPRING",
+      "callSign": "D7HK",
+      "station": "E5 → IPA",
+      "time": "11-26 16:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "TORINO",
+      "callSign": "9HA4855",
+      "station": "E3 → E5",
+      "time": "11-26 21:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "GLOVIS NOBLE",
+      "callSign": "9HA6670",
+      "station": "E5 → E1",
+      "time": "11-26 21:00"
     },
     {
       "port": "평택",
@@ -1065,11 +1121,11 @@
         ],
         [
           "담당자",
-          "이형우"
+          "류승철"
         ],
         [
           "연락처",
-          "010-4002-8751"
+          "010-3999-3187"
         ]
       ]
     },
@@ -1308,11 +1364,11 @@
         ],
         [
           "담당자",
-          "이형우"
+          "류승철"
         ],
         [
           "연락처",
-          "010-4002-8751"
+          "010-3999-3187"
         ]
       ]
     },
@@ -1345,11 +1401,11 @@
         ],
         [
           "담당자",
-          "이형우"
+          "류승철"
         ],
         [
           "연락처",
-          "010-4002-8751"
+          "010-3999-3187"
         ]
       ]
     },
@@ -1378,11 +1434,11 @@
         ],
         [
           "담당자",
-          "이형우"
+          "류승철"
         ],
         [
           "연락처",
-          "010-4002-8751"
+          "010-3999-3187"
         ]
       ]
     },
@@ -1551,11 +1607,11 @@
         ],
         [
           "담당자",
-          "이형우"
+          "류승철"
         ],
         [
           "연락처",
-          "010-4002-8751"
+          "010-3999-3187"
         ]
       ]
     },
