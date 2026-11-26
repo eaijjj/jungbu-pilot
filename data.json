@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27 06:48",
+  "updatedAt": "2026-11-27 07:51",
   "schedules": [
     {
       "port": "평택",
@@ -299,19 +299,19 @@
     },
     {
       "port": "평택",
+      "vessel": "OCEAN BLUE WHALE",
+      "callSign": "D5MO4",
+      "station": "IPA → E15",
+      "tonnage": "19,480",
+      "time": "11-27 19:00"
+    },
+    {
+      "port": "평택",
       "vessel": "풍LS특",
       "callSign": "HOAG",
       "station": "RIZHAO ORIENT → JANG",
       "tonnage": "25,318",
       "time": "11-27 19:00"
-    },
-    {
-      "port": "평택",
-      "vessel": "OCEAN BLUE WHALE",
-      "callSign": "D5MO4",
-      "station": "IPA → E15",
-      "tonnage": "19,480",
-      "time": "11-27 19:30"
     },
     {
       "port": "평택",
@@ -618,7 +618,7 @@
       "vessel": "HUADONG PEARL 8",
       "callSign": "-",
       "station": "PAL - NIPT5",
-      "time": "11-27 09:50",
+      "time": "11-27 09:40",
       "pilot": "GH(3)",
       "agent": "HUADONG",
       "tonnage": "35,092"
@@ -668,7 +668,7 @@
       "vessel": "NEW GOLDEN BRIDGE 5",
       "callSign": "-",
       "station": "PAL - NIPT4",
-      "time": "11-27 10:20",
+      "time": "11-27 10:40",
       "pilot": "KX(2)",
       "agent": "WEIDONG",
       "tonnage": "29,554"
@@ -679,7 +679,7 @@
       "callSign": "-",
       "station": "SKI 4 - E6",
       "time": "11-27 11:00",
-      "pilot": "-",
+      "pilot": "KN(3)",
       "agent": "Joa Shi",
       "tonnage": "8,593"
     },
@@ -775,16 +775,6 @@
     },
     {
       "port": "인천",
-      "vessel": "HARRIER",
-      "callSign": "-",
-      "station": "SNCT1 - NPPS",
-      "time": "11-27 18:00",
-      "pilot": "-",
-      "agent": "ALLWAYS",
-      "tonnage": "9,971"
-    },
-    {
-      "port": "인천",
       "vessel": "XIN MING ZHOU 20",
       "callSign": "-",
       "station": "SNCT3 - NPPS",
@@ -865,6 +855,16 @@
     },
     {
       "port": "인천",
+      "vessel": "HARRIER",
+      "callSign": "-",
+      "station": "SNCT1 - NPPS",
+      "time": "11-27 20:00",
+      "pilot": "-",
+      "agent": "ALLWAYS",
+      "tonnage": "9,971"
+    },
+    {
+      "port": "인천",
       "vessel": "MSC REBECCA Ⅲ",
       "callSign": "-",
       "station": "PAL - ICT2",
@@ -905,16 +905,6 @@
     },
     {
       "port": "인천",
-      "vessel": "KMTC POHANG",
-      "callSign": "-",
-      "station": "SNCT2 - NPPS",
-      "time": "11-27 23:00",
-      "pilot": "-",
-      "agent": "ALLWAYS",
-      "tonnage": "17,933"
-    },
-    {
-      "port": "인천",
       "vessel": "SOONI",
       "callSign": "-",
       "station": "30 - LEN",
@@ -922,39 +912,6 @@
       "pilot": "-",
       "agent": "HML",
       "tonnage": "2,715"
-    },
-    {
-      "port": "대산",
-      "vessel": "MANDAL",
-      "callSign": "V7IM9",
-      "station": "MDK-16 → PS2",
-      "time": "11-27 05:30",
-      "pilot": "GB",
-      "agent": "대동",
-      "tonnage": "23,861",
-      "transit": false,
-      "detail": [
-        [
-          "흘수",
-          "9.50 m"
-        ],
-        [
-          "전장",
-          "184 m"
-        ],
-        [
-          "화물",
-          "적재"
-        ],
-        [
-          "담당자",
-          "김만수"
-        ],
-        [
-          "연락처",
-          "041-664-8644"
-        ]
-      ]
     },
     {
       "port": "대산",
@@ -990,6 +947,39 @@
         [
           "연락처",
           "010-4002-8751"
+        ]
+      ]
+    },
+    {
+      "port": "대산",
+      "vessel": "MANDAL",
+      "callSign": "V7IM9",
+      "station": "MDK-16 → PS2",
+      "time": "11-27 05:30",
+      "pilot": "GB",
+      "agent": "대동",
+      "tonnage": "23,861",
+      "transit": false,
+      "detail": [
+        [
+          "흘수",
+          "9.50 m"
+        ],
+        [
+          "전장",
+          "184 m"
+        ],
+        [
+          "화물",
+          "적재"
+        ],
+        [
+          "담당자",
+          "김만수"
+        ],
+        [
+          "연락처",
+          "041-664-8644"
         ]
       ]
     },
@@ -1283,7 +1273,7 @@
       "callSign": "D8SV",
       "station": "PS2-2 → MDS-34",
       "time": "11-27 09:00",
-      "pilot": "TW",
+      "pilot": "YM",
       "agent": "해양",
       "tonnage": "8,504",
       "transit": false,
@@ -1423,72 +1413,6 @@
     },
     {
       "port": "대산",
-      "vessel": "CORAL ACROPORA",
-      "callSign": "PCIG",
-      "station": "PS3 → WAA-03",
-      "time": "11-27 10:00",
-      "pilot": "LT",
-      "agent": "수정",
-      "tonnage": "6,288",
-      "transit": false,
-      "detail": [
-        [
-          "흘수",
-          "5.00 m"
-        ],
-        [
-          "전장",
-          "115 m"
-        ],
-        [
-          "화물",
-          "공선"
-        ],
-        [
-          "담당자",
-          "이형우"
-        ],
-        [
-          "연락처",
-          "010-4002-8751"
-        ]
-      ]
-    },
-    {
-      "port": "대산",
-      "vessel": "JIA SHUN",
-      "callSign": "BQTQ",
-      "station": "PS3 → MDH-22",
-      "time": "11-27 10:30",
-      "pilot": "JY",
-      "agent": "수정",
-      "tonnage": "3,790",
-      "transit": false,
-      "detail": [
-        [
-          "흘수",
-          "4.50 m"
-        ],
-        [
-          "전장",
-          "99 m"
-        ],
-        [
-          "화물",
-          "공선"
-        ],
-        [
-          "담당자",
-          "이형우"
-        ],
-        [
-          "연락처",
-          "010-4002-8751"
-        ]
-      ]
-    },
-    {
-      "port": "대산",
       "vessel": "HONG JUN",
       "callSign": "D5PK4",
       "station": "T.WAA-01 → MDT-51",
@@ -1526,30 +1450,26 @@
     },
     {
       "port": "대산",
-      "vessel": "VARI TRADER",
-      "callSign": "H3XM",
-      "station": "PS2-2 → MDH-21",
-      "time": "11-27 11:00",
-      "pilot": "YM",
+      "vessel": "JIA SHUN",
+      "callSign": "BQTQ",
+      "station": "PS3 → MDH-22",
+      "time": "11-27 10:30",
+      "pilot": "JY",
       "agent": "수정",
-      "tonnage": "11,773",
+      "tonnage": "3,790",
       "transit": false,
       "detail": [
         [
           "흘수",
-          "6.30 m"
+          "4.50 m"
         ],
         [
           "전장",
-          "145 m"
-        ],
-        [
-          "접안",
-          "무관"
+          "99 m"
         ],
         [
           "화물",
-          "적재"
+          "공선"
         ],
         [
           "담당자",
