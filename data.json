@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26 21:31",
+  "updatedAt": "2026-11-26 23:17",
   "schedules": [
     {
       "port": "평택",
@@ -2094,7 +2094,7 @@
       "callSign": "H3XM",
       "station": "PS2-2 → MDH-21",
       "time": "11-27 11:00",
-      "pilot": "TW",
+      "pilot": "YM",
       "agent": "수정",
       "tonnage": "11,773",
       "transit": false,
