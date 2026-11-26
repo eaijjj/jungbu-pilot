@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26 11:20",
+  "updatedAt": "2026-11-26 12:19",
   "schedules": [
     {
       "port": "평택",
@@ -231,6 +231,20 @@
       "callSign": "D7IG",
       "station": "E7 → IPA",
       "time": "11-27 07:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "COMMON LUCK",
+      "callSign": "V7A4709",
+      "station": "IPA → HD10",
+      "time": "11-27 11:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "ZHEN XIN",
+      "callSign": "V3HZ3",
+      "station": "IPA → HD12",
+      "time": "11-27 11:00"
     },
     {
       "port": "평택",
