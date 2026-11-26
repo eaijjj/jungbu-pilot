@@ -1,11 +1,12 @@
 {
-  "updatedAt": "2026-11-26 15:50",
+  "updatedAt": "2026-11-26 16:00",
   "schedules": [
     {
       "port": "평택",
       "vessel": "풍LS특",
       "callSign": "3FJY8",
       "station": "RIZHAO ORIENT → E14",
+      "tonnage": "25,318",
       "time": "11-26 00:30"
     },
     {
@@ -13,6 +14,7 @@
       "vessel": "GLOVIS CONDOR",
       "callSign": "D7GI",
       "station": "E1 → IPA",
+      "tonnage": "60,552",
       "time": "11-26 07:00"
     },
     {
@@ -20,13 +22,7 @@
       "vessel": "OCEAN BLUE WHALE",
       "callSign": "D5MO4",
       "station": "E15 → IPA",
-      "time": "11-26 07:00"
-    },
-    {
-      "port": "평택",
-      "vessel": "XUAN JING",
-      "callSign": "BPPV2",
-      "station": "W1 → IPA",
+      "tonnage": "19,480",
       "time": "11-26 07:00"
     },
     {
@@ -34,20 +30,15 @@
       "vessel": "GLOVIS SIGMA",
       "callSign": "C6CF6",
       "station": "IPA → E1",
+      "tonnage": "71,177",
       "time": "11-26 08:30"
-    },
-    {
-      "port": "평택",
-      "vessel": "SUPER INFINITY",
-      "callSign": "D8SF",
-      "station": "IPA → E10",
-      "time": "11-26 09:00"
     },
     {
       "port": "평택",
       "vessel": "NEW GRAND PEACE",
       "callSign": "H3OX",
       "station": "IPA → IFT2",
+      "tonnage": "33,165",
       "time": "11-26 09:00"
     },
     {
@@ -55,6 +46,7 @@
       "vessel": "SAWASDEE ALTAIR",
       "callSign": "D8MY",
       "station": "E6 → IPA",
+      "tonnage": "18,072",
       "time": "11-26 09:30"
     },
     {
@@ -62,13 +54,7 @@
       "vessel": "RICH WELL",
       "callSign": "JVYH8",
       "station": "IPA → W7",
-      "time": "11-26 11:30"
-    },
-    {
-      "port": "평택",
-      "vessel": "XIN SHENG SHENG 7",
-      "callSign": "3E3710",
-      "station": "IPA → W7",
+      "tonnage": "2,415",
       "time": "11-26 11:30"
     },
     {
@@ -76,6 +62,7 @@
       "vessel": "ATLANTIC PIONEER",
       "callSign": "9V7919",
       "station": "E15 → IPA",
+      "tonnage": "7,532",
       "time": "11-26 12:00"
     },
     {
@@ -83,6 +70,7 @@
       "vessel": "ANSAC REVERENCE",
       "callSign": "3E8369",
       "station": "W7 → IPA",
+      "tonnage": "24,441",
       "time": "11-26 12:00"
     },
     {
@@ -90,6 +78,7 @@
       "vessel": "PAN ESPERANZA",
       "callSign": "V7A3147",
       "station": "HD4 → JANG",
+      "tonnage": "133,647",
       "time": "11-26 12:00"
     },
     {
@@ -97,6 +86,7 @@
       "vessel": "TOMBARRA",
       "callSign": "9HA4367",
       "station": "E2 → E4",
+      "tonnage": "61,321",
       "time": "11-26 12:30"
     },
     {
@@ -104,6 +94,7 @@
       "vessel": "HAI DA 77",
       "callSign": "3E2209",
       "station": "IPA → GD9",
+      "tonnage": "2,988",
       "time": "11-26 13:00"
     },
     {
@@ -111,6 +102,7 @@
       "vessel": "BARCELONA KNUTSEN",
       "callSign": "EACW",
       "station": "LNG2 → JANG",
+      "tonnage": "110,920",
       "time": "11-26 13:30"
     },
     {
@@ -118,6 +110,7 @@
       "vessel": "RICH SPRING",
       "callSign": "3E2133",
       "station": "GD9 → IPA",
+      "tonnage": "2,998",
       "time": "11-26 14:00"
     },
     {
@@ -125,20 +118,15 @@
       "vessel": "POLYMNIA",
       "callSign": "9HA2620",
       "station": "JANG → HD4",
+      "tonnage": "92,183",
       "time": "11-26 14:30"
-    },
-    {
-      "port": "평택",
-      "vessel": "KOREA VISION",
-      "callSign": "D7KV",
-      "station": "SK → IPA",
-      "time": "11-26 15:00"
     },
     {
       "port": "평택",
       "vessel": "풍협2P",
       "callSign": "9HA6670",
       "station": "GLOVIS NOBLE → IPA",
+      "tonnage": "102,437",
       "time": "11-26 15:30"
     },
     {
@@ -146,6 +134,7 @@
       "vessel": "GLOVIS SPRING",
       "callSign": "D7HK",
       "station": "E5 → IPA",
+      "tonnage": "65,785",
       "time": "11-26 16:00"
     },
     {
@@ -153,6 +142,7 @@
       "vessel": "TIAN HAI PING ZE",
       "callSign": "BOPY4",
       "station": "IPA → E15",
+      "tonnage": "7,360",
       "time": "11-26 17:00"
     },
     {
@@ -160,6 +150,7 @@
       "vessel": "HE XIE 6",
       "callSign": "D6A4405",
       "station": "W6 → IPA",
+      "tonnage": "5,543",
       "time": "11-26 17:00"
     },
     {
@@ -167,6 +158,7 @@
       "vessel": "NEW GRAND PEACE",
       "callSign": "H3OX",
       "station": "IFT2 → IPA",
+      "tonnage": "33,165",
       "time": "11-26 18:30"
     },
     {
@@ -174,6 +166,7 @@
       "vessel": "TORINO",
       "callSign": "9HA4855",
       "station": "E3 → E5",
+      "tonnage": "61,328",
       "time": "11-26 21:00"
     },
     {
@@ -181,6 +174,7 @@
       "vessel": "TOMBARRA",
       "callSign": "9HA4367",
       "station": "E4 → E6",
+      "tonnage": "61,321",
       "time": "11-26 21:00"
     },
     {
@@ -188,6 +182,7 @@
       "vessel": "GLOVIS SIGMA",
       "callSign": "C6CF6",
       "station": "E1 → E4",
+      "tonnage": "71,177",
       "time": "11-26 21:00"
     },
     {
@@ -195,6 +190,7 @@
       "vessel": "GLOVIS NOBLE",
       "callSign": "9HA6670",
       "station": "E5 → E1",
+      "tonnage": "102,437",
       "time": "11-26 21:00"
     },
     {
@@ -202,6 +198,7 @@
       "vessel": "XIN TAI PING",
       "callSign": "BSDU",
       "station": "E8 → IPA",
+      "tonnage": "5,275",
       "time": "11-26 21:00"
     },
     {
@@ -209,6 +206,7 @@
       "vessel": "MORNING CELESTA",
       "callSign": "C6DK7",
       "station": "IPA → E3",
+      "tonnage": "57,542",
       "time": "11-27 00:00"
     },
     {
@@ -216,6 +214,7 @@
       "vessel": "MORNING CINDY",
       "callSign": "D5AI6",
       "station": "IPA → E2",
+      "tonnage": "59,580",
       "time": "11-27 04:00"
     },
     {
@@ -223,6 +222,7 @@
       "vessel": "QINGDAO TRADER",
       "callSign": "D7IG",
       "station": "E7 → IPA",
+      "tonnage": "9,944",
       "time": "11-27 07:00"
     },
     {
@@ -230,6 +230,7 @@
       "vessel": "NAEBA GALAXY",
       "callSign": "9V5147",
       "station": "E10 → IPA",
+      "tonnage": "16,589",
       "time": "11-27 07:00"
     },
     {
@@ -237,13 +238,31 @@
       "vessel": "UDE NOAH",
       "callSign": "3E7230",
       "station": "E12 → IPA",
+      "tonnage": "5,147",
       "time": "11-27 07:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "XUAN JING",
+      "callSign": "BPPV2",
+      "station": "W1 → IPA",
+      "tonnage": "1,956",
+      "time": "11-27 07:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "SUPER INFINITY",
+      "callSign": "D8SF",
+      "station": "IPA → E10",
+      "tonnage": "10,569",
+      "time": "11-27 09:00"
     },
     {
       "port": "평택",
       "vessel": "MING YUAN",
       "callSign": "V3LH2",
       "station": "IPA → E12",
+      "tonnage": "1,496",
       "time": "11-27 09:00"
     },
     {
@@ -251,20 +270,23 @@
       "vessel": "LUCKY ANNIE",
       "callSign": "8PTJ",
       "station": "IPA → W5",
+      "tonnage": "4,515",
       "time": "11-27 09:00"
     },
     {
       "port": "평택",
-      "vessel": "JI ZHE 7",
-      "callSign": "3E2374",
-      "station": "IPA → W6",
-      "time": "11-27 10:00"
+      "vessel": "KOREA VISION",
+      "callSign": "D7KV",
+      "station": "SK → IPA",
+      "tonnage": "3,908",
+      "time": "11-27 09:00"
     },
     {
       "port": "평택",
       "vessel": "GLOVIS SIGMA",
       "callSign": "C6CF6",
       "station": "E4 → E5",
+      "tonnage": "71,177",
       "time": "11-27 11:00"
     },
     {
@@ -272,6 +294,7 @@
       "vessel": "COMMON LUCK",
       "callSign": "V7A4709",
       "station": "IPA → HD10",
+      "tonnage": "33,180",
       "time": "11-27 11:00"
     },
     {
@@ -279,6 +302,7 @@
       "vessel": "ZHEN XIN",
       "callSign": "V3HZ3",
       "station": "IPA → HD12",
+      "tonnage": "1,487",
       "time": "11-27 11:00"
     },
     {
@@ -286,6 +310,7 @@
       "vessel": "TORINO",
       "callSign": "9HA4855",
       "station": "E5 → IPA",
+      "tonnage": "61,328",
       "time": "11-27 11:00"
     },
     {
@@ -293,6 +318,7 @@
       "vessel": "MORNING CELESTA",
       "callSign": "C6DK7",
       "station": "E3 → E4",
+      "tonnage": "57,542",
       "time": "11-27 12:00"
     },
     {
@@ -300,6 +326,23 @@
       "vessel": "TOMBARRA",
       "callSign": "9HA4367",
       "station": "E6 → E3",
+      "tonnage": "61,321",
+      "time": "11-27 12:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "JI ZHE 7",
+      "callSign": "3E2374",
+      "station": "IPA → W6",
+      "tonnage": "2,996",
+      "time": "11-27 12:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "XIN SHENG SHENG 7",
+      "callSign": "3E3710",
+      "station": "IPA → W7",
+      "tonnage": "2,995",
       "time": "11-27 12:00"
     },
     {
@@ -307,6 +350,7 @@
       "vessel": "NEW BOUNDARY",
       "callSign": "3EYA9",
       "station": "HD10 → IPA",
+      "tonnage": "31,878",
       "time": "11-27 12:00"
     },
     {
@@ -314,20 +358,15 @@
       "vessel": "CAPTAIN GEORGE",
       "callSign": "5BMB6",
       "station": "W8 → JANG",
+      "tonnage": "43,024",
       "time": "11-27 12:00"
-    },
-    {
-      "port": "평택",
-      "vessel": "SUPER INFINITY",
-      "callSign": "D8SF",
-      "station": "E10 → IPA",
-      "time": "11-27 13:00"
     },
     {
       "port": "평택",
       "vessel": "CMA CGM DAYTONA",
       "callSign": "9HA5940",
       "station": "IPA → E3",
+      "tonnage": "71,631",
       "time": "11-27 15:00"
     },
     {
@@ -335,6 +374,7 @@
       "vessel": "LIJMILIYA",
       "callSign": "V7PV2",
       "station": "JANG → LNG2",
+      "tonnage": "168,189",
       "time": "11-27 15:00"
     },
     {
@@ -342,6 +382,7 @@
       "vessel": "GLOVIS SIGMA",
       "callSign": "C6CF6",
       "station": "E5 → IPA",
+      "tonnage": "71,177",
       "time": "11-27 15:00"
     },
     {
@@ -349,6 +390,7 @@
       "vessel": "TOMBARRA",
       "callSign": "9HA4367",
       "station": "E3 → E5",
+      "tonnage": "61,321",
       "time": "11-27 16:00"
     },
     {
@@ -356,6 +398,7 @@
       "vessel": "SEA FOREST",
       "callSign": "HSB4555",
       "station": "IPA → W5",
+      "tonnage": "7,436",
       "time": "11-27 16:00"
     },
     {
@@ -363,6 +406,7 @@
       "vessel": "SITC MOJI",
       "callSign": "VRKS5",
       "station": "IPA → E8",
+      "tonnage": "9,734",
       "time": "11-27 17:00"
     },
     {
@@ -370,6 +414,7 @@
       "vessel": "DS FLOURISH",
       "callSign": "3E6748",
       "station": "IPA → E12",
+      "tonnage": "4,429",
       "time": "11-27 17:00"
     },
     {
@@ -377,6 +422,7 @@
       "vessel": "TEN JUPITER",
       "callSign": "3E8470",
       "station": "IPA → E16",
+      "tonnage": "9,858",
       "time": "11-27 17:00"
     },
     {
@@ -384,6 +430,7 @@
       "vessel": "RIZHAO ORIENT",
       "callSign": "HOAG",
       "station": "JANG → E14",
+      "tonnage": "25,318",
       "time": "11-27 19:00"
     },
     {
@@ -391,6 +438,7 @@
       "vessel": "OCEAN BLUE WHALE",
       "callSign": "D5MO4",
       "station": "IPA → E15",
+      "tonnage": "19,480",
       "time": "11-27 19:30"
     },
     {
@@ -398,6 +446,7 @@
       "vessel": "CL HYAKU",
       "callSign": "3E4125",
       "station": "W9 → IPA",
+      "tonnage": "36,343",
       "time": "11-27 20:30"
     },
     {
@@ -405,6 +454,7 @@
       "vessel": "MORNING CELESTA",
       "callSign": "C6DK7",
       "station": "E4 → E3",
+      "tonnage": "57,542",
       "time": "11-27 21:00"
     },
     {
@@ -412,6 +462,7 @@
       "vessel": "CMA CGM DAYTONA",
       "callSign": "9HA5940",
       "station": "E3 → E1",
+      "tonnage": "71,631",
       "time": "11-27 21:00"
     },
     {
@@ -419,6 +470,7 @@
       "vessel": "EN TAI",
       "callSign": "3E8415",
       "station": "E12 → IPA",
+      "tonnage": "9,283",
       "time": "11-27 21:00"
     },
     {
@@ -426,6 +478,7 @@
       "vessel": "MING YUAN",
       "callSign": "V3LH2",
       "station": "E12 → IPA",
+      "tonnage": "1,496",
       "time": "11-27 21:00"
     },
     {
@@ -433,6 +486,7 @@
       "vessel": "COREBEST OL",
       "callSign": "3FJY8",
       "station": "W4 → IPA",
+      "tonnage": "7,617",
       "time": "11-27 23:00"
     },
     {
@@ -827,6 +881,16 @@
     },
     {
       "port": "인천",
+      "vessel": "XIN MING ZHOU 20",
+      "callSign": "-",
+      "station": "NPPS - SNCT3",
+      "time": "11-26 22:00",
+      "pilot": "-",
+      "agent": "Doowoo",
+      "tonnage": "9,653"
+    },
+    {
+      "port": "인천",
       "vessel": "KWANGYANG FRONTIER",
       "callSign": "-",
       "station": "20 - LEN",
@@ -834,16 +898,6 @@
       "pilot": "-",
       "agent": "PYEONG",
       "tonnage": "9,751"
-    },
-    {
-      "port": "인천",
-      "vessel": "XIN MING ZHOU 20",
-      "callSign": "-",
-      "station": "NPPS - SNCT3",
-      "time": "11-26 23:00",
-      "pilot": "-",
-      "agent": "Doowoo",
-      "tonnage": "9,653"
     },
     {
       "port": "인천",
@@ -1787,6 +1841,43 @@
     },
     {
       "port": "대산",
+      "vessel": "CRANE SPICA",
+      "callSign": "3FEG8",
+      "station": "WAA-07 → MDK-16",
+      "time": "11-27 06:00",
+      "pilot": "-",
+      "agent": "대동",
+      "tonnage": "4,416",
+      "transit": false,
+      "detail": [
+        [
+          "흘수",
+          "5.00 m"
+        ],
+        [
+          "전장",
+          "107 m"
+        ],
+        [
+          "접안",
+          "우현"
+        ],
+        [
+          "화물",
+          "공선"
+        ],
+        [
+          "담당자",
+          "김만수"
+        ],
+        [
+          "연락처",
+          "041-664-8644"
+        ]
+      ]
+    },
+    {
+      "port": "대산",
       "vessel": "CRISTOBAL",
       "callSign": "3E5049",
       "station": "MDS-31 → PS2",
@@ -1861,22 +1952,22 @@
     },
     {
       "port": "대산",
-      "vessel": "WAN MING FU QIANG",
-      "callSign": "J5BK1",
-      "station": "PS3 → PS4",
-      "time": "11-27 09:00",
+      "vessel": "MONTESPERANZA",
+      "callSign": "CQKV",
+      "station": "PS2 → SPM-01",
+      "time": "11-27 06:00",
       "pilot": "-",
-      "agent": "해양",
-      "tonnage": "40,437",
+      "agent": "대동",
+      "tonnage": "81,468",
       "transit": false,
       "detail": [
         [
           "흘수",
-          "14.20 m"
+          "15.80 m"
         ],
         [
           "전장",
-          "225 m"
+          "274 m"
         ],
         [
           "화물",
@@ -1884,11 +1975,48 @@
         ],
         [
           "담당자",
-          "이종수"
+          "김만수"
         ],
         [
           "연락처",
-          "041-681-7500"
+          "041-664-8644"
+        ]
+      ]
+    },
+    {
+      "port": "대산",
+      "vessel": "DL DIAMOND",
+      "callSign": "DSPQ4",
+      "station": "PS3 → MDS-36",
+      "time": "11-27 06:30",
+      "pilot": "-",
+      "agent": "동양",
+      "tonnage": "5,598",
+      "transit": false,
+      "detail": [
+        [
+          "흘수",
+          "5.00 m"
+        ],
+        [
+          "전장",
+          "113 m"
+        ],
+        [
+          "접안",
+          "우현"
+        ],
+        [
+          "화물",
+          "공선"
+        ],
+        [
+          "담당자",
+          "김영수"
+        ],
+        [
+          "연락처",
+          "041-667-2033"
         ]
       ]
     },
@@ -1896,7 +2024,7 @@
       "port": "대산",
       "vessel": "NEW SILVER",
       "callSign": "D8SV",
-      "station": "PS2 → MDS-34",
+      "station": "PS2-2 → MDS-34",
       "time": "11-27 09:00",
       "pilot": "-",
       "agent": "해양",
@@ -1918,6 +2046,39 @@
         [
           "화물",
           "공선"
+        ],
+        [
+          "담당자",
+          "이종수"
+        ],
+        [
+          "연락처",
+          "041-681-7500"
+        ]
+      ]
+    },
+    {
+      "port": "대산",
+      "vessel": "WAN MING FU QIANG",
+      "callSign": "J5BK1",
+      "station": "PS3 → PS4",
+      "time": "11-27 09:00",
+      "pilot": "-",
+      "agent": "해양",
+      "tonnage": "40,437",
+      "transit": false,
+      "detail": [
+        [
+          "흘수",
+          "14.20 m"
+        ],
+        [
+          "전장",
+          "225 m"
+        ],
+        [
+          "화물",
+          "적재"
         ],
         [
           "담당자",
@@ -1968,39 +2129,6 @@
     },
     {
       "port": "대산",
-      "vessel": "CORAL ACROPORA",
-      "callSign": "PCIG",
-      "station": "PS3 → WAA-03",
-      "time": "11-27 10:00",
-      "pilot": "-",
-      "agent": "수정",
-      "tonnage": "6,288",
-      "transit": false,
-      "detail": [
-        [
-          "흘수",
-          "5.00 m"
-        ],
-        [
-          "전장",
-          "115 m"
-        ],
-        [
-          "화물",
-          "공선"
-        ],
-        [
-          "담당자",
-          "류승철"
-        ],
-        [
-          "연락처",
-          "010-3999-3187"
-        ]
-      ]
-    },
-    {
-      "port": "대산",
       "vessel": "WAN MING FU QIANG",
       "callSign": "J5BK1",
       "station": "PS4 → MDT-61",
@@ -2033,6 +2161,39 @@
         [
           "연락처",
           "041-681-7500"
+        ]
+      ]
+    },
+    {
+      "port": "대산",
+      "vessel": "CORAL ACROPORA",
+      "callSign": "PCIG",
+      "station": "PS3 → WAA-03",
+      "time": "11-27 10:00",
+      "pilot": "-",
+      "agent": "수정",
+      "tonnage": "6,288",
+      "transit": false,
+      "detail": [
+        [
+          "흘수",
+          "5.00 m"
+        ],
+        [
+          "전장",
+          "115 m"
+        ],
+        [
+          "화물",
+          "공선"
+        ],
+        [
+          "담당자",
+          "류승철"
+        ],
+        [
+          "연락처",
+          "010-3999-3187"
         ]
       ]
     },
@@ -2164,7 +2325,7 @@
         ],
         [
           "접안",
-          "우현"
+          "좌현"
         ],
         [
           "화물",
@@ -2177,6 +2338,39 @@
         [
           "연락처",
           "041-429-2920"
+        ]
+      ]
+    },
+    {
+      "port": "대산",
+      "vessel": "FORTUNE SWALLOW",
+      "callSign": "D5WY9",
+      "station": "MDS-33 → PS3",
+      "time": "11-27 11:30",
+      "pilot": "-",
+      "agent": "대동",
+      "tonnage": "3,494",
+      "transit": false,
+      "detail": [
+        [
+          "흘수",
+          "4.50 m"
+        ],
+        [
+          "전장",
+          "99 m"
+        ],
+        [
+          "화물",
+          "적재"
+        ],
+        [
+          "담당자",
+          "김만수"
+        ],
+        [
+          "연락처",
+          "041-664-8644"
         ]
       ]
     },
@@ -2215,39 +2409,6 @@
     },
     {
       "port": "대산",
-      "vessel": "TORM CAVATINA",
-      "callSign": "OZFZ2",
-      "station": "PS2 → WAA-09",
-      "time": "11-27 12:00",
-      "pilot": "-",
-      "agent": "스타",
-      "tonnage": "27,061",
-      "transit": false,
-      "detail": [
-        [
-          "흘수",
-          "9.00 m"
-        ],
-        [
-          "전장",
-          "182 m"
-        ],
-        [
-          "화물",
-          "공선"
-        ],
-        [
-          "담당자",
-          "장재영"
-        ],
-        [
-          "연락처",
-          "041-429-2920"
-        ]
-      ]
-    },
-    {
-      "port": "대산",
       "vessel": "XIA HUAI",
       "callSign": "BPKD2",
       "station": "MDS-32 → PS3",
@@ -2281,6 +2442,39 @@
     },
     {
       "port": "대산",
+      "vessel": "TORM CAVATINA",
+      "callSign": "OZFZ2",
+      "station": "PS2 → WAA-09",
+      "time": "11-27 12:30",
+      "pilot": "-",
+      "agent": "스타",
+      "tonnage": "27,061",
+      "transit": false,
+      "detail": [
+        [
+          "흘수",
+          "9.00 m"
+        ],
+        [
+          "전장",
+          "182 m"
+        ],
+        [
+          "화물",
+          "공선"
+        ],
+        [
+          "담당자",
+          "장재영"
+        ],
+        [
+          "연락처",
+          "041-429-2920"
+        ]
+      ]
+    },
+    {
+      "port": "대산",
       "vessel": "FORTUNE KAREN",
       "callSign": "D8BU",
       "station": "MDK-14 → PS2",
@@ -2309,6 +2503,72 @@
         [
           "연락처",
           "041-681-9300"
+        ]
+      ]
+    },
+    {
+      "port": "대산",
+      "vessel": "WOO CHAN",
+      "callSign": "161008",
+      "station": "MDK-18 → PS2",
+      "time": "11-27 13:00",
+      "pilot": "-",
+      "agent": "동양",
+      "tonnage": "8,539",
+      "transit": false,
+      "detail": [
+        [
+          "흘수",
+          "8.00 m"
+        ],
+        [
+          "전장",
+          "129 m"
+        ],
+        [
+          "화물",
+          "적재"
+        ],
+        [
+          "담당자",
+          "김영수"
+        ],
+        [
+          "연락처",
+          "041-667-2033"
+        ]
+      ]
+    },
+    {
+      "port": "대산",
+      "vessel": "JIN HAI TAO",
+      "callSign": "BPSA",
+      "station": "WAA-2 MDK → MDK-18",
+      "time": "11-27 15:00",
+      "pilot": "-",
+      "agent": "동양",
+      "tonnage": "5,738",
+      "transit": false,
+      "detail": [
+        [
+          "흘수",
+          "5.00 m"
+        ],
+        [
+          "전장",
+          "121 m"
+        ],
+        [
+          "화물",
+          "공선"
+        ],
+        [
+          "담당자",
+          "김영수"
+        ],
+        [
+          "연락처",
+          "041-667-2033"
         ]
       ]
     },
@@ -2416,6 +2676,39 @@
         [
           "연락처",
           "010-5709-4723"
+        ]
+      ]
+    },
+    {
+      "port": "대산",
+      "vessel": "SHINING ROAD",
+      "callSign": "D7SQ",
+      "station": "MDK-11 → PS3",
+      "time": "11-27 17:30",
+      "pilot": "-",
+      "agent": "동양",
+      "tonnage": "3,496",
+      "transit": false,
+      "detail": [
+        [
+          "흘수",
+          "5.00 m"
+        ],
+        [
+          "전장",
+          "97 m"
+        ],
+        [
+          "화물",
+          "적재"
+        ],
+        [
+          "담당자",
+          "김영수"
+        ],
+        [
+          "연락처",
+          "041-667-2033"
         ]
       ]
     },
@@ -2680,7 +2973,7 @@
       "callSign": "D7KU",
       "station": "B.WAA-04 → MDB-42",
       "time": "11-27 09:30",
-      "pilot": "KW",
+      "pilot": "KW / GH",
       "agent": "해양",
       "tonnage": "44,003",
       "transit": false,
@@ -2717,7 +3010,7 @@
       "callSign": "V7MI8",
       "station": "B.WAA-04 → MDA-01",
       "time": "11-27 09:30",
-      "pilot": "GH",
+      "pilot": "JK",
       "agent": "해양",
       "tonnage": "47,051",
       "transit": false,
