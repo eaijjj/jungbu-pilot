@@ -1264,8 +1264,8 @@
     let rowRefs = [];
     const TIDE_PORT_NAMES = { DAESAN: "대산항", BORYEONG: "보령항" };
     const LOW_TIDE_WINDOW_MIN = 2 * 60;
-    const POB_BADGE_LANE = 22;
-    const LOW_TIDE_BADGE_LANE = 18;
+    const POB_BADGE_TOP = 17;
+    const LOW_TIDE_BADGE_LANE = 22;
     let tidePoints = { DAESAN: [], BORYEONG: [] };
     const tideOpen = { DAESAN: false, BORYEONG: false };
 
@@ -1686,7 +1686,7 @@
     // 그래프 (의존성 없는 SVG). W: 가로(px), H: 세로(px), day0: 그 날 00:00 절대시각
     function tideSvg(W, H, day0, nowT, vT, port, showLowTideBands, vesselCaution, badgeLane) {
       const P = tidePoints[port];
-      const L = 36, R = 12, T = showLowTideBands ? 52 : 44, B = 30;
+      const L = 36, R = 12, T = showLowTideBands ? 64 : 44, B = 30;
       const pw = W - L - R;
       const chartH = H - badgeLane;
       const ph = chartH - T - B;
@@ -1785,7 +1785,7 @@
       }
 
       if (vesIn) {
-        s += "<line class='tc-ves-line' x1='" + f1(xv) + "' x2='" + f1(xv) + "' y1='" + (T - 16) + "' y2='" + (T + ph) + "'/>";
+        s += "<line class='tc-ves-line' x1='" + f1(xv) + "' x2='" + f1(xv) + "' y1='" + (showLowTideBands ? POB_BADGE_TOP + 17 : T - 16) + "' y2='" + (T + ph) + "'/>";
         if (hv !== null) {
           const yv = Y(hv);
           s += "<polygon class='tc-ves-mark' points='" + f1(xv) + "," + f1(yv - 7) + " " + f1(xv + 7) + "," + f1(yv) + " " + f1(xv) + "," + f1(yv + 7) + " " + f1(xv - 7) + "," + f1(yv) + "'/>";
@@ -1793,17 +1793,16 @@
           s += "<text class='tc-ves-lbl tc-ves-estimate' x='" + labelX + "' y='12' text-anchor='" + ancV + "'>" +
             Math.round(hv) + "cm (예상)</text>";
         }
-        if (badgeLane > 0) {
-          // 축 눈금과 간조 글씨 아래에 같은 세로선 기준으로 두 배지를 배치합니다.
+        if (showLowTideBands) {
+          // POB는 예상 높이와 세로선 사이, 주의는 간조 글씨 아래에 배치합니다.
           const markerBadge = function (text, cls, y, width) {
             const left = Math.min(W - width - 1, Math.max(1, xv - width / 2));
             return "<g class='" + cls + "'><rect class='tc-marker-badge-bg' x='" + f1(left) + "' y='" + y +
               "' width='" + width + "' height='15' rx='7.5'/><text class='tc-marker-badge-label' x='" + f1(left + width / 2) +
               "' y='" + (y + 10.5) + "' text-anchor='middle'>" + text + "</text></g>";
           };
-          const badgeY = chartH + 3;
-          s += markerBadge("POB", "tc-pob-badge", badgeY, 26);
-          if (vesselCaution) s += markerBadge("저수심 주의", "tc-low-marker-badge", badgeY + LOW_TIDE_BADGE_LANE, 65);
+          s += markerBadge("POB", "tc-pob-badge", POB_BADGE_TOP, 26);
+          if (vesselCaution) s += markerBadge("저수심 주의", "tc-low-marker-badge", chartH + 3, 65);
         }
       }
       if (nowIn) {
@@ -1835,9 +1834,7 @@
       const compact = mode === "compact";
       const vesselOnDay = compact && vT !== null && vT >= day0 && vT <= day0 + 1440;
       const vesselCaution = vesselOnDay && isLowTideTime(vT, P);
-      const badgeLane = vesselOnDay && (vesselCaution || tideAt(vT, P) !== null)
-        ? POB_BADGE_LANE + (vesselCaution ? LOW_TIDE_BADGE_LANE : 0)
-        : 0;
+      const badgeLane = vesselCaution ? LOW_TIDE_BADGE_LANE : 0;
       const H = mode === "full" ? 270 : 200 + badgeLane;
       const trendBadge = compact && info.rising !== null
         ? "<span class='tc-state-badge'>" + (info.rising ? "↑ 상승(창조)" : "↓ 하강(낙조)") + "</span>"
