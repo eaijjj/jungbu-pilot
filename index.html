@@ -1267,7 +1267,7 @@
     const POB_BADGE_TOP = 17;
     const LOW_TIDE_BADGE_LANE = 22;
     const MOBILE_TIDE_PLOT_EXTRA = 22;
-    const MOBILE_TIDE_MARKER_OVERHANG = 7;
+    const MOBILE_TIDE_MARKER_OVERHANG = 4;
     let tidePoints = { DAESAN: [], BORYEONG: [] };
     const tideOpen = { DAESAN: false, BORYEONG: false };
 
@@ -1692,8 +1692,6 @@
       const pw = W - L - R;
       const chartH = H - badgeLane;
       const ph = chartH - T - B;
-      const markerTop = T - (mobileDetail ? MOBILE_TIDE_MARKER_OVERHANG : 16);
-      const vesselMarkerTop = showLowTideBands && !mobileDetail ? POB_BADGE_TOP + 17 : markerTop;
       const end = day0 + 1440;
       const X = function (t) { return L + (t - day0) / 1440 * pw; };
       const dayHeights = P.filter(function (p) { return p.t >= day0 && p.t <= end; })
@@ -1702,6 +1700,10 @@
       const yMin = Math.floor(Math.min(0, ...dayHeights) / 200) * 200;
       const yMax = Math.ceil(Math.max(800, ...dayHeights) / 200) * 200;
       const Y = function (h) { return T + ph - (h - yMin) / (yMax - yMin) * ph; };
+      // 눈금 여백이 아니라 실제 곡선의 최고점 가까이에서 모바일 표시선을 시작합니다.
+      const curveTop = dayHeights.length ? Y(Math.max(...dayHeights)) : T;
+      const markerTop = mobileDetail ? Math.max(T, curveTop - MOBILE_TIDE_MARKER_OVERHANG) : T - 16;
+      const vesselMarkerTop = showLowTideBands && !mobileDetail ? POB_BADGE_TOP + 17 : markerTop;
       const f1 = function (n) { return n.toFixed(1); };
 
       let s = "<svg class='tc-svg' width='" + W + "' height='" + H + "' viewBox='0 0 " + W + " " + H +
@@ -1839,7 +1841,8 @@
       const vesselOnDay = compact && vT !== null && vT >= day0 && vT <= day0 + 1440;
       const vesselCaution = vesselOnDay && isLowTideTime(vT, P);
       const badgeLane = vesselCaution ? LOW_TIDE_BADGE_LANE : 0;
-      const mobileDetail = compact && isNarrow();
+      const mobileDetail = compact && (isNarrow() || box.clientWidth <= 420 ||
+        window.matchMedia("(any-pointer: coarse)").matches);
       const H = mode === "full" ? 270 : 200 + badgeLane + (mobileDetail ? MOBILE_TIDE_PLOT_EXTRA : 0);
       const trendBadge = compact && info.rising !== null
         ? "<span class='tc-state-badge'>" + (info.rising ? "↑ 상승(창조)" : "↓ 하강(낙조)") + "</span>"
