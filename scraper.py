@@ -115,7 +115,7 @@ def collect_tide(page):
                 if (
                     len(cells) >= 2
                     and re.match(r"^\d{2}:\d{2}$", cells[-2])
-                    and re.match(r"^\d{1,4}$", cells[-1])
+                    and re.fullmatch(r"-?[0-9]{1,4}", cells[-1])
                     and cur_port == "대산항"
                     and cur_date
                 ):
