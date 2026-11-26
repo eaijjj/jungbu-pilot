@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27 05:54",
+  "updatedAt": "2026-11-27 06:48",
   "schedules": [
     {
       "port": "평택",
@@ -629,7 +629,7 @@
       "callSign": "-",
       "station": "SNCT2 - NPPS",
       "time": "11-27 10:00",
-      "pilot": "-",
+      "pilot": "CR(3)",
       "agent": "NEW INC",
       "tonnage": "9,990"
     },
@@ -639,7 +639,7 @@
       "callSign": "-",
       "station": "NPPS - SNCT2",
       "time": "11-27 10:00",
-      "pilot": "-",
+      "pilot": "GO(3)",
       "agent": "ALLWAYS",
       "tonnage": "17,933"
     },
@@ -649,7 +649,7 @@
       "callSign": "-",
       "station": "PAL - E1CT",
       "time": "11-27 10:00",
-      "pilot": "-",
+      "pilot": "KB(3)",
       "agent": "CK LINE",
       "tonnage": "7,532"
     },
@@ -659,7 +659,7 @@
       "callSign": "-",
       "station": "E1CT - PAL",
       "time": "11-27 10:00",
-      "pilot": "-",
+      "pilot": "CN(2)",
       "agent": "BUM JU",
       "tonnage": "9,892"
     },
@@ -668,8 +668,8 @@
       "vessel": "NEW GOLDEN BRIDGE 5",
       "callSign": "-",
       "station": "PAL - NIPT4",
-      "time": "11-27 10:10",
-      "pilot": "-",
+      "time": "11-27 10:20",
+      "pilot": "KX(2)",
       "agent": "WEIDONG",
       "tonnage": "29,554"
     },
@@ -1283,7 +1283,7 @@
       "callSign": "D8SV",
       "station": "PS2-2 → MDS-34",
       "time": "11-27 09:00",
-      "pilot": "OC",
+      "pilot": "TW",
       "agent": "해양",
       "tonnage": "8,504",
       "transit": false,
