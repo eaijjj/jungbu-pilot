@@ -1757,6 +1757,7 @@
       const H = mode === "full" ? 270 : 200;
 
       let html = "<div class='tc-title'>" + name + " 조석표</div>";
+      let vesselTideCaption = "";
 
       if (mode === "full") {
         const hhmm = pad2(now.hh) + ":" + pad2(now.mm);
@@ -1781,13 +1782,14 @@
         if (vT !== null && vT >= day0 && vT <= day0 + 1440) {
           const vh = tideAt(vT, P);
           if (vh !== null) {
-            html += "<div class='tc-ves-text'>도선시간 " + (dateOf(vT) !== now.date ? dateOf(vT).slice(5) + " " : "") +
+            vesselTideCaption = "<div class='tc-ves-text'>도선시간 " + (dateOf(vT) !== now.date ? dateOf(vT).slice(5) + " " : "") +
               hmOf(vT) + " 예상 조석 높이 약 " + Math.round(vh) + "cm</div>";
           }
         }
       }
 
       html += "<div class='tc-chart' style='height:" + H + "px'></div>";
+      html += vesselTideCaption;
       html += "<div class='tc-foot'>" + name + " " + esc(dayStr) + " · 점 사이는 보간한 근사값(참고용)</div>";
       box.innerHTML = html;
 
