@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27 00:29",
+  "updatedAt": "2026-11-27 01:38",
   "schedules": [
     {
       "port": "평택",
@@ -499,7 +499,7 @@
       "callSign": "-",
       "station": "41 - PAL",
       "time": "11-27 06:00",
-      "pilot": "GD(1)",
+      "pilot": "CR(2)",
       "agent": "MASTER",
       "tonnage": "5,211"
     },
@@ -509,7 +509,7 @@
       "callSign": "-",
       "station": "73 - PAL",
       "time": "11-27 06:30",
-      "pilot": "GH(1) GO(1)",
+      "pilot": "GD(1) GH(1)",
       "agent": "NEW INC",
       "tonnage": "23,759"
     },
@@ -519,7 +519,7 @@
       "callSign": "-",
       "station": "SKI 3 - DONG",
       "time": "11-27 07:00",
-      "pilot": "KB(2) YM(2)",
+      "pilot": "KB(2) GO(2)",
       "agent": "HAN IL",
       "tonnage": "164,364"
     },
@@ -529,7 +529,7 @@
       "callSign": "-",
       "station": "E1GT - DONG",
       "time": "11-27 07:30",
-      "pilot": "KU(2) KN(2)",
+      "pilot": "YM(2) KU(2)",
       "agent": "HAN IL",
       "tonnage": "47,342"
     },
@@ -539,7 +539,7 @@
       "callSign": "-",
       "station": "SNCT1 - NPPS",
       "time": "11-27 08:00",
-      "pilot": "CY(1)",
+      "pilot": "KN(1)",
       "agent": "PHOENIX",
       "tonnage": "18,826"
     },
@@ -549,7 +549,7 @@
       "callSign": "-",
       "station": "NPPS - SNCT1",
       "time": "11-27 08:00",
-      "pilot": "GD(2)",
+      "pilot": "CR(3)",
       "agent": "ALLWAYS",
       "tonnage": "9,971"
     },
@@ -595,16 +595,6 @@
     },
     {
       "port": "인천",
-      "vessel": "HUADONG PEARL 8",
-      "callSign": "-",
-      "station": "PAL - NIPT5",
-      "time": "11-27 09:00",
-      "pilot": "-",
-      "agent": "HUADONG",
-      "tonnage": "35,092"
-    },
-    {
-      "port": "인천",
       "vessel": "V GALAXY",
       "callSign": "-",
       "station": "N45 - PAL",
@@ -622,6 +612,16 @@
       "pilot": "-",
       "agent": "HML",
       "tonnage": "2,715"
+    },
+    {
+      "port": "인천",
+      "vessel": "HUADONG PEARL 8",
+      "callSign": "-",
+      "station": "PAL - NIPT5",
+      "time": "11-27 09:50",
+      "pilot": "-",
+      "agent": "HUADONG",
+      "tonnage": "35,092"
     },
     {
       "port": "인천",
