@@ -1236,8 +1236,9 @@
     let searchKeyword = "";
     let allSchedules = [];
     let rowRefs = [];
-    let TIDE_PTS = [];
-    let tideOpen = false;
+    const TIDE_PORT_NAMES = { DAESAN: "대산항", BORYEONG: "보령항" };
+    let tidePoints = { DAESAN: [], BORYEONG: [] };
+    const tideOpen = { DAESAN: false, BORYEONG: false };
 
     const detailWrap = document.getElementById("detailWrap");
     const summaryWrap = document.getElementById("summaryWrap");
@@ -1500,40 +1501,42 @@
     }
 
     // =====================================================================
-    // 대산항 조석표 (조석) : 데이터 읽기 / 계산 / 그리기
-    // 조석표는 tide-daesan.json 에서 읽습니다. 하루짜리 {"date","points"} 도,
-    // 여러 날 {"days":[...]} 도 모두 읽고, 날짜가 다른 점들은 이어 붙여 24시간 내내 끊기지 않게 합니다.
-    // =====================================================================
+    // 항만별 조석표: 기존 tide-daesan.json의 대산항 형식은 유지하고 보령항을 별도로 읽습니다.
+    function parseTidePoints(raw) {
+      const days = Array.isArray(raw) ? raw : (raw && Array.isArray(raw.days) ? raw.days : [raw]);
+      const byTime = new Map();
+      days.forEach(function (d) {
+        if (!d || !/^\d{4}-\d{2}-\d{2}$/.test(d.date) || !Array.isArray(d.points)) return;
+        const dp = d.date.split("-").map(Number);
+        d.points.forEach(function (p) {
+          const m = /^([01]?\d|2[0-3]):([0-5]\d)$/.exec(String((p && p.time) || ""));
+          if (!m || !p || p.h == null || p.h === "") return;
+          const h = Number(p.h);
+          if (!Number.isFinite(h)) return;
+          const t = Date.UTC(dp[0], dp[1] - 1, dp[2], Number(m[1]), Number(m[2])) / 60000;
+          byTime.set(t, h);
+        });
+      });
+      const points = [...byTime.keys()].sort(function (a, b) { return a - b; }).map(function (t) {
+        return { t: t, h: byTime.get(t), type: "L" };
+      });
+      points.forEach(function (p, i) {
+        const ref = i > 0 ? points[i - 1] : points[i + 1];
+        p.type = ref && p.h > ref.h ? "H" : "L";
+      });
+      return points;
+    }
+
     async function loadTide() {
-      TIDE_PTS = [];
+      tidePoints = { DAESAN: [], BORYEONG: [] };
       try {
         const res = await fetch("./tide-daesan.json?t=" + new Date().getTime());
         if (!res.ok) throw new Error("HTTP " + res.status);
         const raw = await res.json();
-        const days = Array.isArray(raw) ? raw : (raw && Array.isArray(raw.days) ? raw.days : [raw]);
-        const byTime = {};
-        days.forEach(function (d) {
-          if (!d || !d.date || !Array.isArray(d.points)) return;
-          const dp = String(d.date).split("-").map(Number);
-          d.points.forEach(function (p) {
-            const m = /^(\d{1,2}):(\d{2})$/.exec(String((p && p.time) || ""));
-            const h = Number(p && p.h);
-            if (!m || isNaN(h) || dp.length !== 3) return;
-            const t = Date.UTC(dp[0], dp[1] - 1, dp[2], Number(m[1]), Number(m[2])) / 60000;
-            byTime[t] = h;
-          });
-        });
-        const list = Object.keys(byTime).map(Number).sort(function (a, b) { return a - b; });
-        TIDE_PTS = list.map(function (t, i) {
-          return { t: t, h: byTime[t], type: "L" };
-        });
-        TIDE_PTS.forEach(function (p, i) {
-          const ref = i > 0 ? TIDE_PTS[i - 1] : TIDE_PTS[i + 1];
-          p.type = ref && p.h > ref.h ? "H" : "L";
-        });
+        tidePoints.DAESAN = parseTidePoints(raw);
+        tidePoints.BORYEONG = parseTidePoints(raw && raw.boryeong);
       } catch (e) {
         console.warn("조석 데이터 로드 실패:", e);
-        TIDE_PTS = [];
       }
     }
 
@@ -1573,8 +1576,7 @@
     }
 
     // 만조·간조 두 점 사이 코사인 보간 (범위 밖이면 null)
-    function tideAt(t) {
-      const P = TIDE_PTS;
+    function tideAt(t, P) {
       if (P.length < 2) return null;
       if (t < P[0].t || t > P[P.length - 1].t) return null;
       for (let i = 0; i < P.length - 1; i++) {
@@ -1588,9 +1590,8 @@
       return null;
     }
 
-    function tideInfo(nowT) {
-      const P = TIDE_PTS;
-      const cur = tideAt(nowT);
+    function tideInfo(nowT, P) {
+      const cur = tideAt(nowT, P);
       let rising = null;
       if (cur !== null) {
         for (let i = 0; i < P.length - 1; i++) {
@@ -1629,10 +1630,11 @@
     }
 
     // 한 줄 요약: 현재 ○○cm ↑상승(창조) · 다음 만조 14:39 707cm  (상승/하강 글자만 빨간색)
-    function tideChipHtml() {
-      if (TIDE_PTS.length < 2) return "조석 데이터 없음";
+    function tideChipHtml(port) {
+      const P = tidePoints[port];
+      if (P.length < 2) return "조석 데이터 없음";
       const now = seoulNow();
-      const info = tideInfo(now.abs);
+      const info = tideInfo(now.abs, P);
       if (info.cur === null) return "현재 조석 높이: 조석 데이터 범위 밖";
       let s = "현재 " + Math.round(info.cur) + "cm <span class='tc-red'>" +
         (info.rising ? "↑상승(창조)" : "↓하강(낙조)") + "</span>";
@@ -1641,23 +1643,27 @@
     }
 
     // 그래프 (의존성 없는 SVG). W: 가로(px), H: 세로(px), day0: 그 날 00:00 절대시각
-    function tideSvg(W, H, day0, nowT, vT) {
+    function tideSvg(W, H, day0, nowT, vT, port) {
+      const P = tidePoints[port];
       const L = 36, R = 12, T = 44, B = 30;
       const pw = W - L - R;
       const ph = H - T - B;
       const end = day0 + 1440;
       const X = function (t) { return L + (t - day0) / 1440 * pw; };
-      const Y = function (h) {
-        const c = Math.max(0, Math.min(800, h));
-        return T + ph - c / 800 * ph;
-      };
+      const dayHeights = P.filter(function (p) { return p.t >= day0 && p.t <= end; })
+        .map(function (p) { return p.h; });
+      [tideAt(day0, P), tideAt(end, P)].forEach(function (h) { if (h !== null) dayHeights.push(h); });
+      const yMin = Math.floor(Math.min(0, ...dayHeights) / 200) * 200;
+      const yMax = Math.ceil(Math.max(800, ...dayHeights) / 200) * 200;
+      const Y = function (h) { return T + ph - (h - yMin) / (yMax - yMin) * ph; };
       const f1 = function (n) { return n.toFixed(1); };
 
       let s = "<svg class='tc-svg' width='" + W + "' height='" + H + "' viewBox='0 0 " + W + " " + H +
-        "' role='img' aria-label='대산항 조석표 곡선'>";
+        "' role='img' aria-label='" + TIDE_PORT_NAMES[port] + " 조석표 곡선'>";
 
-      // 가로 눈금선 + y 값 (0~800, 200 단위)
-      for (let v = 0; v <= 800; v += 200) {
+      // 기본 눈금 밖의 조고도 자르지 않고 표시합니다.
+      const tick = Math.max(200, Math.ceil((yMax - yMin) / 1200) * 200);
+      for (let v = yMin; v <= yMax; v += tick) {
         s += "<line class='tc-grid' x1='" + L + "' x2='" + (W - R) + "' y1='" + f1(Y(v)) + "' y2='" + f1(Y(v)) + "'/>";
         s += "<text class='tc-ax' x='" + (L - 6) + "' y='" + f1(Y(v) + 4) + "' text-anchor='end'>" + v + "</text>";
       }
@@ -1671,7 +1677,7 @@
       // 곡선 (10분 간격 + 만조/간조 지점)
       const ts = [];
       for (let t = day0; t <= end; t += 10) ts.push(t);
-      TIDE_PTS.forEach(function (p) { if (p.t >= day0 && p.t <= end) ts.push(p.t); });
+      P.forEach(function (p) { if (p.t >= day0 && p.t <= end) ts.push(p.t); });
       ts.sort(function (a, b) { return a - b; });
       let d = "";
       let pen = false;
@@ -1679,7 +1685,7 @@
       ts.forEach(function (t) {
         if (t === last) return;
         last = t;
-        const h = tideAt(t);
+        const h = tideAt(t, P);
         if (h === null) { pen = false; return; }
         d += (pen ? "L" : "M") + f1(X(t)) + " " + f1(Y(h));
         pen = true;
@@ -1687,7 +1693,7 @@
       if (d) s += "<path class='tc-curve' d='" + d + "'/>";
 
       // 만조·간조 점, 값, 시각 (값은 점 바로 옆, 시각은 그 바깥쪽 줄)
-      TIDE_PTS.forEach(function (p) {
+      P.forEach(function (p) {
         if (p.t < day0 || p.t > end) return;
         const x = X(p.t);
         const y = Y(p.h);
@@ -1703,7 +1709,7 @@
 
       // 현재 시각 / 선박 도선시간 세로선
       const nowIn = nowT !== null && nowT >= day0 && nowT <= end;
-      const vesIn = vT !== null && vT >= day0 && vT <= end && tideAt(vT) !== null;
+      const vesIn = vT !== null && vT >= day0 && vT <= end && tideAt(vT, P) !== null;
       const xn = nowIn ? X(nowT) : null;
       const xv = vesIn ? X(vT) : null;
       let ancN = "middle";
@@ -1716,14 +1722,14 @@
       }
 
       if (vesIn) {
-        const hv = tideAt(vT);
+        const hv = tideAt(vT, P);
         const yv = Y(hv);
         s += "<line class='tc-ves-line' x1='" + f1(xv) + "' x2='" + f1(xv) + "' y1='" + (T - 16) + "' y2='" + (T + ph) + "'/>";
         s += "<polygon class='tc-ves-mark' points='" + f1(xv) + "," + f1(yv - 7) + " " + f1(xv + 7) + "," + f1(yv) + " " + f1(xv) + "," + f1(yv + 7) + " " + f1(xv - 7) + "," + f1(yv) + "'/>";
         s += "<text class='tc-ves-lbl' x='" + f1(xv + (ancV === "start" ? 3 : ancV === "end" ? -3 : 0)) + "' y='12' text-anchor='" + ancV + "'>도선 " + hmOf(vT) + "</text>";
       }
       if (nowIn) {
-        const hn = tideAt(nowT);
+        const hn = tideAt(nowT, P);
         s += "<line class='tc-now-line' x1='" + f1(xn) + "' x2='" + f1(xn) + "' y1='" + (T - 16) + "' y2='" + (T + ph) + "'/>";
         if (hn !== null) s += "<circle class='tc-now-dot' cx='" + f1(xn) + "' cy='" + f1(Y(hn)) + "' r='5'/>";
         s += "<text class='tc-now-lbl' x='" + f1(xn + (ancN === "start" ? 3 : ancN === "end" ? -3 : 0)) + "' y='12' text-anchor='" + ancN + "'>현재 " + (hn !== null ? Math.round(hn) + "cm" : "") + "</text>";
@@ -1737,9 +1743,11 @@
     function fillTideBox(box) {
       const mode = box.getAttribute("data-mode");
       const vesselStr = box.getAttribute("data-vessel") || "";
-      const isBory = box.getAttribute("data-boryeong") === "1";
+      const port = box.dataset.tidePort;
+      const name = TIDE_PORT_NAMES[port];
+      const P = tidePoints[port];
       const now = seoulNow();
-      const info = tideInfo(now.abs);
+      const info = tideInfo(now.abs, P);
       const vT = vesselStr ? vesselAbs(vesselStr, now.date) : null;
 
       let dayStr = now.date;
@@ -1748,7 +1756,7 @@
       const day0 = Date.UTC(dp[0], dp[1] - 1, dp[2]) / 60000;
       const H = mode === "full" ? 270 : 200;
 
-      let html = "<div class='tc-title'>대산항 조석표</div>";
+      let html = "<div class='tc-title'>" + name + " 조석표</div>";
 
       if (mode === "full") {
         const hhmm = pad2(now.hh) + ":" + pad2(now.mm);
@@ -1769,10 +1777,9 @@
             "<div class='tc-sum'><div class='tc-l'>조류 상태</div><div class='tc-state tc-red'>" + state + "</div>" + nextHtml + "</div>" +
           "</div>";
       } else {
-        if (isBory) html += "<div class='tc-note'>※ 보령 선박도 대산항 조석표 기준입니다</div>";
-        html += "<div class='tc-chip'>" + tideChipHtml() + "</div>";
+        html += "<div class='tc-chip'>" + tideChipHtml(port) + "</div>";
         if (vT !== null && vT >= day0 && vT <= day0 + 1440) {
-          const vh = tideAt(vT);
+          const vh = tideAt(vT, P);
           if (vh !== null) {
             html += "<div class='tc-ves-text'>도선시간 " + (dateOf(vT) !== now.date ? dateOf(vT).slice(5) + " " : "") +
               hmOf(vT) + " 예상 조석 높이 약 " + Math.round(vh) + "cm</div>";
@@ -1781,19 +1788,16 @@
       }
 
       html += "<div class='tc-chart' style='height:" + H + "px'></div>";
-      html += "<div class='tc-foot'>대산항 " + esc(dayStr) + " · 점 사이는 보간한 근사값(참고용)</div>";
+      html += "<div class='tc-foot'>" + name + " " + esc(dayStr) + " · 점 사이는 보간한 근사값(참고용)</div>";
       box.innerHTML = html;
 
       const holder = box.querySelector(".tc-chart");
       const w = holder ? holder.clientWidth : 0;
-      let hasData = false;
-      for (let t = day0; t <= day0 + 1440; t += 60) {
-        if (tideAt(t) !== null) { hasData = true; break; }
-      }
+      const hasData = P.length >= 2 && P[0].t <= day0 + 1440 && P[P.length - 1].t >= day0;
       if (holder && !hasData) {
-        holder.innerHTML = "<div class='tc-empty' style='height:" + H + "px'>이 날짜의 조석 데이터가 없습니다<br>(tide-daesan.json)</div>";
+        holder.innerHTML = "<div class='tc-empty' style='height:" + H + "px'>이 날짜의 " + name + " 조석 데이터가 없습니다</div>";
       } else if (w > 0) {
-        holder.innerHTML = tideSvg(w, H, day0, now.abs, vT);
+        holder.innerHTML = tideSvg(w, H, day0, now.abs, vT, port);
       }
     }
 
@@ -1805,35 +1809,36 @@
 
     function refreshTide() {
       document.querySelectorAll(".js-tide-chip").forEach(function (el) {
-        el.innerHTML = tideChipHtml();
+        el.innerHTML = tideChipHtml(el.dataset.tidePort);
       });
       renderTideBoxes();
     }
 
     // 목록 화면: "대산 24건" 바 아래 한 줄 요약 + 펼침 그래프
-    function tideBarHtml() {
-      if (TIDE_PTS.length < 2) {
-        return "<div class='tide-bar tide-bar-off'>대산항 조석표: 조석 데이터 없음 (tide-daesan.json)</div>";
+    function tideBarHtml(port) {
+      const name = TIDE_PORT_NAMES[port];
+      if (tidePoints[port].length < 2) {
+        return "<div class='tide-bar tide-bar-off'>" + name + " 조석표: 조석 데이터 없음</div>";
       }
       return (
-        "<div class='tide-bar' data-tide-toggle='1' role='button'>" +
-          "<span class='tide-bar-t'>대산항 조석표</span>" +
-          "<span class='tide-bar-chip js-tide-chip'>" + tideChipHtml() + "</span>" +
-          "<span class='tide-bar-arrow'>" + (tideOpen ? "▲" : "▼") + "</span>" +
+        "<div class='tide-bar' data-tide-toggle='1' data-tide-port='" + port + "' role='button'>" +
+          "<span class='tide-bar-t'>" + name + " 조석표</span>" +
+          "<span class='tide-bar-chip js-tide-chip' data-tide-port='" + port + "'>" + tideChipHtml(port) + "</span>" +
+          "<span class='tide-bar-arrow'>" + (tideOpen[port] ? "▲" : "▼") + "</span>" +
         "</div>" +
-        "<div class='tide-panel' id='tidePanel' style='display:" + (tideOpen ? "block" : "none") + "'>" +
-          "<div class='tide-card js-tide-box' data-mode='full'></div>" +
+        "<div class='tide-panel' id='tidePanel' style='display:" + (tideOpen[port] ? "block" : "none") + "'>" +
+          "<div class='tide-card js-tide-box' data-mode='full' data-tide-port='" + port + "'></div>" +
         "</div>"
       );
     }
 
-    function toggleTide() {
-      tideOpen = !tideOpen;
+    function toggleTide(port) {
+      tideOpen[port] = !tideOpen[port];
       const panel = document.getElementById("tidePanel");
       const arrow = document.querySelector(".tide-bar-arrow");
-      if (panel) panel.style.display = tideOpen ? "block" : "none";
-      if (arrow) arrow.textContent = tideOpen ? "▲" : "▼";
-      if (tideOpen) renderTideBoxes();
+      if (panel) panel.style.display = tideOpen[port] ? "block" : "none";
+      if (arrow) arrow.textContent = tideOpen[port] ? "▲" : "▼";
+      if (tideOpen[port]) renderTideBoxes();
     }
 
     // ===== 요약: 컴퓨터용 (3칸 나란히) =====
@@ -1969,7 +1974,7 @@
       html += "<div class='dt-card'>";
       html += "<div class='dt-title " + info.cls + "'>" + info.label + "<small>" + items.length + "건</small></div>";
 
-      if (tab === "DAESAN") html += tideBarHtml();
+      if (tab === "DAESAN" || tab === "BORYEONG") html += tideBarHtml(tab);
 
       if (items.length === 0) {
         html += "<div class='dt-empty'>현재 시각 기준 표시할 스케줄이 없습니다.</div></div>";
@@ -2085,11 +2090,10 @@
         }
       });
 
-      // 대산항 조석표 카드 (도선시간 블록과 대리점/흘수/전장 표 사이)
-      const tideHtml = TIDE_PTS.length >= 2
-        ? "<div class='dm-tide'><div class='tide-card js-tide-box' data-mode='compact' data-vessel='" +
-            esc(item.time) + "' data-boryeong='" + (isBoryeong(item) ? "1" : "0") + "'></div></div>"
-        : "";
+      // 보령으로 분류된 선박은 어느 탭에서 열어도 보령항 조석표를 사용합니다.
+      const tidePort = isBoryeong(item) ? "BORYEONG" : "DAESAN";
+      const tideHtml = "<div class='dm-tide'><div class='tide-card js-tide-box' data-mode='compact' data-vessel='" +
+        esc(item.time) + "' data-tide-port='" + tidePort + "'></div></div>";
 
       modalSheet.innerHTML =
         "<div class='dm-head'>" +
@@ -2127,8 +2131,9 @@
         closeDetail();
         return;
       }
-      if (e.target.closest("[data-tide-toggle]")) {
-        toggleTide();
+      const tideToggle = e.target.closest("[data-tide-toggle]");
+      if (tideToggle) {
+        toggleTide(tideToggle.dataset.tidePort);
         return;
       }
 

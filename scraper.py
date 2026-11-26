@@ -10,10 +10,11 @@ SHOW_ERROR_AFTER = 2
 # 항구별 최대 시도 횟수
 MAX_TRIES = 3
 
-TIDE_FILE = "tide-daesan.json"
+TIDE_FILE = "tide-daesan.json"  # 기존 주소 유지: 대산항 days + 보령항 boryeong
+TIDE_PORTS = ("대산항", "보령항")
 
 STATS = {"cancel": 0}
-TIDE = {}  # {"2026-11-22": {"02:02": 640, ...}}
+TIDE = {port: {} for port in TIDE_PORTS}  # 항만별 {날짜: {시각: 조고}}
 
 
 def pick(cells, i, default="-"):
@@ -95,8 +96,8 @@ def fetch_with_retry(fn, name, page):
     return [], last_err
 
 
-# ---------- 대산항 조석(조고) ----------
-# 대산 도선예보 페이지 아래쪽 조석표(날짜 / 항만 / 시각 / 조고)에서 대산항 줄만 모읍니다.
+# ---------- 대산항·보령항 조석(조고) ----------
+# 대산 도선예보 페이지의 원본 조석표에서 대산항과 보령항을 따로 모읍니다.
 # 날짜와 항만 칸은 여러 줄을 합친 칸이라 첫 줄에만 있어서, 지나온 값을 기억하며 읽습니다.
 def collect_tide(page):
     try:
@@ -116,51 +117,61 @@ def collect_tide(page):
                     len(cells) >= 2
                     and re.match(r"^\d{2}:\d{2}$", cells[-2])
                     and re.fullmatch(r"-?[0-9]{1,4}", cells[-1])
-                    and cur_port == "대산항"
+                    and cur_port in TIDE
                     and cur_date
                 ):
-                    TIDE.setdefault(cur_date, {})[cells[-2]] = int(cells[-1])
+                    TIDE[cur_port].setdefault(cur_date, {})[cells[-2]] = int(cells[-1])
     except Exception as e:
         print("조석 수집 오류:", e)
 
 
-def read_tide_days():
-    days = {}
-    try:
-        with open(TIDE_FILE, encoding="utf-8") as f:
-            raw = json.load(f)
-    except Exception:
-        return days
+def read_tide_days(raw):
     if isinstance(raw, list):
         items = raw
     elif isinstance(raw, dict) and isinstance(raw.get("days"), list):
         items = raw["days"]
     else:
         items = [raw]
+    days = {}
     for it in items:
         try:
             days[it["date"]] = [{"time": p["time"], "h": int(p["h"])} for p in it["points"]]
-        except Exception:
+        except (KeyError, TypeError, ValueError):
             continue
     return days
 
 
-def save_tide():
-    if not TIDE:
-        print("조석 수집: 새로 읽은 값 없음 (기존 파일 유지)")
-        return
-    days = read_tide_days()
-    for date, pts in TIDE.items():
+def merge_tide_days(raw, fresh, cutoff):
+    days = read_tide_days(raw)
+    for date, pts in fresh.items():
         if len(pts) >= 2:
             days[date] = [{"time": t, "h": h} for t, h in sorted(pts.items())]
-    yesterday = (datetime.now(KST) - timedelta(days=1)).strftime("%Y-%m-%d")
-    days = {k: v for k, v in days.items() if k >= yesterday}
-    if not days:
+    return [{"date": date, "points": days[date]} for date in sorted(days) if date >= cutoff]
+
+
+def save_tide():
+    if not any(TIDE.values()):
+        print("조석 수집: 새로 읽은 값 없음 (기존 파일 유지)")
         return
-    out = {"port": "대산항", "days": [{"date": k, "points": days[k]} for k in sorted(days)]}
+    try:
+        with open(TIDE_FILE, encoding="utf-8") as f:
+            raw = json.load(f)
+    except (OSError, ValueError):
+        raw = {}
+    old_boryeong = raw.get("boryeong") if isinstance(raw, dict) else None
+    cutoff = (datetime.now(KST) - timedelta(days=1)).strftime("%Y-%m-%d")
+    daesan = merge_tide_days(raw, TIDE["대산항"], cutoff)
+    boryeong = merge_tide_days(old_boryeong, TIDE["보령항"], cutoff)
+    if not daesan and not boryeong:
+        return
+    out = {
+        "port": "대산항",
+        "days": daesan,
+        "boryeong": {"port": "보령항", "days": boryeong},
+    }
     with open(TIDE_FILE, "w", encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False, indent=2)
-    print("조석 저장:", sorted(days.keys()))
+    print("조석 저장:", {"대산항": len(daesan), "보령항": len(boryeong)})
 
 
 # 1. 평택당진도선사회
