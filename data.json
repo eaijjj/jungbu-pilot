@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26 13:41",
+  "updatedAt": "2026-11-26 14:56",
   "schedules": [
     {
       "port": "평택",
@@ -227,10 +227,45 @@
     },
     {
       "port": "평택",
+      "vessel": "MORNING CELESTA",
+      "callSign": "C6DK7",
+      "station": "IPA → E3",
+      "time": "11-27 00:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "MORNING CINDY",
+      "callSign": "D5AI6",
+      "station": "IPA → E2",
+      "time": "11-27 04:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "LUCKY ANNIE",
+      "callSign": "8PTJ",
+      "station": "IPA → W5",
+      "time": "11-27 06:00"
+    },
+    {
+      "port": "평택",
       "vessel": "QINGDAO TRADER",
       "callSign": "D7IG",
       "station": "E7 → IPA",
       "time": "11-27 07:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "JI ZHE 7",
+      "callSign": "3E2374",
+      "station": "IPA → W6",
+      "time": "11-27 10:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "GLOVIS SIGMA",
+      "callSign": "C6CF6",
+      "station": "E4 → E5",
+      "time": "11-27 11:00"
     },
     {
       "port": "평택",
@@ -248,9 +283,37 @@
     },
     {
       "port": "평택",
+      "vessel": "TORINO",
+      "callSign": "9HA4855",
+      "station": "E5 → IPA",
+      "time": "11-27 11:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "MORNING CELESTA",
+      "callSign": "C6DK7",
+      "station": "E3 → E4",
+      "time": "11-27 12:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "TOMBARRA",
+      "callSign": "9HA4367",
+      "station": "E6 → E3",
+      "time": "11-27 12:00"
+    },
+    {
+      "port": "평택",
       "vessel": "NEW BOUNDARY",
       "callSign": "3EYA9",
       "station": "HD10 → IPA",
+      "time": "11-27 12:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "CAPTAIN GEORGE",
+      "callSign": "5BMB6",
+      "station": "W8 → JANG",
       "time": "11-27 12:00"
     },
     {
@@ -262,10 +325,31 @@
     },
     {
       "port": "평택",
+      "vessel": "CMA CGM DAYTONA",
+      "callSign": "9HA5940",
+      "station": "IPA → E3",
+      "time": "11-27 15:00"
+    },
+    {
+      "port": "평택",
       "vessel": "LIJMILIYA",
       "callSign": "V7PV2",
       "station": "JANG → LNG2",
       "time": "11-27 15:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "GLOVIS SIGMA",
+      "callSign": "C6CF6",
+      "station": "E5 → IPA",
+      "time": "11-27 15:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "TOMBARRA",
+      "callSign": "9HA4367",
+      "station": "E3 → E5",
+      "time": "11-27 16:00"
     },
     {
       "port": "평택",
@@ -276,16 +360,16 @@
     },
     {
       "port": "평택",
-      "vessel": "TEN JUPITER",
-      "callSign": "3E8470",
-      "station": "IPA → E16",
+      "vessel": "DS FLOURISH",
+      "callSign": "3E6748",
+      "station": "IPA → E12",
       "time": "11-27 17:00"
     },
     {
       "port": "평택",
-      "vessel": "RICH WELL",
-      "callSign": "JVYH8",
-      "station": "W7 → IPA",
+      "vessel": "TEN JUPITER",
+      "callSign": "3E8470",
+      "station": "IPA → E16",
       "time": "11-27 17:00"
     },
     {
@@ -301,6 +385,20 @@
       "callSign": "D5MO4",
       "station": "IPA → E15",
       "time": "11-27 19:30"
+    },
+    {
+      "port": "평택",
+      "vessel": "MORNING CELESTA",
+      "callSign": "C6DK7",
+      "station": "E4 → E3",
+      "time": "11-27 21:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "CMA CGM DAYTONA",
+      "callSign": "9HA5940",
+      "station": "E3 → E1",
+      "time": "11-27 21:00"
     },
     {
       "port": "평택",
@@ -551,7 +649,7 @@
       "vessel": "HONOR PROSPER",
       "callSign": "-",
       "station": "NPPS - SNCT2",
-      "time": "11-26 15:30",
+      "time": "11-26 15:10",
       "pilot": "KB(4)",
       "agent": "NEW INC",
       "tonnage": "9,990"
@@ -622,7 +720,7 @@
       "callSign": "-",
       "station": "60 - PAL",
       "time": "11-26 18:00",
-      "pilot": "-",
+      "pilot": "KU(3) KN(3)",
       "agent": "MARINER",
       "tonnage": "28,157"
     },
@@ -632,7 +730,7 @@
       "callSign": "-",
       "station": "NIPT4 - PAL",
       "time": "11-26 18:00",
-      "pilot": "-",
+      "pilot": "LO(3)",
       "agent": "WEIDONG",
       "tonnage": "17,137"
     },
@@ -735,16 +833,6 @@
       "pilot": "-",
       "agent": "Doowoo",
       "tonnage": "9,653"
-    },
-    {
-      "port": "인천",
-      "vessel": "V GALAXY",
-      "callSign": "-",
-      "station": "N45 - PAL",
-      "time": "11-26 23:00",
-      "pilot": "-",
-      "agent": "TAE DON",
-      "tonnage": "1,994"
     },
     {
       "port": "인천",
@@ -851,7 +939,7 @@
         ],
         [
           "담당자",
-          "박근홍"
+          "이종수"
         ],
         [
           "연락처",
@@ -884,7 +972,7 @@
         ],
         [
           "담당자",
-          "박근홍"
+          "이종수"
         ],
         [
           "연락처",
@@ -1001,6 +1089,43 @@
     },
     {
       "port": "대산",
+      "vessel": "JC NEW RUBY",
+      "callSign": "3E6753",
+      "station": "PS2-2 → MB5-01",
+      "time": "11-26 14:30",
+      "pilot": "GB / OC",
+      "agent": "스타",
+      "tonnage": "33,091",
+      "transit": false,
+      "detail": [
+        [
+          "흘수",
+          "6.00 m"
+        ],
+        [
+          "전장",
+          "197 m"
+        ],
+        [
+          "접안",
+          "우현"
+        ],
+        [
+          "화물",
+          "공선"
+        ],
+        [
+          "담당자",
+          "장재영"
+        ],
+        [
+          "연락처",
+          "041-429-2920"
+        ]
+      ]
+    },
+    {
+      "port": "대산",
       "vessel": "BOW JAGUAR",
       "callSign": "9V8728",
       "station": "PS2 → WAA-05",
@@ -1075,43 +1200,6 @@
     },
     {
       "port": "대산",
-      "vessel": "JC NEW RUBY",
-      "callSign": "3E6753",
-      "station": "PS2-2 → MB5-01",
-      "time": "11-26 14:30",
-      "pilot": "GB / OC",
-      "agent": "스타",
-      "tonnage": "33,091",
-      "transit": false,
-      "detail": [
-        [
-          "흘수",
-          "6.00 m"
-        ],
-        [
-          "전장",
-          "197 m"
-        ],
-        [
-          "접안",
-          "우현"
-        ],
-        [
-          "화물",
-          "공선"
-        ],
-        [
-          "담당자",
-          "장재영"
-        ],
-        [
-          "연락처",
-          "041-429-2920"
-        ]
-      ]
-    },
-    {
-      "port": "대산",
       "vessel": "NEW SILVER",
       "callSign": "D8SV",
       "station": "PS2-2 → MDS-34",
@@ -1139,7 +1227,7 @@
         ],
         [
           "담당자",
-          "박근홍"
+          "이종수"
         ],
         [
           "연락처",
@@ -1338,7 +1426,7 @@
       "callSign": "V7IM9",
       "station": "MDK-16 → PS2",
       "time": "11-26 17:00",
-      "pilot": "ST",
+      "pilot": "GB",
       "agent": "대동",
       "tonnage": "23,861",
       "transit": false,
@@ -1482,7 +1570,7 @@
       "callSign": "V7B3457",
       "station": "PS3 → WAA-1 MDK",
       "time": "11-26 18:00",
-      "pilot": "GB",
+      "pilot": "ST",
       "agent": "해양",
       "tonnage": "2,999",
       "transit": false,
@@ -1501,7 +1589,40 @@
         ],
         [
           "담당자",
-          "박근홍"
+          "이종수"
+        ],
+        [
+          "연락처",
+          "041-681-7500"
+        ]
+      ]
+    },
+    {
+      "port": "대산",
+      "vessel": "NEW SILVER",
+      "callSign": "D8SV",
+      "station": "PS2 → WAA-03",
+      "time": "11-26 19:00",
+      "pilot": "GB",
+      "agent": "해양",
+      "tonnage": "8,504",
+      "transit": false,
+      "detail": [
+        [
+          "흘수",
+          "4.85 m"
+        ],
+        [
+          "전장",
+          "127 m"
+        ],
+        [
+          "화물",
+          "공선"
+        ],
+        [
+          "담당자",
+          "이종수"
         ],
         [
           "연락처",
@@ -1538,7 +1659,402 @@
         ],
         [
           "담당자",
-          "박근홍"
+          "이종수"
+        ],
+        [
+          "연락처",
+          "041-681-7500"
+        ]
+      ]
+    },
+    {
+      "port": "대산",
+      "vessel": "CRISTOBAL",
+      "callSign": "3E5049",
+      "station": "MDS-31 → PS2",
+      "time": "11-27 06:00",
+      "pilot": "-",
+      "agent": "스타",
+      "tonnage": "48,793",
+      "transit": false,
+      "detail": [
+        [
+          "흘수",
+          "9.00 m"
+        ],
+        [
+          "전장",
+          "229 m"
+        ],
+        [
+          "접안",
+          "우현"
+        ],
+        [
+          "화물",
+          "공선"
+        ],
+        [
+          "담당자",
+          "장재영"
+        ],
+        [
+          "연락처",
+          "041-429-2920"
+        ]
+      ]
+    },
+    {
+      "port": "대산",
+      "vessel": "JC NEW RUBY",
+      "callSign": "3E6753",
+      "station": "PS2-2 → MB5-01",
+      "time": "11-27 06:00",
+      "pilot": "-",
+      "agent": "스타",
+      "tonnage": "33,091",
+      "transit": false,
+      "detail": [
+        [
+          "흘수",
+          "6.00 m"
+        ],
+        [
+          "전장",
+          "197 m"
+        ],
+        [
+          "접안",
+          "우현"
+        ],
+        [
+          "화물",
+          "공선"
+        ],
+        [
+          "담당자",
+          "장재영"
+        ],
+        [
+          "연락처",
+          "041-429-2920"
+        ]
+      ]
+    },
+    {
+      "port": "대산",
+      "vessel": "WAN MING FU QIANG",
+      "callSign": "J5BK1",
+      "station": "PS3 → PS4",
+      "time": "11-27 09:00",
+      "pilot": "-",
+      "agent": "해양",
+      "tonnage": "40,437",
+      "transit": false,
+      "detail": [
+        [
+          "흘수",
+          "14.20 m"
+        ],
+        [
+          "전장",
+          "225 m"
+        ],
+        [
+          "화물",
+          "적재"
+        ],
+        [
+          "담당자",
+          "이종수"
+        ],
+        [
+          "연락처",
+          "041-681-7500"
+        ]
+      ]
+    },
+    {
+      "port": "대산",
+      "vessel": "BOW JAGUAR",
+      "callSign": "9V8728",
+      "station": "MDS-31 → PS2",
+      "time": "11-27 09:00",
+      "pilot": "-",
+      "agent": "스타",
+      "tonnage": "15,065",
+      "transit": false,
+      "detail": [
+        [
+          "흘수",
+          "9.00 m"
+        ],
+        [
+          "전장",
+          "156 m"
+        ],
+        [
+          "접안",
+          "우현"
+        ],
+        [
+          "화물",
+          "적재"
+        ],
+        [
+          "담당자",
+          "장재영"
+        ],
+        [
+          "연락처",
+          "041-429-2920"
+        ]
+      ]
+    },
+    {
+      "port": "대산",
+      "vessel": "LIMBO",
+      "callSign": "V7B2918",
+      "station": "PS2 → MDS-37",
+      "time": "11-27 09:00",
+      "pilot": "-",
+      "agent": "스타",
+      "tonnage": "63,306",
+      "transit": false,
+      "detail": [
+        [
+          "흘수",
+          "9.00 m"
+        ],
+        [
+          "전장",
+          "249 m"
+        ],
+        [
+          "접안",
+          "우현"
+        ],
+        [
+          "화물",
+          "공선"
+        ],
+        [
+          "담당자",
+          "장재영"
+        ],
+        [
+          "연락처",
+          "041-429-2920"
+        ]
+      ]
+    },
+    {
+      "port": "대산",
+      "vessel": "WAN MING FU QIANG",
+      "callSign": "J5BK1",
+      "station": "PS4 → MDT-61",
+      "time": "11-27 10:00",
+      "pilot": "-",
+      "agent": "해양",
+      "tonnage": "40,437",
+      "transit": false,
+      "detail": [
+        [
+          "흘수",
+          "14.20 m"
+        ],
+        [
+          "전장",
+          "225 m"
+        ],
+        [
+          "접안",
+          "우현"
+        ],
+        [
+          "화물",
+          "적재"
+        ],
+        [
+          "담당자",
+          "이종수"
+        ],
+        [
+          "연락처",
+          "041-681-7500"
+        ]
+      ]
+    },
+    {
+      "port": "대산",
+      "vessel": "TORM CAVATINA",
+      "callSign": "OZFZ2",
+      "station": "PS2 → WAA-09",
+      "time": "11-27 12:00",
+      "pilot": "-",
+      "agent": "스타",
+      "tonnage": "27,061",
+      "transit": false,
+      "detail": [
+        [
+          "흘수",
+          "9.00 m"
+        ],
+        [
+          "전장",
+          "182 m"
+        ],
+        [
+          "화물",
+          "공선"
+        ],
+        [
+          "담당자",
+          "장재영"
+        ],
+        [
+          "연락처",
+          "041-429-2920"
+        ]
+      ]
+    },
+    {
+      "port": "대산",
+      "vessel": "CONSISTENCE",
+      "callSign": "V7A4450",
+      "station": "PS3 → MB4-01",
+      "time": "11-27 17:00",
+      "pilot": "-",
+      "agent": "에이스",
+      "tonnage": "9,972",
+      "transit": false,
+      "detail": [
+        [
+          "흘수",
+          "6.10 m"
+        ],
+        [
+          "전장",
+          "145 m"
+        ],
+        [
+          "접안",
+          "우현"
+        ],
+        [
+          "화물",
+          "적재"
+        ],
+        [
+          "담당자",
+          "오현"
+        ],
+        [
+          "연락처",
+          "010-5709-4723"
+        ]
+      ]
+    },
+    {
+      "port": "대산",
+      "vessel": "BOW JAGUAR",
+      "callSign": "9V8728",
+      "station": "PS2 → MDS-31",
+      "time": "11-27 19:00",
+      "pilot": "-",
+      "agent": "스타",
+      "tonnage": "15,065",
+      "transit": false,
+      "detail": [
+        [
+          "흘수",
+          "8.00 m"
+        ],
+        [
+          "전장",
+          "156 m"
+        ],
+        [
+          "접안",
+          "우현"
+        ],
+        [
+          "화물",
+          "적재"
+        ],
+        [
+          "담당자",
+          "장재영"
+        ],
+        [
+          "연락처",
+          "041-429-2920"
+        ]
+      ]
+    },
+    {
+      "port": "대산",
+      "vessel": "CONSISTENCE",
+      "callSign": "V7A4450",
+      "station": "MB4-01 → PS3",
+      "time": "11-28 01:30",
+      "pilot": "-",
+      "agent": "에이스",
+      "tonnage": "9,972",
+      "transit": false,
+      "detail": [
+        [
+          "흘수",
+          "6.10 m"
+        ],
+        [
+          "전장",
+          "145 m"
+        ],
+        [
+          "접안",
+          "우현"
+        ],
+        [
+          "화물",
+          "적재"
+        ],
+        [
+          "담당자",
+          "오현"
+        ],
+        [
+          "연락처",
+          "010-5709-4723"
+        ]
+      ]
+    },
+    {
+      "port": "대산",
+      "vessel": "SEA FUTURE",
+      "callSign": "V7MI8",
+      "station": "B.WAA-04 → MDA-01",
+      "time": "11-27 09:30",
+      "pilot": "-",
+      "agent": "해양",
+      "tonnage": "47,051",
+      "transit": false,
+      "detail": [
+        [
+          "흘수",
+          "13.73 m"
+        ],
+        [
+          "전장",
+          "229 m"
+        ],
+        [
+          "화물",
+          "적재"
+        ],
+        [
+          "담당자",
+          "이종수"
         ],
         [
           "연락처",
