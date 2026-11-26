@@ -200,6 +200,7 @@ def scrape_pt(page):
                             "vessel": vessel,
                             "callSign": call_sign,
                             "station": f"{from_pt} → {to_pt}",
+                            "tonnage": fmt_num(pick(cells, time_idx + 6)),
                             "time": f"{cells[date_idx]} {cells[time_idx]}"
                         })
     return rows
