@@ -1266,6 +1266,8 @@
     const LOW_TIDE_WINDOW_MIN = 2 * 60;
     const POB_BADGE_TOP = 17;
     const LOW_TIDE_BADGE_LANE = 22;
+    const MOBILE_TIDE_PLOT_EXTRA = 22;
+    const MOBILE_TIDE_MARKER_OVERHANG = 7;
     let tidePoints = { DAESAN: [], BORYEONG: [] };
     const tideOpen = { DAESAN: false, BORYEONG: false };
 
@@ -1684,12 +1686,14 @@
     }
 
     // 그래프 (의존성 없는 SVG). W: 가로(px), H: 세로(px), day0: 그 날 00:00 절대시각
-    function tideSvg(W, H, day0, nowT, vT, port, showLowTideBands, vesselCaution, badgeLane) {
+    function tideSvg(W, H, day0, nowT, vT, port, showLowTideBands, vesselCaution, badgeLane, mobileDetail) {
       const P = tidePoints[port];
       const L = 36, R = 12, T = showLowTideBands ? 64 : 44, B = 30;
       const pw = W - L - R;
       const chartH = H - badgeLane;
       const ph = chartH - T - B;
+      const markerTop = T - (mobileDetail ? MOBILE_TIDE_MARKER_OVERHANG : 16);
+      const vesselMarkerTop = showLowTideBands && !mobileDetail ? POB_BADGE_TOP + 17 : markerTop;
       const end = day0 + 1440;
       const X = function (t) { return L + (t - day0) / 1440 * pw; };
       const dayHeights = P.filter(function (p) { return p.t >= day0 && p.t <= end; })
@@ -1785,7 +1789,7 @@
       }
 
       if (vesIn) {
-        s += "<line class='tc-ves-line' x1='" + f1(xv) + "' x2='" + f1(xv) + "' y1='" + (showLowTideBands ? POB_BADGE_TOP + 17 : T - 16) + "' y2='" + (T + ph) + "'/>";
+        s += "<line class='tc-ves-line' x1='" + f1(xv) + "' x2='" + f1(xv) + "' y1='" + vesselMarkerTop + "' y2='" + (T + ph) + "'/>";
         if (hv !== null) {
           const yv = Y(hv);
           s += "<polygon class='tc-ves-mark' points='" + f1(xv) + "," + f1(yv - 7) + " " + f1(xv + 7) + "," + f1(yv) + " " + f1(xv) + "," + f1(yv + 7) + " " + f1(xv - 7) + "," + f1(yv) + "'/>";
@@ -1807,7 +1811,7 @@
       }
       if (nowIn) {
         const hn = tideAt(nowT, P);
-        s += "<line class='tc-now-line' x1='" + f1(xn) + "' x2='" + f1(xn) + "' y1='" + (T - 16) + "' y2='" + (T + ph) + "'/>";
+        s += "<line class='tc-now-line' x1='" + f1(xn) + "' x2='" + f1(xn) + "' y1='" + markerTop + "' y2='" + (T + ph) + "'/>";
         if (hn !== null) s += "<circle class='tc-now-dot' cx='" + f1(xn) + "' cy='" + f1(Y(hn)) + "' r='5'/>";
         s += "<text class='tc-now-lbl' x='" + f1(xn + (ancN === "start" ? 3 : ancN === "end" ? -3 : 0)) + "' y='12' text-anchor='" + ancN + "'>현재 " + (hn !== null ? Math.round(hn) + "cm" : "") + "</text>";
       }
@@ -1835,7 +1839,8 @@
       const vesselOnDay = compact && vT !== null && vT >= day0 && vT <= day0 + 1440;
       const vesselCaution = vesselOnDay && isLowTideTime(vT, P);
       const badgeLane = vesselCaution ? LOW_TIDE_BADGE_LANE : 0;
-      const H = mode === "full" ? 270 : 200 + badgeLane;
+      const mobileDetail = compact && isNarrow();
+      const H = mode === "full" ? 270 : 200 + badgeLane + (mobileDetail ? MOBILE_TIDE_PLOT_EXTRA : 0);
       const trendBadge = compact && info.rising !== null
         ? "<span class='tc-state-badge'>" + (info.rising ? "↑ 상승(창조)" : "↓ 하강(낙조)") + "</span>"
         : "";
@@ -1874,7 +1879,7 @@
       if (holder && !hasData && !vesselCaution) {
         holder.innerHTML = "<div class='tc-empty' style='height:" + H + "px'>이 날짜의 " + name + " 조석 데이터가 없습니다</div>";
       } else if (w > 0) {
-        holder.innerHTML = tideSvg(w, H, day0, now.abs, vT, port, compact, vesselCaution, badgeLane);
+        holder.innerHTML = tideSvg(w, H, day0, now.abs, vT, port, compact, vesselCaution, badgeLane, mobileDetail);
       }
     }
 
