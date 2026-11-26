@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26 20:25",
+  "updatedAt": "2026-11-26 21:31",
   "schedules": [
     {
       "port": "평택",
@@ -900,7 +900,7 @@
       "vessel": "XIN MING ZHOU 20",
       "callSign": "-",
       "station": "NPPS - SNCT3",
-      "time": "11-26 22:00",
+      "time": "11-26 21:40",
       "pilot": "CN(4)",
       "agent": "Doowoo",
       "tonnage": "9,653"
