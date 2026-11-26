@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27 03:51",
+  "updatedAt": "2026-11-27 04:58",
   "schedules": [
     {
       "port": "평택",
@@ -489,7 +489,7 @@
       "callSign": "-",
       "station": "PAL - KAL",
       "time": "11-27 06:00",
-      "pilot": "HY(1)",
+      "pilot": "GH(1)",
       "agent": "ILJIN S",
       "tonnage": "8,581"
     },
@@ -509,7 +509,7 @@
       "callSign": "-",
       "station": "73 - PAL",
       "time": "11-27 06:30",
-      "pilot": "GD(1) GH(1)",
+      "pilot": "GD(1) HY(1)",
       "agent": "NEW INC",
       "tonnage": "23,759"
     },
@@ -569,7 +569,7 @@
       "callSign": "-",
       "station": "SKI 1 - PAL",
       "time": "11-27 08:00",
-      "pilot": "-",
+      "pilot": "GH(2)",
       "agent": "DA SAN",
       "tonnage": "3,936"
     },
@@ -579,7 +579,7 @@
       "callSign": "-",
       "station": "PAL - NIPT2",
       "time": "11-27 08:30",
-      "pilot": "-",
+      "pilot": "GD(2)",
       "agent": "DONGGAN",
       "tonnage": "24,748"
     },
@@ -589,7 +589,7 @@
       "callSign": "-",
       "station": "KIST - PAL",
       "time": "11-27 09:00",
-      "pilot": "-",
+      "pilot": "KX(2)",
       "agent": "TNK MAR",
       "tonnage": "1,291"
     },
