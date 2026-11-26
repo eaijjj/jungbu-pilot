@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27 02:50",
+  "updatedAt": "2026-11-27 03:51",
   "schedules": [
     {
       "port": "평택",
@@ -559,7 +559,7 @@
       "callSign": "-",
       "station": "PAL - N42",
       "time": "11-27 08:00",
-      "pilot": "-",
+      "pilot": "CY(1)",
       "agent": "MASTER",
       "tonnage": "7,264"
     },
