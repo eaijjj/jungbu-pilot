@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26 17:44",
+  "updatedAt": "2026-11-26 19:02",
   "schedules": [
     {
       "port": "평택",
@@ -307,22 +307,6 @@
     },
     {
       "port": "평택",
-      "vessel": "MORNING CELESTA",
-      "callSign": "C6DK7",
-      "station": "E3 → E4",
-      "tonnage": "57,542",
-      "time": "11-27 12:00"
-    },
-    {
-      "port": "평택",
-      "vessel": "TOMBARRA",
-      "callSign": "9HA4367",
-      "station": "E6 → E3",
-      "tonnage": "61,321",
-      "time": "11-27 12:00"
-    },
-    {
-      "port": "평택",
       "vessel": "JI ZHE 7",
       "callSign": "3E2374",
       "station": "IPA → W6",
@@ -355,19 +339,27 @@
     },
     {
       "port": "평택",
+      "vessel": "MORNING CELESTA",
+      "callSign": "C6DK7",
+      "station": "E3 → E4",
+      "tonnage": "57,542",
+      "time": "11-27 12:30"
+    },
+    {
+      "port": "평택",
+      "vessel": "TOMBARRA",
+      "callSign": "9HA4367",
+      "station": "E6 → E3",
+      "tonnage": "61,321",
+      "time": "11-27 12:30"
+    },
+    {
+      "port": "평택",
       "vessel": "XIN TAI PING",
       "callSign": "BSDU",
       "station": "E8 → IPA",
       "tonnage": "5,275",
       "time": "11-27 13:00"
-    },
-    {
-      "port": "평택",
-      "vessel": "CMA CGM DAYTONA",
-      "callSign": "9HA5940",
-      "station": "IPA → E3",
-      "tonnage": "71,631",
-      "time": "11-27 15:00"
     },
     {
       "port": "평택",
@@ -379,19 +371,19 @@
     },
     {
       "port": "평택",
+      "vessel": "CMA CGM DAYTONA",
+      "callSign": "9HA5940",
+      "station": "IPA → E3",
+      "tonnage": "71,631",
+      "time": "11-27 15:30"
+    },
+    {
+      "port": "평택",
       "vessel": "GLOVIS SIGMA",
       "callSign": "C6CF6",
       "station": "E5 → IPA",
       "tonnage": "71,177",
-      "time": "11-27 15:00"
-    },
-    {
-      "port": "평택",
-      "vessel": "TOMBARRA",
-      "callSign": "9HA4367",
-      "station": "E3 → E5",
-      "tonnage": "61,321",
-      "time": "11-27 16:00"
+      "time": "11-27 15:30"
     },
     {
       "port": "평택",
@@ -400,6 +392,14 @@
       "station": "IPA → W5",
       "tonnage": "7,436",
       "time": "11-27 16:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "TOMBARRA",
+      "callSign": "9HA4367",
+      "station": "E3 → E5",
+      "tonnage": "61,321",
+      "time": "11-27 16:30"
     },
     {
       "port": "평택",
@@ -419,9 +419,9 @@
     },
     {
       "port": "평택",
-      "vessel": "RIZHAO ORIENT",
+      "vessel": "풍LS특",
       "callSign": "HOAG",
-      "station": "JANG → E14",
+      "station": "RIZHAO ORIENT → JANG",
       "tonnage": "25,318",
       "time": "11-27 19:00"
     },
@@ -431,6 +431,14 @@
       "callSign": "D5MO4",
       "station": "IPA → E15",
       "tonnage": "19,480",
+      "time": "11-27 19:30"
+    },
+    {
+      "port": "평택",
+      "vessel": "GLOVIS NOBLE",
+      "callSign": "9HA6670",
+      "station": "E1 → IPA",
+      "tonnage": "102,437",
       "time": "11-27 19:30"
     },
     {
@@ -459,18 +467,18 @@
     },
     {
       "port": "평택",
-      "vessel": "MORNING CELESTA",
-      "callSign": "C6DK7",
-      "station": "E4 → E3",
-      "tonnage": "57,542",
+      "vessel": "CMA CGM DAYTONA",
+      "callSign": "9HA5940",
+      "station": "E3 → E4",
+      "tonnage": "71,631",
       "time": "11-27 21:00"
     },
     {
       "port": "평택",
-      "vessel": "CMA CGM DAYTONA",
-      "callSign": "9HA5940",
-      "station": "E3 → E1",
-      "tonnage": "71,631",
+      "vessel": "MORNING CELESTA",
+      "callSign": "C6DK7",
+      "station": "E4 → E3",
+      "tonnage": "57,542",
       "time": "11-27 21:00"
     },
     {
@@ -906,16 +914,6 @@
       "pilot": "KN(4)",
       "agent": "PYEONG",
       "tonnage": "9,751"
-    },
-    {
-      "port": "인천",
-      "vessel": "SEUNG JIN",
-      "callSign": "-",
-      "station": "52 - PAL",
-      "time": "11-26 23:59",
-      "pilot": "LO(4)",
-      "agent": "GAON SH",
-      "tonnage": "1,635"
     },
     {
       "port": "대산",
@@ -1495,7 +1493,7 @@
       "callSign": "V7IM9",
       "station": "MDK-16 → PS2",
       "time": "11-27 05:30",
-      "pilot": "-",
+      "pilot": "GB",
       "agent": "대동",
       "tonnage": "23,861",
       "transit": false,
@@ -1528,7 +1526,7 @@
       "callSign": "3FOE8",
       "station": "MDK-11 → PS3",
       "time": "11-27 05:30",
-      "pilot": "-",
+      "pilot": "KY",
       "agent": "수정",
       "tonnage": "2,999",
       "transit": false,
@@ -1565,7 +1563,7 @@
       "callSign": "BONU9",
       "station": "PS3 → MDS-35",
       "time": "11-27 05:30",
-      "pilot": "-",
+      "pilot": "ST",
       "agent": "수정",
       "tonnage": "4,765",
       "transit": false,
@@ -1598,7 +1596,7 @@
       "callSign": "D5WY9",
       "station": "WAA-03 → MDS-33",
       "time": "11-27 05:30",
-      "pilot": "-",
+      "pilot": "GM",
       "agent": "대동",
       "tonnage": "3,494",
       "transit": false,
@@ -1635,7 +1633,7 @@
       "callSign": "A8MU9",
       "station": "MDS-36 → WAA-10",
       "time": "11-27 05:30",
-      "pilot": "-",
+      "pilot": "YM / OC",
       "agent": "해양",
       "tonnage": "64,350",
       "transit": false,
@@ -1668,7 +1666,7 @@
       "callSign": "3E5049",
       "station": "MDS-31 → PS2",
       "time": "11-27 05:30",
-      "pilot": "-",
+      "pilot": "JY",
       "agent": "스타",
       "tonnage": "48,793",
       "transit": false,
@@ -1705,7 +1703,7 @@
       "callSign": "3E6753",
       "station": "PS2-2 → MB5-01",
       "time": "11-27 06:00",
-      "pilot": "-",
+      "pilot": "KS / LT",
       "agent": "스타",
       "tonnage": "33,091",
       "transit": false,
@@ -1742,7 +1740,7 @@
       "callSign": "CQKV",
       "station": "PS2 → SPM-01",
       "time": "11-27 06:00",
-      "pilot": "-",
+      "pilot": "LE / PG",
       "agent": "대동",
       "tonnage": "81,468",
       "transit": false,
@@ -1775,7 +1773,7 @@
       "callSign": "DSPQ4",
       "station": "PS3 → MDS-36",
       "time": "11-27 06:30",
-      "pilot": "-",
+      "pilot": "KY",
       "agent": "동양",
       "tonnage": "5,598",
       "transit": false,
@@ -1812,7 +1810,7 @@
       "callSign": "9V8728",
       "station": "PS2 → MDS-31",
       "time": "11-27 09:00",
-      "pilot": "-",
+      "pilot": "GB",
       "agent": "스타",
       "tonnage": "15,065",
       "transit": false,
@@ -1849,7 +1847,7 @@
       "callSign": "D8SV",
       "station": "PS2-2 → MDS-34",
       "time": "11-27 09:00",
-      "pilot": "-",
+      "pilot": "OC",
       "agent": "해양",
       "tonnage": "8,504",
       "transit": false,
@@ -1886,7 +1884,7 @@
       "callSign": "V7A2468",
       "station": "PS2-2 → MDN-11",
       "time": "11-27 09:00",
-      "pilot": "-",
+      "pilot": "YM",
       "agent": "대동",
       "tonnage": "29,917",
       "transit": false,
@@ -1923,7 +1921,7 @@
       "callSign": "V7B2918",
       "station": "PS2 → MDS-37",
       "time": "11-27 09:00",
-      "pilot": "-",
+      "pilot": "GM / ST",
       "agent": "스타",
       "tonnage": "63,306",
       "transit": false,
@@ -1960,7 +1958,7 @@
       "callSign": "J5BK1",
       "station": "PS3 → PS4",
       "time": "11-27 09:00",
-      "pilot": "-",
+      "pilot": "PG / LE",
       "agent": "해양",
       "tonnage": "40,437",
       "transit": false,
@@ -1993,7 +1991,7 @@
       "callSign": "J5BK1",
       "station": "PS4 → MDT-61",
       "time": "11-27 10:00",
-      "pilot": "-",
+      "pilot": "PG / LE",
       "agent": "해양",
       "tonnage": "40,437",
       "transit": false,
@@ -2030,7 +2028,7 @@
       "callSign": "PCIG",
       "station": "PS3 → WAA-03",
       "time": "11-27 10:00",
-      "pilot": "-",
+      "pilot": "LT",
       "agent": "수정",
       "tonnage": "6,288",
       "transit": false,
@@ -2063,7 +2061,7 @@
       "callSign": "BQTQ",
       "station": "PS3 → MDH-22",
       "time": "11-27 10:30",
-      "pilot": "-",
+      "pilot": "JY",
       "agent": "수정",
       "tonnage": "3,790",
       "transit": false,
@@ -2096,7 +2094,7 @@
       "callSign": "D5PK4",
       "station": "T.WAA-01 → MDT-51",
       "time": "11-27 10:30",
-      "pilot": "-",
+      "pilot": "KS",
       "agent": "해양",
       "tonnage": "51,158",
       "transit": false,
@@ -2133,7 +2131,7 @@
       "callSign": "H3XM",
       "station": "PS2-2 → MDH-21",
       "time": "11-27 11:00",
-      "pilot": "-",
+      "pilot": "TW",
       "agent": "수정",
       "tonnage": "11,773",
       "transit": false,
@@ -2170,7 +2168,7 @@
       "callSign": "BPFC2",
       "station": "WAA-03 → MDH-25",
       "time": "11-27 11:00",
-      "pilot": "-",
+      "pilot": "LT",
       "agent": "수정",
       "tonnage": "4,498",
       "transit": false,
@@ -2207,7 +2205,7 @@
       "callSign": "9HA4889",
       "station": "MDH-21 → PS2",
       "time": "11-27 11:30",
-      "pilot": "-",
+      "pilot": "KY",
       "agent": "우진",
       "tonnage": "43,693",
       "transit": false,
@@ -2240,7 +2238,7 @@
       "callSign": "BPKD2",
       "station": "MDS-32 → PS3",
       "time": "11-27 12:00",
-      "pilot": "-",
+      "pilot": "GM",
       "agent": "대산",
       "tonnage": "5,407",
       "transit": false,
@@ -2273,7 +2271,7 @@
       "callSign": "BOGI3",
       "station": "PS3 → MDH-24",
       "time": "11-27 12:00",
-      "pilot": "-",
+      "pilot": "GB",
       "agent": "수정",
       "tonnage": "6,931",
       "transit": false,
@@ -2306,7 +2304,7 @@
       "callSign": "OZFZ2",
       "station": "PS2 → WAA-09",
       "time": "11-27 12:30",
-      "pilot": "-",
+      "pilot": "KS",
       "agent": "스타",
       "tonnage": "27,061",
       "transit": false,
@@ -2339,7 +2337,7 @@
       "callSign": "D8BU",
       "station": "MDK-14 → PS2",
       "time": "11-27 13:00",
-      "pilot": "-",
+      "pilot": "LT",
       "agent": "대산",
       "tonnage": "7,699",
       "transit": false,
@@ -2368,44 +2366,11 @@
     },
     {
       "port": "대산",
-      "vessel": "DING HENG 5",
-      "callSign": "BPIQ8",
-      "station": "PS3 → WAA-01",
-      "time": "11-27 15:00",
-      "pilot": "-",
-      "agent": "우진",
-      "tonnage": "2,999",
-      "transit": false,
-      "detail": [
-        [
-          "흘수",
-          "5.00 m"
-        ],
-        [
-          "전장",
-          "97 m"
-        ],
-        [
-          "화물",
-          "공선"
-        ],
-        [
-          "담당자",
-          "현동준"
-        ],
-        [
-          "연락처",
-          "041-681-9596"
-        ]
-      ]
-    },
-    {
-      "port": "대산",
       "vessel": "BUENA LUNA",
       "callSign": "3FTH3",
       "station": "PS3 → MDK-12",
       "time": "11-27 16:30",
-      "pilot": "-",
+      "pilot": "KY",
       "agent": "수정",
       "tonnage": "4,304",
       "transit": false,
@@ -2442,7 +2407,7 @@
       "callSign": "V7A4450",
       "station": "PS3 → MB4-01",
       "time": "11-27 17:00",
-      "pilot": "-",
+      "pilot": "ST",
       "agent": "에이스",
       "tonnage": "9,972",
       "transit": false,
@@ -2479,7 +2444,7 @@
       "callSign": "3E7920",
       "station": "PS2 → MDK-15",
       "time": "11-27 17:00",
-      "pilot": "-",
+      "pilot": "LE",
       "agent": "대동",
       "tonnage": "29,408",
       "transit": false,
@@ -2516,7 +2481,7 @@
       "callSign": "V7B3457",
       "station": "WAA-3 MDK → MDK-11",
       "time": "11-27 17:30",
-      "pilot": "-",
+      "pilot": "JK",
       "agent": "해양",
       "tonnage": "2,999",
       "transit": false,
@@ -2553,7 +2518,7 @@
       "callSign": "D7SQ",
       "station": "MDK-11 → PS3",
       "time": "11-27 17:30",
-      "pilot": "-",
+      "pilot": "PG",
       "agent": "동양",
       "tonnage": "3,496",
       "transit": false,
@@ -2586,7 +2551,7 @@
       "callSign": "161008",
       "station": "MDK-18 → PS2",
       "time": "11-27 17:30",
-      "pilot": "-",
+      "pilot": "GB",
       "agent": "동양",
       "tonnage": "8,539",
       "transit": false,
@@ -2619,7 +2584,7 @@
       "callSign": "BPSA",
       "station": "WAA-2 MDK → MDK-18",
       "time": "11-27 17:30",
-      "pilot": "-",
+      "pilot": "GM",
       "agent": "동양",
       "tonnage": "5,738",
       "transit": false,
@@ -2652,7 +2617,7 @@
       "callSign": "BONU9",
       "station": "MDS-35 → PS3",
       "time": "11-27 18:00",
-      "pilot": "-",
+      "pilot": "KY",
       "agent": "수정",
       "tonnage": "4,765",
       "transit": false,
@@ -2685,7 +2650,7 @@
       "callSign": "D5WY9",
       "station": "MDS-33 → PS3",
       "time": "11-27 18:00",
-      "pilot": "-",
+      "pilot": "KS",
       "agent": "대동",
       "tonnage": "3,494",
       "transit": false,
@@ -2718,7 +2683,7 @@
       "callSign": "3FEG8",
       "station": "WAA-7 MDK → MDK-16",
       "time": "11-27 18:30",
-      "pilot": "-",
+      "pilot": "PG",
       "agent": "대동",
       "tonnage": "4,416",
       "transit": false,
@@ -2751,7 +2716,7 @@
       "callSign": "9V8728",
       "station": "MDS-31 → PS2",
       "time": "11-27 18:30",
-      "pilot": "-",
+      "pilot": "ST",
       "agent": "스타",
       "tonnage": "15,065",
       "transit": false,
@@ -2784,11 +2749,44 @@
     },
     {
       "port": "대산",
+      "vessel": "DING HENG 5",
+      "callSign": "BPIQ8",
+      "station": "PS3 → WAA-01",
+      "time": "11-27 19:00",
+      "pilot": "KY",
+      "agent": "우진",
+      "tonnage": "2,999",
+      "transit": false,
+      "detail": [
+        [
+          "흘수",
+          "5.00 m"
+        ],
+        [
+          "전장",
+          "97 m"
+        ],
+        [
+          "화물",
+          "공선"
+        ],
+        [
+          "담당자",
+          "현동준"
+        ],
+        [
+          "연락처",
+          "041-681-9596"
+        ]
+      ]
+    },
+    {
+      "port": "대산",
       "vessel": "CONSISTENCE",
       "callSign": "V7A4450",
       "station": "MB4-01 → PS3",
       "time": "11-28 01:30",
-      "pilot": "-",
+      "pilot": "ST",
       "agent": "에이스",
       "tonnage": "9,972",
       "transit": false,
