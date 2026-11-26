@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26 19:02",
+  "updatedAt": "2026-11-26 20:25",
   "schedules": [
     {
       "port": "평택",
@@ -1384,7 +1384,7 @@
       "port": "대산",
       "vessel": "ASTREANA",
       "callSign": "V7B3457",
-      "station": "PS3 → WAA-1 MDK",
+      "station": "PS3 → WAA-4 MDK",
       "time": "11-26 16:15",
       "pilot": "ST",
       "agent": "해양",
@@ -1880,43 +1880,6 @@
     },
     {
       "port": "대산",
-      "vessel": "CASTOR",
-      "callSign": "V7A2468",
-      "station": "PS2-2 → MDN-11",
-      "time": "11-27 09:00",
-      "pilot": "YM",
-      "agent": "대동",
-      "tonnage": "29,917",
-      "transit": false,
-      "detail": [
-        [
-          "흘수",
-          "9.50 m"
-        ],
-        [
-          "전장",
-          "183 m"
-        ],
-        [
-          "접안",
-          "우현"
-        ],
-        [
-          "화물",
-          "적재"
-        ],
-        [
-          "담당자",
-          "김만수"
-        ],
-        [
-          "연락처",
-          "041-664-8644"
-        ]
-      ]
-    },
-    {
-      "port": "대산",
       "vessel": "LIMBO",
       "callSign": "V7B2918",
       "station": "PS2 → MDS-37",
@@ -1936,7 +1899,7 @@
         ],
         [
           "접안",
-          "좌현"
+          "우현"
         ],
         [
           "화물",
@@ -2234,39 +2197,6 @@
     },
     {
       "port": "대산",
-      "vessel": "XIA HUAI",
-      "callSign": "BPKD2",
-      "station": "MDS-32 → PS3",
-      "time": "11-27 12:00",
-      "pilot": "GM",
-      "agent": "대산",
-      "tonnage": "5,407",
-      "transit": false,
-      "detail": [
-        [
-          "흘수",
-          "7.20 m"
-        ],
-        [
-          "전장",
-          "111 m"
-        ],
-        [
-          "화물",
-          "적재"
-        ],
-        [
-          "담당자",
-          "채수일"
-        ],
-        [
-          "연락처",
-          "041-681-9300"
-        ]
-      ]
-    },
-    {
-      "port": "대산",
       "vessel": "KUN SHUN",
       "callSign": "BOGI3",
       "station": "PS3 → MDH-24",
@@ -2295,6 +2225,39 @@
         [
           "연락처",
           "010-4002-8751"
+        ]
+      ]
+    },
+    {
+      "port": "대산",
+      "vessel": "XIA HUAI",
+      "callSign": "BPKD2",
+      "station": "MDS-32 → PS3",
+      "time": "11-27 12:00",
+      "pilot": "GM",
+      "agent": "대산",
+      "tonnage": "5,407",
+      "transit": false,
+      "detail": [
+        [
+          "흘수",
+          "7.20 m"
+        ],
+        [
+          "전장",
+          "111 m"
+        ],
+        [
+          "화물",
+          "적재"
+        ],
+        [
+          "담당자",
+          "채수일"
+        ],
+        [
+          "연락처",
+          "041-681-9300"
         ]
       ]
     },
@@ -2613,39 +2576,6 @@
     },
     {
       "port": "대산",
-      "vessel": "HONG KAI",
-      "callSign": "BONU9",
-      "station": "MDS-35 → PS3",
-      "time": "11-27 18:00",
-      "pilot": "KY",
-      "agent": "수정",
-      "tonnage": "4,765",
-      "transit": false,
-      "detail": [
-        [
-          "흘수",
-          "6.00 m"
-        ],
-        [
-          "전장",
-          "109 m"
-        ],
-        [
-          "화물",
-          "적재"
-        ],
-        [
-          "담당자",
-          "이형우"
-        ],
-        [
-          "연락처",
-          "010-4002-8751"
-        ]
-      ]
-    },
-    {
-      "port": "대산",
       "vessel": "FORTUNE SWALLOW",
       "callSign": "D5WY9",
       "station": "MDS-33 → PS3",
@@ -2674,6 +2604,39 @@
         [
           "연락처",
           "041-664-8644"
+        ]
+      ]
+    },
+    {
+      "port": "대산",
+      "vessel": "HONG KAI",
+      "callSign": "BONU9",
+      "station": "MDS-35 → PS3",
+      "time": "11-27 18:00",
+      "pilot": "KY",
+      "agent": "수정",
+      "tonnage": "4,765",
+      "transit": false,
+      "detail": [
+        [
+          "흘수",
+          "6.00 m"
+        ],
+        [
+          "전장",
+          "109 m"
+        ],
+        [
+          "화물",
+          "적재"
+        ],
+        [
+          "담당자",
+          "이형우"
+        ],
+        [
+          "연락처",
+          "010-4002-8751"
         ]
       ]
     },
