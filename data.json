@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27 07:51",
+  "updatedAt": "2026-11-27 08:50",
   "schedules": [
     {
       "port": "평택",
@@ -291,14 +291,6 @@
     },
     {
       "port": "평택",
-      "vessel": "DS FLOURISH",
-      "callSign": "3E6748",
-      "station": "IPA → E12",
-      "tonnage": "4,429",
-      "time": "11-27 17:00"
-    },
-    {
-      "port": "평택",
       "vessel": "OCEAN BLUE WHALE",
       "callSign": "D5MO4",
       "station": "IPA → E15",
@@ -323,19 +315,19 @@
     },
     {
       "port": "평택",
+      "vessel": "DS FLOURISH",
+      "callSign": "3E6748",
+      "station": "IPA → E12",
+      "tonnage": "4,429",
+      "time": "11-27 20:00"
+    },
+    {
+      "port": "평택",
       "vessel": "TEN JUPITER",
       "callSign": "3E8470",
       "station": "IPA → E16",
       "tonnage": "9,858",
       "time": "11-27 20:00"
-    },
-    {
-      "port": "평택",
-      "vessel": "CL HYAKU",
-      "callSign": "3E4125",
-      "station": "W9 → IPA",
-      "tonnage": "36,343",
-      "time": "11-27 20:30"
     },
     {
       "port": "평택",
@@ -399,6 +391,14 @@
       "callSign": "D5MO4",
       "station": "E15 → IPA",
       "tonnage": "19,480",
+      "time": "11-28 07:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "CL HYAKU",
+      "callSign": "3E4125",
+      "station": "W9 → IPA",
+      "tonnage": "36,343",
       "time": "11-28 07:00"
     },
     {
@@ -698,30 +698,10 @@
       "vessel": "KMTC DALIAN",
       "callSign": "-",
       "station": "ICT2 - PAL",
-      "time": "11-27 12:00",
+      "time": "11-27 13:00",
       "pilot": "-",
       "agent": "ALLWAYS",
       "tonnage": "27,997"
-    },
-    {
-      "port": "인천",
-      "vessel": "XIN HAI 58",
-      "callSign": "-",
-      "station": "KIST - PAL",
-      "time": "11-27 13:00",
-      "pilot": "-",
-      "agent": "Joa Shi",
-      "tonnage": "2,998"
-    },
-    {
-      "port": "인천",
-      "vessel": "HE YUAN 1",
-      "callSign": "-",
-      "station": "PAL - E1CT",
-      "time": "11-27 13:00",
-      "pilot": "-",
-      "agent": "QININ F",
-      "tonnage": "9,030"
     },
     {
       "port": "인천",
@@ -745,23 +725,13 @@
     },
     {
       "port": "인천",
-      "vessel": "FORTUNE KAREN",
+      "vessel": "BS NGHI SON",
       "callSign": "-",
-      "station": "PAL - N-HOB",
+      "station": "E6 - PAL",
       "time": "11-27 16:30",
       "pilot": "-",
       "agent": "Joa Shi",
-      "tonnage": "7,699"
-    },
-    {
-      "port": "인천",
-      "vessel": "NEW GOLDEN BRIDGE 9",
-      "callSign": "-",
-      "station": "PAL - NIPT3",
-      "time": "11-27 17:00",
-      "pilot": "-",
-      "agent": "WEIDONG",
-      "tonnage": "34,360"
+      "tonnage": "8,593"
     },
     {
       "port": "인천",
@@ -772,6 +742,26 @@
       "pilot": "-",
       "agent": "DONGGAN",
       "tonnage": "24,748"
+    },
+    {
+      "port": "인천",
+      "vessel": "FORTUNE KAREN",
+      "callSign": "-",
+      "station": "PAL - N-HOB",
+      "time": "11-27 17:50",
+      "pilot": "-",
+      "agent": "Joa Shi",
+      "tonnage": "7,699"
+    },
+    {
+      "port": "인천",
+      "vessel": "XIN HAI 58",
+      "callSign": "-",
+      "station": "KIST - PAL",
+      "time": "11-27 18:00",
+      "pilot": "-",
+      "agent": "Joa Shi",
+      "tonnage": "2,998"
     },
     {
       "port": "인천",
@@ -792,6 +782,16 @@
       "pilot": "-",
       "agent": "Doowoo",
       "tonnage": "7,808"
+    },
+    {
+      "port": "인천",
+      "vessel": "HE YUAN 1",
+      "callSign": "-",
+      "station": "PAL - E1CT",
+      "time": "11-27 18:00",
+      "pilot": "-",
+      "agent": "QININ F",
+      "tonnage": "9,030"
     },
     {
       "port": "인천",
@@ -825,13 +825,13 @@
     },
     {
       "port": "인천",
-      "vessel": "BS NGHI SON",
+      "vessel": "HARMONY YUN GANG",
       "callSign": "-",
-      "station": "E6 - PAL",
-      "time": "11-27 18:30",
+      "station": "PAL - NIPT1",
+      "time": "11-27 18:10",
       "pilot": "-",
-      "agent": "Joa Shi",
-      "tonnage": "8,593"
+      "agent": "LIAN YU",
+      "tonnage": "35,187"
     },
     {
       "port": "인천",
@@ -872,16 +872,6 @@
       "pilot": "-",
       "agent": "ALLWAYS",
       "tonnage": "37,968"
-    },
-    {
-      "port": "인천",
-      "vessel": "HARMONY YUN GANG",
-      "callSign": "-",
-      "station": "PAL - NIPT1",
-      "time": "11-27 20:00",
-      "pilot": "-",
-      "agent": "LIAN YU",
-      "tonnage": "35,187"
     },
     {
       "port": "인천",
@@ -1413,6 +1403,39 @@
     },
     {
       "port": "대산",
+      "vessel": "JIA SHUN",
+      "callSign": "BQTQ",
+      "station": "PS3 → MDH-22",
+      "time": "11-27 10:30",
+      "pilot": "JY",
+      "agent": "수정",
+      "tonnage": "3,790",
+      "transit": false,
+      "detail": [
+        [
+          "흘수",
+          "4.50 m"
+        ],
+        [
+          "전장",
+          "99 m"
+        ],
+        [
+          "화물",
+          "공선"
+        ],
+        [
+          "담당자",
+          "이형우"
+        ],
+        [
+          "연락처",
+          "010-4002-8751"
+        ]
+      ]
+    },
+    {
+      "port": "대산",
       "vessel": "HONG JUN",
       "callSign": "D5PK4",
       "station": "T.WAA-01 → MDT-51",
@@ -1445,39 +1468,6 @@
         [
           "연락처",
           "041-674-0474"
-        ]
-      ]
-    },
-    {
-      "port": "대산",
-      "vessel": "JIA SHUN",
-      "callSign": "BQTQ",
-      "station": "PS3 → MDH-22",
-      "time": "11-27 10:30",
-      "pilot": "JY",
-      "agent": "수정",
-      "tonnage": "3,790",
-      "transit": false,
-      "detail": [
-        [
-          "흘수",
-          "4.50 m"
-        ],
-        [
-          "전장",
-          "99 m"
-        ],
-        [
-          "화물",
-          "공선"
-        ],
-        [
-          "담당자",
-          "이형우"
-        ],
-        [
-          "연락처",
-          "010-4002-8751"
         ]
       ]
     },
@@ -1548,39 +1538,6 @@
         [
           "연락처",
           "041-681-9596"
-        ]
-      ]
-    },
-    {
-      "port": "대산",
-      "vessel": "KUN SHUN",
-      "callSign": "BOGI3",
-      "station": "PS3 → MDH-24",
-      "time": "11-27 12:00",
-      "pilot": "GB",
-      "agent": "수정",
-      "tonnage": "6,931",
-      "transit": false,
-      "detail": [
-        [
-          "흘수",
-          "5.00 m"
-        ],
-        [
-          "전장",
-          "113 m"
-        ],
-        [
-          "화물",
-          "공선"
-        ],
-        [
-          "담당자",
-          "이형우"
-        ],
-        [
-          "연락처",
-          "010-4002-8751"
         ]
       ]
     },
@@ -1932,39 +1889,6 @@
     },
     {
       "port": "대산",
-      "vessel": "FORTUNE SWALLOW",
-      "callSign": "D5WY9",
-      "station": "MDS-33 → PS3",
-      "time": "11-27 18:00",
-      "pilot": "KS",
-      "agent": "대동",
-      "tonnage": "3,494",
-      "transit": false,
-      "detail": [
-        [
-          "흘수",
-          "5.50 m"
-        ],
-        [
-          "전장",
-          "99 m"
-        ],
-        [
-          "화물",
-          "적재"
-        ],
-        [
-          "담당자",
-          "김만수"
-        ],
-        [
-          "연락처",
-          "041-664-8644"
-        ]
-      ]
-    },
-    {
-      "port": "대산",
       "vessel": "HONG KAI",
       "callSign": "BONU9",
       "station": "MDS-35 → PS3",
@@ -1993,6 +1917,39 @@
         [
           "연락처",
           "010-4002-8751"
+        ]
+      ]
+    },
+    {
+      "port": "대산",
+      "vessel": "FORTUNE SWALLOW",
+      "callSign": "D5WY9",
+      "station": "MDS-33 → PS3",
+      "time": "11-27 18:00",
+      "pilot": "KS",
+      "agent": "대동",
+      "tonnage": "3,494",
+      "transit": false,
+      "detail": [
+        [
+          "흘수",
+          "5.50 m"
+        ],
+        [
+          "전장",
+          "99 m"
+        ],
+        [
+          "화물",
+          "적재"
+        ],
+        [
+          "담당자",
+          "김만수"
+        ],
+        [
+          "연락처",
+          "041-664-8644"
         ]
       ]
     },
