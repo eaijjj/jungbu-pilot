@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26 12:30",
+  "updatedAt": "2026-11-26 13:41",
   "schedules": [
     {
       "port": "평택",
@@ -248,6 +248,13 @@
     },
     {
       "port": "평택",
+      "vessel": "NEW BOUNDARY",
+      "callSign": "3EYA9",
+      "station": "HD10 → IPA",
+      "time": "11-27 12:00"
+    },
+    {
+      "port": "평택",
       "vessel": "SUPER INFINITY",
       "callSign": "D8SF",
       "station": "E10 → IPA",
@@ -269,17 +276,17 @@
     },
     {
       "port": "평택",
-      "vessel": "RICH WELL",
-      "callSign": "JVYH8",
-      "station": "W7 → IPA",
+      "vessel": "TEN JUPITER",
+      "callSign": "3E8470",
+      "station": "IPA → E16",
       "time": "11-27 17:00"
     },
     {
       "port": "평택",
-      "vessel": "TEN JUPITER",
-      "callSign": "3E8470",
-      "station": "IPA → E16",
-      "time": "11-27 18:00"
+      "vessel": "RICH WELL",
+      "callSign": "JVYH8",
+      "station": "W7 → IPA",
+      "time": "11-27 17:00"
     },
     {
       "port": "평택",
@@ -515,7 +522,7 @@
       "callSign": "-",
       "station": "51 - DONG",
       "time": "11-26 14:00",
-      "pilot": "YM(3) KU(3)",
+      "pilot": "YM(3) KU(2)",
       "agent": "A-PLUS",
       "tonnage": "43,168"
     },
@@ -575,9 +582,19 @@
       "callSign": "-",
       "station": "PAL - N11",
       "time": "11-26 16:30",
-      "pilot": "JJ(3)",
+      "pilot": "YM(4)",
       "agent": "ONE INT",
       "tonnage": "5,181"
+    },
+    {
+      "port": "인천",
+      "vessel": "ETERNAL STAR",
+      "callSign": "-",
+      "station": "N42 - PAL",
+      "time": "11-26 16:30",
+      "pilot": "JJ(3)",
+      "agent": "MASTER",
+      "tonnage": "7,719"
     },
     {
       "port": "인천",
@@ -585,39 +602,9 @@
       "callSign": "-",
       "station": "KICT - PAL",
       "time": "11-26 17:00",
-      "pilot": "-",
+      "pilot": "CR(3)",
       "agent": "HAN IL",
       "tonnage": "5,250"
-    },
-    {
-      "port": "인천",
-      "vessel": "ETERNAL STAR",
-      "callSign": "-",
-      "station": "N42 - PAL",
-      "time": "11-26 17:00",
-      "pilot": "-",
-      "agent": "MASTER",
-      "tonnage": "7,719"
-    },
-    {
-      "port": "인천",
-      "vessel": "SWIFT ARROW",
-      "callSign": "-",
-      "station": "60 - PAL",
-      "time": "11-26 17:00",
-      "pilot": "-",
-      "agent": "MARINER",
-      "tonnage": "28,157"
-    },
-    {
-      "port": "인천",
-      "vessel": "SITC ZHEJIANG",
-      "callSign": "-",
-      "station": "HJIT1 - NPPS",
-      "time": "11-26 18:00",
-      "pilot": "-",
-      "agent": "WORLD S",
-      "tonnage": "17,119"
     },
     {
       "port": "인천",
@@ -625,9 +612,19 @@
       "callSign": "-",
       "station": "N42 - PAL",
       "time": "11-26 18:00",
-      "pilot": "-",
+      "pilot": "SK(3)",
       "agent": "TAE DON",
       "tonnage": "5,839"
+    },
+    {
+      "port": "인천",
+      "vessel": "SWIFT ARROW",
+      "callSign": "-",
+      "station": "60 - PAL",
+      "time": "11-26 18:00",
+      "pilot": "-",
+      "agent": "MARINER",
+      "tonnage": "28,157"
     },
     {
       "port": "인천",
@@ -638,6 +635,16 @@
       "pilot": "-",
       "agent": "WEIDONG",
       "tonnage": "17,137"
+    },
+    {
+      "port": "인천",
+      "vessel": "SITC ZHEJIANG",
+      "callSign": "-",
+      "station": "HJIT1 - NPPS",
+      "time": "11-26 20:00",
+      "pilot": "-",
+      "agent": "WORLD S",
+      "tonnage": "17,119"
     },
     {
       "port": "인천",
@@ -698,6 +705,16 @@
       "pilot": "-",
       "agent": "PYEONG",
       "tonnage": "5,486"
+    },
+    {
+      "port": "인천",
+      "vessel": "YC COSMOS",
+      "callSign": "-",
+      "station": "SKI 2 - PAL",
+      "time": "11-26 21:45",
+      "pilot": "-",
+      "agent": "Joa Shi",
+      "tonnage": "4,060"
     },
     {
       "port": "인천",
@@ -1136,7 +1153,7 @@
       "callSign": "9HA4889",
       "station": "WAA-09 → MDH-21",
       "time": "11-26 15:00",
-      "pilot": "PG",
+      "pilot": "GB / LT",
       "agent": "우진",
       "tonnage": "43,693",
       "transit": false,
