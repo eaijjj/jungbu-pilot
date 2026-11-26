@@ -860,6 +860,31 @@
       color: var(--tc-text);
     }
 
+    .dm-tide .tc-title,
+    .tc-ves-text {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 5px 8px;
+    }
+
+    .tc-state-badge,
+    .tc-low-badge {
+      display: inline-block;
+      padding: 2px 7px;
+      border-radius: 999px;
+      background: color-mix(in srgb, var(--tc-red) 10%, transparent);
+      color: var(--tc-red);
+      font-size: 0.7rem;
+      font-weight: 800;
+      line-height: 1.3;
+      white-space: nowrap;
+    }
+
+    .tc-low-badge {
+      background: color-mix(in srgb, var(--tc-red) 15%, transparent);
+    }
+
     .tc-note {
       margin-top: 2px;
       font-size: 0.72rem;
@@ -987,6 +1012,8 @@
       color: var(--tc-sub);
     }
 
+    .tc-svg .tc-low-window { fill: var(--tc-red); fill-opacity: 0.085; }
+    .tc-svg .tc-low-window-label { fill: var(--tc-red); fill-opacity: 0.82; font-size: 9px; font-weight: 700; }
     .tc-svg .tc-grid { stroke: var(--tc-grid); stroke-width: 1; }
     .tc-svg .tc-vgrid { stroke: var(--tc-grid); stroke-width: 1; opacity: 0.55; }
     .tc-svg .tc-ax { fill: var(--tc-sub); font-size: 10.5px; }
@@ -1237,6 +1264,7 @@
     let allSchedules = [];
     let rowRefs = [];
     const TIDE_PORT_NAMES = { DAESAN: "대산항", BORYEONG: "보령항" };
+    const LOW_TIDE_WINDOW_MIN = 2 * 60;
     let tidePoints = { DAESAN: [], BORYEONG: [] };
     const tideOpen = { DAESAN: false, BORYEONG: false };
 
@@ -1642,8 +1670,20 @@
       return s;
     }
 
+    // 간조 시각 앞뒤 2시간. 그래프와 도선시간 경고가 같은 기준을 사용합니다.
+    function lowTideWindows(points) {
+      if (points.length < 2) return [];
+      return points.filter(function (p) { return p.type === "L"; }).map(function (p) {
+        return [p.t - LOW_TIDE_WINDOW_MIN, p.t + LOW_TIDE_WINDOW_MIN];
+      });
+    }
+
+    function isLowTideTime(t, points) {
+      return lowTideWindows(points).some(function (window) { return window[0] <= t && t <= window[1]; });
+    }
+
     // 그래프 (의존성 없는 SVG). W: 가로(px), H: 세로(px), day0: 그 날 00:00 절대시각
-    function tideSvg(W, H, day0, nowT, vT, port) {
+    function tideSvg(W, H, day0, nowT, vT, port, showLowTideBands) {
       const P = tidePoints[port];
       const L = 36, R = 12, T = 44, B = 30;
       const pw = W - L - R;
@@ -1660,6 +1700,26 @@
 
       let s = "<svg class='tc-svg' width='" + W + "' height='" + H + "' viewBox='0 0 " + W + " " + H +
         "' role='img' aria-label='" + TIDE_PORT_NAMES[port] + " 조석표 곡선'>";
+
+      // 그래프 영역과 겹치는 부분만, 눈금과 곡선보다 먼저 그려 배경으로 둡니다.
+      if (showLowTideBands) {
+        lowTideWindows(P).forEach(function (window) {
+          const start = Math.max(day0, window[0]);
+          const stop = Math.min(end, window[1]);
+          if (stop <= start) return;
+          const left = X(start);
+          const width = X(stop) - left;
+          s += "<g><title>저수심±2h</title><rect class='tc-low-window' x='" + f1(left) + "' y='" + T +
+            "' width='" + f1(width) + "' height='" + ph + "'/>";
+          // 자정에 잘린 좁은 띠에도 가능한 한 글씨를 띠 안에 둡니다.
+          if (width >= 25) {
+            const length = width < 42 ? " textLength='" + f1(width - 4) + "' lengthAdjust='spacingAndGlyphs'" : "";
+            s += "<text class='tc-low-window-label' x='" + f1(left + width / 2) + "' y='" + (T + 11) +
+              "' text-anchor='middle'" + length + ">저수심±2h</text>";
+          }
+          s += "</g>";
+        });
+      }
 
       // 기본 눈금 밖의 조고도 자르지 않고 표시합니다.
       const tick = Math.max(200, Math.ceil((yMax - yMin) / 1200) * 200);
@@ -1756,7 +1816,11 @@
       const day0 = Date.UTC(dp[0], dp[1] - 1, dp[2]) / 60000;
       const H = mode === "full" ? 270 : 200;
 
-      let html = "<div class='tc-title'>" + name + " 조석표</div>";
+      const compact = mode === "compact";
+      const trendBadge = compact && info.rising !== null
+        ? "<span class='tc-state-badge'>" + (info.rising ? "↑ 상승(창조)" : "↓ 하강(낙조)") + "</span>"
+        : "";
+      let html = "<div class='tc-title'>" + name + " 조석표" + trendBadge + "</div>";
       let vesselTideCaption = "";
 
       if (mode === "full") {
@@ -1777,14 +1841,13 @@
             "<div class='tc-sum'><div class='tc-l'>현재 시각 · 서울</div><div class='tc-time'>" + hhmm + "</div>" + big + "</div>" +
             "<div class='tc-sum'><div class='tc-l'>조류 상태</div><div class='tc-state tc-red'>" + state + "</div>" + nextHtml + "</div>" +
           "</div>";
-      } else {
-        html += "<div class='tc-chip'>" + tideChipHtml(port) + "</div>";
-        if (vT !== null && vT >= day0 && vT <= day0 + 1440) {
-          const vh = tideAt(vT, P);
-          if (vh !== null) {
-            vesselTideCaption = "<div class='tc-ves-text'>도선시간 " + (dateOf(vT) !== now.date ? dateOf(vT).slice(5) + " " : "") +
-              hmOf(vT) + " 예상 조석 높이 약 " + Math.round(vh) + "cm</div>";
-          }
+      } else if (vT !== null && vT >= day0 && vT <= day0 + 1440) {
+        const vh = tideAt(vT, P);
+        const caution = isLowTideTime(vT, P);
+        if (vh !== null || caution) {
+          vesselTideCaption = "<div class='tc-ves-text'>도선시간 " + (dateOf(vT) !== now.date ? dateOf(vT).slice(5) + " " : "") +
+            hmOf(vT) + (vh !== null ? " 예상 조석 높이 약 " + Math.round(vh) + "cm" : "") +
+            (caution ? "<span class='tc-low-badge'>저수심 주의</span>" : "") + "</div>";
         }
       }
 
@@ -1799,7 +1862,7 @@
       if (holder && !hasData) {
         holder.innerHTML = "<div class='tc-empty' style='height:" + H + "px'>이 날짜의 " + name + " 조석 데이터가 없습니다</div>";
       } else if (w > 0) {
-        holder.innerHTML = tideSvg(w, H, day0, now.abs, vT, port);
+        holder.innerHTML = tideSvg(w, H, day0, now.abs, vT, port, compact);
       }
     }
 
