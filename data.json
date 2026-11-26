@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-11-27 04:58",
+  "updatedAt": "2026-11-27 05:54",
   "schedules": [
     {
       "port": "평택",
-      "vessel": "GLOVIS SIGMA",
+      "vessel": "풍협특2",
       "callSign": "HSB4555",
-      "station": "E1 → E5",
+      "station": "GLOVIS SIGMA → E1",
       "tonnage": "71,177",
       "time": "11-27 06:30"
     },
     {
       "port": "평택",
-      "vessel": "풍협2특",
+      "vessel": "풍협2특2",
       "callSign": "9HA6670",
       "station": "GLOVIS NOBLE → E5",
       "tonnage": "102,437",
@@ -555,16 +555,6 @@
     },
     {
       "port": "인천",
-      "vessel": "TAI HE SPRING",
-      "callSign": "-",
-      "station": "PAL - N42",
-      "time": "11-27 08:00",
-      "pilot": "CY(1)",
-      "agent": "MASTER",
-      "tonnage": "7,264"
-    },
-    {
-      "port": "인천",
       "vessel": "GOLDEN SKY HANA",
       "callSign": "-",
       "station": "SKI 1 - PAL",
@@ -578,7 +568,7 @@
       "vessel": "ORIENTAL PEARL 8",
       "callSign": "-",
       "station": "PAL - NIPT2",
-      "time": "11-27 08:30",
+      "time": "11-27 08:40",
       "pilot": "GD(2)",
       "agent": "DONGGAN",
       "tonnage": "24,748"
@@ -589,9 +579,19 @@
       "callSign": "-",
       "station": "KIST - PAL",
       "time": "11-27 09:00",
-      "pilot": "KX(2)",
+      "pilot": "CY(2)",
       "agent": "TNK MAR",
       "tonnage": "1,291"
+    },
+    {
+      "port": "인천",
+      "vessel": "TAI HE SPRING",
+      "callSign": "-",
+      "station": "PAL - N42",
+      "time": "11-27 09:00",
+      "pilot": "KN(2)",
+      "agent": "MASTER",
+      "tonnage": "7,264"
     },
     {
       "port": "인천",
@@ -599,7 +599,7 @@
       "callSign": "-",
       "station": "N45 - PAL",
       "time": "11-27 09:00",
-      "pilot": "-",
+      "pilot": "KX(1)",
       "agent": "TAE DON",
       "tonnage": "1,994"
     },
@@ -609,7 +609,7 @@
       "callSign": "-",
       "station": "LEN - 30",
       "time": "11-27 09:00",
-      "pilot": "-",
+      "pilot": "SK(2)",
       "agent": "HML",
       "tonnage": "2,715"
     },
@@ -619,7 +619,7 @@
       "callSign": "-",
       "station": "PAL - NIPT5",
       "time": "11-27 09:50",
-      "pilot": "-",
+      "pilot": "GH(3)",
       "agent": "HUADONG",
       "tonnage": "35,092"
     },
@@ -675,6 +675,16 @@
     },
     {
       "port": "인천",
+      "vessel": "BS NGHI SON",
+      "callSign": "-",
+      "station": "SKI 4 - E6",
+      "time": "11-27 11:00",
+      "pilot": "-",
+      "agent": "Joa Shi",
+      "tonnage": "8,593"
+    },
+    {
+      "port": "인천",
       "vessel": "CONSISTENCE",
       "callSign": "-",
       "station": "HJIT1 - NPPS",
@@ -712,16 +722,6 @@
       "pilot": "-",
       "agent": "QININ F",
       "tonnage": "9,030"
-    },
-    {
-      "port": "인천",
-      "vessel": "BS NGHI SON",
-      "callSign": "-",
-      "station": "SKI 4 - E6",
-      "time": "11-27 14:00",
-      "pilot": "-",
-      "agent": "Joa Shi",
-      "tonnage": "8,593"
     },
     {
       "port": "인천",
@@ -1298,7 +1298,7 @@
         ],
         [
           "접안",
-          "좌현"
+          "우현"
         ],
         [
           "화물",
