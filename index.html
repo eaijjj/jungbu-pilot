@@ -861,11 +861,18 @@
     }
 
     .dm-tide .tc-title,
-    .tc-ves-text {
+    .tc-current-summary {
       display: flex;
       flex-wrap: wrap;
       align-items: center;
       gap: 5px 8px;
+    }
+
+    .tc-current-level {
+      color: var(--tc-sub);
+      font-size: 0.74rem;
+      font-weight: 700;
+      white-space: nowrap;
     }
 
     .tc-state-badge,
@@ -909,11 +916,8 @@
       font-weight: 800;
     }
 
-    .tc-ves-text {
+    .tc-warning-row {
       margin-top: 6px;
-      font-size: 0.82rem;
-      font-weight: 800;
-      color: var(--tc-now);
     }
 
     .tc-chart {
@@ -1685,7 +1689,7 @@
     // 그래프 (의존성 없는 SVG). W: 가로(px), H: 세로(px), day0: 그 날 00:00 절대시각
     function tideSvg(W, H, day0, nowT, vT, port, showLowTideBands) {
       const P = tidePoints[port];
-      const L = 36, R = 12, T = 44, B = 30;
+      const L = 36, R = 12, T = showLowTideBands ? 52 : 44, B = 30;
       const pw = W - L - R;
       const ph = H - T - B;
       const end = day0 + 1440;
@@ -1774,7 +1778,7 @@
       const xv = vesIn ? X(vT) : null;
       let ancN = "middle";
       let ancV = "middle";
-      if (xn !== null && xv !== null && Math.abs(xn - xv) < 80) {
+      if (xn !== null && xv !== null && Math.abs(xn - xv) < 95) {
         if (xn <= xv) { ancN = "end"; ancV = "start"; } else { ancN = "start"; ancV = "end"; }
       } else {
         if (xn !== null) ancN = xn < L + 40 ? "start" : (xn > W - R - 40 ? "end" : "middle");
@@ -1786,7 +1790,10 @@
         const yv = Y(hv);
         s += "<line class='tc-ves-line' x1='" + f1(xv) + "' x2='" + f1(xv) + "' y1='" + (T - 16) + "' y2='" + (T + ph) + "'/>";
         s += "<polygon class='tc-ves-mark' points='" + f1(xv) + "," + f1(yv - 7) + " " + f1(xv + 7) + "," + f1(yv) + " " + f1(xv) + "," + f1(yv + 7) + " " + f1(xv - 7) + "," + f1(yv) + "'/>";
-        s += "<text class='tc-ves-lbl' x='" + f1(xv + (ancV === "start" ? 3 : ancV === "end" ? -3 : 0)) + "' y='12' text-anchor='" + ancV + "'>도선 " + hmOf(vT) + "</text>";
+        const labelX = f1(xv + (ancV === "start" ? 3 : ancV === "end" ? -3 : 0));
+        s += "<text class='tc-ves-lbl tc-ves-estimate' x='" + labelX + "' y='12' text-anchor='" + ancV + "'>" +
+          Math.round(hv) + "cm (예상)</text>";
+        s += "<text class='tc-ves-lbl tc-ves-time' x='" + labelX + "' y='24' text-anchor='" + ancV + "'>도선 " + hmOf(vT) + "</text>";
       }
       if (nowIn) {
         const hn = tideAt(nowT, P);
@@ -1820,8 +1827,12 @@
       const trendBadge = compact && info.rising !== null
         ? "<span class='tc-state-badge'>" + (info.rising ? "↑ 상승(창조)" : "↓ 하강(낙조)") + "</span>"
         : "";
-      let html = "<div class='tc-title'>" + name + " 조석표" + trendBadge + "</div>";
-      let vesselTideCaption = "";
+      const currentSummary = compact && info.cur !== null
+        ? " <span class='tc-current-summary'><span class='tc-current-level'>현재 조석값(예상) " +
+          Math.round(info.cur) + "cm</span> " + trendBadge + "</span>"
+        : "";
+      let html = "<div class='tc-title'>" + name + " 조석표" + currentSummary + "</div>";
+      let vesselTideWarning = "";
 
       if (mode === "full") {
         const hhmm = pad2(now.hh) + ":" + pad2(now.mm);
@@ -1841,18 +1852,12 @@
             "<div class='tc-sum'><div class='tc-l'>현재 시각 · 서울</div><div class='tc-time'>" + hhmm + "</div>" + big + "</div>" +
             "<div class='tc-sum'><div class='tc-l'>조류 상태</div><div class='tc-state tc-red'>" + state + "</div>" + nextHtml + "</div>" +
           "</div>";
-      } else if (vT !== null && vT >= day0 && vT <= day0 + 1440) {
-        const vh = tideAt(vT, P);
-        const caution = isLowTideTime(vT, P);
-        if (vh !== null || caution) {
-          vesselTideCaption = "<div class='tc-ves-text'>도선시간 " + (dateOf(vT) !== now.date ? dateOf(vT).slice(5) + " " : "") +
-            hmOf(vT) + (vh !== null ? " 예상 조석 높이 약 " + Math.round(vh) + "cm" : "") +
-            (caution ? "<span class='tc-low-badge'>저수심 주의</span>" : "") + "</div>";
-        }
+      } else if (vT !== null && vT >= day0 && vT <= day0 + 1440 && isLowTideTime(vT, P)) {
+        vesselTideWarning = "<div class='tc-warning-row'><span class='tc-low-badge'>저수심 주의</span></div>";
       }
 
       html += "<div class='tc-chart' style='height:" + H + "px'></div>";
-      html += vesselTideCaption;
+      html += vesselTideWarning;
       html += "<div class='tc-foot'>" + name + " " + esc(dayStr) + " · 점 사이는 보간한 근사값(참고용)</div>";
       box.innerHTML = html;
 

@@ -267,15 +267,18 @@ def scrape_ic(page):
 # 3. 대산항도선사회 (오늘 + 내일, 분류가 취소인 건 제외, 통과선박 감지)
 # 시간 칸 기준 위치: 도선점 +1,+2 / 콜사인 +3 / 대리점 +4 / 총톤수 +5 / 흘수 +6 / 전장 +8
 #                   접안 +23 / 화물(적재, 공선) +24 / 담당자 +26 / 연락처 +27
+def open_ds_forecast(page, date, timeout=40000):
+    url = "http://www.ds-pilot.co.kr/forecast/status?DT_S=" + date.strftime("%Y%%2F%m%%2F%d")
+    page.goto(url, timeout=timeout, wait_until="domcontentloaded")
+    wait_for_table(page)
+
+
 def scrape_ds(page):
     rows = []
     STATS["cancel"] = 0
+    today = datetime.now(KST).date()
     for day_add in (0, 1):
-        d = datetime.now(KST) + timedelta(days=day_add)
-        ds_url = "http://www.ds-pilot.co.kr/forecast/status?DT_S=" + d.strftime("%Y%%2F%m%%2F%d")
-        page.goto(ds_url, timeout=40000, wait_until="domcontentloaded")
-        wait_for_table(page)
-
+        open_ds_forecast(page, today + timedelta(days=day_add))
         # 같은 페이지 아래쪽의 조석표도 함께 읽음 (실패해도 스케줄 수집에는 영향 없음)
         collect_tide(page)
 
@@ -363,6 +366,15 @@ def scrape_ds(page):
                     "transit": is_transit,
                     "detail": detail
                 })
+
+    # 내일 그래프도 자정까지 이어지도록 그다음 날 조석점을 미리 저장합니다.
+    # 이 요청은 조석 전용이므로 실패해도 이미 모은 도선 스케줄은 유지합니다.
+    try:
+        open_ds_forecast(page, today + timedelta(days=2), timeout=15000)
+        collect_tide(page)
+    except Exception as e:
+        print("다음 날 조석 연결용 수집 오류:", e)
+
     return rows
 
 
