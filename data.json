@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26 09:59",
+  "updatedAt": "2026-11-26 11:20",
   "schedules": [
     {
       "port": "평택",
@@ -262,6 +262,13 @@
     },
     {
       "port": "평택",
+      "vessel": "TEN JUPITER",
+      "callSign": "3E8470",
+      "station": "IPA → E16",
+      "time": "11-27 18:00"
+    },
+    {
+      "port": "평택",
       "vessel": "RIZHAO ORIENT",
       "callSign": "HOAG",
       "station": "JANG → E14",
@@ -463,7 +470,7 @@
       "vessel": "CHUN KAI 5",
       "callSign": "-",
       "station": "N31 - PAL",
-      "time": "11-26 12:00",
+      "time": "11-26 12:30",
       "pilot": "GH(2)",
       "agent": "Wilhelm",
       "tonnage": "7,824"
@@ -484,7 +491,7 @@
       "callSign": "-",
       "station": "NPPS - HJIT3",
       "time": "11-26 13:30",
-      "pilot": "GH(3)",
+      "pilot": "GD(3)",
       "agent": "ALLWAYS",
       "tonnage": "5,276"
     },
@@ -504,7 +511,7 @@
       "callSign": "-",
       "station": "PAL - 52",
       "time": "11-26 14:30",
-      "pilot": "LO(2) SK(2)",
+      "pilot": "GH(3) LO(2)",
       "agent": "PHOENIX",
       "tonnage": "68,871"
     },
@@ -524,7 +531,7 @@
       "callSign": "-",
       "station": "NPPS - SNCT2",
       "time": "11-26 15:30",
-      "pilot": "-",
+      "pilot": "KB(4)",
       "agent": "NEW INC",
       "tonnage": "9,990"
     },
@@ -620,26 +627,6 @@
     },
     {
       "port": "인천",
-      "vessel": "AS SUWAYQ",
-      "callSign": "-",
-      "station": "SKI 3 - DONG",
-      "time": "11-26 18:30",
-      "pilot": "-",
-      "agent": "HAN IL",
-      "tonnage": "164,364"
-    },
-    {
-      "port": "인천",
-      "vessel": "HARRIER",
-      "callSign": "-",
-      "station": "NPPS - SNCT2",
-      "time": "11-26 19:00",
-      "pilot": "-",
-      "agent": "ALLWAYS",
-      "tonnage": "9,971"
-    },
-    {
-      "port": "인천",
       "vessel": "CONSISTENCE",
       "callSign": "-",
       "station": "NPPS - HJIT1",
@@ -712,7 +699,7 @@
       "port": "인천",
       "vessel": "XIN MING ZHOU 20",
       "callSign": "-",
-      "station": "NPPS - SNCT1",
+      "station": "NPPS - SNCT3",
       "time": "11-26 23:00",
       "pilot": "-",
       "agent": "Doowoo",
@@ -727,16 +714,6 @@
       "pilot": "-",
       "agent": "TAE DON",
       "tonnage": "1,994"
-    },
-    {
-      "port": "인천",
-      "vessel": "KMTC DALIAN",
-      "callSign": "-",
-      "station": "ICT2 - PAL",
-      "time": "11-26 23:00",
-      "pilot": "-",
-      "agent": "ALLWAYS",
-      "tonnage": "27,997"
     },
     {
       "port": "인천",
@@ -843,11 +820,11 @@
         ],
         [
           "담당자",
-          "박준일"
+          "신지혁"
         ],
         [
           "연락처",
-          "041-674-0474"
+          "041-681-7500"
         ]
       ]
     },
@@ -876,11 +853,11 @@
         ],
         [
           "담당자",
-          "박준일"
+          "신지혁"
         ],
         [
           "연락처",
-          "041-674-0474"
+          "041-681-7500"
         ]
       ]
     },
@@ -1131,11 +1108,11 @@
         ],
         [
           "담당자",
-          "박준일"
+          "신지혁"
         ],
         [
           "연락처",
-          "041-674-0474"
+          "041-681-7500"
         ]
       ]
     },
@@ -1493,11 +1470,11 @@
         ],
         [
           "담당자",
-          "박준일"
+          "신지혁"
         ],
         [
           "연락처",
-          "041-674-0474"
+          "041-681-7500"
         ]
       ]
     },
@@ -1530,11 +1507,11 @@
         ],
         [
           "담당자",
-          "박준일"
+          "신지혁"
         ],
         [
           "연락처",
-          "041-674-0474"
+          "041-681-7500"
         ]
       ]
     }
