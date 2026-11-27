@@ -1,18 +1,10 @@
 {
-  "updatedAt": "2026-11-28 07:52",
+  "updatedAt": "2026-11-28 08:46",
   "schedules": [
     {
       "port": "평택",
-      "vessel": "YUN QIAN",
-      "callSign": "3E4740",
-      "station": "GD8 → IPA",
-      "tonnage": "2,995",
-      "time": "11-28 06:00"
-    },
-    {
-      "port": "평택",
       "vessel": "CMA CGM DAYTONA",
-      "callSign": "9HA5940",
+      "callSign": "3E4740",
       "station": "E3 → E4",
       "tonnage": "71,631",
       "time": "11-28 06:30"
@@ -32,14 +24,6 @@
       "station": "IPA → E12",
       "tonnage": "4,429",
       "time": "11-28 06:30"
-    },
-    {
-      "port": "평택",
-      "vessel": "ZHEN XIN",
-      "callSign": "V3HZ3",
-      "station": "IPA → HD12",
-      "tonnage": "1,487",
-      "time": "11-28 07:00"
     },
     {
       "port": "평택",
@@ -291,14 +275,6 @@
     },
     {
       "port": "평택",
-      "vessel": "PAN REGINA",
-      "callSign": "3EGA9",
-      "station": "IPA → GD6",
-      "tonnage": "36,025",
-      "time": "11-28 17:00"
-    },
-    {
-      "port": "평택",
       "vessel": "SAGA ODYSSEY",
       "callSign": "C6IB6",
       "station": "E11 → IPA",
@@ -371,11 +347,27 @@
     },
     {
       "port": "평택",
+      "vessel": "YUN QIAN",
+      "callSign": "3E2552",
+      "station": "GD8 → IPA",
+      "tonnage": "2,995",
+      "time": "11-29 06:00"
+    },
+    {
+      "port": "평택",
       "vessel": "TEN JUPITER",
       "callSign": "3E8470",
       "station": "E16 → IPA",
       "tonnage": "9,858",
       "time": "11-29 06:30"
+    },
+    {
+      "port": "평택",
+      "vessel": "ZHEN XIN",
+      "callSign": "V3HZ3",
+      "station": "IPA → HD12",
+      "tonnage": "1,487",
+      "time": "11-29 07:00"
     },
     {
       "port": "평택",
@@ -391,6 +383,14 @@
       "callSign": "9V8012",
       "station": "IPA → E7",
       "tonnage": "9,940",
+      "time": "11-29 08:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "DL DIAMOND",
+      "callSign": "DSPQ4",
+      "station": "IPA → E9",
+      "tonnage": "5,598",
       "time": "11-29 08:00"
     },
     {
@@ -416,6 +416,14 @@
       "station": "IPA → E8",
       "tonnage": "26,836",
       "time": "11-29 10:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "PAN REGINA",
+      "callSign": "3EGA9",
+      "station": "IPA → GD6",
+      "tonnage": "36,025",
+      "time": "11-29 11:30"
     },
     {
       "port": "평택",
@@ -467,10 +475,26 @@
     },
     {
       "port": "평택",
+      "vessel": "HUAN HANG 69",
+      "callSign": "3E7698",
+      "station": "IPA → HD7",
+      "tonnage": "28,194",
+      "time": "11-29 18:00"
+    },
+    {
+      "port": "평택",
       "vessel": "FORTUNE 9",
       "callSign": "3E2247",
       "station": "IPA → W6",
       "tonnage": "7,659",
+      "time": "11-29 18:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "ZHE WU 188",
+      "callSign": "BPON2",
+      "station": "HD7 → IPA",
+      "tonnage": "29,236",
       "time": "11-29 18:00"
     },
     {
@@ -643,6 +667,16 @@
     },
     {
       "port": "인천",
+      "vessel": "XIN HE DA",
+      "callSign": "-",
+      "station": "HJIT3 - NPPS",
+      "time": "11-28 14:00",
+      "pilot": "-",
+      "agent": "Doowoo",
+      "tonnage": "7,808"
+    },
+    {
+      "port": "인천",
       "vessel": "V GLOBAL",
       "callSign": "-",
       "station": "PAL - 41",
@@ -650,6 +684,16 @@
       "pilot": "-",
       "agent": "TAE DON",
       "tonnage": "2,033"
+    },
+    {
+      "port": "인천",
+      "vessel": "FU YANG",
+      "callSign": "-",
+      "station": "N11 - PAL",
+      "time": "11-28 16:00",
+      "pilot": "-",
+      "agent": "ONE INT",
+      "tonnage": "5,181"
     },
     {
       "port": "인천",
@@ -663,16 +707,6 @@
     },
     {
       "port": "인천",
-      "vessel": "FU YANG",
-      "callSign": "-",
-      "station": "N11 - PAL",
-      "time": "11-28 17:00",
-      "pilot": "-",
-      "agent": "ONE INT",
-      "tonnage": "5,181"
-    },
-    {
-      "port": "인천",
       "vessel": "SUNNY LILAC",
       "callSign": "-",
       "station": "SNCT2 - NPPS",
@@ -680,16 +714,6 @@
       "pilot": "-",
       "agent": "ALLWAYS",
       "tonnage": "9,940"
-    },
-    {
-      "port": "인천",
-      "vessel": "XIN HE DA",
-      "callSign": "-",
-      "station": "HJIT3 - NPPS",
-      "time": "11-28 18:00",
-      "pilot": "-",
-      "agent": "Doowoo",
-      "tonnage": "7,808"
     },
     {
       "port": "인천",
@@ -826,7 +850,7 @@
         ],
         [
           "담당자",
-          "홍흥표"
+          "김영수"
         ],
         [
           "연락처",
@@ -892,7 +916,7 @@
         ],
         [
           "담당자",
-          "신지혁"
+          "박근홍"
         ],
         [
           "연락처",
@@ -925,7 +949,7 @@
         ],
         [
           "담당자",
-          "신지혁"
+          "박근홍"
         ],
         [
           "연락처",
@@ -999,7 +1023,7 @@
         ],
         [
           "담당자",
-          "신지혁"
+          "박근홍"
         ],
         [
           "연락처",
@@ -1032,7 +1056,7 @@
         ],
         [
           "담당자",
-          "홍흥표"
+          "김영수"
         ],
         [
           "연락처",
@@ -1242,7 +1266,7 @@
         ],
         [
           "담당자",
-          "신지혁"
+          "박근홍"
         ],
         [
           "연락처",
