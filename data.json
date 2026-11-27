@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27 15:03",
+  "updatedAt": "2026-11-27 16:54",
   "schedules": [
     {
       "port": "평택",
@@ -35,14 +35,6 @@
     },
     {
       "port": "평택",
-      "vessel": "YUN QIAN",
-      "callSign": "3E2552",
-      "station": "GD8 → IPA",
-      "tonnage": "2,995",
-      "time": "11-27 07:00"
-    },
-    {
-      "port": "평택",
       "vessel": "RICH SPRING",
       "callSign": "3E2133",
       "station": "GD9 → IPA",
@@ -63,14 +55,6 @@
       "callSign": "9V5147",
       "station": "E10 → IPA",
       "tonnage": "16,589",
-      "time": "11-27 07:00"
-    },
-    {
-      "port": "평택",
-      "vessel": "UDE NOAH",
-      "callSign": "3E7230",
-      "station": "E12 → IPA",
-      "tonnage": "5,147",
       "time": "11-27 07:00"
     },
     {
@@ -107,22 +91,6 @@
     },
     {
       "port": "평택",
-      "vessel": "MING YUAN",
-      "callSign": "V3LH2",
-      "station": "IPA → E12",
-      "tonnage": "1,496",
-      "time": "11-27 09:00"
-    },
-    {
-      "port": "평택",
-      "vessel": "LUCKY ANNIE",
-      "callSign": "8PTJ",
-      "station": "IPA → W5",
-      "tonnage": "4,515",
-      "time": "11-27 09:00"
-    },
-    {
-      "port": "평택",
       "vessel": "HE XIE 6",
       "callSign": "D6A4405",
       "station": "W6 → IPA",
@@ -143,14 +111,6 @@
       "callSign": "V7A4709",
       "station": "IPA → HD10",
       "tonnage": "33,180",
-      "time": "11-27 11:00"
-    },
-    {
-      "port": "평택",
-      "vessel": "ZHEN XIN",
-      "callSign": "V3HZ3",
-      "station": "IPA → HD12",
-      "tonnage": "1,487",
       "time": "11-27 11:00"
     },
     {
@@ -227,14 +187,6 @@
     },
     {
       "port": "평택",
-      "vessel": "TOMBARRA",
-      "callSign": "9HA4367",
-      "station": "E3 → E5",
-      "tonnage": "61,321",
-      "time": "11-27 16:00"
-    },
-    {
-      "port": "평택",
       "vessel": "SEA FOREST",
       "callSign": "HSB4555",
       "station": "IPA → W5",
@@ -243,11 +195,11 @@
     },
     {
       "port": "평택",
-      "vessel": "GLOVIS NOBLE",
-      "callSign": "9HA6670",
-      "station": "E1 → IPA",
-      "tonnage": "102,437",
-      "time": "11-27 16:00"
+      "vessel": "TOMBARRA",
+      "callSign": "9HA4367",
+      "station": "E3 → E5",
+      "tonnage": "61,321",
+      "time": "11-27 16:30"
     },
     {
       "port": "평택",
@@ -264,14 +216,6 @@
       "station": "RIZHAO ORIENT → JANG",
       "tonnage": "25,318",
       "time": "11-27 19:30"
-    },
-    {
-      "port": "평택",
-      "vessel": "DS FLOURISH",
-      "callSign": "3E6748",
-      "station": "IPA → E12",
-      "tonnage": "4,429",
-      "time": "11-27 20:00"
     },
     {
       "port": "평택",
@@ -299,19 +243,35 @@
     },
     {
       "port": "평택",
-      "vessel": "MING YUAN",
-      "callSign": "V3LH2",
-      "station": "E12 → IPA",
-      "tonnage": "1,496",
-      "time": "11-27 21:00"
+      "vessel": "MORNING CREST",
+      "callSign": "7JWJ",
+      "station": "IPA → E2",
+      "tonnage": "56,563",
+      "time": "11-28 06:00"
     },
     {
       "port": "평택",
-      "vessel": "XIN RONG SHENG 19",
-      "callSign": "3E6117",
-      "station": "IPA → GD9",
-      "tonnage": "7,066",
+      "vessel": "YUN QIAN",
+      "callSign": "3E2552",
+      "station": "GD8 → IPA",
+      "tonnage": "2,995",
       "time": "11-28 06:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "DS FLOURISH",
+      "callSign": "3E6748",
+      "station": "IPA → E12",
+      "tonnage": "4,429",
+      "time": "11-28 06:30"
+    },
+    {
+      "port": "평택",
+      "vessel": "ZHEN XIN",
+      "callSign": "V3HZ3",
+      "station": "IPA → HD12",
+      "tonnage": "1,487",
+      "time": "11-28 07:00"
     },
     {
       "port": "평택",
@@ -319,6 +279,22 @@
       "callSign": "D7KV",
       "station": "SK → IPA",
       "tonnage": "3,908",
+      "time": "11-28 07:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "GLOVIS NOBLE",
+      "callSign": "9HA6670",
+      "station": "E1 → IPA",
+      "tonnage": "102,437",
+      "time": "11-28 07:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "UDE NOAH",
+      "callSign": "3E7230",
+      "station": "E12 → IPA",
+      "tonnage": "5,147",
       "time": "11-28 07:00"
     },
     {
@@ -379,10 +355,34 @@
     },
     {
       "port": "평택",
+      "vessel": "XIN RONG SHENG 19",
+      "callSign": "3E6117",
+      "station": "IPA → GD9",
+      "tonnage": "7,066",
+      "time": "11-28 09:00"
+    },
+    {
+      "port": "평택",
       "vessel": "SUPER INFINITY",
       "callSign": "D8SF",
       "station": "IPA → E10",
       "tonnage": "10,569",
+      "time": "11-28 09:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "MING YUAN",
+      "callSign": "V3LH2",
+      "station": "IPA → E12",
+      "tonnage": "1,496",
+      "time": "11-28 09:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "LUCKY ANNIE",
+      "callSign": "8PTJ",
+      "station": "IPA → W5",
+      "tonnage": "4,515",
       "time": "11-28 09:00"
     },
     {
@@ -395,6 +395,22 @@
     },
     {
       "port": "평택",
+      "vessel": "MORNING CINDY",
+      "callSign": "D5AI6",
+      "station": "E1 → E5",
+      "tonnage": "59,580",
+      "time": "11-28 11:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "TOMBARRA",
+      "callSign": "9HA4367",
+      "station": "E5 → IPA",
+      "tonnage": "61,321",
+      "time": "11-28 11:00"
+    },
+    {
+      "port": "평택",
       "vessel": "RIZHAO ORIENT",
       "callSign": "HOAG",
       "station": "E14 → IPA",
@@ -403,10 +419,18 @@
     },
     {
       "port": "평택",
-      "vessel": "DS FLOURISH",
-      "callSign": "3E6748",
-      "station": "E12 → IPA",
-      "tonnage": "4,429",
+      "vessel": "DON QUIJOTE",
+      "callSign": "LATE8",
+      "station": "IPA → E3",
+      "tonnage": "67,141",
+      "time": "11-28 14:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "MORNING CELESTA",
+      "callSign": "C6DK7",
+      "station": "E3 → IPA",
+      "tonnage": "57,542",
       "time": "11-28 15:00"
     },
     {
@@ -435,6 +459,14 @@
     },
     {
       "port": "평택",
+      "vessel": "DS FLOURISH",
+      "callSign": "3E6748",
+      "station": "E12 → IPA",
+      "tonnage": "4,429",
+      "time": "11-28 17:00"
+    },
+    {
+      "port": "평택",
       "vessel": "SAGA ODYSSEY",
       "callSign": "C6IB6",
       "station": "E11 → IPA",
@@ -451,10 +483,34 @@
     },
     {
       "port": "평택",
+      "vessel": "MORNING CREST",
+      "callSign": "7JWJ",
+      "station": "E2 → E5",
+      "tonnage": "56,563",
+      "time": "11-28 21:00"
+    },
+    {
+      "port": "평택",
       "vessel": "CMA CGM DAYTONA",
       "callSign": "9HA5940",
       "station": "E4 → E1",
       "tonnage": "71,631",
+      "time": "11-28 21:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "MORNING CINDY",
+      "callSign": "D5AI6",
+      "station": "E5 → E2",
+      "tonnage": "59,580",
+      "time": "11-28 21:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "MING YUAN",
+      "callSign": "V3LH2",
+      "station": "E12 → IPA",
+      "tonnage": "1,496",
       "time": "11-28 21:00"
     },
     {
@@ -931,19 +987,9 @@
       "callSign": "-",
       "station": "N42 - PAL",
       "time": "11-27 23:00",
-      "pilot": "-",
+      "pilot": "CN(5)",
       "agent": "TAE DON",
       "tonnage": "4,025"
-    },
-    {
-      "port": "인천",
-      "vessel": "SOONI",
-      "callSign": "-",
-      "station": "26 - LEN",
-      "time": "11-27 23:00",
-      "pilot": "-",
-      "agent": "HML",
-      "tonnage": "2,715"
     },
     {
       "port": "대산",
@@ -1007,7 +1053,7 @@
         ],
         [
           "담당자",
-          "김만수"
+          "김황경"
         ],
         [
           "연락처",
@@ -1077,7 +1123,7 @@
         ],
         [
           "담당자",
-          "김만수"
+          "김황경"
         ],
         [
           "연락처",
@@ -1110,11 +1156,11 @@
         ],
         [
           "담당자",
-          "박준일"
+          "이종수"
         ],
         [
           "연락처",
-          "041-674-0474"
+          "041-681-7500"
         ]
       ]
     },
@@ -1217,7 +1263,7 @@
         ],
         [
           "담당자",
-          "김만수"
+          "김황경"
         ],
         [
           "연락처",
@@ -1254,7 +1300,7 @@
         ],
         [
           "담당자",
-          "김영수"
+          "홍흥표"
         ],
         [
           "연락처",
@@ -1328,11 +1374,11 @@
         ],
         [
           "담당자",
-          "박준일"
+          "이종수"
         ],
         [
           "연락처",
-          "041-674-0474"
+          "041-681-7500"
         ]
       ]
     },
@@ -1361,11 +1407,11 @@
         ],
         [
           "담당자",
-          "박준일"
+          "이종수"
         ],
         [
           "연락처",
-          "041-674-0474"
+          "041-681-7500"
         ]
       ]
     },
@@ -1435,11 +1481,11 @@
         ],
         [
           "담당자",
-          "박준일"
+          "이종수"
         ],
         [
           "연락처",
-          "041-674-0474"
+          "041-681-7500"
         ]
       ]
     },
@@ -1505,11 +1551,11 @@
         ],
         [
           "담당자",
-          "박준일"
+          "이종수"
         ],
         [
           "연락처",
-          "041-674-0474"
+          "041-681-7500"
         ]
       ]
     },
@@ -1707,7 +1753,7 @@
         ],
         [
           "담당자",
-          "김영수"
+          "홍흥표"
         ],
         [
           "연락처",
@@ -1740,7 +1786,7 @@
         ],
         [
           "담당자",
-          "김영수"
+          "홍흥표"
         ],
         [
           "연락처",
@@ -1851,7 +1897,7 @@
         ],
         [
           "담당자",
-          "김만수"
+          "김황경"
         ],
         [
           "연락처",
@@ -1888,11 +1934,11 @@
         ],
         [
           "담당자",
-          "박준일"
+          "이종수"
         ],
         [
           "연락처",
-          "041-674-0474"
+          "041-681-7500"
         ]
       ]
     },
@@ -1921,7 +1967,7 @@
         ],
         [
           "담당자",
-          "김영수"
+          "홍흥표"
         ],
         [
           "연락처",
@@ -2020,7 +2066,7 @@
         ],
         [
           "담당자",
-          "김만수"
+          "김황경"
         ],
         [
           "연락처",
@@ -2053,7 +2099,7 @@
         ],
         [
           "담당자",
-          "김만수"
+          "김황경"
         ],
         [
           "연락처",
@@ -2160,11 +2206,11 @@
         ],
         [
           "담당자",
-          "박준일"
+          "이종수"
         ],
         [
           "연락처",
-          "041-674-0474"
+          "041-681-7500"
         ]
       ]
     },
@@ -2193,11 +2239,77 @@
         ],
         [
           "담당자",
-          "박준일"
+          "이종수"
         ],
         [
           "연락처",
-          "041-674-0474"
+          "041-681-7500"
+        ]
+      ]
+    },
+    {
+      "port": "대산",
+      "vessel": "FORTUNE SWALLOW",
+      "callSign": "D5WY9",
+      "station": "MDS-33 → PS3",
+      "time": "11-28 05:30",
+      "pilot": "-",
+      "agent": "대동",
+      "tonnage": "3,494",
+      "transit": false,
+      "detail": [
+        [
+          "흘수",
+          "5.50 m"
+        ],
+        [
+          "전장",
+          "99 m"
+        ],
+        [
+          "화물",
+          "적재"
+        ],
+        [
+          "담당자",
+          "김황경"
+        ],
+        [
+          "연락처",
+          "041-664-8644"
+        ]
+      ]
+    },
+    {
+      "port": "대산",
+      "vessel": "ASTREANA",
+      "callSign": "V7B3457",
+      "station": "MDK-11 → PS3",
+      "time": "11-28 05:30",
+      "pilot": "-",
+      "agent": "해양",
+      "tonnage": "2,999",
+      "transit": false,
+      "detail": [
+        [
+          "흘수",
+          "6.50 m"
+        ],
+        [
+          "전장",
+          "98 m"
+        ],
+        [
+          "화물",
+          "공선"
+        ],
+        [
+          "담당자",
+          "이종수"
+        ],
+        [
+          "연락처",
+          "041-681-7500"
         ]
       ]
     },
@@ -2206,7 +2318,7 @@
       "vessel": "NEW SILVER",
       "callSign": "D8SV",
       "station": "MDS-34 → WAA-03",
-      "time": "11-28 05:30",
+      "time": "11-28 05:45",
       "pilot": "-",
       "agent": "해양",
       "tonnage": "8,504",
@@ -2226,11 +2338,81 @@
         ],
         [
           "담당자",
-          "박준일"
+          "이종수"
         ],
         [
           "연락처",
-          "041-674-0474"
+          "041-681-7500"
+        ]
+      ]
+    },
+    {
+      "port": "대산",
+      "vessel": "DL DIAMOND",
+      "callSign": "DSPQ4",
+      "station": "MDS-36 → PS3",
+      "time": "11-28 06:00",
+      "pilot": "-",
+      "agent": "동양",
+      "tonnage": "5,598",
+      "transit": false,
+      "detail": [
+        [
+          "흘수",
+          "7.00 m"
+        ],
+        [
+          "전장",
+          "113 m"
+        ],
+        [
+          "화물",
+          "적재"
+        ],
+        [
+          "담당자",
+          "홍흥표"
+        ],
+        [
+          "연락처",
+          "041-667-2033"
+        ]
+      ]
+    },
+    {
+      "port": "대산",
+      "vessel": "BOW JAGUAR",
+      "callSign": "9V8728",
+      "station": "MDS-31 → PS2",
+      "time": "11-28 06:00",
+      "pilot": "-",
+      "agent": "스타",
+      "tonnage": "15,065",
+      "transit": false,
+      "detail": [
+        [
+          "흘수",
+          "10.00 m"
+        ],
+        [
+          "전장",
+          "156 m"
+        ],
+        [
+          "접안",
+          "우현"
+        ],
+        [
+          "화물",
+          "적재"
+        ],
+        [
+          "담당자",
+          "장재영"
+        ],
+        [
+          "연락처",
+          "041-429-2920"
         ]
       ]
     },
@@ -2263,11 +2445,48 @@
         ],
         [
           "담당자",
-          "박준일"
+          "이종수"
         ],
         [
           "연락처",
-          "041-674-0474"
+          "041-681-7500"
+        ]
+      ]
+    },
+    {
+      "port": "대산",
+      "vessel": "LIMBO",
+      "callSign": "V7B2918",
+      "station": "MDS-37 → WAA-09",
+      "time": "11-28 06:30",
+      "pilot": "-",
+      "agent": "스타",
+      "tonnage": "63,306",
+      "transit": false,
+      "detail": [
+        [
+          "흘수",
+          "10.00 m"
+        ],
+        [
+          "전장",
+          "249 m"
+        ],
+        [
+          "접안",
+          "우현"
+        ],
+        [
+          "화물",
+          "적재"
+        ],
+        [
+          "담당자",
+          "장재영"
+        ],
+        [
+          "연락처",
+          "041-429-2920"
         ]
       ]
     },
@@ -2337,11 +2556,114 @@
         ],
         [
           "담당자",
-          "박준일"
+          "이종수"
         ],
         [
           "연락처",
-          "041-674-0474"
+          "041-681-7500"
+        ]
+      ]
+    },
+    {
+      "port": "대산",
+      "vessel": "JIN HAI TAO",
+      "callSign": "BPSA",
+      "station": "MDK-18 → PS3",
+      "time": "11-28 10:00",
+      "pilot": "-",
+      "agent": "동양",
+      "tonnage": "5,738",
+      "transit": false,
+      "detail": [
+        [
+          "흘수",
+          "7.50 m"
+        ],
+        [
+          "전장",
+          "121 m"
+        ],
+        [
+          "화물",
+          "적재"
+        ],
+        [
+          "담당자",
+          "홍흥표"
+        ],
+        [
+          "연락처",
+          "041-667-2033"
+        ]
+      ]
+    },
+    {
+      "port": "대산",
+      "vessel": "CRANE SPICA",
+      "callSign": "3FEG8",
+      "station": "MDK-16 → PS3",
+      "time": "11-28 11:00",
+      "pilot": "-",
+      "agent": "대동",
+      "tonnage": "4,416",
+      "transit": false,
+      "detail": [
+        [
+          "흘수",
+          "6.50 m"
+        ],
+        [
+          "전장",
+          "107 m"
+        ],
+        [
+          "화물",
+          "적재"
+        ],
+        [
+          "담당자",
+          "김황경"
+        ],
+        [
+          "연락처",
+          "041-664-8644"
+        ]
+      ]
+    },
+    {
+      "port": "대산",
+      "vessel": "SUNNY LILAC",
+      "callSign": "3E5038",
+      "station": "PS3 → MB4-01",
+      "time": "11-28 23:30",
+      "pilot": "-",
+      "agent": "대동",
+      "tonnage": "9,940",
+      "transit": false,
+      "detail": [
+        [
+          "흘수",
+          "7.00 m"
+        ],
+        [
+          "전장",
+          "137 m"
+        ],
+        [
+          "접안",
+          "우현"
+        ],
+        [
+          "화물",
+          "적재"
+        ],
+        [
+          "담당자",
+          "김황경"
+        ],
+        [
+          "연락처",
+          "041-664-8644"
         ]
       ]
     }
