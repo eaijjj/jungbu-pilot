@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-28 06:50",
+  "updatedAt": "2026-11-28 07:52",
   "schedules": [
     {
       "port": "평택",
@@ -626,8 +626,8 @@
       "vessel": "XIN XIANG XUE LAN",
       "callSign": "-",
       "station": "PAL - NIPT5",
-      "time": "11-28 10:20",
-      "pilot": "KX(2)",
+      "time": "11-28 10:50",
+      "pilot": "LO(2)",
       "agent": "HAN JOO",
       "tonnage": "32,729"
     },
