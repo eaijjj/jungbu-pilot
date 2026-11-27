@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-28 03:51",
+  "updatedAt": "2026-11-28 04:54",
   "schedules": [
     {
       "port": "평택",
@@ -419,6 +419,14 @@
     },
     {
       "port": "평택",
+      "vessel": "SITC MOJI",
+      "callSign": "VRKS5",
+      "station": "E6 → IPA",
+      "tonnage": "9,734",
+      "time": "11-29 12:00"
+    },
+    {
+      "port": "평택",
       "vessel": "JI ZHE 7",
       "callSign": "3E2374",
       "station": "IPA → W6",
@@ -591,7 +599,7 @@
       "callSign": "-",
       "station": "PAL - NIPT3",
       "time": "11-28 09:00",
-      "pilot": "-",
+      "pilot": "KN(2)",
       "agent": "WEIDONG",
       "tonnage": "34,360"
     },
@@ -611,7 +619,7 @@
       "callSign": "-",
       "station": "SKI 2 - PAL",
       "time": "11-28 10:00",
-      "pilot": "-",
+      "pilot": "YM(3)",
       "agent": "ILJIN S",
       "tonnage": "8,072"
     },
@@ -876,11 +884,11 @@
         ],
         [
           "담당자",
-          "황인용"
+          "신지혁"
         ],
         [
           "연락처",
-          "041-932-5005"
+          "041-681-7500"
         ]
       ]
     },
@@ -888,7 +896,7 @@
       "port": "대산",
       "vessel": "NEW SILVER",
       "callSign": "D8SV",
-      "station": "MDS-34 → WAA-03",
+      "station": "MDS-34 → PS2",
       "time": "11-28 05:45",
       "pilot": "LT",
       "agent": "해양",
@@ -909,11 +917,11 @@
         ],
         [
           "담당자",
-          "황인용"
+          "신지혁"
         ],
         [
           "연락처",
-          "041-932-5005"
+          "041-681-7500"
         ]
       ]
     },
@@ -983,11 +991,11 @@
         ],
         [
           "담당자",
-          "황인용"
+          "신지혁"
         ],
         [
           "연락처",
-          "041-932-5005"
+          "041-681-7500"
         ]
       ]
     },
@@ -1063,7 +1071,7 @@
       "callSign": "V7B2918",
       "station": "MDS-37 → WAA-09",
       "time": "11-28 06:30",
-      "pilot": "GB / LE",
+      "pilot": "GB",
       "agent": "스타",
       "tonnage": "63,306",
       "transit": false,
@@ -1133,7 +1141,7 @@
       "callSign": "3FTH3",
       "station": "MDK-12 → PS3",
       "time": "11-28 07:00",
-      "pilot": "LT",
+      "pilot": "LE",
       "agent": "수정",
       "tonnage": "4,304",
       "transit": false,
@@ -1226,11 +1234,11 @@
         ],
         [
           "담당자",
-          "황인용"
+          "신지혁"
         ],
         [
           "연락처",
-          "041-932-5005"
+          "041-681-7500"
         ]
       ]
     },
