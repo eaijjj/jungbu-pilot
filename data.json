@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27 10:02",
+  "updatedAt": "2026-11-27 11:34",
   "schedules": [
     {
       "port": "평택",
@@ -195,14 +195,6 @@
     },
     {
       "port": "평택",
-      "vessel": "NEW BOUNDARY",
-      "callSign": "3EYA9",
-      "station": "HD10 → IPA",
-      "tonnage": "31,878",
-      "time": "11-27 12:00"
-    },
-    {
-      "port": "평택",
       "vessel": "CAPTAIN GEORGE",
       "callSign": "5BMB6",
       "station": "W8 → JANG",
@@ -227,6 +219,14 @@
     },
     {
       "port": "평택",
+      "vessel": "NEW BOUNDARY",
+      "callSign": "3EYA9",
+      "station": "HD10 → IPA",
+      "tonnage": "31,878",
+      "time": "11-27 12:30"
+    },
+    {
+      "port": "평택",
       "vessel": "XIN TAI PING",
       "callSign": "BSDU",
       "station": "E8 → IPA",
@@ -243,6 +243,14 @@
     },
     {
       "port": "평택",
+      "vessel": "GLOVIS SIGMA",
+      "callSign": "C6CF6",
+      "station": "E5 → IPA",
+      "tonnage": "71,177",
+      "time": "11-27 15:00"
+    },
+    {
+      "port": "평택",
       "vessel": "CMA CGM DAYTONA",
       "callSign": "9HA5940",
       "station": "IPA → E3",
@@ -251,11 +259,11 @@
     },
     {
       "port": "평택",
-      "vessel": "GLOVIS SIGMA",
-      "callSign": "C6CF6",
-      "station": "E5 → IPA",
-      "tonnage": "71,177",
-      "time": "11-27 15:30"
+      "vessel": "TOMBARRA",
+      "callSign": "9HA4367",
+      "station": "E3 → E5",
+      "tonnage": "61,321",
+      "time": "11-27 16:00"
     },
     {
       "port": "평택",
@@ -264,22 +272,6 @@
       "station": "IPA → W5",
       "tonnage": "7,436",
       "time": "11-27 16:00"
-    },
-    {
-      "port": "평택",
-      "vessel": "TOMBARRA",
-      "callSign": "9HA4367",
-      "station": "E3 → E5",
-      "tonnage": "61,321",
-      "time": "11-27 16:30"
-    },
-    {
-      "port": "평택",
-      "vessel": "SITC MOJI",
-      "callSign": "VRKS5",
-      "station": "IPA → E8",
-      "tonnage": "9,734",
-      "time": "11-27 17:00"
     },
     {
       "port": "평택",
@@ -363,6 +355,14 @@
     },
     {
       "port": "평택",
+      "vessel": "XIN RONG SHENG 19",
+      "callSign": "3E6117",
+      "station": "IPA → GD9",
+      "tonnage": "7,066",
+      "time": "11-28 06:00"
+    },
+    {
+      "port": "평택",
       "vessel": "KOREA VISION",
       "callSign": "D7KV",
       "station": "SK → IPA",
@@ -395,6 +395,14 @@
     },
     {
       "port": "평택",
+      "vessel": "SITC MOJI",
+      "callSign": "VRKS5",
+      "station": "IPA → E6",
+      "tonnage": "9,734",
+      "time": "11-28 08:30"
+    },
+    {
+      "port": "평택",
       "vessel": "TEN JUPITER",
       "callSign": "3E8470",
       "station": "IPA → E16",
@@ -424,6 +432,14 @@
       "station": "E12 → IPA",
       "tonnage": "4,429",
       "time": "11-28 15:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "SAGA ODYSSEY",
+      "callSign": "C6IB6",
+      "station": "E11 → IPA",
+      "tonnage": "29,758",
+      "time": "11-28 18:00"
     },
     {
       "port": "평택",
@@ -726,8 +742,8 @@
       "vessel": "SINO OCEAN 1",
       "callSign": "-",
       "station": "N53 - PAL",
-      "time": "11-27 16:00",
-      "pilot": "-",
+      "time": "11-27 16:30",
+      "pilot": "GD(3)",
       "agent": "Joa Shi",
       "tonnage": "2,389"
     },
@@ -737,7 +753,7 @@
       "callSign": "-",
       "station": "E6 - PAL",
       "time": "11-27 16:30",
-      "pilot": "-",
+      "pilot": "YM(3)",
       "agent": "Joa Shi",
       "tonnage": "8,593"
     },
@@ -747,7 +763,7 @@
       "callSign": "-",
       "station": "NIPT2 - PAL",
       "time": "11-27 17:20",
-      "pilot": "-",
+      "pilot": "KU(3)",
       "agent": "DONGGAN",
       "tonnage": "24,748"
     },
@@ -803,16 +819,6 @@
     },
     {
       "port": "인천",
-      "vessel": "BAO JIA 77",
-      "callSign": "-",
-      "station": "N42 - PAL",
-      "time": "11-27 18:00",
-      "pilot": "-",
-      "agent": "TAE DON",
-      "tonnage": "4,025"
-    },
-    {
-      "port": "인천",
       "vessel": "HOEGH BERLIN",
       "callSign": "-",
       "station": "52 - PAL",
@@ -843,13 +849,13 @@
     },
     {
       "port": "인천",
-      "vessel": "C GAS",
+      "vessel": "NEW BOUNDARY",
       "callSign": "-",
-      "station": "PAL - SKI 1",
-      "time": "11-27 19:00",
+      "station": "PAL - 62",
+      "time": "11-27 18:30",
       "pilot": "-",
-      "agent": "ILJIN S",
-      "tonnage": "3,231"
+      "agent": "NEW INC",
+      "tonnage": "31,878"
     },
     {
       "port": "인천",
@@ -883,6 +889,16 @@
     },
     {
       "port": "인천",
+      "vessel": "C GAS",
+      "callSign": "-",
+      "station": "PAL - SKI 1",
+      "time": "11-27 20:00",
+      "pilot": "-",
+      "agent": "ILJIN S",
+      "tonnage": "3,231"
+    },
+    {
+      "port": "인천",
       "vessel": "YA LU JIANG",
       "callSign": "-",
       "station": "NPPS - SNCT1",
@@ -900,6 +916,16 @@
       "pilot": "-",
       "agent": "HUADONG",
       "tonnage": "35,092"
+    },
+    {
+      "port": "인천",
+      "vessel": "BAO JIA 77",
+      "callSign": "-",
+      "station": "N42 - PAL",
+      "time": "11-27 23:00",
+      "pilot": "-",
+      "agent": "TAE DON",
+      "tonnage": "4,025"
     },
     {
       "port": "인천",
@@ -1076,11 +1102,11 @@
         ],
         [
           "담당자",
-          "박준일"
+          "박근홍"
         ],
         [
           "연락처",
-          "041-674-0474"
+          "041-681-7500"
         ]
       ]
     },
@@ -1127,7 +1153,7 @@
       "callSign": "3E6753",
       "station": "PS2-2 → MB5-01",
       "time": "11-27 06:00",
-      "pilot": "KS / LT",
+      "pilot": "LT / KS",
       "agent": "스타",
       "tonnage": "33,091",
       "transit": false,
@@ -1294,11 +1320,11 @@
         ],
         [
           "담당자",
-          "박준일"
+          "박근홍"
         ],
         [
           "연락처",
-          "041-674-0474"
+          "041-681-7500"
         ]
       ]
     },
@@ -1364,11 +1390,11 @@
         ],
         [
           "담당자",
-          "박준일"
+          "박근홍"
         ],
         [
           "연락처",
-          "041-674-0474"
+          "041-681-7500"
         ]
       ]
     },
@@ -1401,11 +1427,48 @@
         ],
         [
           "담당자",
-          "박준일"
+          "박근홍"
         ],
         [
           "연락처",
-          "041-674-0474"
+          "041-681-7500"
+        ]
+      ]
+    },
+    {
+      "port": "대산",
+      "vessel": "HONG JUN",
+      "callSign": "D5PK4",
+      "station": "T.WAA-01 → MDT-51",
+      "time": "11-27 10:30",
+      "pilot": "KS",
+      "agent": "해양",
+      "tonnage": "51,158",
+      "transit": false,
+      "detail": [
+        [
+          "흘수",
+          "14.16 m"
+        ],
+        [
+          "전장",
+          "229 m"
+        ],
+        [
+          "접안",
+          "우현"
+        ],
+        [
+          "화물",
+          "적재"
+        ],
+        [
+          "담당자",
+          "박근홍"
+        ],
+        [
+          "연락처",
+          "041-681-7500"
         ]
       ]
     },
@@ -1439,43 +1502,6 @@
         [
           "연락처",
           "010-4002-8751"
-        ]
-      ]
-    },
-    {
-      "port": "대산",
-      "vessel": "HONG JUN",
-      "callSign": "D5PK4",
-      "station": "T.WAA-01 → MDT-51",
-      "time": "11-27 10:30",
-      "pilot": "KS",
-      "agent": "해양",
-      "tonnage": "51,158",
-      "transit": false,
-      "detail": [
-        [
-          "흘수",
-          "14.16 m"
-        ],
-        [
-          "전장",
-          "229 m"
-        ],
-        [
-          "접안",
-          "우현"
-        ],
-        [
-          "화물",
-          "적재"
-        ],
-        [
-          "담당자",
-          "박준일"
-        ],
-        [
-          "연락처",
-          "041-674-0474"
         ]
       ]
     },
@@ -1788,11 +1814,11 @@
         ],
         [
           "담당자",
-          "박준일"
+          "박근홍"
         ],
         [
           "연락처",
-          "041-674-0474"
+          "041-681-7500"
         ]
       ]
     },
@@ -1897,39 +1923,6 @@
     },
     {
       "port": "대산",
-      "vessel": "HONG KAI",
-      "callSign": "BONU9",
-      "station": "MDS-35 → PS3",
-      "time": "11-27 18:00",
-      "pilot": "KY",
-      "agent": "수정",
-      "tonnage": "4,765",
-      "transit": false,
-      "detail": [
-        [
-          "흘수",
-          "6.00 m"
-        ],
-        [
-          "전장",
-          "109 m"
-        ],
-        [
-          "화물",
-          "적재"
-        ],
-        [
-          "담당자",
-          "이형우"
-        ],
-        [
-          "연락처",
-          "010-4002-8751"
-        ]
-      ]
-    },
-    {
-      "port": "대산",
       "vessel": "FORTUNE SWALLOW",
       "callSign": "D5WY9",
       "station": "MDS-33 → PS3",
@@ -1963,6 +1956,39 @@
     },
     {
       "port": "대산",
+      "vessel": "MI LAN",
+      "callSign": "BPPB8",
+      "station": "PS3 → WAA-02",
+      "time": "11-27 18:00",
+      "pilot": "KY",
+      "agent": "수정",
+      "tonnage": "2,654",
+      "transit": false,
+      "detail": [
+        [
+          "흘수",
+          "4.50 m"
+        ],
+        [
+          "전장",
+          "96 m"
+        ],
+        [
+          "화물",
+          "공선"
+        ],
+        [
+          "담당자",
+          "이형우"
+        ],
+        [
+          "연락처",
+          "010-4002-8751"
+        ]
+      ]
+    },
+    {
+      "port": "대산",
       "vessel": "CRANE SPICA",
       "callSign": "3FEG8",
       "station": "WAA-7 MDK → MDK-16",
@@ -1991,39 +2017,6 @@
         [
           "연락처",
           "041-664-8644"
-        ]
-      ]
-    },
-    {
-      "port": "대산",
-      "vessel": "MI LAN",
-      "callSign": "BPPB8",
-      "station": "PS3 → WAA-02",
-      "time": "11-27 18:30",
-      "pilot": "-",
-      "agent": "수정",
-      "tonnage": "2,654",
-      "transit": false,
-      "detail": [
-        [
-          "흘수",
-          "4.50 m"
-        ],
-        [
-          "전장",
-          "96 m"
-        ],
-        [
-          "화물",
-          "공선"
-        ],
-        [
-          "담당자",
-          "이형우"
-        ],
-        [
-          "연락처",
-          "010-4002-8751"
         ]
       ]
     },
@@ -2069,7 +2062,7 @@
       "vessel": "DING HENG 5",
       "callSign": "BPIQ8",
       "station": "PS3 → WAA-01",
-      "time": "11-27 19:00",
+      "time": "11-27 20:00",
       "pilot": "KY",
       "agent": "우진",
       "tonnage": "2,999",
@@ -2163,11 +2156,11 @@
         ],
         [
           "담당자",
-          "박준일"
+          "박근홍"
         ],
         [
           "연락처",
-          "041-674-0474"
+          "041-681-7500"
         ]
       ]
     },
@@ -2196,11 +2189,11 @@
         ],
         [
           "담당자",
-          "박준일"
+          "박근홍"
         ],
         [
           "연락처",
-          "041-674-0474"
+          "041-681-7500"
         ]
       ]
     }
