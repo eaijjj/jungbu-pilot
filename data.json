@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27 16:54",
+  "updatedAt": "2026-11-27 17:58",
   "schedules": [
     {
       "port": "평택",
@@ -35,26 +35,10 @@
     },
     {
       "port": "평택",
-      "vessel": "RICH SPRING",
-      "callSign": "3E2133",
-      "station": "GD9 → IPA",
-      "tonnage": "2,998",
-      "time": "11-27 07:00"
-    },
-    {
-      "port": "평택",
       "vessel": "QINGDAO TRADER",
       "callSign": "D7IG",
       "station": "E7 → IPA",
       "tonnage": "9,944",
-      "time": "11-27 07:00"
-    },
-    {
-      "port": "평택",
-      "vessel": "NAEBA GALAXY",
-      "callSign": "9V5147",
-      "station": "E10 → IPA",
-      "tonnage": "16,589",
       "time": "11-27 07:00"
     },
     {
@@ -75,27 +59,11 @@
     },
     {
       "port": "평택",
-      "vessel": "HAI DA 77",
-      "callSign": "3E2209",
-      "station": "IPA → GD9",
-      "tonnage": "2,988",
-      "time": "11-27 09:00"
-    },
-    {
-      "port": "평택",
       "vessel": "MORNING CINDY",
       "callSign": "D5AI6",
       "station": "IPA → E2",
       "tonnage": "59,580",
       "time": "11-27 09:00"
-    },
-    {
-      "port": "평택",
-      "vessel": "HE XIE 6",
-      "callSign": "D6A4405",
-      "station": "W6 → IPA",
-      "tonnage": "5,543",
-      "time": "11-27 10:00"
     },
     {
       "port": "평택",
@@ -112,14 +80,6 @@
       "station": "IPA → HD10",
       "tonnage": "33,180",
       "time": "11-27 11:00"
-    },
-    {
-      "port": "평택",
-      "vessel": "RICH WELL",
-      "callSign": "JVYH8",
-      "station": "IPA → W7",
-      "tonnage": "2,415",
-      "time": "11-27 11:30"
     },
     {
       "port": "평택",
@@ -155,14 +115,6 @@
     },
     {
       "port": "평택",
-      "vessel": "XIN TAI PING",
-      "callSign": "BSDU",
-      "station": "E8 → IPA",
-      "tonnage": "5,275",
-      "time": "11-27 13:00"
-    },
-    {
-      "port": "평택",
       "vessel": "LIJMILIYA",
       "callSign": "V7PV2",
       "station": "JANG → LNG2",
@@ -184,14 +136,6 @@
       "station": "IPA → E3",
       "tonnage": "71,631",
       "time": "11-27 15:30"
-    },
-    {
-      "port": "평택",
-      "vessel": "SEA FOREST",
-      "callSign": "HSB4555",
-      "station": "IPA → W5",
-      "tonnage": "7,436",
-      "time": "11-27 16:00"
     },
     {
       "port": "평택",
@@ -219,38 +163,6 @@
     },
     {
       "port": "평택",
-      "vessel": "MORNING CINDY",
-      "callSign": "D5AI6",
-      "station": "E2 → E1",
-      "tonnage": "59,580",
-      "time": "11-27 21:00"
-    },
-    {
-      "port": "평택",
-      "vessel": "CMA CGM DAYTONA",
-      "callSign": "9HA5940",
-      "station": "E3 → E4",
-      "tonnage": "71,631",
-      "time": "11-27 21:00"
-    },
-    {
-      "port": "평택",
-      "vessel": "MORNING CELESTA",
-      "callSign": "C6DK7",
-      "station": "E4 → E3",
-      "tonnage": "57,542",
-      "time": "11-27 21:00"
-    },
-    {
-      "port": "평택",
-      "vessel": "MORNING CREST",
-      "callSign": "7JWJ",
-      "station": "IPA → E2",
-      "tonnage": "56,563",
-      "time": "11-28 06:00"
-    },
-    {
-      "port": "평택",
       "vessel": "YUN QIAN",
       "callSign": "3E2552",
       "station": "GD8 → IPA",
@@ -267,6 +179,22 @@
     },
     {
       "port": "평택",
+      "vessel": "CMA CGM DAYTONA",
+      "callSign": "9HA5940",
+      "station": "E3 → E4",
+      "tonnage": "71,631",
+      "time": "11-28 07:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "MORNING CELESTA",
+      "callSign": "C6DK7",
+      "station": "E4 → E3",
+      "tonnage": "57,542",
+      "time": "11-28 07:00"
+    },
+    {
+      "port": "평택",
       "vessel": "ZHEN XIN",
       "callSign": "V3HZ3",
       "station": "IPA → HD12",
@@ -275,18 +203,18 @@
     },
     {
       "port": "평택",
-      "vessel": "KOREA VISION",
-      "callSign": "D7KV",
-      "station": "SK → IPA",
-      "tonnage": "3,908",
+      "vessel": "RICH SPRING",
+      "callSign": "3E2133",
+      "station": "GD9 → IPA",
+      "tonnage": "2,998",
       "time": "11-28 07:00"
     },
     {
       "port": "평택",
-      "vessel": "GLOVIS NOBLE",
-      "callSign": "9HA6670",
-      "station": "E1 → IPA",
-      "tonnage": "102,437",
+      "vessel": "KOREA VISION",
+      "callSign": "D7KV",
+      "station": "SK → IPA",
+      "tonnage": "3,908",
       "time": "11-28 07:00"
     },
     {
@@ -331,11 +259,35 @@
     },
     {
       "port": "평택",
+      "vessel": "MORNING CINDY",
+      "callSign": "D5AI6",
+      "station": "E2 → E1",
+      "tonnage": "59,580",
+      "time": "11-28 07:30"
+    },
+    {
+      "port": "평택",
+      "vessel": "GLOVIS NOBLE",
+      "callSign": "9HA6670",
+      "station": "E1 → IPA",
+      "tonnage": "102,437",
+      "time": "11-28 07:30"
+    },
+    {
+      "port": "평택",
       "vessel": "EN TAI",
       "callSign": "3E8415",
       "station": "E12 → IPA",
       "tonnage": "9,283",
       "time": "11-28 07:30"
+    },
+    {
+      "port": "평택",
+      "vessel": "MORNING CREST",
+      "callSign": "7JWJ",
+      "station": "IPA → E2",
+      "tonnage": "56,563",
+      "time": "11-28 08:30"
     },
     {
       "port": "평택",
@@ -352,6 +304,14 @@
       "station": "IPA → E16",
       "tonnage": "9,858",
       "time": "11-28 08:30"
+    },
+    {
+      "port": "평택",
+      "vessel": "HAI DA 77",
+      "callSign": "3E2209",
+      "station": "IPA → GD9",
+      "tonnage": "2,988",
+      "time": "11-28 09:00"
     },
     {
       "port": "평택",
@@ -395,11 +355,27 @@
     },
     {
       "port": "평택",
+      "vessel": "NAEBA GALAXY",
+      "callSign": "9V5147",
+      "station": "E10 → IPA",
+      "tonnage": "16,589",
+      "time": "11-28 10:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "HE XIE 6",
+      "callSign": "D6A4405",
+      "station": "W6 → IPA",
+      "tonnage": "5,543",
+      "time": "11-28 10:00"
+    },
+    {
+      "port": "평택",
       "vessel": "MORNING CINDY",
       "callSign": "D5AI6",
       "station": "E1 → E5",
       "tonnage": "59,580",
-      "time": "11-28 11:00"
+      "time": "11-28 10:30"
     },
     {
       "port": "평택",
@@ -407,7 +383,15 @@
       "callSign": "9HA4367",
       "station": "E5 → IPA",
       "tonnage": "61,321",
-      "time": "11-28 11:00"
+      "time": "11-28 10:30"
+    },
+    {
+      "port": "평택",
+      "vessel": "RICH WELL",
+      "callSign": "JVYH8",
+      "station": "IPA → W7",
+      "tonnage": "2,415",
+      "time": "11-28 11:30"
     },
     {
       "port": "평택",
@@ -416,6 +400,14 @@
       "station": "E14 → IPA",
       "tonnage": "25,318",
       "time": "11-28 11:30"
+    },
+    {
+      "port": "평택",
+      "vessel": "XIN TAI PING",
+      "callSign": "BSDU",
+      "station": "E8 → IPA",
+      "tonnage": "5,275",
+      "time": "11-28 13:00"
     },
     {
       "port": "평택",
@@ -443,6 +435,14 @@
     },
     {
       "port": "평택",
+      "vessel": "SEA FOREST",
+      "callSign": "HSB4555",
+      "station": "IPA → W5",
+      "tonnage": "7,436",
+      "time": "11-28 16:00"
+    },
+    {
+      "port": "평택",
       "vessel": "UNI HORIZON",
       "callSign": "V7A3542",
       "station": "GD6 → IPA",
@@ -455,14 +455,6 @@
       "callSign": "3EGA9",
       "station": "IPA → GD6",
       "tonnage": "36,025",
-      "time": "11-28 17:00"
-    },
-    {
-      "port": "평택",
-      "vessel": "DS FLOURISH",
-      "callSign": "3E6748",
-      "station": "E12 → IPA",
-      "tonnage": "4,429",
       "time": "11-28 17:00"
     },
     {
@@ -906,7 +898,7 @@
       "vessel": "ATLANTIC BRIDGE",
       "callSign": "-",
       "station": "E1CT - PAL",
-      "time": "11-27 18:30",
+      "time": "11-27 18:50",
       "pilot": "GO(4)",
       "agent": "CK LINE",
       "tonnage": "7,532"
@@ -973,16 +965,6 @@
     },
     {
       "port": "인천",
-      "vessel": "HE YUAN 1",
-      "callSign": "-",
-      "station": "E1CT - PAL",
-      "time": "11-27 22:30",
-      "pilot": "SK(5)",
-      "agent": "QININ F",
-      "tonnage": "9,030"
-    },
-    {
-      "port": "인천",
       "vessel": "BAO JIA 77",
       "callSign": "-",
       "station": "N42 - PAL",
@@ -990,6 +972,16 @@
       "pilot": "CN(5)",
       "agent": "TAE DON",
       "tonnage": "4,025"
+    },
+    {
+      "port": "인천",
+      "vessel": "HE YUAN 1",
+      "callSign": "-",
+      "station": "E1CT - PAL",
+      "time": "11-27 23:00",
+      "pilot": "SK(5)",
+      "agent": "QININ F",
+      "tonnage": "9,030"
     },
     {
       "port": "대산",
@@ -2112,7 +2104,7 @@
       "vessel": "DING HENG 5",
       "callSign": "BPIQ8",
       "station": "PS3 → WAA-01",
-      "time": "11-27 20:00",
+      "time": "11-27 20:30",
       "pilot": "KY",
       "agent": "우진",
       "tonnage": "2,999",
@@ -2253,7 +2245,7 @@
       "callSign": "D5WY9",
       "station": "MDS-33 → PS3",
       "time": "11-28 05:30",
-      "pilot": "-",
+      "pilot": "LE",
       "agent": "대동",
       "tonnage": "3,494",
       "transit": false,
@@ -2286,7 +2278,7 @@
       "callSign": "V7B3457",
       "station": "MDK-11 → PS3",
       "time": "11-28 05:30",
-      "pilot": "-",
+      "pilot": "GB",
       "agent": "해양",
       "tonnage": "2,999",
       "transit": false,
@@ -2319,7 +2311,7 @@
       "callSign": "D8SV",
       "station": "MDS-34 → WAA-03",
       "time": "11-28 05:45",
-      "pilot": "-",
+      "pilot": "LT",
       "agent": "해양",
       "tonnage": "8,504",
       "transit": false,
@@ -2348,44 +2340,11 @@
     },
     {
       "port": "대산",
-      "vessel": "DL DIAMOND",
-      "callSign": "DSPQ4",
-      "station": "MDS-36 → PS3",
-      "time": "11-28 06:00",
-      "pilot": "-",
-      "agent": "동양",
-      "tonnage": "5,598",
-      "transit": false,
-      "detail": [
-        [
-          "흘수",
-          "7.00 m"
-        ],
-        [
-          "전장",
-          "113 m"
-        ],
-        [
-          "화물",
-          "적재"
-        ],
-        [
-          "담당자",
-          "홍흥표"
-        ],
-        [
-          "연락처",
-          "041-667-2033"
-        ]
-      ]
-    },
-    {
-      "port": "대산",
       "vessel": "BOW JAGUAR",
       "callSign": "9V8728",
       "station": "MDS-31 → PS2",
       "time": "11-28 06:00",
-      "pilot": "-",
+      "pilot": "PG",
       "agent": "스타",
       "tonnage": "15,065",
       "transit": false,
@@ -2422,7 +2381,7 @@
       "callSign": "D5PK4",
       "station": "MDT-51 → PS2",
       "time": "11-28 06:00",
-      "pilot": "-",
+      "pilot": "GM",
       "agent": "해양",
       "tonnage": "51,158",
       "transit": false,
@@ -2455,11 +2414,77 @@
     },
     {
       "port": "대산",
+      "vessel": "DL DIAMOND",
+      "callSign": "DSPQ4",
+      "station": "MDS-36 → PS3",
+      "time": "11-28 06:15",
+      "pilot": "JK",
+      "agent": "동양",
+      "tonnage": "5,598",
+      "transit": false,
+      "detail": [
+        [
+          "흘수",
+          "7.00 m"
+        ],
+        [
+          "전장",
+          "113 m"
+        ],
+        [
+          "화물",
+          "적재"
+        ],
+        [
+          "담당자",
+          "홍흥표"
+        ],
+        [
+          "연락처",
+          "041-667-2033"
+        ]
+      ]
+    },
+    {
+      "port": "대산",
+      "vessel": "PIS LOMBOK",
+      "callSign": "3E7920",
+      "station": "PS2 → MDK-15",
+      "time": "11-28 06:30",
+      "pilot": "KY",
+      "agent": "대동",
+      "tonnage": "29,408",
+      "transit": false,
+      "detail": [
+        [
+          "흘수",
+          "8.00 m"
+        ],
+        [
+          "전장",
+          "183 m"
+        ],
+        [
+          "화물",
+          "공선"
+        ],
+        [
+          "담당자",
+          "김황경"
+        ],
+        [
+          "연락처",
+          "041-664-8644"
+        ]
+      ]
+    },
+    {
+      "port": "대산",
       "vessel": "LIMBO",
       "callSign": "V7B2918",
       "station": "MDS-37 → WAA-09",
       "time": "11-28 06:30",
-      "pilot": "-",
+      "pilot": "GB / LE",
       "agent": "스타",
       "tonnage": "63,306",
       "transit": false,
@@ -2492,11 +2517,44 @@
     },
     {
       "port": "대산",
+      "vessel": "CRANE SPICA",
+      "callSign": "3FEG8",
+      "station": "MDK-16 → WAA-01",
+      "time": "11-28 06:45",
+      "pilot": "KS",
+      "agent": "대동",
+      "tonnage": "4,416",
+      "transit": false,
+      "detail": [
+        [
+          "흘수",
+          "6.50 m"
+        ],
+        [
+          "전장",
+          "107 m"
+        ],
+        [
+          "화물",
+          "적재"
+        ],
+        [
+          "담당자",
+          "김황경"
+        ],
+        [
+          "연락처",
+          "041-664-8644"
+        ]
+      ]
+    },
+    {
+      "port": "대산",
       "vessel": "BUENA LUNA",
       "callSign": "3FTH3",
       "station": "MDK-12 → PS3",
       "time": "11-28 07:00",
-      "pilot": "-",
+      "pilot": "LT",
       "agent": "수정",
       "tonnage": "4,304",
       "transit": false,
@@ -2533,7 +2591,7 @@
       "callSign": "V7LA7",
       "station": "MDT-53 → T.WAA-01",
       "time": "11-28 07:15",
-      "pilot": "-",
+      "pilot": "GM",
       "agent": "해양",
       "tonnage": "39,783",
       "transit": false,
@@ -2570,7 +2628,7 @@
       "callSign": "BPSA",
       "station": "MDK-18 → PS3",
       "time": "11-28 10:00",
-      "pilot": "-",
+      "pilot": "JK",
       "agent": "동양",
       "tonnage": "5,738",
       "transit": false,
@@ -2599,44 +2657,11 @@
     },
     {
       "port": "대산",
-      "vessel": "CRANE SPICA",
-      "callSign": "3FEG8",
-      "station": "MDK-16 → PS3",
-      "time": "11-28 11:00",
-      "pilot": "-",
-      "agent": "대동",
-      "tonnage": "4,416",
-      "transit": false,
-      "detail": [
-        [
-          "흘수",
-          "6.50 m"
-        ],
-        [
-          "전장",
-          "107 m"
-        ],
-        [
-          "화물",
-          "적재"
-        ],
-        [
-          "담당자",
-          "김황경"
-        ],
-        [
-          "연락처",
-          "041-664-8644"
-        ]
-      ]
-    },
-    {
-      "port": "대산",
       "vessel": "SUNNY LILAC",
       "callSign": "3E5038",
       "station": "PS3 → MB4-01",
       "time": "11-28 23:30",
-      "pilot": "-",
+      "pilot": "KY",
       "agent": "대동",
       "tonnage": "9,940",
       "transit": false,
