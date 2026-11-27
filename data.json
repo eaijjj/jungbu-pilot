@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-28 04:54",
+  "updatedAt": "2026-11-28 05:50",
   "schedules": [
     {
       "port": "평택",
@@ -595,26 +595,6 @@
     },
     {
       "port": "인천",
-      "vessel": "NEW GOLDEN BRIDGE 9",
-      "callSign": "-",
-      "station": "PAL - NIPT3",
-      "time": "11-28 09:00",
-      "pilot": "KN(2)",
-      "agent": "WEIDONG",
-      "tonnage": "34,360"
-    },
-    {
-      "port": "인천",
-      "vessel": "XIN XIANG XUE LAN",
-      "callSign": "-",
-      "station": "PAL - NIPT5",
-      "time": "11-28 09:00",
-      "pilot": "-",
-      "agent": "HAN JOO",
-      "tonnage": "32,729"
-    },
-    {
-      "port": "인천",
       "vessel": "WOO LIM 5",
       "callSign": "-",
       "station": "SKI 2 - PAL",
@@ -629,9 +609,19 @@
       "callSign": "-",
       "station": "ICT2 - PAL",
       "time": "11-28 10:00",
-      "pilot": "-",
+      "pilot": "LO(1)",
       "agent": "ALLWAYS",
       "tonnage": "37,968"
+    },
+    {
+      "port": "인천",
+      "vessel": "XIN XIANG XUE LAN",
+      "callSign": "-",
+      "station": "PAL - NIPT5",
+      "time": "11-28 10:20",
+      "pilot": "KX(2)",
+      "agent": "HAN JOO",
+      "tonnage": "32,729"
     },
     {
       "port": "인천",
@@ -792,6 +782,16 @@
       "pilot": "-",
       "agent": "WORLD S",
       "tonnage": "18,820"
+    },
+    {
+      "port": "인천",
+      "vessel": "NEW GOLDEN BRIDGE 9",
+      "callSign": "-",
+      "station": "PAL - NIPT3",
+      "time": "11-28 23:59",
+      "pilot": "-",
+      "agent": "WEIDONG",
+      "tonnage": "34,360"
     },
     {
       "port": "대산",
@@ -1178,7 +1178,7 @@
       "callSign": "BPPB8",
       "station": "WAA-02 → WAA-02",
       "time": "11-28 07:15",
-      "pilot": "-",
+      "pilot": "JK",
       "agent": "수정",
       "tonnage": "2,654",
       "transit": false,
