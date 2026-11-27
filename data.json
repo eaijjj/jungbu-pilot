@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-28 00:54",
+  "updatedAt": "2026-11-28 01:59",
   "schedules": [
     {
       "port": "평택",
@@ -491,19 +491,9 @@
       "callSign": "-",
       "station": "PAL - 24",
       "time": "11-28 03:30",
-      "pilot": "HY(1)",
+      "pilot": "GD(1)",
       "agent": "SUN YAN",
       "tonnage": "17,018"
-    },
-    {
-      "port": "인천",
-      "vessel": "BARU",
-      "callSign": "-",
-      "station": "JANG - SKI 3",
-      "time": "11-28 04:30",
-      "pilot": "GH(2) GD(2)",
-      "agent": "DA SAN",
-      "tonnage": "54,043"
     },
     {
       "port": "인천",
@@ -511,7 +501,7 @@
       "callSign": "-",
       "station": "SNCT2 - NPPS",
       "time": "11-28 05:00",
-      "pilot": "KB(1)",
+      "pilot": "GH(1)",
       "agent": "ALLWAYS",
       "tonnage": "17,933"
     },
@@ -521,7 +511,7 @@
       "callSign": "-",
       "station": "SNCT3 - NPPS",
       "time": "11-28 05:00",
-      "pilot": "YM(1)",
+      "pilot": "HY(1)",
       "agent": "Doowoo",
       "tonnage": "9,653"
     },
@@ -531,7 +521,7 @@
       "callSign": "-",
       "station": "HJIT2 - NPPS",
       "time": "11-28 06:00",
-      "pilot": "KU(1)",
+      "pilot": "KB(1)",
       "agent": "COSCO K",
       "tonnage": "9,562"
     },
@@ -541,7 +531,7 @@
       "callSign": "-",
       "station": "NPPS - SNCT2",
       "time": "11-28 06:50",
-      "pilot": "KU(2)",
+      "pilot": "KB(2)",
       "agent": "ALLWAYS",
       "tonnage": "9,940"
     },
@@ -551,7 +541,7 @@
       "callSign": "-",
       "station": "SNCT1 - NPPS",
       "time": "11-28 07:00",
-      "pilot": "KN(1)",
+      "pilot": "YM(1)",
       "agent": "COSCO K",
       "tonnage": "5,250"
     },
@@ -561,7 +551,7 @@
       "callSign": "-",
       "station": "JAK - KIST",
       "time": "11-28 07:00",
-      "pilot": "KX(1)",
+      "pilot": "KU(1)",
       "agent": "hdmegal",
       "tonnage": "3,543"
     },
@@ -571,7 +561,7 @@
       "callSign": "-",
       "station": "PAL - N12",
       "time": "11-28 08:00",
-      "pilot": "KN(2)",
+      "pilot": "YM(2)",
       "agent": "PHOENIX",
       "tonnage": "23,930"
     },
@@ -581,7 +571,7 @@
       "callSign": "-",
       "station": "E1CT - PAL",
       "time": "11-28 08:00",
-      "pilot": "-",
+      "pilot": "KN(1)",
       "agent": "CK LINE",
       "tonnage": "7,535"
     },
@@ -591,7 +581,7 @@
       "callSign": "-",
       "station": "SKI 1 - PAL",
       "time": "11-28 08:30",
-      "pilot": "-",
+      "pilot": "KX(1)",
       "agent": "ILJIN S",
       "tonnage": "3,231"
     },
