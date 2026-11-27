@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-28 05:50",
+  "updatedAt": "2026-11-28 06:50",
   "schedules": [
     {
       "port": "평택",
@@ -384,6 +384,14 @@
       "station": "LNG2 → JANG",
       "tonnage": "168,189",
       "time": "11-29 07:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "PACIFIC SHENZHEN",
+      "callSign": "9V8012",
+      "station": "IPA → E7",
+      "tonnage": "9,940",
+      "time": "11-29 08:00"
     },
     {
       "port": "평택",
