@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27 19:05",
+  "updatedAt": "2026-11-27 20:20",
   "schedules": [
     {
       "port": "평택",
@@ -929,7 +929,7 @@
       "callSign": "-",
       "station": "PAL - SKI 1",
       "time": "11-27 20:00",
-      "pilot": "GO(5)",
+      "pilot": "CY(5)",
       "agent": "ILJIN S",
       "tonnage": "3,231"
     },
@@ -949,7 +949,7 @@
       "callSign": "-",
       "station": "NPPS - SNCT1",
       "time": "11-27 21:00",
-      "pilot": "CY(5)",
+      "pilot": "GO(5)",
       "agent": "COSCO K",
       "tonnage": "5,250"
     },
@@ -965,21 +965,11 @@
     },
     {
       "port": "인천",
-      "vessel": "BAO JIA 77",
-      "callSign": "-",
-      "station": "N42 - PAL",
-      "time": "11-27 23:00",
-      "pilot": "SK(5)",
-      "agent": "TAE DON",
-      "tonnage": "4,025"
-    },
-    {
-      "port": "인천",
       "vessel": "HE YUAN 1",
       "callSign": "-",
       "station": "E1CT - PAL",
       "time": "11-27 23:00",
-      "pilot": "CN(5)",
+      "pilot": "SK(5)",
       "agent": "QININ F",
       "tonnage": "9,030"
     },
@@ -2241,6 +2231,39 @@
     },
     {
       "port": "대산",
+      "vessel": "JIN HAI TAO",
+      "callSign": "BPSA",
+      "station": "MDK-18 → PS3",
+      "time": "11-28 05:30",
+      "pilot": "KS",
+      "agent": "동양",
+      "tonnage": "5,738",
+      "transit": false,
+      "detail": [
+        [
+          "흘수",
+          "7.50 m"
+        ],
+        [
+          "전장",
+          "121 m"
+        ],
+        [
+          "화물",
+          "적재"
+        ],
+        [
+          "담당자",
+          "홍흥표"
+        ],
+        [
+          "연락처",
+          "041-667-2033"
+        ]
+      ]
+    },
+    {
+      "port": "대산",
       "vessel": "FORTUNE SWALLOW",
       "callSign": "D5WY9",
       "station": "MDS-33 → PS3",
@@ -2619,39 +2642,6 @@
         [
           "연락처",
           "041-932-5005"
-        ]
-      ]
-    },
-    {
-      "port": "대산",
-      "vessel": "JIN HAI TAO",
-      "callSign": "BPSA",
-      "station": "MDK-18 → PS3",
-      "time": "11-28 10:00",
-      "pilot": "JK",
-      "agent": "동양",
-      "tonnage": "5,738",
-      "transit": false,
-      "detail": [
-        [
-          "흘수",
-          "7.50 m"
-        ],
-        [
-          "전장",
-          "121 m"
-        ],
-        [
-          "화물",
-          "적재"
-        ],
-        [
-          "담당자",
-          "홍흥표"
-        ],
-        [
-          "연락처",
-          "041-667-2033"
         ]
       ]
     },
