@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-28 19:21",
+  "updatedAt": "2026-11-28 20:18",
   "schedules": [
     {
       "port": "평택",
@@ -523,14 +523,6 @@
     },
     {
       "port": "평택",
-      "vessel": "FORTUNE 9",
-      "callSign": "3E2247",
-      "station": "IPA → W6",
-      "tonnage": "7,659",
-      "time": "11-29 18:00"
-    },
-    {
-      "port": "평택",
       "vessel": "ZHE WU 188",
       "callSign": "BPON2",
       "station": "HD7 → IPA",
@@ -584,6 +576,14 @@
       "station": "E12 → IPA",
       "tonnage": "1,496",
       "time": "11-29 21:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "FORTUNE 9",
+      "callSign": "3E2247",
+      "station": "IPA → W6",
+      "tonnage": "7,659",
+      "time": "11-29 23:00"
     },
     {
       "port": "평택",
@@ -834,7 +834,7 @@
       "vessel": "NEW GOLDEN BRIDGE 9",
       "callSign": "-",
       "station": "PAL - NIPT3",
-      "time": "11-28 22:00",
+      "time": "11-28 22:45",
       "pilot": "KN(2)",
       "agent": "WEIDONG",
       "tonnage": "34,360"
@@ -1285,43 +1285,6 @@
         [
           "연락처",
           "041-674-0474"
-        ]
-      ]
-    },
-    {
-      "port": "대산",
-      "vessel": "HUA NAN 1",
-      "callSign": "BRZH",
-      "station": "PS3 → MDK-11",
-      "time": "11-29 05:30",
-      "pilot": "-",
-      "agent": "동양",
-      "tonnage": "3,313",
-      "transit": false,
-      "detail": [
-        [
-          "흘수",
-          "4.00 m"
-        ],
-        [
-          "전장",
-          "99 m"
-        ],
-        [
-          "접안",
-          "좌현"
-        ],
-        [
-          "화물",
-          "공선"
-        ],
-        [
-          "담당자",
-          "김영수"
-        ],
-        [
-          "연락처",
-          "041-667-2033"
         ]
       ]
     },
@@ -2148,7 +2111,7 @@
       "port": "대산",
       "vessel": "HUA NAN 1",
       "callSign": "BRZH",
-      "station": "MDK-11 → PS3",
+      "station": "PS3 → MDK-11",
       "time": "11-29 17:30",
       "pilot": "-",
       "agent": "동양",
@@ -2157,44 +2120,11 @@
       "detail": [
         [
           "흘수",
-          "5.00 m"
+          "4.00 m"
         ],
         [
           "전장",
           "99 m"
-        ],
-        [
-          "화물",
-          "적재"
-        ],
-        [
-          "담당자",
-          "김영수"
-        ],
-        [
-          "연락처",
-          "041-667-2033"
-        ]
-      ]
-    },
-    {
-      "port": "대산",
-      "vessel": "BUENA DIOSA",
-      "callSign": "3EOE8",
-      "station": "PS3 → MDK-11",
-      "time": "11-29 17:30",
-      "pilot": "-",
-      "agent": "대동",
-      "tonnage": "2,999",
-      "transit": false,
-      "detail": [
-        [
-          "흘수",
-          "4.30 m"
-        ],
-        [
-          "전장",
-          "96 m"
         ],
         [
           "접안",
@@ -2206,11 +2136,11 @@
         ],
         [
           "담당자",
-          "김만수"
+          "김영수"
         ],
         [
           "연락처",
-          "041-664-8644"
+          "041-667-2033"
         ]
       ]
     },
