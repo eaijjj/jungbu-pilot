@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-28 11:18",
+  "updatedAt": "2026-11-28 12:25",
   "schedules": [
     {
       "port": "평택",
@@ -211,14 +211,6 @@
     },
     {
       "port": "평택",
-      "vessel": "DON QUIJOTE",
-      "callSign": "LATE8",
-      "station": "IPA → E3",
-      "tonnage": "67,141",
-      "time": "11-28 14:00"
-    },
-    {
-      "port": "평택",
       "vessel": "MORNING CELESTA",
       "callSign": "C6DK7",
       "station": "E3 → IPA",
@@ -231,14 +223,6 @@
       "callSign": "HSB4555",
       "station": "IPA → W5",
       "tonnage": "7,436",
-      "time": "11-28 16:00"
-    },
-    {
-      "port": "평택",
-      "vessel": "UNI HORIZON",
-      "callSign": "V7A3542",
-      "station": "GD6 → IPA",
-      "tonnage": "22,734",
       "time": "11-28 16:00"
     },
     {
@@ -339,6 +323,14 @@
     },
     {
       "port": "평택",
+      "vessel": "UNI HORIZON",
+      "callSign": "V7A3542",
+      "station": "GD6 → IPA",
+      "tonnage": "22,734",
+      "time": "11-29 07:00"
+    },
+    {
+      "port": "평택",
       "vessel": "KOREA VISION",
       "callSign": "D7KV",
       "station": "SK → IPA",
@@ -395,6 +387,14 @@
     },
     {
       "port": "평택",
+      "vessel": "DON QUIJOTE",
+      "callSign": "LATE8",
+      "station": "IPA → E3",
+      "tonnage": "67,141",
+      "time": "11-29 08:30"
+    },
+    {
+      "port": "평택",
       "vessel": "XIUSHAN STAR",
       "callSign": "9VEO7",
       "station": "IPA → W4",
@@ -416,6 +416,14 @@
       "station": "IPA → W2",
       "tonnage": "4,064",
       "time": "11-29 10:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "REN HE",
+      "callSign": "V3UW2",
+      "station": "IPA → E12",
+      "tonnage": "1,499",
+      "time": "11-29 10:30"
     },
     {
       "port": "평택",
@@ -693,7 +701,7 @@
       "callSign": "-",
       "station": "PAL - SKI 1",
       "time": "11-28 13:40",
-      "pilot": "CN(2)",
+      "pilot": "-",
       "agent": "ILJIN S",
       "tonnage": "5,197"
     },
@@ -703,7 +711,7 @@
       "callSign": "-",
       "station": "PAL - 41",
       "time": "11-28 15:00",
-      "pilot": "CR(2)",
+      "pilot": "-",
       "agent": "TAE DON",
       "tonnage": "2,033"
     },
@@ -1283,6 +1291,39 @@
         [
           "연락처",
           "041-681-7500"
+        ]
+      ]
+    },
+    {
+      "port": "대산",
+      "vessel": "DS VEGA",
+      "callSign": "D7BX",
+      "station": "WAA-04 → MDS-34",
+      "time": "11-29 06:30",
+      "pilot": "-",
+      "agent": "대산",
+      "tonnage": "8,242",
+      "transit": false,
+      "detail": [
+        [
+          "흘수",
+          "4.50 m"
+        ],
+        [
+          "전장",
+          "120 m"
+        ],
+        [
+          "화물",
+          "공선"
+        ],
+        [
+          "담당자",
+          "채수일"
+        ],
+        [
+          "연락처",
+          "041-681-9300"
         ]
       ]
     }
