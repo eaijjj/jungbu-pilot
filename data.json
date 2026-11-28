@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-28 17:16",
+  "updatedAt": "2026-11-28 18:20",
   "schedules": [
     {
       "port": "평택",
@@ -1582,6 +1582,39 @@
     },
     {
       "port": "대산",
+      "vessel": "JIN HAI TAO",
+      "callSign": "BPSA",
+      "station": "PS3 → MDK-18",
+      "time": "11-29 10:20",
+      "pilot": "-",
+      "agent": "동양",
+      "tonnage": "5,738",
+      "transit": false,
+      "detail": [
+        [
+          "흘수",
+          "6.00 m"
+        ],
+        [
+          "전장",
+          "121 m"
+        ],
+        [
+          "화물",
+          "적재"
+        ],
+        [
+          "담당자",
+          "김영수"
+        ],
+        [
+          "연락처",
+          "041-667-2033"
+        ]
+      ]
+    },
+    {
+      "port": "대산",
       "vessel": "VARI TRADER",
       "callSign": "H3XM",
       "station": "PS2-2 → MDH-23",
@@ -1614,39 +1647,6 @@
         [
           "연락처",
           "010-3999-3187"
-        ]
-      ]
-    },
-    {
-      "port": "대산",
-      "vessel": "JIN HAI TAO",
-      "callSign": "BPSA",
-      "station": "PS3 → MDK-18",
-      "time": "11-29 10:30",
-      "pilot": "-",
-      "agent": "동양",
-      "tonnage": "5,738",
-      "transit": false,
-      "detail": [
-        [
-          "흘수",
-          "6.00 m"
-        ],
-        [
-          "전장",
-          "121 m"
-        ],
-        [
-          "화물",
-          "적재"
-        ],
-        [
-          "담당자",
-          "김영수"
-        ],
-        [
-          "연락처",
-          "041-667-2033"
         ]
       ]
     },
