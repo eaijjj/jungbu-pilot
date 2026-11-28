@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-28 09:58",
+  "updatedAt": "2026-11-28 11:18",
   "schedules": [
     {
       "port": "평택",
@@ -443,14 +443,6 @@
     },
     {
       "port": "평택",
-      "vessel": "SITC MOJI",
-      "callSign": "VRKS5",
-      "station": "E6 → IPA",
-      "tonnage": "9,734",
-      "time": "11-29 12:00"
-    },
-    {
-      "port": "평택",
       "vessel": "JI ZHE 7",
       "callSign": "3E2374",
       "station": "IPA → W6",
@@ -479,6 +471,14 @@
       "callSign": "BPLQ",
       "station": "IPA → W1",
       "tonnage": "2,984",
+      "time": "11-29 14:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "SITC MOJI",
+      "callSign": "VRKS5",
+      "station": "E6 → IPA",
+      "tonnage": "9,734",
       "time": "11-29 14:00"
     },
     {
@@ -520,6 +520,14 @@
       "station": "HD7 → IPA",
       "tonnage": "29,236",
       "time": "11-29 18:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "HAI CHANG",
+      "callSign": "VRNL4",
+      "station": "HD14 → IPA",
+      "tonnage": "22,385",
+      "time": "11-29 23:30"
     },
     {
       "port": "평택",
@@ -695,7 +703,7 @@
       "callSign": "-",
       "station": "PAL - 41",
       "time": "11-28 15:00",
-      "pilot": "-",
+      "pilot": "CR(2)",
       "agent": "TAE DON",
       "tonnage": "2,033"
     },
@@ -761,16 +769,6 @@
     },
     {
       "port": "인천",
-      "vessel": "KMTC PENANG",
-      "callSign": "-",
-      "station": "NPPS - SNCT2",
-      "time": "11-28 19:00",
-      "pilot": "-",
-      "agent": "ALLWAYS",
-      "tonnage": "28,736"
-    },
-    {
-      "port": "인천",
       "vessel": "GRAND AURORA",
       "callSign": "-",
       "station": "52 - PAL",
@@ -778,6 +776,16 @@
       "pilot": "-",
       "agent": "HAN IL",
       "tonnage": "59,217"
+    },
+    {
+      "port": "인천",
+      "vessel": "KMTC PENANG",
+      "callSign": "-",
+      "station": "NPPS - SNCT2",
+      "time": "11-28 20:00",
+      "pilot": "-",
+      "agent": "ALLWAYS",
+      "tonnage": "28,736"
     },
     {
       "port": "인천",
@@ -823,7 +831,7 @@
       "port": "인천",
       "vessel": "SITC HENGDE",
       "callSign": "-",
-      "station": "NPPS - HJIT1",
+      "station": "NPPS - HJIT2",
       "time": "11-28 23:30",
       "pilot": "-",
       "agent": "WORLD S",
@@ -887,7 +895,7 @@
         ],
         [
           "담당자",
-          "김황경"
+          "김만수"
         ],
         [
           "연락처",
@@ -1093,7 +1101,7 @@
         ],
         [
           "담당자",
-          "김황경"
+          "김만수"
         ],
         [
           "연락처",
@@ -1163,7 +1171,7 @@
         ],
         [
           "담당자",
-          "김황경"
+          "김만수"
         ],
         [
           "연락처",
@@ -1200,11 +1208,11 @@
         ],
         [
           "담당자",
-          "강정식"
+          "류승철"
         ],
         [
           "연락처",
-          "010-2299-0569"
+          "010-3999-3187"
         ]
       ]
     },
@@ -1233,11 +1241,11 @@
         ],
         [
           "담당자",
-          "강정식"
+          "류승철"
         ],
         [
           "연락처",
-          "010-2299-0569"
+          "010-3999-3187"
         ]
       ]
     },
@@ -1275,43 +1283,6 @@
         [
           "연락처",
           "041-681-7500"
-        ]
-      ]
-    },
-    {
-      "port": "대산",
-      "vessel": "SUNNY LILAC",
-      "callSign": "3E5038",
-      "station": "PS3 → MB4-01",
-      "time": "11-28 23:30",
-      "pilot": "KY",
-      "agent": "대동",
-      "tonnage": "9,940",
-      "transit": false,
-      "detail": [
-        [
-          "흘수",
-          "7.00 m"
-        ],
-        [
-          "전장",
-          "137 m"
-        ],
-        [
-          "접안",
-          "우현"
-        ],
-        [
-          "화물",
-          "적재"
-        ],
-        [
-          "담당자",
-          "김황경"
-        ],
-        [
-          "연락처",
-          "041-664-8644"
         ]
       ]
     }
