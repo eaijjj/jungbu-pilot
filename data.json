@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-28 12:25",
+  "updatedAt": "2026-11-28 13:30",
   "schedules": [
     {
       "port": "평택",
@@ -163,14 +163,6 @@
     },
     {
       "port": "평택",
-      "vessel": "HE XIE 6",
-      "callSign": "D6A4405",
-      "station": "W6 → IPA",
-      "tonnage": "5,543",
-      "time": "11-28 10:00"
-    },
-    {
-      "port": "평택",
       "vessel": "MORNING CINDY",
       "callSign": "D5AI6",
       "station": "E1 → E5",
@@ -208,14 +200,6 @@
       "station": "E8 → IPA",
       "tonnage": "5,275",
       "time": "11-28 13:00"
-    },
-    {
-      "port": "평택",
-      "vessel": "MORNING CELESTA",
-      "callSign": "C6DK7",
-      "station": "E3 → IPA",
-      "tonnage": "57,542",
-      "time": "11-28 15:00"
     },
     {
       "port": "평택",
@@ -355,6 +339,14 @@
     },
     {
       "port": "평택",
+      "vessel": "MORNING CELESTA",
+      "callSign": "C6DK7",
+      "station": "E3 → IPA",
+      "tonnage": "57,542",
+      "time": "11-29 07:30"
+    },
+    {
+      "port": "평택",
       "vessel": "PACIFIC SHENZHEN",
       "callSign": "9V8012",
       "station": "IPA → E7",
@@ -400,6 +392,14 @@
       "station": "IPA → W4",
       "tonnage": "8,784",
       "time": "11-29 08:30"
+    },
+    {
+      "port": "평택",
+      "vessel": "HE XIE 6",
+      "callSign": "D6A4405",
+      "station": "W6 → IPA",
+      "tonnage": "5,543",
+      "time": "11-29 09:00"
     },
     {
       "port": "평택",
@@ -699,41 +699,11 @@
       "port": "인천",
       "vessel": "WOOJIN",
       "callSign": "-",
-      "station": "PAL - SKI 1",
-      "time": "11-28 13:40",
-      "pilot": "-",
+      "station": "E5 - SKI 1",
+      "time": "11-28 15:30",
+      "pilot": "CN(2)",
       "agent": "ILJIN S",
       "tonnage": "5,197"
-    },
-    {
-      "port": "인천",
-      "vessel": "V GLOBAL",
-      "callSign": "-",
-      "station": "PAL - 41",
-      "time": "11-28 15:00",
-      "pilot": "-",
-      "agent": "TAE DON",
-      "tonnage": "2,033"
-    },
-    {
-      "port": "인천",
-      "vessel": "FU YANG",
-      "callSign": "-",
-      "station": "N11 - PAL",
-      "time": "11-28 16:00",
-      "pilot": "-",
-      "agent": "ONE INT",
-      "tonnage": "5,181"
-    },
-    {
-      "port": "인천",
-      "vessel": "KOREA VENUS",
-      "callSign": "-",
-      "station": "PAL - GS-HD",
-      "time": "11-28 17:00",
-      "pilot": "-",
-      "agent": "ILJIN S",
-      "tonnage": "29,543"
     },
     {
       "port": "인천",
@@ -741,7 +711,7 @@
       "callSign": "-",
       "station": "SNCT2 - NPPS",
       "time": "11-28 18:00",
-      "pilot": "-",
+      "pilot": "CR(2)",
       "agent": "ALLWAYS",
       "tonnage": "9,940"
     },
@@ -751,7 +721,7 @@
       "callSign": "-",
       "station": "NIPT1 - PAL",
       "time": "11-28 18:00",
-      "pilot": "-",
+      "pilot": "GD(2)",
       "agent": "LIAN YU",
       "tonnage": "35,187"
     },
@@ -761,7 +731,7 @@
       "callSign": "-",
       "station": "NIPT5 - PAL",
       "time": "11-28 18:30",
-      "pilot": "-",
+      "pilot": "GH(2)",
       "agent": "HAN JOO",
       "tonnage": "32,729"
     },
@@ -771,19 +741,9 @@
       "callSign": "-",
       "station": "NIPT4 - PAL",
       "time": "11-28 18:30",
-      "pilot": "-",
+      "pilot": "HY(2)",
       "agent": "WEIDONG",
       "tonnage": "29,554"
-    },
-    {
-      "port": "인천",
-      "vessel": "GRAND AURORA",
-      "callSign": "-",
-      "station": "52 - PAL",
-      "time": "11-28 19:00",
-      "pilot": "-",
-      "agent": "HAN IL",
-      "tonnage": "59,217"
     },
     {
       "port": "인천",
@@ -791,7 +751,7 @@
       "callSign": "-",
       "station": "NPPS - SNCT2",
       "time": "11-28 20:00",
-      "pilot": "-",
+      "pilot": "GO(2)",
       "agent": "ALLWAYS",
       "tonnage": "28,736"
     },
@@ -801,7 +761,7 @@
       "callSign": "-",
       "station": "W11 - SKI 2",
       "time": "11-28 20:00",
-      "pilot": "-",
+      "pilot": "KU(2)",
       "agent": "ILJIN S",
       "tonnage": "5,197"
     },
@@ -811,39 +771,9 @@
       "callSign": "-",
       "station": "PAL - NIPT3",
       "time": "11-28 22:00",
-      "pilot": "-",
+      "pilot": "KN(2)",
       "agent": "WEIDONG",
       "tonnage": "34,360"
-    },
-    {
-      "port": "인천",
-      "vessel": "LIBERTY PEACE",
-      "callSign": "-",
-      "station": "PAL - 52",
-      "time": "11-28 23:00",
-      "pilot": "-",
-      "agent": "PYEONG",
-      "tonnage": "58,107"
-    },
-    {
-      "port": "인천",
-      "vessel": "HONG YUN ZENG",
-      "callSign": "-",
-      "station": "PAL - 23",
-      "time": "11-28 23:00",
-      "pilot": "-",
-      "agent": "INCHON",
-      "tonnage": "1,467"
-    },
-    {
-      "port": "인천",
-      "vessel": "SITC HENGDE",
-      "callSign": "-",
-      "station": "NPPS - HJIT2",
-      "time": "11-28 23:30",
-      "pilot": "-",
-      "agent": "WORLD S",
-      "tonnage": "18,820"
     },
     {
       "port": "대산",
