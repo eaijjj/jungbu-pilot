@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-28 08:46",
+  "updatedAt": "2026-11-28 09:58",
   "schedules": [
     {
       "port": "평택",
@@ -35,14 +35,6 @@
     },
     {
       "port": "평택",
-      "vessel": "KOREA VISION",
-      "callSign": "D7KV",
-      "station": "SK → IPA",
-      "tonnage": "3,908",
-      "time": "11-28 07:00"
-    },
-    {
-      "port": "평택",
       "vessel": "UDE NOAH",
       "callSign": "3E7230",
       "station": "E12 → IPA",
@@ -55,14 +47,6 @@
       "callSign": "D5MO4",
       "station": "E15 → IPA",
       "tonnage": "19,480",
-      "time": "11-28 07:00"
-    },
-    {
-      "port": "평택",
-      "vessel": "XUAN JING",
-      "callSign": "BPPV2",
-      "station": "W1 → IPA",
-      "tonnage": "1,956",
       "time": "11-28 07:00"
     },
     {
@@ -143,14 +127,6 @@
       "callSign": "3E6117",
       "station": "IPA → GD9",
       "tonnage": "7,066",
-      "time": "11-28 09:00"
-    },
-    {
-      "port": "평택",
-      "vessel": "SUPER INFINITY",
-      "callSign": "D8SF",
-      "station": "IPA → E10",
-      "tonnage": "10,569",
       "time": "11-28 09:00"
     },
     {
@@ -248,14 +224,6 @@
       "station": "E3 → IPA",
       "tonnage": "57,542",
       "time": "11-28 15:00"
-    },
-    {
-      "port": "평택",
-      "vessel": "XIUSHAN STAR",
-      "callSign": "9VEO7",
-      "station": "IPA → W4",
-      "tonnage": "8,784",
-      "time": "11-28 15:30"
     },
     {
       "port": "평택",
@@ -371,6 +339,22 @@
     },
     {
       "port": "평택",
+      "vessel": "KOREA VISION",
+      "callSign": "D7KV",
+      "station": "SK → IPA",
+      "tonnage": "3,908",
+      "time": "11-29 07:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "XUAN JING",
+      "callSign": "BPPV2",
+      "station": "W1 → IPA",
+      "tonnage": "1,956",
+      "time": "11-29 07:00"
+    },
+    {
+      "port": "평택",
       "vessel": "LIJMILIYA",
       "callSign": "V7PV2",
       "station": "LNG2 → JANG",
@@ -395,14 +379,6 @@
     },
     {
       "port": "평택",
-      "vessel": "SD GLORIA",
-      "callSign": "HOKX",
-      "station": "IPA → W2",
-      "tonnage": "4,064",
-      "time": "11-29 08:00"
-    },
-    {
-      "port": "평택",
       "vessel": "TIAN HAI PING ZE",
       "callSign": "BOPY4",
       "station": "E15 → IPA",
@@ -411,11 +387,43 @@
     },
     {
       "port": "평택",
+      "vessel": "GLOBAL ENTERPRISE",
+      "callSign": "D7MQ",
+      "station": "HD5 → JANG",
+      "tonnage": "89,891",
+      "time": "11-29 08:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "XIUSHAN STAR",
+      "callSign": "9VEO7",
+      "station": "IPA → W4",
+      "tonnage": "8,784",
+      "time": "11-29 08:30"
+    },
+    {
+      "port": "평택",
       "vessel": "MARSA PRIDE",
       "callSign": "3E4740",
       "station": "IPA → E8",
       "tonnage": "26,836",
       "time": "11-29 10:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "SD GLORIA",
+      "callSign": "HOKX",
+      "station": "IPA → W2",
+      "tonnage": "4,064",
+      "time": "11-29 10:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "SUPER INFINITY",
+      "callSign": "D8SF",
+      "station": "IPA → E10",
+      "tonnage": "10,569",
+      "time": "11-29 11:00"
     },
     {
       "port": "평택",
@@ -451,11 +459,27 @@
     },
     {
       "port": "평택",
-      "vessel": "SUPER INFINITY",
-      "callSign": "D8SF",
-      "station": "E10 → IPA",
-      "tonnage": "10,569",
+      "vessel": "BW PASSAT",
+      "callSign": "V7FM3",
+      "station": "JANG → SK",
+      "tonnage": "46,945",
       "time": "11-29 13:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "POLYMNIA",
+      "callSign": "9HA2620",
+      "station": "HD4 → JANG",
+      "tonnage": "92,183",
+      "time": "11-29 13:00"
+    },
+    {
+      "port": "평택",
+      "vessel": "BAO HAI TUN",
+      "callSign": "BPLQ",
+      "station": "IPA → W1",
+      "tonnage": "2,984",
+      "time": "11-29 14:00"
     },
     {
       "port": "평택",
@@ -661,26 +685,16 @@
       "callSign": "-",
       "station": "PAL - SKI 1",
       "time": "11-28 13:40",
-      "pilot": "-",
+      "pilot": "CN(2)",
       "agent": "ILJIN S",
       "tonnage": "5,197"
-    },
-    {
-      "port": "인천",
-      "vessel": "XIN HE DA",
-      "callSign": "-",
-      "station": "HJIT3 - NPPS",
-      "time": "11-28 14:00",
-      "pilot": "-",
-      "agent": "Doowoo",
-      "tonnage": "7,808"
     },
     {
       "port": "인천",
       "vessel": "V GLOBAL",
       "callSign": "-",
       "station": "PAL - 41",
-      "time": "11-28 14:00",
+      "time": "11-28 15:00",
       "pilot": "-",
       "agent": "TAE DON",
       "tonnage": "2,033"
@@ -724,16 +738,6 @@
       "pilot": "-",
       "agent": "LIAN YU",
       "tonnage": "35,187"
-    },
-    {
-      "port": "인천",
-      "vessel": "NEW GOLDEN BRIDGE 9",
-      "callSign": "-",
-      "station": "NIPT3 - PAL",
-      "time": "11-28 18:00",
-      "pilot": "-",
-      "agent": "WEIDONG",
-      "tonnage": "34,360"
     },
     {
       "port": "인천",
@@ -787,13 +791,13 @@
     },
     {
       "port": "인천",
-      "vessel": "HONG YUN ZENG",
+      "vessel": "NEW GOLDEN BRIDGE 9",
       "callSign": "-",
-      "station": "PAL - 23",
-      "time": "11-28 21:00",
+      "station": "PAL - NIPT3",
+      "time": "11-28 22:00",
       "pilot": "-",
-      "agent": "INCHON",
-      "tonnage": "1,467"
+      "agent": "WEIDONG",
+      "tonnage": "34,360"
     },
     {
       "port": "인천",
@@ -807,6 +811,16 @@
     },
     {
       "port": "인천",
+      "vessel": "HONG YUN ZENG",
+      "callSign": "-",
+      "station": "PAL - 23",
+      "time": "11-28 23:00",
+      "pilot": "-",
+      "agent": "INCHON",
+      "tonnage": "1,467"
+    },
+    {
+      "port": "인천",
       "vessel": "SITC HENGDE",
       "callSign": "-",
       "station": "NPPS - HJIT1",
@@ -814,16 +828,6 @@
       "pilot": "-",
       "agent": "WORLD S",
       "tonnage": "18,820"
-    },
-    {
-      "port": "인천",
-      "vessel": "NEW GOLDEN BRIDGE 9",
-      "callSign": "-",
-      "station": "PAL - NIPT3",
-      "time": "11-28 23:59",
-      "pilot": "-",
-      "agent": "WEIDONG",
-      "tonnage": "34,360"
     },
     {
       "port": "대산",
